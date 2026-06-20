@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+
+# Secrets / credentials
+.env
+*.key
+secrets.json
+
+# Data outputs (large files — not tracked in git)
+news_crawler/data/outputs/articles.db
+news_crawler/data/outputs/articles.csv
+news_crawler/data/outputs/articles.jsonl
+news_crawler/data/outputs/discovered_urls.jsonl
+news_crawler/data/outputs/articles_report.xlsx
+news_crawler/data/outputs/report.json
+news_crawler/data/raw_html/
+news_crawler/data/cleaned_text/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.xls
+~$*.ppt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary scripts (one-off cleanup/debug scripts at repo root)
+news_crawler/cleanup_gnews_articles.py
+news_crawler/clear_google_news.py
+news_crawler/debug_gnews.py
+news_crawler/inspect_results.py
+news_crawler/reset_gnews_pending.py
+news_crawler/reset_pending.py
+news_crawler/check_progress.py

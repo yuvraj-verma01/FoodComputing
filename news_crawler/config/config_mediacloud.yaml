@@ -1,0 +1,239 @@
+# ============================================================
+# Media Cloud Discovery + Iterative Keyword Augmentation
+# ============================================================
+#
+# Setup:
+#   1. Register at https://search.mediacloud.org/user/profile
+#   2. Copy your API key to .env:  MEDIACLOUD_API_KEY=your_key
+#   3. Find India collection IDs:
+#        python -m crawler --config config/config_mediacloud.yaml mc-collections
+#   4. Paste collection IDs into discovery.mediacloud.collection_ids below
+#   5. Run:
+#        python -m crawler --config config/config_mediacloud.yaml mc-augment
+#
+# Install required packages:
+#   pip install mediacloud yake scikit-learn
+
+date_range:
+  start: "2021-01-01"
+  end: "2026-06-18"
+
+# ── Term lists (used by relevance scorer and keyword domain filter) ──────────
+food_terms:
+  - edible oil
+  - mustard oil
+  - cooking oil
+  - vegetable oil
+  - palm oil
+  - soybean oil
+  - groundnut oil
+  - sesame oil
+  - sunflower oil
+  - cottonseed oil
+  - blended oil
+  - rice bran oil
+  - coconut oil
+  - refined oil
+  - loose oil
+  - sarson tel
+  - vanaspati
+  - rapeseed oil
+  - linseed oil
+  - ghee
+
+adulteration_terms:
+  - adulteration
+  - adulterated
+  - fake
+  - spurious
+  - substandard
+  - misbranding
+  - mislabelling
+  - unsafe
+  - sample failure
+  - sample failed
+  - contaminated
+  - contamination
+  - impure
+  - fraud
+  - fraudulent
+  - diluted
+  - mixed with
+  - inferior quality
+  - unhygienic
+
+action_terms:
+  - FSSAI
+  - food safety
+  - food safety department
+  - FDA
+  - food authority
+  - seized
+  - seizure
+  - raid
+  - raided
+  - arrested
+  - arrest
+  - fine
+  - penalty
+  - enforcement action
+  - crackdown
+  - inspection
+  - tested
+  - lab test
+  - laboratory
+  - complaint
+  - license cancelled
+  - notice issued
+  - show cause
+  - legal action
+  - police
+  - district administration
+
+location_terms:
+  - India
+  - Indian
+  - Uttar Pradesh
+  - UP
+  - Maharashtra
+  - Delhi
+  - Rajasthan
+  - Punjab
+  - Haryana
+  - Gujarat
+  - Bihar
+  - West Bengal
+  - Madhya Pradesh
+  - Karnataka
+  - Tamil Nadu
+  - Kerala
+  - Andhra Pradesh
+  - Telangana
+  - Odisha
+  - Jharkhand
+  - Assam
+  - Chhattisgarh
+  - Himachal Pradesh
+  - Uttarakhand
+  - Hyderabad
+  - Mumbai
+  - Kolkata
+  - Chennai
+  - Bengaluru
+  - Jaipur
+  - Lucknow
+  - Kanpur
+  - Varanasi
+  - Patna
+  - Noida
+  - Ahmedabad
+  - Thiruvananthapuram
+  - Kochi
+  - Bhopal
+  - Indore
+  - Nagpur
+
+# ── Discovery ────────────────────────────────────────────────────────────────
+discovery:
+  enabled_sources:
+    - mediacloud
+
+  mediacloud:
+    # India collections verified 2026-06-18 via mc-collections:
+    #   34412118  India - National  (142 sources, featured)
+    #   38379954  India - State & Local  (221 sources, monitored)
+    # These are also the built-in defaults when this list is left empty.
+    collection_ids:
+      - 34412118
+      - 38379954
+
+    # Max articles to fetch per query per round
+    max_results: 500
+
+    # Seconds to wait between API calls
+    delay_seconds: 1.5
+
+# ── Augmentation ─────────────────────────────────────────────────────────────
+augmentation:
+  # Round-0 seed keywords (loaded from mediacloud_seed_keywords.yaml)
+  # The augmentor reads the 'seed_keywords' key from that file.
+  seed_keywords_file: config/mediacloud_seed_keywords.yaml
+
+  # Pull seed_keywords list directly here OR rely on the file above.
+  # The augmentor checks this list first; if empty it falls back to the file.
+  seed_keywords: []
+
+  # Stop when Jaccard similarity between consecutive keyword sets exceeds this
+  convergence_threshold: 0.85
+
+  # Hard stop after this many rounds regardless of convergence
+  max_rounds: 8
+
+  # Minimum number of articles a term must appear in to be kept as keyword
+  min_df: 2
+
+  # Max new keywords added per round (limits query growth)
+  max_new_keywords: 30
+
+  # Top N keywords returned per round (ranked by TF-IDF / YAKE score)
+  top_n_per_round: 20
+
+# ── Crawl settings ────────────────────────────────────────────────────────────
+crawl:
+  delay_seconds: 3.0
+  max_retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 30
+  user_agent: "FoodSafetyResearchBot/1.0 (Academic research on Indian edible oil food safety; contact: research@example.com)"
+  respect_robots_txt: false
+  use_playwright: true
+
+# ── Relevance scoring ─────────────────────────────────────────────────────────
+relevance:
+  min_score_relevant: 0.55
+  min_score_maybe: 0.25
+  require_india_term: true
+  require_oil_term: true
+  require_adulteration_or_action_term: true
+  weights:
+    oil_term_hit: 0.25
+    oil_term_cap: 0.30
+    adulteration_term_hit: 0.20
+    adulteration_term_cap: 0.25
+    action_term_hit: 0.15
+    action_term_cap: 0.20
+    location_india_hit: 0.10
+    location_state_hit: 0.05
+    location_cap: 0.15
+    date_in_range: 0.10
+
+# ── Deduplication ─────────────────────────────────────────────────────────────
+dedupe:
+  url_exact: true
+  url_canonical: true
+  title_normalize: true
+  text_hash: true
+  near_duplicate:
+    enabled: true
+    similarity_threshold: 0.75
+
+# ── Output paths ─────────────────────────────────────────────────────────────
+paths:
+  seed_urls: data/seeds/seed_urls.csv
+  raw_html: data/raw_html
+  cleaned_text: data/cleaned_text
+  outputs: data/outputs
+  logs: data/logs
+  db: data/outputs/articles.db
+  discovered_urls: data/outputs/discovered_urls.jsonl
+  articles_jsonl: data/outputs/articles.jsonl
+  articles_csv: data/outputs/articles.csv
+  report: data/outputs/report.json
+
+# ── API keys (override via environment variables — never hardcode here) ───────
+api_keys:
+  mediacloud_key: ""      # Set via MEDIACLOUD_API_KEY in .env
+  google_cse_key: ""
+  google_cse_cx: ""
+  bing_api_key: ""
+  serpapi_key: ""

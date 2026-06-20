@@ -1,0 +1,18 @@
+# 10 broad, high-yield queries for GDELT discovery.
+# Each returns up to 250 results. Designed to maximize unique Indian articles
+# with a single GDELT session (low API pressure).
+
+high_priority:
+  - "edible oil adulteration India"
+  - "mustard oil adulteration seized India"
+  - "food safety oil raid India"
+  - "FSSAI edible oil India"
+  - "cooking oil fake spurious India"
+  - "vegetable oil adulteration India"
+  - "adulterated oil seized India"
+  - "food adulteration oil FSSAI"
+  - "substandard edible oil India"
+  - "edible oil food safety India"
+
+medium_priority: []
+supplementary: []

@@ -1,0 +1,249 @@
+# ============================================================
+# Food Oil Adulteration News Crawler — Main Configuration
+# ============================================================
+
+# --- Date Range (last 5 years; edit end to today's date) ---
+date_range:
+  start: "2021-06-01"
+  end: "2026-06-17"
+
+# --- Food / Oil Terms ---
+food_terms:
+  - edible oil
+  - mustard oil
+  - cooking oil
+  - vegetable oil
+  - palm oil
+  - soybean oil
+  - groundnut oil
+  - sesame oil
+  - sunflower oil
+  - cottonseed oil
+  - blended oil
+  - rice bran oil
+  - coconut oil
+  - refined oil
+  - crude palm oil
+  - loose oil
+  - sarson tel
+  - vanaspati
+  - rapeseed oil
+  - linseed oil
+
+# --- Adulteration / Incident Terms ---
+adulteration_terms:
+  - adulteration
+  - adulterated
+  - fake
+  - spurious
+  - substandard
+  - misbranding
+  - mislabelling
+  - mislabeled
+  - unsafe
+  - sample failure
+  - sample failed
+  - contaminated
+  - contamination
+  - impure
+  - impurity
+  - fraud
+  - fraudulent
+  - diluted
+  - dilution
+  - mixed with
+  - inferior quality
+  - unhygienic
+
+# --- Enforcement / Action Terms ---
+action_terms:
+  - FSSAI
+  - food safety
+  - food safety department
+  - FDA
+  - food authority
+  - seized
+  - seizure
+  - raid
+  - raided
+  - arrested
+  - arrest
+  - fine
+  - penalty
+  - enforcement action
+  - crackdown
+  - inspection
+  - tested
+  - lab test
+  - laboratory
+  - complaint
+  - license cancelled
+  - notice issued
+  - show cause
+  - legal action
+  - police
+  - district administration
+
+# --- Indian Location Terms ---
+location_terms:
+  - India
+  - Indian
+  - Uttar Pradesh
+  - UP
+  - Maharashtra
+  - Delhi
+  - New Delhi
+  - Rajasthan
+  - Punjab
+  - Haryana
+  - Gujarat
+  - Bihar
+  - West Bengal
+  - Madhya Pradesh
+  - MP
+  - Karnataka
+  - Tamil Nadu
+  - Kerala
+  - Andhra Pradesh
+  - Telangana
+  - Odisha
+  - Jharkhand
+  - Assam
+  - Chhattisgarh
+  - Himachal Pradesh
+  - Uttarakhand
+  - Hyderabad
+  - Mumbai
+  - Kolkata
+  - Chennai
+  - Bengaluru
+  - Bangalore
+  - Jaipur
+  - Lucknow
+  - Kanpur
+  - Varanasi
+  - Patna
+  - Noida
+  - Gurgaon
+  - Gurugram
+  - Ahmedabad
+  - Surat
+  - Pune
+  - Thiruvananthapuram
+  - Kochi
+  - Bhopal
+  - Indore
+  - Nagpur
+  - Raipur
+  - Ranchi
+  - Guwahati
+  - Amritsar
+  - Ludhiana
+  - Agra
+  - Meerut
+  - Barabanki
+  - Pokaran
+  - Jodhpur
+  - Udaipur
+
+# --- Query Builder ---
+query_builder:
+  max_queries: 300
+  # How many food_terms × adulteration_terms × location_terms combinations to use
+  # Set to null for all combinations
+  sample_size: null
+
+# --- Crawling Behaviour ---
+crawl:
+  delay_seconds: 2.5          # polite delay between requests (seconds)
+  max_retries: 3
+  backoff_factor: 2.0         # exponential backoff multiplier
+  timeout_seconds: 30
+  user_agent: "FoodSafetyResearchBot/1.0 (Academic research on edible oil food safety; contact: research@example.com)"
+  respect_robots_txt: true
+  max_articles_per_query: 50
+
+# --- Discovery Sources ---
+discovery:
+  enabled_sources:
+    - seed          # URLs from oil_sample_articles
+    - gdelt         # GDELT free API (no key needed)
+    - rss           # RSS feeds from Indian news sites
+    # - google_cse  # enable if GOOGLE_CSE_KEY is set
+    # - bing        # enable if BING_API_KEY is set
+    # - serpapi     # enable if SERPAPI_KEY is set
+
+  gdelt:
+    enabled: true
+    max_records: 250           # max per query (GDELT cap is 250)
+    timespan: "5y"             # GDELT timespan shorthand
+    mode: "artlist"
+
+  rss:
+    enabled: true
+    feeds_config: config/sources.yaml
+
+  search_api:
+    google_cse:
+      enabled: false
+      num_results: 10
+    bing:
+      enabled: false
+      num_results: 10
+    serpapi:
+      enabled: false
+      num_results: 10
+
+# --- Relevance Scoring ---
+relevance:
+  # Score thresholds (0.0 – 1.0)
+  min_score_relevant: 0.55
+  min_score_maybe: 0.25
+
+  # Hard filters (article must pass ALL enabled filters)
+  require_india_term: true
+  require_oil_term: true
+  require_adulteration_or_action_term: true
+
+  # Scoring weights
+  weights:
+    oil_term_hit: 0.25          # per unique oil term found
+    oil_term_cap: 0.30          # max score from oil terms
+    adulteration_term_hit: 0.20
+    adulteration_term_cap: 0.25
+    action_term_hit: 0.15
+    action_term_cap: 0.20
+    location_india_hit: 0.10
+    location_state_hit: 0.05
+    location_cap: 0.15
+    date_in_range: 0.10
+
+# --- Deduplication ---
+dedupe:
+  url_exact: true
+  url_canonical: true
+  title_normalize: true
+  text_hash: true
+  near_duplicate:
+    enabled: true
+    similarity_threshold: 0.75   # Jaccard similarity (PTI/ANI rewrites typically 0.80+)
+
+# --- Output Paths (relative to news_crawler/) ---
+paths:
+  seed_urls: data/seeds/seed_urls.csv
+  raw_html: data/raw_html
+  cleaned_text: data/cleaned_text
+  outputs: data/outputs
+  logs: data/logs
+  db: data/outputs/articles.db
+  discovered_urls: data/outputs/discovered_urls.jsonl
+  articles_jsonl: data/outputs/articles.jsonl
+  articles_csv: data/outputs/articles.csv
+  report: data/outputs/report.json
+
+# --- API Keys (prefer .env file over this) ---
+api_keys:
+  google_cse_key: ""
+  google_cse_cx: ""
+  bing_api_key: ""
+  serpapi_key: ""

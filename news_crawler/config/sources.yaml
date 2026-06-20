@@ -1,0 +1,235 @@
+# ============================================================
+# Target Sources: Domains, RSS Feeds, and Seed Domains
+# ============================================================
+
+# --- Allowed/Target Domains (used for URL filtering and priority) ---
+target_domains:
+  # National English dailies / online news
+  - domain: timesofindia.indiatimes.com
+    name: Times of India
+    language: en
+    tier: 1
+  - domain: ndtv.com
+    name: NDTV
+    language: en
+    tier: 1
+  - domain: hindustantimes.com
+    name: Hindustan Times
+    language: en
+    tier: 1
+  - domain: thehindu.com
+    name: The Hindu
+    language: en
+    tier: 1
+  - domain: indiatoday.in
+    name: India Today
+    language: en
+    tier: 1
+  - domain: indianexpress.com
+    name: Indian Express
+    language: en
+    tier: 1
+  - domain: theprint.in
+    name: The Print
+    language: en
+    tier: 1
+  - domain: scroll.in
+    name: Scroll
+    language: en
+    tier: 1
+  - domain: thewire.in
+    name: The Wire
+    language: en
+    tier: 1
+  - domain: news18.com
+    name: News18
+    language: en
+    tier: 1
+  - domain: livemint.com
+    name: LiveMint
+    language: en
+    tier: 1
+  - domain: economictimes.indiatimes.com
+    name: Economic Times
+    language: en
+    tier: 1
+  - domain: business-standard.com
+    name: Business Standard
+    language: en
+    tier: 1
+  - domain: financialexpress.com
+    name: Financial Express
+    language: en
+    tier: 1
+  - domain: newindianexpress.com
+    name: New Indian Express
+    language: en
+    tier: 1
+  - domain: deccanherald.com
+    name: Deccan Herald
+    language: en
+    tier: 2
+  - domain: deccanchronicle.com
+    name: Deccan Chronicle
+    language: en
+    tier: 2
+  - domain: tribuneindia.com
+    name: Tribune India
+    language: en
+    tier: 2
+  - domain: telegraphindia.com
+    name: Telegraph India
+    language: en
+    tier: 2
+  - domain: thestatesman.com
+    name: The Statesman
+    language: en
+    tier: 2
+  - domain: freepressjournal.in
+    name: Free Press Journal
+    language: en
+    tier: 2
+  - domain: moneycontrol.com
+    name: Money Control
+    language: en
+    tier: 2
+  - domain: foodnavigator-asia.com
+    name: Food Navigator Asia
+    language: en
+    tier: 2
+  - domain: outlookindia.com
+    name: Outlook India
+    language: en
+    tier: 2
+  - domain: theweek.in
+    name: The Week
+    language: en
+    tier: 2
+  - domain: firstpost.com
+    name: Firstpost
+    language: en
+    tier: 2
+  - domain: aninews.in
+    name: ANI News
+    language: en
+    tier: 2
+  - domain: pib.gov.in
+    name: Press Information Bureau
+    language: en
+    tier: 1
+  - domain: fssai.gov.in
+    name: FSSAI
+    language: en
+    tier: 1
+  - domain: healthandme.com
+    name: Health and Me
+    language: en
+    tier: 3
+  - domain: downtoearth.org.in
+    name: Down To Earth
+    language: en
+    tier: 2
+  - domain: indiaspend.com
+    name: India Spend
+    language: en
+    tier: 2
+
+# --- RSS Feeds ---
+rss_feeds:
+  - url: "https://timesofindia.indiatimes.com/rssfeeds/2647163.cms"
+    name: "TOI India News"
+    domain: timesofindia.indiatimes.com
+  - url: "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms"
+    name: "TOI Health"
+    domain: timesofindia.indiatimes.com
+  - url: "https://feeds.feedburner.com/ndtvnews-india-news"
+    name: "NDTV India News"
+    domain: ndtv.com
+  - url: "https://feeds.feedburner.com/ndtvnews-latest"
+    name: "NDTV Latest"
+    domain: ndtv.com
+  - url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"
+    name: "HT India News"
+    domain: hindustantimes.com
+  - url: "https://www.thehindu.com/news/national/feeder/default.rss"
+    name: "The Hindu National"
+    domain: thehindu.com
+  - url: "https://www.thehindu.com/sci-tech/health/feeder/default.rss"
+    name: "The Hindu Health"
+    domain: thehindu.com
+  - url: "https://www.indiatoday.in/rss/1206578"
+    name: "India Today India"
+    domain: indiatoday.in
+  - url: "https://indianexpress.com/feed/"
+    name: "Indian Express"
+    domain: indianexpress.com
+  - url: "https://theprint.in/feed/"
+    name: "The Print"
+    domain: theprint.in
+  - url: "https://scroll.in/rss.xml"
+    name: "Scroll"
+    domain: scroll.in
+  - url: "https://thewire.in/rss-feed"
+    name: "The Wire"
+    domain: thewire.in
+  - url: "https://www.news18.com/rss/india.xml"
+    name: "News18 India"
+    domain: news18.com
+  - url: "https://economictimes.indiatimes.com/rssfeedsdefault.cms"
+    name: "Economic Times"
+    domain: economictimes.indiatimes.com
+  - url: "https://www.livemint.com/rss/news"
+    name: "LiveMint News"
+    domain: livemint.com
+  - url: "https://www.business-standard.com/rss/latest.rss"
+    name: "Business Standard Latest"
+    domain: business-standard.com
+  - url: "https://www.newindianexpress.com/nation/feed"
+    name: "NIE Nation"
+    domain: newindianexpress.com
+  - url: "https://www.deccanherald.com/feeds/national"
+    name: "Deccan Herald National"
+    domain: deccanherald.com
+  - url: "https://www.downtoearth.org.in/rss/1"
+    name: "Down to Earth"
+    domain: downtoearth.org.in
+  - url: "https://aninews.in/rss/india.xml"
+    name: "ANI India"
+    domain: aninews.in
+  - url: "https://www.outlookindia.com/feed/news"
+    name: "Outlook India News"
+    domain: outlookindia.com
+  - url: "https://www.firstpost.com/rss/india.xml"
+    name: "Firstpost India"
+    domain: firstpost.com
+
+# --- Blocked domains (ads, e-commerce, recipe-only) ---
+blocked_domains:
+  - amazon.com
+  - amazon.in
+  - flipkart.com
+  - bigbasket.com
+  - swiggy.com
+  - zomato.com
+  - nykaa.com
+  - paytm.com
+  - snapdeal.com
+  - myntra.com
+  - indiamart.com
+  - tradeindia.com
+  - justdial.com
+  - quora.com
+  - wikipedia.org
+  - wikimedia.org
+  - youtube.com
+  - facebook.com
+  - twitter.com
+  - instagram.com
+  - reddit.com
+  - pinterest.com
+  - linkedin.com
+  - allrecipes.com
+  - food.com
+  - cookpad.com
+  - archiveofourown.org
+  - msn.com

@@ -1,0 +1,202 @@
+# DDG News discovery using 30 expanded queries.
+# DuckDuckGo/Yahoo/Bing News returns 5-30 real article URLs per query.
+# msn.com blocked (JS-rendered, extraction fails).
+
+date_range:
+  start: "2021-06-01"
+  end: "2026-06-17"
+
+food_terms:
+  - edible oil
+  - mustard oil
+  - cooking oil
+  - vegetable oil
+  - palm oil
+  - soybean oil
+  - groundnut oil
+  - sesame oil
+  - sunflower oil
+  - cottonseed oil
+  - blended oil
+  - rice bran oil
+  - coconut oil
+  - refined oil
+  - loose oil
+  - sarson tel
+  - vanaspati
+  - rapeseed oil
+  - linseed oil
+
+adulteration_terms:
+  - adulteration
+  - adulterated
+  - fake
+  - spurious
+  - substandard
+  - misbranding
+  - mislabelling
+  - unsafe
+  - sample failure
+  - sample failed
+  - contaminated
+  - contamination
+  - impure
+  - fraud
+  - fraudulent
+  - diluted
+  - mixed with
+  - inferior quality
+  - unhygienic
+
+action_terms:
+  - FSSAI
+  - food safety
+  - food safety department
+  - FDA
+  - food authority
+  - seized
+  - seizure
+  - raid
+  - raided
+  - arrested
+  - arrest
+  - fine
+  - penalty
+  - enforcement action
+  - crackdown
+  - inspection
+  - tested
+  - lab test
+  - laboratory
+  - complaint
+  - license cancelled
+  - notice issued
+  - show cause
+  - legal action
+  - police
+  - district administration
+
+location_terms:
+  - India
+  - Indian
+  - Uttar Pradesh
+  - UP
+  - Maharashtra
+  - Delhi
+  - Rajasthan
+  - Punjab
+  - Haryana
+  - Gujarat
+  - Bihar
+  - West Bengal
+  - Madhya Pradesh
+  - Karnataka
+  - Tamil Nadu
+  - Kerala
+  - Andhra Pradesh
+  - Telangana
+  - Odisha
+  - Jharkhand
+  - Assam
+  - Chhattisgarh
+  - Himachal Pradesh
+  - Uttarakhand
+  - Hyderabad
+  - Mumbai
+  - Kolkata
+  - Chennai
+  - Bengaluru
+  - Jaipur
+  - Lucknow
+  - Kanpur
+  - Varanasi
+  - Patna
+  - Noida
+  - Ahmedabad
+  - Thiruvananthapuram
+  - Kochi
+  - Bhopal
+  - Indore
+  - Nagpur
+
+# 30 queries across high/medium/supplementary tiers
+query_builder:
+  max_queries: 30
+  queries_file: config/queries_ddgs.yaml
+
+crawl:
+  delay_seconds: 3.0
+  max_retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 30
+  user_agent: "FoodSafetyResearchBot/1.0 (Academic research on edible oil food safety; contact: research@example.com)"
+  respect_robots_txt: true
+  max_articles_per_query: 30
+
+discovery:
+  enabled_sources:
+    - ddgs
+  ddgs_max_results: 30
+
+  gdelt:
+    enabled: false
+    max_records: 250
+    timespan: "5y"
+    mode: "artlist"
+
+  rss:
+    enabled: false
+    feeds_config: config/sources.yaml
+
+  search_api:
+    google_cse:
+      enabled: false
+    bing:
+      enabled: false
+    serpapi:
+      enabled: false
+
+relevance:
+  min_score_relevant: 0.55
+  min_score_maybe: 0.25
+  require_india_term: true
+  require_oil_term: true
+  require_adulteration_or_action_term: true
+  weights:
+    oil_term_hit: 0.25
+    oil_term_cap: 0.30
+    adulteration_term_hit: 0.20
+    adulteration_term_cap: 0.25
+    action_term_hit: 0.15
+    action_term_cap: 0.20
+    location_india_hit: 0.10
+    location_state_hit: 0.05
+    location_cap: 0.15
+    date_in_range: 0.10
+
+dedupe:
+  url_exact: true
+  url_canonical: true
+  title_normalize: true
+  text_hash: true
+  near_duplicate:
+    enabled: true
+    similarity_threshold: 0.75
+
+paths:
+  seed_urls: data/seeds/seed_urls.csv
+  raw_html: data/raw_html
+  cleaned_text: data/cleaned_text
+  outputs: data/outputs
+  logs: data/logs
+  db: data/outputs/articles.db
+  discovered_urls: data/outputs/discovered_urls.jsonl
+  articles_jsonl: data/outputs/articles.jsonl
+  articles_csv: data/outputs/articles.csv
+  report: data/outputs/report.json
+
+api_keys:
+  google_cse_key: ""
+  google_cse_cx: ""
+  bing_api_key: ""
+  serpapi_key: ""

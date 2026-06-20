@@ -1,0 +1,42 @@
+# Expanded queries optimised for DuckDuckGo/Bing/Yahoo News discovery.
+# DDG returns 5–30 results per query; broader coverage requires more queries.
+# These avoid MSN/social-media results and focus on actionable adulteration news.
+
+high_priority:
+  # Core adulteration queries
+  - "edible oil adulteration India raid seized"
+  - "mustard oil adulteration India"
+  - "adulterated cooking oil seized India"
+  - "FSSAI edible oil adulteration"
+  - "food safety authority edible oil India"
+  - "substandard edible oil seized India"
+  - "fake ghee adulterated oil India"
+  - "palm oil adulteration India"
+  - "groundnut oil adulteration India"
+  - "soybean oil adulteration India"
+
+medium_priority:
+  # State-specific — high-volume adulteration states
+  - "edible oil adulteration Uttar Pradesh seized"
+  - "edible oil adulteration Gujarat FSSAI"
+  - "edible oil adulteration Maharashtra FDA"
+  - "edible oil adulteration Rajasthan raid"
+  - "edible oil adulteration Punjab seized"
+  - "edible oil adulteration Delhi FSSAI"
+  - "edible oil adulteration Odisha"
+  - "edible oil adulteration Tamil Nadu"
+  - "edible oil adulteration West Bengal seized"
+  - "edible oil adulteration Madhya Pradesh"
+
+supplementary:
+  # FSSAI-specific enforcement
+  - "FSSAI oil sample failed test India"
+  - "FSSAI oil quality test failed seized"
+  - "food inspector oil adulteration India"
+  - "edible oil spurious India"
+  - "vanaspati adulteration India"
+  - "trans fat oil FSSAI India ban"
+  - "cottonseed oil adulteration India"
+  - "rice bran oil adulteration India"
+  - "sesame oil adulteration India"
+  - "coconut oil adulteration India seized"
