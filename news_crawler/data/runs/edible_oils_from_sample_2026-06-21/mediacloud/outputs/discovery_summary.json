@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-06-21T10:13:45.253428+00:00",
+  "run_dir": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21",
+  "db_path": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\mediacloud\\outputs\\articles.db",
+  "total_discovered_urls": 219,
+  "articles_table_rows": 110,
+  "status_counts": {
+    "failed": 18,
+    "robots_blocked": 91,
+    "success": 110
+  },
+  "planned_query_count": 29,
+  "queries_with_saved_urls": 18,
+  "distinct_domains": 40,
+  "published_date_min": "2021-01-12",
+  "published_date_max": "2026-06-20",
+  "title_screen_counts": {
+    "broad_food_safety_title": 134,
+    "oil_context_only_in_title": 5,
+    "strong_title_match": 78,
+    "weak_or_body_only_match": 2
+  },
+  "top_domains": [
+    {
+      "domain": "timesofindia.indiatimes.com",
+      "count": 43
+    },
+    {
+      "domain": "thehindu.com",
+      "count": 18
+    },
+    {
+      "domain": "thehindubusinessline.com",
+      "count": 11
+    },
+    {
+      "domain": "hindustantimes.com",
+      "count": 10
+    },
+    {
+      "domain": "thelogicalindian.com",
+      "count": 10
+    },
+    {
+      "domain": "thehansindia.com",
+      "count": 9
+    },
+    {
+      "domain": "economictimes.indiatimes.com",
+      "count": 9
+    },
+    {
+      "domain": "indianexpress.com",
+      "count": 8
+    },
+    {
+      "domain": "freepressjournal.in",
+      "count": 8
+    },
+    {
+      "domain": "tribuneindia.com",
+      "count": 8
+    },
+    {
+      "domain": "newindianexpress.com",
+      "count": 7
+    },
+    {
+      "domain": "ndtv.com",
+      "count": 6
+    },
+    {
+      "domain": "food.ndtv.com",
+      "count": 6
+    },
+    {
+      "domain": "news18.com",
+      "count": 6
+    },
+    {
+      "domain": "business-standard.com",
+      "count": 4
+    },
+    {
+      "domain": "livemint.com",
+      "count": 4
+    },
+    {
+      "domain": "newkerala.com",
+      "count": 4
+    },
+    {
+      "domain": "siasat.com",
+      "count": 3
+    },
+    {
+      "domain": "newdelhinews.net",
+      "count": 3
+    },
+    {
+      "domain": "indiasnews.net",
+      "count": 3
+    }
+  ],
+  "notes": [
+    "Title screen is based only on title, URL, source, and domain metadata.",
+    "weak_or_body_only_match can still be relevant if Media Cloud matched terms in article body.",
+    "No article text has been crawled by this summary script."
+  ]
+}

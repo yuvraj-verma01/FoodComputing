@@ -1,0 +1,206 @@
+# ============================================================
+# Edible Oil Media Cloud Config - Sample-Derived Round 0
+# ============================================================
+#
+# Phase 4 config only. Do not run Media Cloud until explicitly approved.
+#
+# Intended discovery command, after approval:
+#   python -m crawler --config config/config_edible_oils_from_sample.yaml mc-discover --round 0
+
+date_range:
+  start: "2021-01-01"
+  end: "2026-06-21"
+
+# Terms used by relevance scoring and keyword-augmentation domain filters.
+# Seed-query construction lives in config/edible_oil_seed_queries_from_sample.yaml.
+food_terms:
+  - edible oil
+  - cooking oil
+  - mustard oil
+  - coconut oil
+  - soybean oil
+  - vegetable oil
+  - groundnut oil
+  - palm oil
+  - olive oil
+  - ghee and oil
+  - adulterated ghee and oil
+
+adulteration_terms:
+  - adulterated
+  - adulteration
+  - food adulteration
+  - adulterated food
+  - adulterated food products
+  - adulterated food items
+  - adulterated foods
+  - adulterated food business
+  - substandard
+  - fake
+
+action_terms:
+  - FSSAI
+  - FSDA
+  - food safety
+  - food safety and standards
+  - food safety department
+  - food safety officer
+  - food safety officers
+  - food safety officials
+  - food safety designated officers
+  - commissioner of food safety
+  - food safety commission
+  - seized
+  - seizure
+  - raid
+  - raids
+  - raided
+  - seizing
+  - crackdown
+  - major crackdown
+  - ban
+  - banned
+  - oil manufacturing
+  - oil manufacturing unit
+  - samples
+
+location_terms:
+  - India
+  - Indian
+  - Uttar Pradesh
+  - UP
+  - Maharashtra
+  - Delhi
+  - New Delhi
+  - Rajasthan
+  - Punjab
+  - Haryana
+  - Gujarat
+  - Bihar
+  - West Bengal
+  - Madhya Pradesh
+  - MP
+  - Karnataka
+  - Tamil Nadu
+  - Kerala
+  - Andhra Pradesh
+  - Telangana
+  - Odisha
+  - Jharkhand
+  - Assam
+  - Chhattisgarh
+  - Himachal Pradesh
+  - Uttarakhand
+  - Hyderabad
+  - Mumbai
+  - Kolkata
+  - Chennai
+  - Bengaluru
+  - Bangalore
+  - Jaipur
+  - Lucknow
+  - Kanpur
+  - Varanasi
+  - Patna
+  - Noida
+  - Gurgaon
+  - Gurugram
+  - Ahmedabad
+  - Surat
+  - Pune
+  - Thiruvananthapuram
+  - Kochi
+  - Bhopal
+  - Indore
+  - Nagpur
+  - Raipur
+  - Ranchi
+  - Guwahati
+  - Amritsar
+  - Ludhiana
+  - Agra
+  - Meerut
+  - Barabanki
+  - Pokaran
+  - Jodhpur
+  - Udaipur
+
+discovery:
+  enabled_sources:
+    - mediacloud
+
+  mediacloud:
+    # India collections already present in the repo:
+    #   34412118 India - National
+    #   38379954 India - State & Local
+    collection_ids:
+      - 34412118
+      - 38379954
+
+    # Per query. Kept moderate for first sample-derived discovery pass.
+    max_results: 250
+    delay_seconds: 1.5
+
+augmentation:
+  seed_keywords_file: config/edible_oil_seed_queries_from_sample.yaml
+  seed_keywords: []
+  convergence_threshold: 0.85
+  max_rounds: 5
+  min_df: 2
+  max_new_keywords: 30
+  top_n_per_round: 20
+
+crawl:
+  delay_seconds: 3.0
+  max_retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 30
+  user_agent: "FoodSafetyResearchBot/1.0 (Academic research on Indian edible oil food safety; contact: research@example.com)"
+  respect_robots_txt: true
+  use_playwright: false
+
+relevance:
+  min_score_relevant: 0.55
+  min_score_maybe: 0.25
+  require_india_term: true
+  require_oil_term: true
+  require_adulteration_or_action_term: true
+  weights:
+    oil_term_hit: 0.25
+    oil_term_cap: 0.30
+    adulteration_term_hit: 0.20
+    adulteration_term_cap: 0.25
+    action_term_hit: 0.15
+    action_term_cap: 0.20
+    location_india_hit: 0.10
+    location_state_hit: 0.05
+    location_cap: 0.15
+    date_in_range: 0.10
+
+dedupe:
+  url_exact: true
+  url_canonical: true
+  title_normalize: true
+  text_hash: true
+  near_duplicate:
+    enabled: true
+    similarity_threshold: 0.75
+
+paths:
+  seed_urls: data/runs/edible_oils_from_sample_2026-06-21/source_urls_from_docx.csv
+  raw_html: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/raw_html
+  cleaned_text: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/cleaned_text
+  outputs: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs
+  logs: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/logs
+  db: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs/articles.db
+  discovered_urls: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs/discovered_urls.jsonl
+  articles_jsonl: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs/articles.jsonl
+  articles_csv: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs/articles.csv
+  report: data/runs/edible_oils_from_sample_2026-06-21/mediacloud/outputs/report.json
+
+api_keys:
+  mediacloud_key: ""
+  google_cse_key: ""
+  google_cse_cx: ""
+  bing_api_key: ""
+  serpapi_key: ""

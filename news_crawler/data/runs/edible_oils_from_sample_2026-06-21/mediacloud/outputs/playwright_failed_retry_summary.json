@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-06-21T10:12:07.314121+00:00",
+  "config": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\config\\config_edible_oils_from_sample.yaml",
+  "attempted": 19,
+  "success": 1,
+  "robots_blocked": 0,
+  "failed": 18,
+  "details": [
+    {
+      "url": "https://thelogicalindian.com/fssai-tightens-food-safety-rules-across-oils-spices-seafood-pulses-tackling-contamination-and-enforcement-gaps/",
+      "resolved_url": "https://thelogicalindian.com/fssai-tightens-food-safety-rules-across-oils-spices-seafood-pulses-tackling-contamination-and-enforcement-gaps/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/fssai-tightens-food-safety-rules-across-oils-spices-seafood-pulses-tackling-contamination-and-enforcement-gaps/\nCall log:\n  - navigating to \"https://thelogicalindian.com/fssai-tightens-food-safety-rules-across-oils-spices-seafood-pulses-tackling-contamination-and-enforcement-gaps/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://www.news18.com/india/your-toothpaste-cooking-oil-may-be-fake-why-artificial-paneer-was-just-the-tip-of-the-iceberg-ws-el-10059335.html",
+      "resolved_url": "https://www.news18.com/india/your-toothpaste-cooking-oil-may-be-fake-why-artificial-paneer-was-just-the-tip-of-the-iceberg-ws-el-10059335.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    },
+    {
+      "url": "https://thelogicalindian.com/india-fake-food-raid-adulterated-mango-pulp/",
+      "resolved_url": "https://thelogicalindian.com/india-fake-food-raid-adulterated-mango-pulp/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/india-fake-food-raid-adulterated-mango-pulp/\nCall log:\n  - navigating to \"https://thelogicalindian.com/india-fake-food-raid-adulterated-mango-pulp/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/10000-kg-rotten-dates-and-adulterated-oil-seized-what-kanpurs-festival-crackdown-reveals/",
+      "resolved_url": "https://thelogicalindian.com/10000-kg-rotten-dates-and-adulterated-oil-seized-what-kanpurs-festival-crackdown-reveals/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/10000-kg-rotten-dates-and-adulterated-oil-seized-what-kanpurs-festival-crackdown-reveals/\nCall log:\n  - navigating to \"https://thelogicalindian.com/10000-kg-rotten-dates-and-adulterated-oil-seized-what-kanpurs-festival-crackdown-reveals/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://www.tribuneindia.com/news/punjab/41per-cent-milk-samples-found-substandard-in-punjab-441963",
+      "resolved_url": "https://www.tribuneindia.com/news/punjab/41per-cent-milk-samples-found-substandard-in-punjab-441963",
+      "status": "failed",
+      "http_status": 404,
+      "error_message": "HTTP 404 (playwright)"
+    },
+    {
+      "url": "https://indiantelevision.com/mam/fssai-cracks-down-on-health-claims-issues-notices-to-8-brands/",
+      "resolved_url": "https://indiantelevision.com/mam/fssai-cracks-down-on-health-claims-issues-notices-to-8-brands/",
+      "status": "success",
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "url": "https://www.indiantelevision.com/mam/marketing/mam/snapdeal-drums-up-fssai-s-eat-right-india-movement-210222",
+      "resolved_url": "https://www.indiantelevision.com/mam/marketing/mam/snapdeal-drums-up-fssai-s-eat-right-india-movement-210222",
+      "status": "failed",
+      "http_status": 404,
+      "error_message": "HTTP 404 (playwright)"
+    },
+    {
+      "url": "https://www.news18.com/agency-feeds/over-4-lakh-litres-seized-in-drive-against-substandard-edible-oil-in-up-9935864.html",
+      "resolved_url": "https://www.news18.com/agency-feeds/over-4-lakh-litres-seized-in-drive-against-substandard-edible-oil-in-up-9935864.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    },
+    {
+      "url": "https://www.news18.com/india/over-3300-quintals-of-adulterated-food-worth-rs-4-76-crore-seized-before-diwali-in-up-ws-e-9641390.html",
+      "resolved_url": "https://www.news18.com/india/over-3300-quintals-of-adulterated-food-worth-rs-4-76-crore-seized-before-diwali-in-up-ws-e-9641390.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    },
+    {
+      "url": "https://thelogicalindian.com/is-indias-food-watchdog-failing-us-inside-the-gaps-in-fssais-safety-net/",
+      "resolved_url": "https://thelogicalindian.com/is-indias-food-watchdog-failing-us-inside-the-gaps-in-fssais-safety-net/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/is-indias-food-watchdog-failing-us-inside-the-gaps-in-fssais-safety-net/\nCall log:\n  - navigating to \"https://thelogicalindian.com/is-indias-food-watchdog-failing-us-inside-the-gaps-in-fssais-safety-net/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/40-litres-reused-oil-40-kg-rotten-tomatoes-mcdonalds-jaipur-faces-14-day-food-safety-ultimatum/",
+      "resolved_url": "https://thelogicalindian.com/40-litres-reused-oil-40-kg-rotten-tomatoes-mcdonalds-jaipur-faces-14-day-food-safety-ultimatum/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/40-litres-reused-oil-40-kg-rotten-tomatoes-mcdonalds-jaipur-faces-14-day-food-safety-ultimatum/\nCall log:\n  - navigating to \"https://thelogicalindian.com/40-litres-reused-oil-40-kg-rotten-tomatoes-mcdonalds-jaipur-faces-14-day-food-safety-ultimatum/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://www.news18.com/india/up-barabanki-6000-litres-of-fake-mustard-oil-seized-raises-food-safety-concerns-aa-ws-l-9927362.html",
+      "resolved_url": "https://www.news18.com/india/up-barabanki-6000-litres-of-fake-mustard-oil-seized-raises-food-safety-concerns-aa-ws-l-9927362.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    },
+    {
+      "url": "https://www.news18.com/viral/food-safety-team-dumps-seized-sweets-crowd-seen-collecting-them-from-bin-aa-ws-l-9935091.html",
+      "resolved_url": "https://www.news18.com/viral/food-safety-team-dumps-seized-sweets-crowd-seen-collecting-them-from-bin-aa-ws-l-9935091.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    },
+    {
+      "url": "https://thelogicalindian.com/gujarat-factory-used-300-litres-real-milk-to-produce-1800-litres-fake-milk-daily-for-5-years/",
+      "resolved_url": "https://thelogicalindian.com/gujarat-factory-used-300-litres-real-milk-to-produce-1800-litres-fake-milk-daily-for-5-years/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/gujarat-factory-used-300-litres-real-milk-to-produce-1800-litres-fake-milk-daily-for-5-years/\nCall log:\n  - navigating to \"https://thelogicalindian.com/gujarat-factory-used-300-litres-real-milk-to-produce-1800-litres-fake-milk-daily-for-5-years/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/hyderabad-police-bust-%E2%82%B918-26-lakh-fake-ghee-racket-in-banjara-hills-pride-dairy-owner-arrested/",
+      "resolved_url": "https://thelogicalindian.com/hyderabad-police-bust-%E2%82%B918-26-lakh-fake-ghee-racket-in-banjara-hills-pride-dairy-owner-arrested/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/hyderabad-police-bust-%E2%82%B918-26-lakh-fake-ghee-racket-in-banjara-hills-pride-dairy-owner-arrested/\nCall log:\n  - navigating to \"https://thelogicalindian.com/hyderabad-police-bust-%E2%82%B918-26-lakh-fake-ghee-racket-in-banjara-hills-pride-dairy-owner-arrested/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/68-lakh-kg-fake-ghee-worth-%E2%82%B9250-crore-supplied-to-tirupati-trust-by-dairy-that-never-procured-milk-report/",
+      "resolved_url": "https://thelogicalindian.com/68-lakh-kg-fake-ghee-worth-%E2%82%B9250-crore-supplied-to-tirupati-trust-by-dairy-that-never-procured-milk-report/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/68-lakh-kg-fake-ghee-worth-%E2%82%B9250-crore-supplied-to-tirupati-trust-by-dairy-that-never-procured-milk-report/\nCall log:\n  - navigating to \"https://thelogicalindian.com/68-lakh-kg-fake-ghee-worth-%E2%82%B9250-crore-supplied-to-tirupati-trust-by-dairy-that-never-procured-milk-report/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/festive-season-shock-fssai-seizes-550-kg-of-fake-paneer-in-noida-last-report-found-83-of-samples-unsafe/",
+      "resolved_url": "https://thelogicalindian.com/festive-season-shock-fssai-seizes-550-kg-of-fake-paneer-in-noida-last-report-found-83-of-samples-unsafe/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/festive-season-shock-fssai-seizes-550-kg-of-fake-paneer-in-noida-last-report-found-83-of-samples-unsafe/\nCall log:\n  - navigating to \"https://thelogicalindian.com/festive-season-shock-fssai-seizes-550-kg-of-fake-paneer-in-noida-last-report-found-83-of-samples-unsafe/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://thelogicalindian.com/hyderabad-crackdown-3892-kg-adulterated-paneer-seized-6-arrested-for-supplying-unsafe-dairy-products/",
+      "resolved_url": "https://thelogicalindian.com/hyderabad-crackdown-3892-kg-adulterated-paneer-seized-6-arrested-for-supplying-unsafe-dairy-products/",
+      "status": "failed",
+      "http_status": null,
+      "error_message": "Playwright: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://thelogicalindian.com/hyderabad-crackdown-3892-kg-adulterated-paneer-seized-6-arrested-for-supplying-unsafe-dairy-products/\nCall log:\n  - navigating to \"https://thelogicalindian.com/hyderabad-crackdown-3892-kg-adulterated-paneer-seized-6-arrested-for-supplying-unsafe-dairy-products/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://www.news18.com/india/buying-diwali-sweets-beware-as-stale-paneer-insect-ridden-rasgullas-seized-in-raids-9100994.html",
+      "resolved_url": "https://www.news18.com/india/buying-diwali-sweets-beware-as-stale-paneer-insect-ridden-rasgullas-seized-in-raids-9100994.html",
+      "status": "failed",
+      "http_status": 403,
+      "error_message": "Playwright: empty page"
+    }
+  ]
+}

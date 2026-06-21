@@ -1,0 +1,30 @@
+query_number,query,saved_new_urls,template_type,product_term,fraud_term,enforcement_term,date_start,date_end,breadth
+1,"""edible oil"" adulteration India",37,product_plus_fraud,edible oil,adulteration,,2021-01-01,2026-06-21,medium
+2,"""edible oil"" adulterated India",3,product_plus_fraud,edible oil,adulterated,,2021-01-01,2026-06-21,medium
+3,"""edible oil"" seized India",5,product_plus_enforcement,edible oil,,seized,2021-01-01,2026-06-21,medium
+4,"""substandard edible oil"" India",0,fraud_phrase_plus_product,edible oil,substandard,,2021-01-01,2026-06-21,narrow
+5,"""fake edible oil"" India",0,fraud_phrase_plus_product,edible oil,fake,,2021-01-01,2026-06-21,narrow
+6,"FSSAI ""edible oil"" India",39,authority_plus_product,edible oil,,fssai,2021-01-01,2026-06-21,medium
+7,"FSDA ""edible oil"" seized",8,authority_plus_product_plus_enforcement,edible oil,,fsda; seized,2021-01-01,2026-06-21,narrow
+8,"""food safety department"" ""edible oil"" India",2,agency_phrase_plus_product,edible oil,,food safety department,2021-01-01,2026-06-21,medium
+9,"""food safety officer"" ""edible oil"" India",1,agency_phrase_plus_product,edible oil,,food safety officer,2021-01-01,2026-06-21,medium
+10,"""edible oil"" raid India",1,product_plus_enforcement,edible oil,,raid,2021-01-01,2026-06-21,medium
+11,"""edible oil"" seizure India",0,product_plus_enforcement,edible oil,,seizure,2021-01-01,2026-06-21,medium
+12,"""cooking oil"" adulteration India",23,product_plus_fraud,cooking oil,adulteration,,2021-01-01,2026-06-21,medium
+13,"""adulterated cooking oil"" seized India",0,product_plus_fraud_plus_enforcement,cooking oil,adulterated,seized,2021-01-01,2026-06-21,narrow
+14,"""mustard oil"" adulteration India",4,product_plus_fraud,mustard oil,adulteration,,2021-01-01,2026-06-21,medium
+15,"""fake mustard oil"" India",0,fraud_phrase_plus_product,mustard oil,fake,,2021-01-01,2026-06-21,narrow
+16,"""mustard oil"" seized India",3,product_plus_enforcement,mustard oil,,seized,2021-01-01,2026-06-21,medium
+17,"""coconut oil"" adulteration India",4,product_plus_fraud,coconut oil,adulteration,,2021-01-01,2026-06-21,medium
+18,"""substandard coconut oil"" India",1,fraud_phrase_plus_product,coconut oil,substandard,,2021-01-01,2026-06-21,narrow
+19,"""coconut oil"" banned India",0,product_plus_enforcement,coconut oil,,banned,2021-01-01,2026-06-21,narrow
+20,"""soybean oil"" adulteration India",1,product_plus_fraud,soybean oil,adulteration,,2021-01-01,2026-06-21,medium
+21,"""vegetable oil"" adulteration India",10,product_plus_fraud,vegetable oil,adulteration,,2021-01-01,2026-06-21,medium
+22,"""groundnut oil"" adulteration India",0,product_plus_fraud,groundnut oil,adulteration,,2021-01-01,2026-06-21,medium
+23,"""palm oil"" adulteration India",18,product_plus_fraud,palm oil,adulteration,,2021-01-01,2026-06-21,medium
+24,"""olive oil"" adulteration India",0,product_plus_fraud,olive oil,adulteration,,2021-01-01,2026-06-21,medium
+25,"""adulterated oil"" seized India",5,support_product_plus_fraud_plus_enforcement,oil,adulterated,seized,2021-01-01,2026-06-21,medium
+26,"""food adulteration"" ""edible oil"" India",0,broad_fraud_plus_product_anchor,edible oil,food adulteration,,2021-01-01,2026-06-21,medium
+27,"""oil"" ""food safety"" ""seized"" India",54,support_product_plus_enforcement,oil,,food safety; seized,2021-01-01,2026-06-21,broad
+28,"""ghee and oil"" adulteration India",0,mixed_oil_ghee_plus_fraud,ghee and oil,adulteration,,2021-01-01,2026-06-21,medium
+29,"""adulterated ghee and oil"" seized India",0,mixed_oil_ghee_plus_enforcement,adulterated ghee and oil,,seized,2021-01-01,2026-06-21,narrow

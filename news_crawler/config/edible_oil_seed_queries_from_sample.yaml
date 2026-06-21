@@ -1,0 +1,55 @@
+# Round-0 Media Cloud seed queries derived from the sample-article workflow.
+#
+# Source workflow:
+#   oil_sample_articles.docx
+#   -> fresh crawl/extraction of 12 sample URLs
+#   -> YAKE / TF-IDF / phrase-frequency candidates
+#   -> manual 1/0 keyword review
+#   -> pruned final keyword bank
+#   -> compact high-precision seed query proposal
+#
+# This is a selected subset, not all possible keyword permutations.
+# Date window for the associated config:
+#   2021-01-01 to 2026-06-21
+
+seed_keywords:
+  - '"edible oil" adulteration India'
+  - '"edible oil" adulterated India'
+  - '"edible oil" seized India'
+  - '"substandard edible oil" India'
+  - '"fake edible oil" India'
+  - 'FSSAI "edible oil" India'
+  - 'FSDA "edible oil" seized'
+  - '"food safety department" "edible oil" India'
+  - '"food safety officer" "edible oil" India'
+  - '"edible oil" raid India'
+  - '"edible oil" seizure India'
+  - '"cooking oil" adulteration India'
+  - '"adulterated cooking oil" seized India'
+  - '"mustard oil" adulteration India'
+  - '"fake mustard oil" India'
+  - '"mustard oil" seized India'
+  - '"coconut oil" adulteration India'
+  - '"substandard coconut oil" India'
+  - '"coconut oil" banned India'
+  - '"soybean oil" adulteration India'
+  - '"vegetable oil" adulteration India'
+  - '"groundnut oil" adulteration India'
+  - '"palm oil" adulteration India'
+  - '"olive oil" adulteration India'
+  - '"adulterated oil" seized India'
+  - '"food adulteration" "edible oil" India'
+  - '"oil" "food safety" "seized" India'
+  - '"ghee and oil" adulteration India'
+  - '"adulterated ghee and oil" seized India'
+
+query_metadata:
+  date_start: "2021-01-01"
+  date_end: "2026-06-21"
+  permutation_scope: selected_subset_not_all_permutations
+  source_csv: data/runs/edible_oils_from_sample_2026-06-21/proposed_mediacloud_seed_queries.csv
+  source_keyword_bank: data/runs/edible_oils_from_sample_2026-06-21/final_keyword_bank.csv
+  notes:
+    - Broad terms such as oil, food safety, and samples should not be searched alone.
+    - Pure ghee terms are excluded; only mixed ghee-and-oil phrases are retained.
+    - Olive oil is retained by explicit user request.

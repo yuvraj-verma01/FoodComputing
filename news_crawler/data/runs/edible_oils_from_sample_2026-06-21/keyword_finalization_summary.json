@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-06-21T09:14:53.276781+00:00",
+  "workbook": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\keyword_review.xlsx",
+  "reviewed_keep_1_rows": 75,
+  "reviewed_keep_0_rows": 129,
+  "removed_after_review": [
+    "coconut",
+    "edible",
+    "edible oil worth",
+    "food products",
+    "fsda team",
+    "fsda team raided",
+    "fsda team seized",
+    "jaisalmer food safety",
+    "jaisalmer food safety officer",
+    "litres edible oil",
+    "litres of edible oil",
+    "litres oil",
+    "litres oil kilograms",
+    "officials",
+    "oil tins",
+    "oils",
+    "police",
+    "pradesh food safety",
+    "safety department",
+    "safety officer",
+    "seizing litres oil",
+    "success seizing",
+    "success seizing litres",
+    "vegetable"
+  ],
+  "manual_additions": [
+    {
+      "term": "cooking oil",
+      "category": "product",
+      "reason": "Common synonym found in sample title/text; useful for public-facing news queries."
+    },
+    {
+      "term": "olive oil",
+      "category": "product",
+      "reason": "Explicitly kept by user despite low sample signal."
+    },
+    {
+      "term": "fake",
+      "category": "fraud",
+      "reason": "High-value fraud term; useful for phrases like fake mustard oil."
+    },
+    {
+      "term": "food safety officer",
+      "category": "enforcement",
+      "reason": "Better complete phrase than fragment 'safety officer'."
+    },
+    {
+      "term": "seizure",
+      "category": "enforcement",
+      "reason": "Headline/query variant of seized."
+    }
+  ],
+  "final_term_count": 47,
+  "final_term_counts_by_category": {
+    "product": 11,
+    "fraud": 10,
+    "enforcement": 18,
+    "support_only": 8
+  },
+  "proposed_query_count": 29,
+  "proposed_date_range": {
+    "start": "2021-01-01",
+    "end": "2026-06-21",
+    "note": "Last-five-years window for this run, ending on 2026-06-21."
+  },
+  "query_generation_strategy": "Compact high-precision subset from reviewed terms; not all possible permutations.",
+  "outputs": {
+    "final_keyword_bank_csv": "data\\runs\\edible_oils_from_sample_2026-06-21\\final_keyword_bank.csv",
+    "final_keyword_bank_json": "data\\runs\\edible_oils_from_sample_2026-06-21\\final_keyword_bank.json",
+    "proposed_seed_queries_csv": "data\\runs\\edible_oils_from_sample_2026-06-21\\proposed_mediacloud_seed_queries.csv",
+    "proposed_seed_queries_json": "data\\runs\\edible_oils_from_sample_2026-06-21\\proposed_mediacloud_seed_queries.json"
+  }
+}

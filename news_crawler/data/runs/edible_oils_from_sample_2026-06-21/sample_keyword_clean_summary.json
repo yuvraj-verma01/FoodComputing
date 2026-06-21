@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-06-21T08:41:38.036750+00:00",
+  "mode": "keywords_only",
+  "docx": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\oil_sample_articles.docx",
+  "run_dir": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21",
+  "urls_from_docx": "",
+  "download_success": 9,
+  "extraction_success_or_partial": 9,
+  "keyword_source_articles": 9,
+  "keyword_candidates_clean": 204,
+  "review_label_counts": {
+    "drop": 138,
+    "keep_core": 11,
+    "manual_review": 55
+  },
+  "category_counts": {
+    "adulteration/fraud": 17,
+    "enforcement/evidence": 40,
+    "incident/action phrase": 8,
+    "oil/product": 15,
+    "other_candidate": 124
+  },
+  "scoring": {
+    "candidate_creation_methods": [
+      "phrase_frequency",
+      "tfidf",
+      "yake"
+    ],
+    "reference_lexicon_use": "categorization_only",
+    "composite_weights": {
+      "tfidf": 0.35,
+      "yake": 0.25,
+      "frequency": 0.15,
+      "document_frequency": 0.15,
+      "method_agreement": 0.1
+    },
+    "review_labels": [
+      "keep_core",
+      "manual_review",
+      "drop"
+    ]
+  },
+  "outputs": {
+    "url_manifest": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\source_urls_from_docx.csv",
+    "article_table": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\sample_articles.csv",
+    "article_jsonl": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\sample_articles.jsonl",
+    "corpus": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\sample_corpus.txt",
+    "keyword_table_clean": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\sample_keyword_candidates_clean.csv",
+    "keyword_jsonl_clean": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\sample_keyword_candidates_clean.jsonl",
+    "log": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oils_from_sample_2026-06-21\\logs\\sample_crawl_keywords.log"
+  }
+}

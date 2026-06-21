@@ -70,8 +70,6 @@ class Downloader:
         is_gnews_redirect = "news.google.com" in url
 
         if self.respect_robots and not is_gnews_redirect and not self._allowed_by_robots(url):
-            if self.use_playwright:
-                return self._download_via_playwright(url, result)
             result["status"] = "robots_blocked"
             result["error_message"] = "Blocked by robots.txt"
             logger.info("robots.txt blocks %s", url)
