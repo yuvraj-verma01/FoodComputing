@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-06-30T18:36:38.361249+00:00",
+  "candidate_urls": 1138,
+  "llm_scored_articles": 1055,
+  "llm_label_counts": {
+    "relevant": 851,
+    "irrelevant": 204
+  },
+  "llm_checkpoint": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_adulteration_round_01_2026-06-30\\mediacloud\\outputs\\ghee_relevance_fulltext\\ghee_fulltext_llm_results.jsonl",
+  "crawl_log": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_adulteration_round_01_2026-06-30\\mediacloud\\outputs\\ghee_relevance_fulltext\\ghee_fulltext_crawl_log.csv",
+  "review_workbook": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_adulteration_round_01_2026-06-30\\mediacloud\\outputs\\ghee_relevance_fulltext\\ghee_fulltext_llm_review.xlsx"
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-06-30T09:52:45.083613+00:00",
+  "run_dir": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_adulteration_round_01_2026-06-30",
+  "db_path": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_adulteration_round_01_2026-06-30\\mediacloud\\outputs\\articles.db",
+  "total_discovered_urls": 2614,
+  "review_rows_written": 2611,
+  "previously_reviewed_urls_excluded": 3,
+  "reviewed_url_key_count": 814,
+  "include_reviewed_urls": false,
+  "planned_query_count": 31,
+  "query_family_counts": {
+    "phrase": 1157,
+    "boolean": 1180,
+    "proximity": 204,
+    "title_only": 70
+  },
+  "status_counts": {
+    "pending": 2614
+  },
+  "queries_with_saved_urls": 22,
+  "distinct_domains": 77,
+  "published_date_min": "2021-01-02",
+  "published_date_max": "2026-06-29",
+  "title_screen_counts": {
+    "broad_food_safety_title": 352,
+    "ghee_context_only_in_title": 412,
+    "strong_title_match": 379,
+    "weak_or_body_only_match": 1471
+  },
+  "top_domains": [
+    {
+      "domain": "timesofindia.indiatimes.com",
+      "count": 458
+    },
+    {
+      "domain": "thehansindia.com",
+      "count": 355
+    },
+    {
+      "domain": "thehindu.com",
+      "count": 185
+    },
+    {
+      "domain": "deccanchronicle.com",
+      "count": 153
+    },
+    {
+      "domain": "hindustantimes.com",
+      "count": 151
+    },
+    {
+      "domain": "newindianexpress.com",
+      "count": 123
+    },
+    {
+      "domain": "freepressjournal.in",
+      "count": 120
+    },
+    {
+      "domain": "news18.com",
+      "count": 101
+    },
+    {
+      "domain": "indianexpress.com",
+      "count": 97
+    },
+    {
+      "domain": "dnaindia.com",
+      "count": 81
+    },
+    {
+      "domain": "economictimes.indiatimes.com",
+      "count": 79
+    },
+    {
+      "domain": "siasat.com",
+      "count": 51
+    },
+    {
+      "domain": "thehindubusinessline.com",
+      "count": 46
+    },
+    {
+      "domain": "indiatoday.in",
+      "count": 42
+    },
+    {
+      "domain": "ndtv.com",
+      "count": 38
+    },
+    {
+      "domain": "indiasnews.net",
+      "count": 31
+    },
+    {
+      "domain": "livemint.com",
+      "count": 25
+    },
+    {
+      "domain": "uniindia.com",
+      "count": 25
+    },
+    {
+      "domain": "mid-day.com",
+      "count": 24
+    },
+    {
+      "domain": "newdelhinews.net",
+      "count": 23
+    }
+  ],
+  "notes": [
+    "Ghee Round 1 URL discovery only; article text has not been crawled by this step.",
+    "Only human-approved ghee query terms were used.",
+    "No hidden NOT/exclusion terms or metadata exclusion filters were applied.",
+    "Title screen labels use title, URL, source, and domain metadata only."
+  ]
+}

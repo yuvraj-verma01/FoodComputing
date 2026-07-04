@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-30T18:34:52.934238+00:00",
+  "all_discovered_urls": 2614,
+  "candidate_urls": 1138,
+  "metadata_label_counts": {
+    "likely_relevant": 383,
+    "manual_review": 755,
+    "metadata_drop": 1476
+  },
+  "candidate_priority_counts": {
+    "high": 383,
+    "medium": 755
+  },
+  "cross_corpus_oil_dedupe": "not applied"
+}

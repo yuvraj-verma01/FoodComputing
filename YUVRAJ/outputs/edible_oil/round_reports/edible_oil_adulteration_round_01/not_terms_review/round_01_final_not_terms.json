@@ -1,0 +1,36 @@
+{
+  "generated_for": "round_01",
+  "approved_use": "hard MediaCloud NOT exclusions for the next combined query run",
+  "terms": [
+    "ghee",
+    "vanaspati",
+    "Indonesia",
+    "Joko Widodo",
+    "rupiah",
+    "rupiah per litre",
+    "oil exports",
+    "export ban",
+    "futures",
+    "derivative",
+    "derivatives",
+    "SEBI",
+    "stock market",
+    "domestic market",
+    "solvent extractors association",
+    "million tonnes",
+    "million tonne",
+    "sports drinks",
+    "reused cooking oil",
+    "biodiesel",
+    "bio-diesel",
+    "soda",
+    "diesel",
+    "heroin",
+    "hidden in cooking oil cargo"
+  ],
+  "notes": [
+    "The list normalizes the user's pasted Python snippet, including missing commas.",
+    "Terms are intentionally conservative and focused on recurring junk themes from irrelevant Round 1 articles.",
+    "Positive edible-oil and enforcement terms are not included as NOT exclusions."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-06-23T11:25:10.770375+00:00",
+  "r1_bank_dedup_reference_count": 51,
+  "positive_candidates_total": 169,
+  "positive_source_counts": {
+    "rescue_manual": 9,
+    "extraction_unique_r2_relevant": 160
+  },
+  "positive_label_counts": {
+    "keep_core": 3,
+    "manual_review": 31,
+    "drop": 135
+  },
+  "not_term_candidates_total": 215,
+  "not_term_risk_counts": {
+    "possible_not_candidate": 115,
+    "risky_domain_term_may_drop_relevant": 21,
+    "risky_overlap_with_positive_keyword": 65,
+    "do_not_not_exact_positive_kept": 14
+  },
+  "output_xlsx": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_keyword_review.xlsx",
+  "stale_files_removed": [
+    "round_03_from_round_02_rescue_keyword_review.xlsx",
+    "round_03_from_round_02_rescue_keyword_review_clean.xlsx",
+    "round_03_positive_keyword_review.xlsx",
+    "round_03_not_term_review.xlsx"
+  ]
+}

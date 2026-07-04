@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-06-23T11:40:27.477370+00:00",
+  "final_positive_keywords": 17,
+  "final_not_terms": 6,
+  "positive_keywords": [
+    "tainted edible oil",
+    "unfit edible oil",
+    "mislabelled oils",
+    "refined soybean oil",
+    "edible oil traders",
+    "adulterated food items",
+    "edible oil samples",
+    "substandard edible oil",
+    "collected edible oil samples",
+    "seized adulterated food items",
+    "found substandard",
+    "palm olein oil",
+    "palmolein oil",
+    "oil samples",
+    "edible oils",
+    "food and drug administration",
+    "fake oil"
+  ],
+  "not_terms": [
+    "paneer",
+    "dairy products",
+    "paneer bought",
+    "paneer manufactured",
+    "paneer store",
+    "soybean corn"
+  ]
+}

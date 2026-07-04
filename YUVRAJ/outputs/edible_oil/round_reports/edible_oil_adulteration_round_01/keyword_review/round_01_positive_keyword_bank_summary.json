@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-06-23T06:12:58.400479+00:00",
+  "workbook": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_01\\keyword_review\\round_01_keyword_review.xlsx",
+  "review_rows_total": 164,
+  "review_keep_1_rows": 44,
+  "review_keep_0_or_blank_rows": 120,
+  "removed_agreed_terms": [
+    "adulterated coconut",
+    "adulterated cooking",
+    "adulterated edible",
+    "cooking oils",
+    "edible oil worth",
+    "oil used in india",
+    "sample of the oil",
+    "samples of the seized",
+    "used cooking oil"
+  ],
+  "removed_review_kept_rows": 8,
+  "manual_additions": [
+    "argemone oil",
+    "blending",
+    "cottonseed oil",
+    "counterfeit",
+    "crackdown",
+    "lab test",
+    "loose edible oil",
+    "loose oil",
+    "mineral oil",
+    "mixed with",
+    "palmolein",
+    "quality test",
+    "seizure",
+    "soyabean oil",
+    "unsafe"
+  ],
+  "manual_addition_count": 15,
+  "final_keyword_count": 51,
+  "final_keyword_counts_by_category": {
+    "oil/product": 15,
+    "fraud/adulteration": 10,
+    "adulterant/mixing": 4,
+    "enforcement/evidence": 17,
+    "incident/action phrase": 4,
+    "support/other": 1
+  },
+  "final_keyword_counts_by_query_role": {
+    "product": 15,
+    "fraud_signal": 10,
+    "adulterant_or_mixing_signal": 4,
+    "enforcement_signal": 5,
+    "combine_only": 13,
+    "exact_incident_phrase": 4
+  },
+  "outputs": {
+    "positive_keyword_bank_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_01\\keyword_review\\round_01_positive_keyword_bank.csv",
+    "positive_keyword_bank_json": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_01\\keyword_review\\round_01_positive_keyword_bank.json",
+    "removed_terms_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_01\\keyword_review\\round_01_positive_keywords_removed.csv"
+  }
+}

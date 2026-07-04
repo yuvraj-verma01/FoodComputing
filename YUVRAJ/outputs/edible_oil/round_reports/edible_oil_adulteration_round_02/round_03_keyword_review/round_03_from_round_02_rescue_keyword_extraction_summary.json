@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-06-23T10:24:32.317566+00:00",
+  "source_file": "data\\runs\\edible_oil_adulteration_round_02_2026-06-23\\mediacloud\\outputs\\oil_relevance\\metadata_rescue_fulltext_added.csv",
+  "source_scope": "new unique Round 2 metadata-rescue relevant articles only",
+  "source_round_number": "2",
+  "next_round_target": "3",
+  "source_articles": 8,
+  "source_articles_with_text": 8,
+  "raw_keyword_candidates_before_prior_filter": 129,
+  "prior_keyword_normalized_count": 327,
+  "already_seen_keyword_candidates_removed": 34,
+  "new_keyword_candidates": 95,
+  "candidate_review_label_counts": {
+    "keep_core": 1,
+    "manual_review": 29,
+    "drop": 65
+  },
+  "candidate_category_counts": {
+    "oil/product": 1,
+    "other_candidate": 62,
+    "location": 2,
+    "enforcement/evidence": 21,
+    "adulteration/fraud": 7,
+    "incident/action phrase": 2
+  },
+  "scoring": {
+    "candidate_creation_methods": [
+      "phrase_frequency",
+      "tfidf",
+      "yake"
+    ],
+    "composite_weights": {
+      "tfidf": 0.35,
+      "yake": 0.25,
+      "frequency": 0.15,
+      "document_frequency": 0.15,
+      "method_agreement": 0.1
+    },
+    "review_labels": [
+      "keep_core",
+      "manual_review",
+      "drop"
+    ],
+    "note": "Keyword extraction is heuristic. Exact normalized prior keywords from earlier review/final files were removed."
+  },
+  "outputs": {
+    "keyword_candidates_csv": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_candidates.csv",
+    "keyword_candidates_jsonl": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_candidates.jsonl",
+    "already_seen_keywords_csv": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_already_seen_keywords.csv",
+    "source_articles_csv": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_source_articles.csv",
+    "corpus_text": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_corpus.txt",
+    "keyword_review_workbook": "reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_review.xlsx"
+  }
+}

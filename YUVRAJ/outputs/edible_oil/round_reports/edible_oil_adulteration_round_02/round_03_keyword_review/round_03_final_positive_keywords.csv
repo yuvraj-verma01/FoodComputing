@@ -1,0 +1,18 @@
+keyword,suggested_label,source,category
+tainted edible oil,keep_core,rescue_manual,adulteration/fraud
+unfit edible oil,keep_core,rescue_manual,adulteration/fraud
+mislabelled oils,keep_core,rescue_manual,adulteration/fraud
+refined soybean oil,manual_review,extraction_unique_r2_relevant,oil/product
+edible oil traders,manual_review,extraction_unique_r2_relevant,oil/product
+adulterated food items,manual_review,extraction_unique_r2_relevant,adulteration/fraud
+edible oil samples,manual_review,extraction_unique_r2_relevant,oil/product
+substandard edible oil,manual_review,extraction_unique_r2_relevant,incident/action phrase
+collected edible oil samples,manual_review,extraction_unique_r2_relevant,oil/product
+seized adulterated food items,manual_review,extraction_unique_r2_relevant,incident/action phrase
+found substandard,manual_review,extraction_unique_r2_relevant,adulteration/fraud
+palm olein oil,manual_review,rescue_manual,oil/product
+palmolein oil,drop,extraction_unique_r2_relevant,other_candidate
+oil samples,drop,extraction_unique_r2_relevant,other_candidate
+edible oils,drop,extraction_unique_r2_relevant,other_candidate
+food and drug administration,drop,extraction_unique_r2_relevant,other_candidate
+fake oil,drop,extraction_unique_r2_relevant,adulteration/fraud

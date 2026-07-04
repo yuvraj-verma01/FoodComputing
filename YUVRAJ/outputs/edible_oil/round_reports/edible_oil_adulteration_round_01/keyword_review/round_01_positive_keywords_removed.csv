@@ -1,0 +1,9 @@
+term,removal_reason,original_review_label,original_category,composite_score,document_frequency,total_frequency,example_article_title
+samples of the seized,agreed_remove_or_do_not_use,drop,enforcement/evidence,0.157694,4,4,Health dept seizes 352 boxes of refined oil after 6 hospitalised
+adulterated edible,agreed_remove_or_do_not_use,manual_review,adulteration/fraud,0.109598,8,11,"Nagpur: Adulterated edible oil racket busted, 3 booked | Nagpur News - Times of India"
+adulterated coconut,agreed_remove_or_do_not_use,manual_review,adulteration/fraud,0.100957,4,11,Govt Cracks Down On Sale Of Adulterated Coconut Oil | Thiruvananthapuram News - Times of India
+adulterated cooking,agreed_remove_or_do_not_use,manual_review,adulteration/fraud,0.096088,4,7,How to identify fake cooking oil? (FSSAI recommended tips) - Times of India
+sample of the oil,agreed_remove_or_do_not_use,drop,other_candidate,0.089992,1,1,Court fines 2 for selling adulterated mustard oil in Ghaziabad | Noida News - The Times of India
+oil used in india,agreed_remove_or_do_not_use,manual_review,location,0.087535,1,1,Indians love their mustard oil but it is banned in the US; this is why
+edible oil worth,agreed_remove_or_do_not_use,manual_review,oil/product,0.047122,6,7,FDA adopts zero-tolerance policy for edible oil sold loose and in reused tins | Nagpur News - Times of India
+cooking oils,agreed_remove_or_do_not_use,drop,other_candidate,0.045889,5,10,185 spurious mustard oil cans seized in Burrabazar | Kolkata News - Times of India
