@@ -1,0 +1,31 @@
+[
+  {
+    "id": "fssai-milk-lsd",
+    "title": "FSSAI milk safety survey following Lumpy Skin Disease",
+    "short_title": "Milk safety baseline",
+    "scope": "An official survey baseline focused on selected safety parameters in milk following Lumpy Skin Disease. It is not a complete inventory of every adulteration issue reported in news coverage.",
+    "tested_dimensions": ["Antibiotics and veterinary drug residues", "Pesticide residues", "Heavy metals"],
+    "scope_notes": [
+      "News reports may discuss water dilution, detergent, urea, synthetic milk or caustic soda.",
+      "Those issues should not be treated as tested by this survey unless the underlying report explicitly includes them."
+    ],
+    "numerical_findings": {}
+  },
+  {
+    "id": "fssai-edible-oil-2020",
+    "title": "FSSAI Edible Oil Survey 2020",
+    "short_title": "Edible oil baseline",
+    "year": "2020",
+    "scope": "An official structured and laboratory-tested baseline for edible-oil quality, safety, adulteration indicators and misbranding.",
+    "tested_dimensions": [
+      "Aflatoxins", "Pesticide residues", "Heavy metals", "Refractive index", "Iodine value",
+      "Fatty-acid profile", "BR reading", "Saponification value",
+      "Quality and adulteration indicators", "Misbranding"
+    ],
+    "scope_notes": [
+      "Numerical findings are intentionally omitted until validated report data are supplied.",
+      "Future comparison records will preserve the distinction between tested parameters and issues outside survey scope."
+    ],
+    "numerical_findings": {}
+  }
+]
