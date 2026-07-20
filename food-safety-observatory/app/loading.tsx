@@ -1,0 +1,1 @@
+export default function Loading() { return <div className="section-shell py-24" role="status"><div className="h-3 w-28 animate-pulse bg-[var(--line)]" /><div className="mt-6 h-12 max-w-2xl animate-pulse bg-[var(--paper-deep)]" /><div className="mt-8 h-72 animate-pulse border border-[var(--line)] bg-white/40" /><span className="sr-only">Loading research data</span></div>; }

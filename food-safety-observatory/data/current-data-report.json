@@ -1,0 +1,16 @@
+{
+  "generated_from_project_outputs": true,
+  "total_records": 1558,
+  "by_food_category": {
+    "Ghee": 1055,
+    "Edible Oil": 503
+  },
+  "human_labels": {
+    "pending": 867,
+    "irrelevant": 417,
+    "relevant": 274
+  },
+  "classifier_scored": 514,
+  "local_llm_relevance_fields_included": false,
+  "future_llm_validator_fields_populated": false
+}

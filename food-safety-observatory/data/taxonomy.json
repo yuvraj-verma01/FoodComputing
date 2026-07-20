@@ -1,0 +1,32 @@
+{
+  "status": "provisional",
+  "updated_at": "2026-07-15",
+  "food_categories": [
+    { "id": "food-edible-oil", "name": "Edible Oil", "definition": "Oils intended for human consumption, including named oil types and blends.", "provisional": true },
+    { "id": "food-ghee", "name": "Ghee", "definition": "Clarified milk fat and products marketed as ghee.", "provisional": true },
+    { "id": "food-milk", "name": "Milk", "definition": "Liquid milk and directly equivalent milk products.", "provisional": true },
+    { "id": "food-paneer-dairy", "name": "Paneer and Dairy Products", "definition": "Paneer and dairy products other than milk or ghee.", "provisional": true },
+    { "id": "food-spices", "name": "Spices", "definition": "Whole, ground and blended spices.", "provisional": true },
+    { "id": "food-sweets", "name": "Sweets", "definition": "Prepared sweets and confectionery products.", "provisional": true },
+    { "id": "food-grains-flour", "name": "Grains and Flour", "definition": "Whole grains, milled grain and flour products.", "provisional": true },
+    { "id": "food-honey", "name": "Honey", "definition": "Honey and products marketed as honey.", "provisional": true },
+    { "id": "food-tea-beverages", "name": "Tea and Beverages", "definition": "Tea and non-dairy beverage products.", "provisional": true },
+    { "id": "food-other", "name": "Other Foods", "definition": "Food products not represented by another provisional category.", "provisional": true }
+  ],
+  "issue_categories": [
+    { "id": "issue-adulteration", "name": "Adulteration", "definition": "Addition, removal or alteration that changes the represented composition of a food.", "provisional": true },
+    { "id": "issue-substitution", "name": "Substitution", "definition": "Replacement of an expected ingredient or product with another material.", "provisional": true },
+    { "id": "issue-dilution", "name": "Dilution", "definition": "Reduction in concentration through addition of a lower-value or neutral material.", "provisional": true },
+    { "id": "issue-contamination", "name": "Contamination", "definition": "Unintended presence of a harmful or undesirable substance.", "provisional": true },
+    { "id": "issue-misbranding", "name": "Misbranding", "definition": "Labelling or representation that does not accurately describe the product.", "provisional": true },
+    { "id": "issue-substandard", "name": "Substandard Quality", "definition": "Failure to meet an applicable compositional or quality standard.", "provisional": true },
+    { "id": "issue-unsafe", "name": "Unsafe Food", "definition": "Food assessed or alleged to present a safety risk.", "provisional": true },
+    { "id": "issue-counterfeit", "name": "Counterfeit or Fake Product", "definition": "A product represented as an authentic brand or food when it is not.", "provisional": true },
+    { "id": "issue-prohibited-additive", "name": "Prohibited Additive", "definition": "Use of an additive that is prohibited for the product or use case.", "provisional": true },
+    { "id": "issue-chemical", "name": "Residue or Chemical Hazard", "definition": "Chemical residues or hazards, including pesticides, drugs and heavy metals.", "provisional": true },
+    { "id": "issue-microbial", "name": "Microbial Hazard", "definition": "Food-safety concerns involving pathogenic or indicator microorganisms.", "provisional": true },
+    { "id": "issue-packaging", "name": "Packaging or Labelling Violation", "definition": "Non-compliance involving packaging, declarations or labels.", "provisional": true },
+    { "id": "issue-reuse", "name": "Reuse or Improper Processing", "definition": "Unsafe reuse or processing practices that do not necessarily constitute adulteration.", "provisional": true },
+    { "id": "issue-pending", "name": "Unclear or Pending Classification", "definition": "Insufficient validated information to assign another issue category.", "provisional": true }
+  ]
+}
