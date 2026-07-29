@@ -1,0 +1,33 @@
+import { Activity, Binary, BrainCircuit, CheckCircle2, FileSearch, Scale } from "lucide-react";
+import type { Metadata } from "next";
+import { DataQualityPanel, LimitationsPanel, MethodologyStep, PageIntro, SectionHeading } from "@/components/research-ui";
+import { getArticles, getMetrics } from "@/lib/data-loader";
+import { formatPercent } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Methodology" };
+
+const methods = [
+  ["01", "Article discovery", "Complete", "MediaCloud Indian national and state/local collections are queried with approved phrase, Boolean, title and proximity query families."],
+  ["02", "Scraping and text cleaning", "Complete", "Candidate URLs are crawled and converted into cleaned article text. Retrieval status is retained so inaccessible records are not silently treated as irrelevant."],
+  ["03", "Manual relevance labelling", "In progress", "Reviewers mark whether each article is about adulteration of the target food. Irrelevant records remain in the repository as an audit trail."],
+  ["04", "Classifier training and cross-validation", "Complete", "Models are evaluated with five-fold cross-validation. Predictions shown for training data are out-of-fold, not fitted-label scores."],
+  ["05", "Large-model event validation", "Planned", "A larger language model will validate event presence after classifier scoring. This is separate from classifier training and is not yet represented in the data export."],
+  ["06", "Entity extraction and manual validation", "In progress", "Food item, issue, location, quantity, authority, action and event date will be extracted and then manually checked."],
+  ["07", "Ontology mapping", "Planned", "Validated entities will be linked to the Indian food ontology with stable identifiers and documented parent-child relationships."],
+  ["08", "FSSAI comparison", "Planned", "News issues will be assessed as aligned, divergent or outside survey scope only after extraction and parameter matching."],
+] as const;
+
+export default function MethodologyPage() {
+  const metrics = getMetrics(getArticles());
+  return <><PageIntro eyebrow="Methodology" title="From broad discovery to validated incident evidence" description="The project separates retrieval, human relevance judgements, trained-classifier predictions, future large-model validation and structured extraction. Each stage has a different evidentiary role." aside={<p>Reproducibility requires preserving rejected records, model versions, query families and human-review provenance alongside the final corpus.</p>} /><div className="section-shell py-14"><SectionHeading eyebrow="Research pipeline" title="Current implementation stages" /> <div className="mt-8">{methods.map(([number, title, status, description]) => <MethodologyStep key={number} number={number} title={title} status={status}>{description}</MethodologyStep>)}</div>
+
+    <section className="mt-20"><SectionHeading eyebrow="Classifier results" title="Edible-oil winning ensemble" description="Results are from the final full-article experiment on 486 labelled edible-oil records using five-fold cross-validation." /><div className="mt-8 grid gap-px bg-[var(--line)] sm:grid-cols-2 lg:grid-cols-4"><ResultMetric label="Accuracy" value={.9095} /><ResultMetric label="Precision" value={.8682} /><ResultMetric label="Recall" value={.8058} /><ResultMetric label="F1 score" value={.8358} /></div><div className="mt-7 grid gap-6 lg:grid-cols-3"><ModelComponent icon={Binary} title="TF-IDF Linear SVM">A sparse lexical model using full article text.</ModelComponent><ModelComponent icon={Activity} title="BGE-large RBF-SVM">A sentence-embedding model using oil-relevant text windows; this component carries the largest ensemble weight.</ModelComponent><ModelComponent icon={BrainCircuit} title="RoBERTa classifier">A transformer classifier using the article lead and full-text representation.</ModelComponent></div><p className="mt-5 text-sm leading-6 text-[var(--muted)]">Weighted ensemble: 0.17 TF-IDF Linear SVM, 0.67 BGE-large embedding RBF-SVM, and 0.17 RoBERTa. ROC-AUC: 0.9424; PR-AUC: 0.8991.</p></section>
+
+    <section className="mt-20 grid gap-8 lg:grid-cols-[1.2fr_.8fr]"><div><SectionHeading eyebrow="Evaluation concepts" title="Precision, recall, soundness and completeness" /><div className="mt-7 grid gap-5 sm:grid-cols-2"><Concept title="Precision" icon={CheckCircle2}>Among records predicted relevant, the proportion that are relevant under the human-review criteria.</Concept><Concept title="Recall" icon={FileSearch}>Among human-labelled relevant records, the proportion recovered by the classifier.</Concept><Concept title="Soundness" icon={Scale}>Whether extracted claims are supported by article evidence and valid mappings, assessed through manual validation and evidence spans.</Concept><Concept title="Completeness" icon={FileSearch}>Whether the pipeline retrieves and extracts the relevant evidence in scope. Neither MediaCloud coverage nor web crawling guarantees completeness.</Concept></div></div><DataQualityPanel total={metrics.total} reviewed={metrics.reviewed} scored={metrics.classifierScored} extraction={metrics.extractionComplete} /></section>
+
+    <div className="mt-14"><LimitationsPanel>The reported classifier metrics apply to the labelled edible-oil corpus and its cross-validation design. The unchanged transfer test on ghee showed substantial domain shift and should not be read as a final ghee classifier. Large-model event validation and entity extraction remain future stages.</LimitationsPanel></div></div></>;
+}
+
+function ResultMetric({ label, value }: { label: string; value: number }) { return <div className="bg-[var(--white)] p-6"><p className="text-sm text-[var(--muted)]">{label}</p><p className="font-editorial mt-4 text-4xl text-[var(--maroon-dark)]">{formatPercent(value, 1)}</p></div>; }
+function ModelComponent({ icon: Icon, title, children }: { icon: typeof Activity; title: string; children: React.ReactNode }) { return <article className="border border-[var(--line)] bg-[var(--white)] p-6"><Icon className="h-5 w-5 text-[var(--saffron)]" /><h3 className="font-editorial mt-5 text-2xl text-[var(--maroon-dark)]">{title}</h3><p className="mt-3 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }
+function Concept({ icon: Icon, title, children }: { icon: typeof Activity; title: string; children: React.ReactNode }) { return <article className="border-t-2 border-[var(--saffron)] pt-5"><Icon className="h-5 w-5 text-[var(--maroon)]" /><h3 className="font-editorial mt-4 text-2xl">{title}</h3><p className="mt-2 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }

@@ -1,0 +1,875 @@
+2026-06-28 19:39:34,287 [INFO] Loaded 17 seed articles
+2026-06-28 19:39:34,287 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-28 19:41:14,025 [INFO] Loaded 17 seed articles
+2026-06-28 19:41:14,025 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:23:51,891 [INFO] Loaded 17 seed articles
+2026-06-29 12:23:51,899 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:27:09,921 [INFO] Loaded 17 seed articles
+2026-06-29 12:27:09,921 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:30:10,591 [INFO] Loaded 17 seed articles
+2026-06-29 12:30:10,592 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:30:10,592 [INFO] Loading KeyBERT model...
+2026-06-29 12:30:10,637 [INFO] Use pytorch device_name: cpu
+2026-06-29 12:30:10,637 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 12:30:15,320 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-06-29 12:30:48,346 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 12:31:31,191 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf', 'govt toxic milk']
+2026-06-29 12:35:42,588 [INFO] Loaded 17 seed articles
+2026-06-29 12:35:43,268 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:35:43,269 [INFO] Loading KeyBERT model...
+2026-06-29 12:35:43,288 [INFO] Use pytorch device_name: cpu
+2026-06-29 12:35:43,288 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 12:35:48,647 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 12:36:09,629 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 12:36:09,629 [WARNING] MC_API_TOKEN environment variable not set. Using mock results for testing.
+2026-06-29 12:36:09,631 [INFO] Round 1: 0 raw results fetched
+2026-06-29 12:36:09,632 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 12:37:01,779 [INFO] Round 1: 0 articles kept after manual filter
+2026-06-29 12:37:01,781 [WARNING] Round 1 found 0 passing articles — stopping early.
+2026-06-29 12:37:01,781 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-06-29 12:37:05,049 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-29 12:37:07,147 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-06-29 12:37:08,731 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-govt-plans-regulatory-authority-like-eagle-and-hydraa-to-curb-food-adulteration-cm/article70802831.ece
+2026-06-29 12:37:10,481 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-cognisance-of-16-deaths-due-to-adulterated-milk-seeks-report-1946513
+2026-06-29 12:37:12,283 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-06-29 12:37:13,933 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-06-29 12:37:15,727 [INFO] Scraping: https://www.news18.com/agency-feeds/nhrc-takes-suo-motu-cognisance-of-285-inmate-deaths-in-chhattisgarh-jails-9998160.html
+2026-06-29 12:37:17,200 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-06-29 12:37:19,083 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-06-29 12:37:20,585 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-29 12:37:22,340 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-29 12:37:23,811 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-06-29 12:37:25,199 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-29 12:37:26,707 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-29 12:37:28,064 [INFO] Scraping: https://dailypioneer.com/news/the-growing-menace-of-milk-adulteration-in-india
+2026-06-29 12:37:29,764 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-29 12:37:31,302 [INFO] Deduped from 17 to 17 articles.
+2026-06-29 12:37:31,397 [INFO] Pipeline complete. Final dataset: 17 articles.
+2026-06-29 12:40:50,498 [INFO] Loaded 17 seed articles
+2026-06-29 12:40:50,648 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:40:50,648 [INFO] Loading KeyBERT model...
+2026-06-29 12:40:50,669 [INFO] Use pytorch device_name: cpu
+2026-06-29 12:40:50,669 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 12:40:55,548 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 12:41:18,936 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 12:41:18,938 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 12:41:20,371 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 2 seconds...
+2026-06-29 12:41:23,680 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 4 seconds...
+2026-06-29 12:41:28,414 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 8 seconds...
+2026-06-29 12:41:37,713 [ERROR] Failed after 3 retries: 403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search
+2026-06-29 12:42:56,680 [INFO] Loaded 17 seed articles
+2026-06-29 12:42:56,681 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 12:42:56,681 [INFO] Loading KeyBERT model...
+2026-06-29 12:42:56,688 [INFO] Use pytorch device_name: cpu
+2026-06-29 12:42:56,688 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 12:43:01,494 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 12:43:25,301 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 12:43:25,307 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 12:43:26,560 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 2 seconds...
+2026-06-29 12:43:29,799 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 4 seconds...
+2026-06-29 12:43:34,511 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 8 seconds...
+2026-06-29 12:43:43,099 [ERROR] Failed after 3 retries: 403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search
+2026-06-29 13:23:29,695 [INFO] Loaded 17 seed articles
+2026-06-29 13:23:29,696 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:23:29,696 [INFO] Loading KeyBERT model...
+2026-06-29 13:23:29,697 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:23:29,697 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:23:35,241 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:23:52,124 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:23:52,124 [WARNING] MC_API_TOKEN environment variable not set. Using mock results for testing.
+2026-06-29 13:23:52,124 [INFO] Round 1: 0 raw results fetched
+2026-06-29 13:23:52,124 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 13:24:31,035 [INFO] Loaded 17 seed articles
+2026-06-29 13:24:31,035 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:24:31,035 [INFO] Loading KeyBERT model...
+2026-06-29 13:24:31,035 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:24:31,035 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:24:35,006 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:24:48,679 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:24:48,679 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 13:24:49,635 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 2 seconds...
+2026-06-29 13:24:52,844 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 4 seconds...
+2026-06-29 13:24:57,783 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 8 seconds...
+2026-06-29 13:34:31,441 [INFO] Loaded 17 seed articles
+2026-06-29 13:34:31,441 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:34:31,446 [INFO] Loading KeyBERT model...
+2026-06-29 13:34:31,454 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:34:31,454 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:34:35,985 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:35:00,195 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:35:00,200 [WARNING] MC_API_TOKEN environment variable not set. Using mock results for testing.
+2026-06-29 13:35:00,203 [INFO] Round 1: 0 raw results fetched
+2026-06-29 13:35:00,205 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 13:39:12,969 [INFO] Loaded 17 seed articles
+2026-06-29 13:39:12,969 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:39:12,969 [INFO] Loading KeyBERT model...
+2026-06-29 13:39:12,978 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:39:12,978 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:39:17,138 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:39:31,843 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:39:31,843 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 13:39:33,303 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 2 seconds...
+2026-06-29 13:39:36,393 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 4 seconds...
+2026-06-29 13:39:41,012 [WARNING] Request failed (403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search). Retrying in 8 seconds...
+2026-06-29 13:39:50,344 [ERROR] Failed after 3 retries: 403 Client Error: Forbidden for url: https://search.mediacloud.org/api/search
+2026-06-29 13:47:04,180 [INFO] Loaded 17 seed articles
+2026-06-29 13:47:04,180 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:47:04,180 [INFO] Loading KeyBERT model...
+2026-06-29 13:47:04,180 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:47:04,180 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:47:08,432 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:47:21,845 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:47:21,845 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 13:49:02,441 [INFO] Loaded 17 seed articles
+2026-06-29 13:49:02,442 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:49:02,442 [INFO] Loading KeyBERT model...
+2026-06-29 13:49:02,446 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:49:02,446 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 13:49:06,586 [INFO] Extracting keywords from 17 documents using KeyBERT...
+2026-06-29 13:49:21,202 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'chhattisgarh jails nhrc', 'milk andhra rajahmundry', 'milk inspections surveillance']
+2026-06-29 13:49:21,202 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "chhattisgarh jails nhrc" OR "milk andhra rajahmundry" OR "milk inspections surveillance")
+2026-06-29 13:49:22,601 [WARNING] Request failed (405 Client Error: Method Not Allowed for url: https://search.mediacloud.org/api/search/). Retrying in 2 seconds...
+2026-06-29 13:49:25,902 [WARNING] Request failed (405 Client Error: Method Not Allowed for url: https://search.mediacloud.org/api/search/). Retrying in 4 seconds...
+2026-06-29 13:49:30,645 [WARNING] Request failed (405 Client Error: Method Not Allowed for url: https://search.mediacloud.org/api/search/). Retrying in 8 seconds...
+2026-06-29 13:49:40,257 [ERROR] Failed after 3 retries: 405 Client Error: Method Not Allowed for url: https://search.mediacloud.org/api/search/
+2026-06-29 13:54:53,033 [INFO] Loaded 17 seed articles
+2026-06-29 13:54:53,033 [INFO] --- Round 1 starting with 17 articles in pool ---
+2026-06-29 13:54:53,033 [INFO] Loading KeyBERT model...
+2026-06-29 13:54:53,035 [INFO] Use pytorch device_name: cpu
+2026-06-29 13:54:53,035 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 14:02:00,235 [INFO] Loaded 16 seed articles
+2026-06-29 14:02:00,235 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 14:02:00,235 [INFO] Loading KeyBERT model...
+2026-06-29 14:02:00,235 [INFO] Use pytorch device_name: cpu
+2026-06-29 14:02:00,235 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 14:02:05,144 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 14:02:18,588 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 14:02:18,588 [INFO] Fetching Media Cloud with query: ("adulteration detected milk" OR "milk marketed delhi" OR "officials examined milk" OR "milk andhra rajahmundry" OR "milk inspections surveillance" OR "milk federation kmf")
+2026-06-29 14:02:19,965 [INFO] Retrieved 0 articles from Media Cloud.
+2026-06-29 14:02:19,965 [INFO] Round 1: 0 raw results fetched
+2026-06-29 14:02:19,965 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 14:06:44,283 [INFO] Round 1: 0 articles kept after manual filter
+2026-06-29 14:06:44,283 [WARNING] Round 1 found 0 passing articles — stopping early.
+2026-06-29 14:06:44,283 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-06-29 14:06:46,168 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-29 14:06:48,164 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-06-29 14:06:49,585 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-govt-plans-regulatory-authority-like-eagle-and-hydraa-to-curb-food-adulteration-cm/article70802831.ece
+2026-06-29 14:06:51,356 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-cognisance-of-16-deaths-due-to-adulterated-milk-seeks-report-1946513
+2026-06-29 14:06:53,098 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-06-29 14:06:54,579 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-06-29 14:06:56,234 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-06-29 14:06:58,564 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-06-29 14:07:00,113 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-29 14:07:01,710 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-29 14:07:03,114 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-06-29 14:07:04,448 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-29 14:07:06,149 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-29 14:07:07,899 [INFO] Scraping: https://dailypioneer.com/news/the-growing-menace-of-milk-adulteration-in-india
+2026-06-29 14:07:09,882 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-29 14:07:11,390 [INFO] Deduped from 16 to 16 articles.
+2026-06-29 14:07:11,392 [INFO] Pipeline complete. Final dataset: 16 articles.
+2026-06-29 14:11:22,966 [INFO] Loaded 16 seed articles
+2026-06-29 14:11:22,966 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 14:11:22,966 [INFO] Loading KeyBERT model...
+2026-06-29 14:11:22,966 [INFO] Use pytorch device_name: cpu
+2026-06-29 14:11:22,966 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 14:11:27,837 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 14:11:42,065 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 14:11:42,065 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 14:11:43,299 [INFO] Retrieved 0 articles from Media Cloud.
+2026-06-29 14:11:43,299 [INFO] Round 1: 0 raw results fetched
+2026-06-29 14:11:43,299 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 14:12:40,536 [INFO] Round 1: 0 articles kept after manual filter
+2026-06-29 14:12:40,548 [WARNING] Round 1 found 0 passing articles — stopping early.
+2026-06-29 14:12:40,548 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-06-29 14:12:42,743 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-29 14:12:44,775 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-06-29 14:12:46,569 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-govt-plans-regulatory-authority-like-eagle-and-hydraa-to-curb-food-adulteration-cm/article70802831.ece
+2026-06-29 14:12:48,636 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-cognisance-of-16-deaths-due-to-adulterated-milk-seeks-report-1946513
+2026-06-29 14:12:50,153 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-06-29 14:12:51,649 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-06-29 14:12:53,524 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-06-29 14:12:55,375 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-06-29 14:12:57,073 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-29 14:12:58,742 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-29 14:13:00,258 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-06-29 14:13:01,617 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-29 14:13:04,000 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-29 14:13:05,372 [INFO] Scraping: https://dailypioneer.com/news/the-growing-menace-of-milk-adulteration-in-india
+2026-06-29 14:13:06,940 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-29 14:13:08,461 [INFO] Deduped from 16 to 16 articles.
+2026-06-29 14:13:08,463 [INFO] Pipeline complete. Final dataset: 16 articles.
+2026-06-29 14:13:34,983 [INFO] Loaded 16 seed articles
+2026-06-29 14:13:34,983 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 14:13:34,983 [INFO] Loading KeyBERT model...
+2026-06-29 14:13:34,990 [INFO] Use pytorch device_name: cpu
+2026-06-29 14:13:34,990 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 14:13:39,087 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 14:13:52,225 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 14:13:52,225 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 14:13:53,352 [INFO] Retrieved 0 articles from Media Cloud.
+2026-06-29 14:13:53,352 [INFO] Round 1: 0 raw results fetched
+2026-06-29 14:13:53,352 [INFO] Round 1: 0/0 passed automated relevance filter
+2026-06-29 19:13:59,950 [INFO] Loaded 16 seed articles
+2026-06-29 19:13:59,950 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 19:13:59,950 [INFO] Loading KeyBERT model...
+2026-06-29 19:13:59,970 [INFO] Use pytorch device_name: cpu
+2026-06-29 19:13:59,970 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 19:14:05,954 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 19:14:37,661 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 19:14:37,661 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 19:14:39,128 [WARNING] Request failed (422 Client Error: Unprocessable Entity for url: https://search.mediacloud.org/api/search/story-list?q=%28milk+AND+%28%28adulteration+AND+detected+AND+milk%29+OR+%28milk+AND+marketed+AND+delhi%29+OR+%28officials+AND+examined+AND+milk%29+OR+%28milk+AND+andhra+AND+rajahmundry%29+OR+%28milk+AND+inspections+AND+surveillance%29+OR+%28milk+AND+federation+AND+kmf%29%29%29&platform=onlinenews-mediacloud&start=2021-01-01&end=2026-06-29&page_size=200). Retrying in 2 seconds...
+2026-06-29 19:14:42,308 [WARNING] Request failed (422 Client Error: Unprocessable Entity for url: https://search.mediacloud.org/api/search/story-list?q=%28milk+AND+%28%28adulteration+AND+detected+AND+milk%29+OR+%28milk+AND+marketed+AND+delhi%29+OR+%28officials+AND+examined+AND+milk%29+OR+%28milk+AND+andhra+AND+rajahmundry%29+OR+%28milk+AND+inspections+AND+surveillance%29+OR+%28milk+AND+federation+AND+kmf%29%29%29&platform=onlinenews-mediacloud&start=2021-01-01&end=2026-06-29&page_size=200). Retrying in 4 seconds...
+2026-06-29 19:14:47,628 [WARNING] Request failed (429 Client Error: Too Many Requests for url: https://search.mediacloud.org/api/search/story-list?q=%28milk+AND+%28%28adulteration+AND+detected+AND+milk%29+OR+%28milk+AND+marketed+AND+delhi%29+OR+%28officials+AND+examined+AND+milk%29+OR+%28milk+AND+andhra+AND+rajahmundry%29+OR+%28milk+AND+inspections+AND+surveillance%29+OR+%28milk+AND+federation+AND+kmf%29%29%29&platform=onlinenews-mediacloud&start=2021-01-01&end=2026-06-29&page_size=200). Retrying in 8 seconds...
+2026-06-29 19:14:57,049 [ERROR] Failed after 3 retries: 429 Client Error: Too Many Requests for url: https://search.mediacloud.org/api/search/story-list?q=%28milk+AND+%28%28adulteration+AND+detected+AND+milk%29+OR+%28milk+AND+marketed+AND+delhi%29+OR+%28officials+AND+examined+AND+milk%29+OR+%28milk+AND+andhra+AND+rajahmundry%29+OR+%28milk+AND+inspections+AND+surveillance%29+OR+%28milk+AND+federation+AND+kmf%29%29%29&platform=onlinenews-mediacloud&start=2021-01-01&end=2026-06-29&page_size=200
+2026-06-29 19:28:08,954 [INFO] Loaded 16 seed articles
+2026-06-29 19:28:08,963 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 19:28:08,963 [INFO] Loading KeyBERT model...
+2026-06-29 19:28:08,969 [INFO] Use pytorch device_name: cpu
+2026-06-29 19:28:08,969 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 19:28:16,076 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 19:28:40,269 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 19:28:40,269 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 19:29:00,774 [WARNING] Request failed (HTTPSConnectionPool(host='search.mediacloud.org', port=443): Read timed out. (read timeout=20)). Retrying in 2 seconds...
+2026-06-29 19:29:23,081 [WARNING] Request failed (HTTPSConnectionPool(host='search.mediacloud.org', port=443): Read timed out. (read timeout=20)). Retrying in 4 seconds...
+2026-06-29 19:29:47,686 [WARNING] Request failed (HTTPSConnectionPool(host='search.mediacloud.org', port=443): Read timed out. (read timeout=20)). Retrying in 8 seconds...
+2026-06-29 19:30:16,128 [ERROR] Failed after 3 retries: HTTPSConnectionPool(host='search.mediacloud.org', port=443): Read timed out. (read timeout=20)
+2026-06-29 19:35:53,627 [INFO] Loaded 16 seed articles
+2026-06-29 19:35:53,631 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 19:35:53,631 [INFO] Loading KeyBERT model...
+2026-06-29 19:35:53,652 [INFO] Use pytorch device_name: cpu
+2026-06-29 19:35:53,652 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 19:36:00,660 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 19:36:42,538 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 19:36:42,538 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 19:37:19,733 [INFO] Retrieved 200 articles from Media Cloud.
+2026-06-29 19:37:19,765 [INFO] Round 1: 200 raw results fetched
+2026-06-29 19:37:19,765 [INFO] Round 1: 0/200 passed automated relevance filter
+2026-06-29 19:49:16,631 [INFO] Loaded 16 seed articles
+2026-06-29 19:49:16,631 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-06-29 19:49:16,631 [INFO] Loading KeyBERT model...
+2026-06-29 19:49:16,631 [INFO] Use pytorch device_name: cpu
+2026-06-29 19:49:16,631 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-29 19:49:21,656 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-06-29 19:49:37,817 [INFO] Round 1: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'milk federation kmf']
+2026-06-29 19:49:37,817 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (milk AND federation AND kmf)))
+2026-06-29 19:50:27,608 [INFO] Retrieved 200 articles from Media Cloud.
+2026-06-29 19:50:27,608 [INFO] Round 1: 200 raw results fetched
+2026-06-29 19:50:27,624 [INFO] Round 1: 84/200 passed automated relevance filter
+2026-06-29 19:50:28,368 [INFO] Round 1: 84 articles kept after manual filter
+2026-06-29 19:50:28,368 [INFO] --- Round 2 starting with 84 articles in pool ---
+2026-06-29 19:50:28,368 [INFO] Extracting keywords from 84 documents using KeyBERT...
+2026-06-29 19:50:32,001 [INFO] Round 2: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'nandini milk price', 'contaminated milk anuria', 'milk safety inspections']
+2026-06-29 19:50:32,001 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (nandini AND milk AND price) OR (contaminated AND milk AND anuria) OR (milk AND safety AND inspections)))
+2026-06-29 19:51:24,236 [INFO] Retrieved 200 articles from Media Cloud.
+2026-06-29 19:51:24,245 [INFO] Round 2: 200 raw results fetched
+2026-06-29 19:51:24,245 [INFO] Round 2: 78/200 passed automated relevance filter
+2026-06-29 20:03:38,836 [INFO] Round 2: 43 articles kept after manual filter
+2026-06-29 20:03:38,836 [INFO] --- Round 3 starting with 43 articles in pool ---
+2026-06-29 20:03:38,836 [INFO] Extracting keywords from 43 documents using KeyBERT...
+2026-06-29 20:03:40,671 [INFO] Round 3: keywords = ['adulteration detected milk', 'milk marketed delhi', 'officials examined milk', 'toxins contaminated milk', 'adulterated milk toll', 'andhra milk contamination']
+2026-06-29 20:03:40,671 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (milk AND marketed AND delhi) OR (officials AND examined AND milk) OR (toxins AND contaminated AND milk) OR (adulterated AND milk AND toll) OR (andhra AND milk AND contamination)))
+2026-06-29 20:04:01,588 [INFO] Retrieved 200 articles from Media Cloud.
+2026-06-29 20:04:01,596 [INFO] Round 3: 200 raw results fetched
+2026-06-29 20:04:01,600 [INFO] Round 3: 89/200 passed automated relevance filter
+2026-06-30 15:37:03,987 [INFO] Round 3: 80 articles kept after manual filter
+2026-06-30 15:37:04,272 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-06-30 15:37:12,849 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-30 15:37:15,268 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-06-30 15:37:16,858 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-govt-plans-regulatory-authority-like-eagle-and-hydraa-to-curb-food-adulteration-cm/article70802831.ece
+2026-06-30 15:37:19,106 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-cognisance-of-16-deaths-due-to-adulterated-milk-seeks-report-1946513
+2026-06-30 15:37:20,648 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-06-30 15:37:22,450 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-06-30 15:37:24,406 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-06-30 15:37:26,187 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-06-30 15:37:27,998 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-30 15:37:29,840 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-30 15:37:34,283 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-06-30 15:37:35,776 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-30 15:37:37,687 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-30 15:37:39,149 [INFO] Scraping: https://dailypioneer.com/news/the-growing-menace-of-milk-adulteration-in-india
+2026-06-30 15:37:40,706 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-30 15:37:42,341 [INFO] Scraping: https://www.newindianexpress.com/states/karnataka/2026/Jun/25/bengaluru-based-nianp-to-up-fat-ratio-in-milk-for-better-nutrition
+2026-06-30 15:37:44,690 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/nandini-milk-reels-karnataka-high-court-declines-stay-on-fir-against-doctor/articleshow/131916413.cms
+2026-06-30 15:37:46,439 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/nandini-milk-reels-karnataka-high-court-declines-stay-on-fir-against-doctor/articleshow/131916414.cms
+2026-06-30 15:37:48,044 [INFO] Scraping: https://www.thenewsminute.com/karnataka/have-you-tested-it-karnataka-hc-to-doctor-over-viral-claims-against-nandini-milk
+2026-06-30 15:37:49,888 [INFO] Scraping: https://indianexpress.com/article/legal-news/karnataka-high-court-allows-probe-into-bengaluru-doctor-over-nandini-milk-safety-reels-10751705/
+2026-06-30 15:37:51,676 [INFO] Scraping: https://www.siasat.com/fssai-busts-adulterated-milk-supply-network-to-bengaluru-3493472/
+2026-06-30 15:37:53,234 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/whats-in-your-cuppa-fssai-cracks-down-on-cheap-milk-route-to-bengaluru/articleshow/131878725.cms
+2026-06-30 15:37:54,904 [INFO] Scraping: https://thelogicalindian.com/hyderabad-police-seizes-825-kg-fake-paneer-made-of-synthetic-milk-vegetable-fat/
+2026-06-30 15:37:56,899 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/no-sweat-this-summer-karnataka-co-operative-milk-producers-federation-clocks-record-1-crore-litres-of-milk-a-day/articleshow/131805863.cms
+2026-06-30 15:37:58,521 [INFO] Scraping: https://www.forbesindia.com/blog/enterprise/amul-vs-nandini-is-the-geopolitics-over-milk-just-an-extension-of-age-old-rivalries-or-the-beginning-of-a-new-trend-328799.html
+2026-06-30 15:38:00,435 [INFO] Scraping: https://indianexpress.com/article/cities/mumbai/maharashtra-fda-gutkha-food-adulteration-crackdown-10713418/
+2026-06-30 15:38:03,476 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-06-30 15:38:05,241 [INFO] Scraping: https://www.india.com/hindi-news/gallery-hindi/which-state-has-the-cheapest-and-costliest-milk-per-litre-amul-nandini-mother-dairy-8413832/
+2026-06-30 15:38:05,596 [ERROR] Failed to scrape https://www.india.com/hindi-news/gallery-hindi/which-state-has-the-cheapest-and-costliest-milk-per-litre-amul-nandini-mother-dairy-8413832/: 403 Client Error: Forbidden for url: https://www.india.com/hindi-news/gallery-hindi/which-state-has-the-cheapest-and-costliest-milk-per-litre-amul-nandini-mother-dairy-8413832/
+2026-06-30 15:38:06,609 [INFO] Scraping: https://www.bhaskar.com/local/rajasthan/sikar/ranoli/news/palsana-saras-dairy-milk-adulteration-water-detected-consumers-aware-2026-137752226.html
+2026-06-30 15:38:08,339 [INFO] Scraping: https://www.newindianexpress.com/states/karnataka/2026/Apr/15/karnataka-milk-federation-records-sharp-rise-in-milk-collection-despite-rising-temperatures
+2026-06-30 15:38:10,671 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-30 15:38:12,165 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-milk-adulteration-shock-detergent-urea-found-again-after-deaths-officials-issue-warning-suchi-1510406.html
+2026-06-30 15:38:13,734 [INFO] Scraping: https://www.thehansindia.com/news/cities/bengaluru/nandini-brand-under-threat-allegations-of-lookalike-milk-packets-spark-concern-in-karnataka-1061753
+2026-06-30 15:38:15,364 [INFO] Scraping: https://starofmysore.com/nandini-milk-price-to-go-up/
+2026-06-30 15:38:17,442 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/nhrc-issues-notice-to-officials-over-rajahmundry-contaminated-milk-incident-sj-1507587.html
+2026-06-30 15:38:18,886 [INFO] Scraping: https://www.freepressjournal.in/indore/indore-news-dairy-units-under-scanner-after-andhra-milk-incident
+2026-06-30 15:38:20,932 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-adulterated-milk-tragedy-16-dead-another-victim-dies-in-hospital-two-critical-vvnp-1506237.html
+2026-06-30 15:38:22,379 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/death-toll-in-andhra-milk-adulteration-case/article70772116.ece
+2026-06-30 15:38:25,370 [INFO] Scraping: https://www.livemint.com/news/india/andhra-pradesh-milk-adulteration-case-16-dead-dairys-milk-supply-suspended-what-did-preliminary-inquiry-reveal-11774172786384.html
+2026-06-30 15:38:27,037 [INFO] Scraping: https://www.news18.com/agency-feeds/death-toll-rises-to-16-in-andhra-milk-adulteration-case-9990734.html
+2026-06-30 15:38:28,957 [INFO] Scraping: https://www.news18.com/cities/bengaluru-news/bengaluru-hotels-reduce-milk-orders-by-25-nandini-sales-take-a-hit-skn-ws-l-9990934.html
+2026-06-30 15:38:30,765 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:38:31,008 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:38:32,019 [INFO] Scraping: https://www.siasat.com/death-toll-rises-to-16-in-andhra-milk-adulteration-case-3438886/
+2026-06-30 15:38:34,130 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-rises-to-16-3940440
+2026-06-30 15:38:36,594 [INFO] Scraping: https://timesofindia.indiatimes.com/life-style/food-news/15-die-after-drinking-milk-contaminated-with-ethylene-glycol-how-to-do-milk-purity-test-and-5-other-calcium-rich-foods-to-consume/photostory/129640071.cms
+2026-06-30 15:38:41,363 [INFO] Scraping: https://timesofindia.indiatimes.com/technology/tech-news/flipkart-may-be-facing-problem-with-its-new-rs-1-milk-offers/articleshow/129632652.cms
+2026-06-30 15:38:43,240 [INFO] Scraping: https://www.freepressjournal.in/tech/flipkarts-re-1-milk-sale-sparks-farmer-outrage-cci-complaint-filed
+2026-06-30 15:38:45,207 [INFO] Scraping: https://www.business-standard.com/companies/news/bamul-chief-slams-flipkart-over-re-1-milk-sale-flags-impact-on-farmers-126031400837_1.html
+2026-06-30 15:38:45,477 [ERROR] Failed to scrape https://www.business-standard.com/companies/news/bamul-chief-slams-flipkart-over-re-1-milk-sale-flags-impact-on-farmers-126031400837_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/companies/news/bamul-chief-slams-flipkart-over-re-1-milk-sale-flags-impact-on-farmers-126031400837_1.html
+2026-06-30 15:38:46,492 [INFO] Scraping: https://www.thehansindia.com/karnataka/over-3000-adulterated-milk-samples-detected-across-state-in-one-year-1056529
+2026-06-30 15:38:47,953 [INFO] Scraping: https://economictimes.indiatimes.com/industry/services/retail/bamul-president-slams-flipkart-over-selling-milk-for-re-1-per-litre/articleshow/129578184.cms
+2026-06-30 15:38:49,752 [INFO] Scraping: https://indianexpress.com/article/cities/hyderabad/rajahmundry-milk-adulteration-toll-rises-to-13-after-toxic-fridge-coolant-leaks-into-milk-supply-10579534/
+2026-06-30 15:38:52,231 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-30 15:38:54,010 [INFO] Scraping: https://assamtribune.com/national/death-toll-in-andhra-milk-adulteration-case-climbs-to-13-1609333
+2026-06-30 15:38:56,073 [INFO] Scraping: https://thelogicalindian.com/13-dead-after-consuming-toxic-milk-in-andhra-pradesh-dairy-supplying-106-families-under-investigation/
+2026-06-30 15:38:59,701 [INFO] Scraping: https://www.news18.com/business/economy/fssai-makes-registration-mandatory-for-independent-milk-producers-vendors-ws-l-9956557.html
+2026-06-30 15:39:01,779 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-30 15:39:03,223 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/food-safety-officials-launch-awareness-drive-on-milk-adulteration-1942879
+2026-06-30 15:39:04,925 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/telangana-vijaya-dairy-alleges-adulteration-in-ap-vijaya-ghee-1055114
+2026-06-30 15:39:06,209 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/death-toll-due-to-adulterated-milk-in-andhra-pradesh-rises-to-12
+2026-06-30 15:39:08,177 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/ap-milk-contamination-death-toll-rises-to-10-toxic-antifreeze-presence-confirmed
+2026-06-30 15:39:09,993 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/visakhapatnam/rajahmundry-adulterated-milk-tragedy-ethylene-glycol-poisoning-confirmed-in-forensic-report-erk-1501464.html
+2026-06-30 15:39:11,356 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-06-30 15:39:12,765 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/adulterated-milk-76-year-old-man-among-six-dead-1941032
+2026-06-30 15:39:14,133 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/ap-crackdown-after-milk-contamination-claims-5-lives-1052137
+2026-06-30 15:39:15,406 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-adulterated-milk-victims-treated-with-fomepizole-minister-durgesh-avn-1498526.html
+2026-06-30 15:39:16,898 [INFO] Scraping: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-06-30 15:39:17,253 [ERROR] Failed to scrape https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054: 410 Client Error: Gone for url: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-06-30 15:39:18,262 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/fifteen-people-affected-by-milk-adulteration-in-andhra-still-in-hospitals
+2026-06-30 15:39:20,266 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-30 15:39:21,876 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-safety-under-scanner-in-tirupati-after-mps-warning-1051944
+2026-06-30 15:39:23,275 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/cm-reviews-srikakulam-diarrhoea-rajamahendravaram-adulterated-milk-incidents-1051874
+2026-06-30 15:39:24,515 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-30 15:39:25,851 [INFO] Scraping: https://timesofindia.indiatimes.com/city/delhi/before-holi-food-safety-teams-intensify-checks-for-adulteration/articleshow/128820396.cms
+2026-06-30 15:39:27,418 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives-9931439.html
+2026-06-30 15:39:32,920 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives-1940073
+2026-06-30 15:39:34,446 [INFO] Scraping: https://thelogicalindian.com/beyond-contamination-what-andhras-adulterated-milk-tragedy-reveals-about-food-safety-oversight/
+2026-06-30 15:39:36,543 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-30 15:39:38,004 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/synthetic-milk-threat-prompts-tight-checks-1051605
+2026-06-30 15:39:39,674 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/food-safety-officers-launch-state-wide-milk-safety-inspections-after-deaths/article70676541.ece
+2026-06-30 15:39:41,644 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/cm-naidu-reviews-srikakulam-diarrhoea-rajahmundry-milk-incidents:190309
+2026-06-30 15:39:47,389 [INFO] Scraping: https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455
+2026-06-30 15:39:47,643 [ERROR] Failed to scrape https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455
+2026-06-30 15:39:48,644 [INFO] Scraping: https://www.hindustantimes.com/india-news/toll-from-adulterated-milk-in-andhra-pradesh-s-east-godavari-district-rises-to-6-101771989183570.html
+2026-06-30 15:39:50,395 [INFO] Scraping: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-06-30 15:39:50,602 [ERROR] Failed to scrape https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-06-30 15:39:51,606 [INFO] Scraping: https://www.hindustantimes.com/india-news/four-dead-after-consuming-adulterated-milk-in-andhra-pradesh-101771875328888.html
+2026-06-30 15:39:53,274 [INFO] Scraping: https://timesofindia.indiatimes.com/city/hyderabad/four-die-in-ap-adulterated-milk-suspected-to-be-cause/articleshow/128727248.cms
+2026-06-30 15:39:54,847 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/andhra-milk-adulteration-deaths-cm-announces-rs-10-lakh-compensation-1051232
+2026-06-30 15:39:56,275 [INFO] Scraping: https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-24-february-2026-india-bhajan-clubbing-delhi-university-milk-contamination-leads-to-serious-illness-andhra-pradesh-mexico-cartel-10547656/
+2026-06-30 15:39:58,706 [INFO] Scraping: https://www.mid-day.com/news/india-news/article/four-die-in-andhra-pradeshs-rajamahendravaram-after-consuming-adulterated-milk-23617939
+2026-06-30 15:40:01,234 [INFO] Scraping: https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html
+2026-06-30 15:40:01,557 [ERROR] Failed to scrape https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html: 403 Client Error: Forbidden for url: https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html
+2026-06-30 15:40:02,568 [INFO] Scraping: https://www.siasat.com/ap-adulterated-milk-claims-4-lives-in-rajamahendravaram-3374087/
+2026-06-30 15:40:04,552 [INFO] Scraping: https://www.hindustantimes.com/india-news/four-die-in-andhra-pradesh-rajamahendravaram-after-consuming-adulterated-milk-101771830100532.html
+2026-06-30 15:40:06,200 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/4-die-of-suspected-anuria-in-andhra-pradesh-12-hospitalised-milk-adulteration-angle-probed-1-arrested/articleshow/128702187.cms
+2026-06-30 15:40:07,786 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/4-die-after-consuming-adulterated-milk-in-rajahmundry-1939217
+2026-06-30 15:40:12,511 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/false-claims-kmf-files-plaint-against-dermatologist-3904981
+2026-06-30 15:40:15,031 [INFO] Scraping: https://indianexpress.com/article/cities/bangalore/kmf-assures-nandini-milk-is-safe-legal-action-influencers-10537236/
+2026-06-30 15:40:17,651 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/nandini-products-safe-no-need-to-worry-kmf-3901041
+2026-06-30 15:40:20,019 [INFO] Scraping: https://www.ibtimes.co.in/fake-milk-products-12057-cases-filed-against-adulterators-2024-25-898189
+2026-06-30 15:40:21,781 [INFO] Scraping: https://www.thehansindia.com/news/national/five-of-same-family-die-after-allegedly-consuming-poisoned-milk-in-uttar-pradesh-village-1047314
+2026-06-30 15:40:23,054 [INFO] Scraping: https://www.hindustantimes.com/india-news/andhra-to-form-panel-to-identify-real-culprits-of-tirumala-ghee-adulteration-101770148393113.html
+2026-06-30 15:40:24,720 [INFO] Scraping: https://www.news18.com/cities/bengaluru-news/nandini-milk-and-curd-now-at-rs-10-a-big-relief-for-daily-buyers-in-karnataka-skn-ws-l-9856204.html
+2026-06-30 15:40:26,984 [INFO] Scraping: https://www.thehindu.com/news/cities/bangalore/from-milk-to-fruits-fda-finds-expired-items-worth-over-235-lakh-in-warehouses/article71150607.ece
+2026-06-30 15:40:28,999 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/milk-samples-from-neighbouring-states-being-tested-says-khader/article71126438.ece
+2026-06-30 15:40:30,712 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/whats-in-your-cuppa-fssai-cracks-down-on-cheap-milk-route-to-bengaluru/articleshow/131878725.cms
+2026-06-30 15:40:32,234 [INFO] Scraping: https://timesofindia.indiatimes.com/city/bengaluru/no-sweat-this-summer-karnataka-co-operative-milk-producers-federation-clocks-record-1-crore-litres-of-milk-a-day/articleshow/131805863.cms
+2026-06-30 15:40:33,713 [INFO] Scraping: https://www.ndtv.com/india-news/food-samples-fail-test-fssa-food-safety-adulteration-indians-grocery-health-11595220#publisher=newsstand
+2026-06-30 15:40:33,936 [ERROR] Failed to scrape https://www.ndtv.com/india-news/food-samples-fail-test-fssa-food-safety-adulteration-indians-grocery-health-11595220#publisher=newsstand: 403 Client Error: Forbidden for url: https://www.ndtv.com/india-news/food-samples-fail-test-fssa-food-safety-adulteration-indians-grocery-health-11595220#publisher=newsstand
+2026-06-30 15:40:34,948 [INFO] Scraping: https://www.bhaskar.com/local/rajasthan/sikar/ranoli/news/palsana-saras-dairy-milk-adulteration-water-detected-consumers-aware-2026-137752226.html
+2026-06-30 15:40:36,699 [INFO] Scraping: https://www.mid-day.com/mumbai/mumbai-crime-news/article/mumbai-fda-launches-inspection-drives-at-mumbai-entry-points-seize-over-11000-litres-of-milk-23624768
+2026-06-30 15:40:38,769 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-30 15:40:40,767 [INFO] Scraping: https://www.hindustantimes.com/cities/chandigarh-news/ludhiana-cases-filed-against-25-vendors-over-substandard-milk-101774897269167.html
+2026-06-30 15:40:42,306 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-suo-motu-cognisance-of-rajamahendravaram-milk-contamination-tragedy-1946419
+2026-06-30 15:40:43,733 [INFO] Scraping: https://www.freepressjournal.in/indore/indore-news-dairy-units-under-scanner-after-andhra-milk-incident
+2026-06-30 15:40:45,275 [INFO] Scraping: https://www.republicworld.com/india/andhra-pradesh-death-toll-rises-to-16-in-milk-adulteration-case
+2026-06-30 15:40:46,788 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/death-toll-in-andhra-milk-adulteration-case/article70772116.ece
+2026-06-30 15:40:48,620 [INFO] Scraping: https://www.livemint.com/news/india/andhra-pradesh-milk-adulteration-case-16-dead-dairys-milk-supply-suspended-what-did-preliminary-inquiry-reveal-11774172786384.html
+2026-06-30 15:40:50,034 [INFO] Scraping: https://www.news18.com/agency-feeds/death-toll-rises-to-16-in-andhra-milk-adulteration-case-9990734.html
+2026-06-30 15:40:51,552 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:40:51,921 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:40:52,934 [INFO] Scraping: https://www.siasat.com/death-toll-rises-to-16-in-andhra-milk-adulteration-case-3438886/
+2026-06-30 15:40:54,984 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/milk-adulteration-case-death-toll-rises-to-16-in-andhra-pradesh/articleshow/129729841.cms
+2026-06-30 15:40:56,872 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-rises-to-16-3940440
+2026-06-30 15:40:58,551 [INFO] Scraping: https://thelogicalindian.com/fssai-crackdown-on-unregistered-dairy-vendors/
+2026-06-30 15:41:00,346 [INFO] Scraping: https://timesofindia.indiatimes.com/etimes/trending/is-the-milk-you-drink-safe-detergent-traces-found-in-milk-during-tanker-check-in-gujarat/articleshow/129615833.cms
+2026-06-30 15:41:01,854 [INFO] Scraping: https://www.thehansindia.com/karnataka/over-3000-adulterated-milk-samples-detected-across-state-in-one-year-1056529
+2026-06-30 15:41:03,316 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-reaches-14-several-hospitalised-in-east-godavari-3930401
+2026-06-30 15:41:05,648 [INFO] Scraping: https://www.thehindubusinessline.com/news/national/andhra-pradesh-milk-contamination-tragedy-14-dead-after-consuming-toxic-milk/article70738522.ece
+2026-06-30 15:41:09,202 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-contamination-toll-rises-to-14-9958504.html
+2026-06-30 15:41:15,460 [INFO] Scraping: https://www.hindustantimes.com/cities/others/andhra-milk-contamination-toll-rises-to-14-101773388151499.html
+2026-06-30 15:41:17,165 [INFO] Scraping: https://economictimes.indiatimes.com/news/india/andhra-milk-contamination-toll-rises-to-14/articleshow/129544238.cms
+2026-06-30 15:41:18,753 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/andhra-milk-contamination-toll-rises-to-14-1943528
+2026-06-30 15:41:20,353 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-30 15:41:22,206 [INFO] Scraping: https://thelogicalindian.com/13-dead-after-consuming-toxic-milk-in-andhra-pradesh-dairy-supplying-106-families-under-investigation/
+2026-06-30 15:41:24,331 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/food-safety-officials-launch-awareness-drive-on-milk-adulteration-1942879
+2026-06-30 15:41:25,773 [INFO] Scraping: https://www.thehindu.com/opinion/editorial/bitter-milk-on-the-rajamahendravaram-milk-adulteration-case/article70722654.ece
+2026-06-30 15:41:27,861 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/sharmila-slams-government-over-milk-adulteration-deaths/article70723084.ece
+2026-06-30 15:41:29,810 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/adulterated-milk-toll-rises-to-11-1054853
+2026-06-30 15:41:31,301 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/ap-milk-contamination-death-toll-rises-to-10-toxic-antifreeze-presence-confirmed
+2026-06-30 15:41:33,747 [INFO] Scraping: https://garhwalpost.in/crackdown-on-adulteration-food-safety-department-conducts-raids-in-mussoorie/
+2026-06-30 15:41:36,091 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/adulterated-milk-76-year-old-man-among-six-dead-1941032
+2026-06-30 15:41:37,490 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/ap-crackdown-after-milk-contamination-claims-5-lives-1052137
+2026-06-30 15:41:38,920 [INFO] Scraping: https://www.thehindu.com/news/cities/Visakhapatnam/toxins-in-contaminated-milk-to-be-identified-soon-says-dr-ravi-raju/article70684241.ece
+2026-06-30 15:41:41,979 [INFO] Scraping: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-06-30 15:41:42,767 [ERROR] Failed to scrape https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054: 410 Client Error: Gone for url: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-06-30 15:41:43,788 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-06-30 15:41:45,583 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-30 15:41:47,117 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-reviews-on-srikakulam-diarrhoea-cases-and-rajahmundry-adulterated-milk-issue-1940111
+2026-06-30 15:41:48,665 [INFO] Scraping: https://indianexpress.com/article/cities/mumbai/maharashtra-fda-gutkha-food-adulteration-crackdown-10713418/
+2026-06-30 15:41:50,639 [INFO] Scraping: https://timesofindia.indiatimes.com/city/delhi/whats-cooking-in-pantry-bite-into-adulterated-truth/articleshow/130488415.cms
+2026-06-30 15:41:52,636 [INFO] Scraping: https://www.bhaskar.com/local/rajasthan/sikar/ranoli/news/palsana-saras-dairy-milk-adulteration-water-detected-consumers-aware-2026-137752226.html
+2026-06-30 15:41:54,186 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-06-30 15:41:56,225 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-06-30 15:41:57,898 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-06-30 15:41:59,814 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-06-30 15:42:01,745 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-suo-motu-cognisance-of-rajamahendravaram-milk-contamination-tragedy-1946419
+2026-06-30 15:42:03,236 [INFO] Scraping: https://www.freepressjournal.in/indore/indore-news-dairy-units-under-scanner-after-andhra-milk-incident
+2026-06-30 15:42:05,121 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-06-30 15:42:06,861 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-06-30 15:42:08,654 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-death-toll-rises-to-16-in-rajamahendravaram/article70772927.ece
+2026-06-30 15:42:10,543 [INFO] Scraping: https://www.republicworld.com/india/andhra-pradesh-death-toll-rises-to-16-in-milk-adulteration-case
+2026-06-30 15:42:12,173 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/death-toll-in-andhra-milk-adulteration-case/article70772116.ece
+2026-06-30 15:42:14,009 [INFO] Scraping: https://www.livemint.com/news/india/andhra-pradesh-milk-adulteration-case-16-dead-dairys-milk-supply-suspended-what-did-preliminary-inquiry-reveal-11774172786384.html
+2026-06-30 15:42:15,534 [INFO] Scraping: https://www.news18.com/agency-feeds/death-toll-rises-to-16-in-andhra-milk-adulteration-case-9990734.html
+2026-06-30 15:42:17,199 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:42:17,662 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-06-30 15:42:18,676 [INFO] Scraping: https://www.siasat.com/death-toll-rises-to-16-in-andhra-milk-adulteration-case-3438886/
+2026-06-30 15:42:20,328 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/milk-adulteration-case-death-toll-rises-to-16-in-andhra-pradesh/articleshow/129729841.cms
+2026-06-30 15:42:22,292 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-rises-to-16-3940440
+2026-06-30 15:42:24,274 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-in-toxic-milk-case-rises-to-17-1945474
+2026-06-30 15:42:25,798 [INFO] Scraping: https://timesofindia.indiatimes.com/technology/tech-news/flipkart-may-be-facing-problem-with-its-new-rs-1-milk-offers/articleshow/129632652.cms
+2026-06-30 15:42:27,922 [INFO] Scraping: https://www.thehansindia.com/karnataka/over-3000-adulterated-milk-samples-detected-across-state-in-one-year-1056529
+2026-06-30 15:42:29,432 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-case-two-more-die-toll-rises-to-15/article70739472.ece
+2026-06-30 15:42:31,752 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-reaches-14-several-hospitalised-in-east-godavari-3930401
+2026-06-30 15:42:33,827 [INFO] Scraping: https://www.thehindubusinessline.com/news/national/andhra-pradesh-milk-contamination-tragedy-14-dead-after-consuming-toxic-milk/article70738522.ece
+2026-06-30 15:42:35,479 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-contamination-toll-rises-to-14-9958504.html
+2026-06-30 15:42:37,071 [INFO] Scraping: https://www.hindustantimes.com/cities/others/andhra-milk-contamination-toll-rises-to-14-101773388151499.html
+2026-06-30 15:42:38,514 [INFO] Scraping: https://economictimes.indiatimes.com/news/india/andhra-milk-contamination-toll-rises-to-14/articleshow/129544238.cms
+2026-06-30 15:42:40,016 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/andhra-milk-contamination-toll-rises-to-14-1943528
+2026-06-30 15:42:41,418 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-06-30 15:42:43,246 [INFO] Scraping: https://assamtribune.com/national/death-toll-in-andhra-milk-adulteration-case-climbs-to-13-1609333
+2026-06-30 15:42:45,497 [INFO] Scraping: https://www.thehansindia.com/hans/opinion/news-analysis/adulterated-milk-spells-death-can-no-longer-be-ignored-1055769
+2026-06-30 15:42:46,839 [INFO] Scraping: https://thelogicalindian.com/13-dead-after-consuming-toxic-milk-in-andhra-pradesh-dairy-supplying-106-families-under-investigation/
+2026-06-30 15:42:48,800 [INFO] Scraping: https://www.news18.com/business/economy/fssai-makes-registration-mandatory-for-independent-milk-producers-vendors-ws-l-9956557.html
+2026-06-30 15:42:50,333 [INFO] Scraping: https://newstodaynet.com/2026/03/12/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment/
+2026-06-30 15:42:57,382 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment-3928775
+2026-06-30 15:42:59,418 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/death-toll-rises-to-13-andhra-milk-contamination:191121
+2026-06-30 15:43:02,583 [INFO] Scraping: https://www.hindustantimes.com/india-news/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment-101773287512412.html
+2026-06-30 15:43:04,569 [INFO] Scraping: https://www.siasat.com/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment-3433473/
+2026-06-30 15:43:06,241 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment-9956015.html
+2026-06-30 15:43:08,411 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-milk-contamination-death-toll-rises-to-13-1943271
+2026-06-30 15:43:09,952 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-rises-to-12-in-rajamahendravaram-milk-adulteration-incident-1943119
+2026-06-30 15:43:11,585 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-06-30 15:43:13,008 [INFO] Scraping: https://www.thehindu.com/opinion/editorial/bitter-milk-on-the-rajamahendravaram-milk-adulteration-case/article70722654.ece
+2026-06-30 15:43:15,086 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/adulterated-milk-toll-rises-to-11-1054853
+2026-06-30 15:43:16,578 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/death-toll-due-to-adulterated-milk-in-andhra-pradesh-rises-to-12
+2026-06-30 15:43:18,576 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/rajahmundry-milk-adulteration-toll-climbs-to-11/articleshow/129285749.cms
+2026-06-30 15:43:20,166 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-death-toll-rises-to-11-condition-of-9-more-persons-remains-critical/article70718548.ece
+2026-06-30 15:43:22,026 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-due-to-milk-adulteration-rises-to-10-1942258
+2026-06-30 15:43:23,453 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/adulterated-milk-incident-in-east-godavari-toll-reaches-seven-critical-patients-under-treatment-1500405.html
+2026-06-30 15:43:24,869 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/milk-as-poison-death-toll-rises-to-seven-1941290
+2026-06-30 15:43:26,249 [INFO] Scraping: https://vaartha.com/top-news/rajahmundry-adulterated-milk-case-updates-deaths-toll/659039/
+2026-06-30 15:43:30,072 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/adulterated-milk-76-year-old-man-among-six-dead-1941032
+2026-06-30 15:43:31,342 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/ap-crackdown-after-milk-contamination-claims-5-lives-1052137
+2026-06-30 15:43:32,628 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-safety-under-scanner-in-tirupati-after-mps-warning-1051944
+2026-06-30 15:43:33,882 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-06-30 15:43:35,216 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives-9931439.html
+2026-06-30 15:43:36,659 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives-1940073
+2026-06-30 15:43:37,992 [INFO] Scraping: https://thelogicalindian.com/beyond-contamination-what-andhras-adulterated-milk-tragedy-reveals-about-food-safety-oversight/
+2026-06-30 15:43:39,783 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html
+2026-06-30 15:43:40,005 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html
+2026-06-30 15:43:41,020 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-06-30 15:43:42,478 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/illegal-dairy-unit-sealed-after-fatal-milk-adulteration-incident-1051609
+2026-06-30 15:43:43,746 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/synthetic-milk-threat-prompts-tight-checks-1051605
+2026-06-30 15:43:45,031 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-contamination-case-fifth-death-reported-15-undergoing-treatment-9930088.html
+2026-06-30 15:43:46,887 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/cm-naidu-reviews-srikakulam-diarrhoea-rajahmundry-milk-incidents:190309
+2026-06-30 15:43:50,062 [INFO] Scraping: https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700
+2026-06-30 15:43:50,268 [ERROR] Failed to scrape https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700
+2026-06-30 15:43:51,284 [INFO] Scraping: https://www.hindustantimes.com/india-news/toll-from-adulterated-milk-in-andhra-pradesh-s-east-godavari-district-rises-to-6-101771989183570.html
+2026-06-30 15:43:52,679 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/milk-contamination-case-toll-rises-to-five-in-rajamahendravaram-accused-vendor-arrested/articleshow/128759697.cms
+2026-06-30 15:43:54,234 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-contamination-leaves-four-dead-12-in-hospital-with-anuria-1051240
+2026-06-30 15:43:55,568 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/6-year-old-dies-of-renal-failure-at-kgh-in-milk-contamination-case-1939663
+2026-06-30 15:43:56,965 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/acute-renal-failure-death-toll-in-ap-goes-up-to-five-milk-vendor-arrested/article70672332.ece
+2026-06-30 15:43:58,788 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-contamination-case-freezer-coolant-leak-suspected-3909698
+2026-06-30 15:44:00,854 [INFO] Scraping: https://www.hindustantimes.com/cities/others/andhra-milk-contamination-case-toxic-impact-confirmed-elevated-urea-creatinine-levels-detected-101771943784306.html
+2026-06-30 15:44:02,413 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-milk-contamination-case-freezer-coolant-leak-suspected-samples-sent-to-fsl-1939491
+2026-06-30 15:44:03,859 [INFO] Scraping: https://thelogicalindian.com/4-die-after-consuming-suspected-adulterated-milk-in-andhra-pradesh-dairy-owner-arrested-probe-underway/
+2026-06-30 15:44:07,043 [INFO] Scraping: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-06-30 15:44:07,283 [ERROR] Failed to scrape https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-06-30 15:44:08,298 [INFO] Scraping: https://www.hindustantimes.com/india-news/four-dead-after-consuming-adulterated-milk-in-andhra-pradesh-101771875328888.html
+2026-06-30 15:44:09,662 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/milk-adulteration-case-chandrababu-announces-rs-10-lakh-ex-gratia-for-victims-1939243
+2026-06-30 15:44:11,045 [INFO] Scraping: https://www.thehansindia.com/news/national/five-of-same-family-die-after-allegedly-consuming-poisoned-milk-in-uttar-pradesh-village-1047314
+2026-06-30 15:44:12,338 [INFO] Deduped from 223 to 138 articles.
+2026-06-30 15:44:12,442 [INFO] Pipeline complete. Final dataset: 138 articles.
+2026-06-30 16:00:53,496 [INFO] Loaded 134 seed articles
+2026-06-30 16:00:53,496 [INFO] --- Round 1 starting with 134 articles in pool ---
+2026-06-30 16:00:53,502 [INFO] Loading KeyBERT model...
+2026-06-30 16:00:53,509 [INFO] Use pytorch device_name: cpu
+2026-06-30 16:00:53,509 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-30 16:00:58,763 [INFO] Extracting keywords from 125 documents using KeyBERT...
+2026-06-30 16:03:32,524 [INFO] Round 1: keywords = ['rajamahendravaram milk contamination', 'milk procurement karnataka', 'toxic milk andhra', 'india milk economy', 'pradesh milk death', 'andhra milk contamination']
+2026-06-30 16:03:32,525 [ERROR] MC_API_TOKEN environment variable not set.
+2026-06-30 16:03:51,955 [INFO] Loaded 134 seed articles
+2026-06-30 16:03:51,955 [INFO] --- Round 1 starting with 134 articles in pool ---
+2026-06-30 16:03:51,956 [INFO] Loading KeyBERT model...
+2026-06-30 16:03:51,963 [INFO] Use pytorch device_name: cpu
+2026-06-30 16:03:51,963 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-30 16:03:56,359 [INFO] Extracting keywords from 125 documents using KeyBERT...
+2026-06-30 16:06:48,824 [INFO] Round 1: keywords = ['rajamahendravaram milk contamination', 'milk procurement karnataka', 'toxic milk andhra', 'india milk economy', 'pradesh milk death', 'andhra milk contamination']
+2026-06-30 16:06:48,825 [INFO] Fetching Media Cloud with query: (milk AND ((rajamahendravaram AND milk AND contamination) OR (milk AND procurement AND karnataka) OR (toxic AND milk AND andhra) OR (india AND milk AND economy) OR (pradesh AND milk AND death) OR (andhra AND milk AND contamination)))
+2026-07-01 14:50:54,543 [INFO] Loaded 16 seed articles
+2026-07-01 14:50:54,543 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-07-01 14:50:54,543 [INFO] Loading KeyBERT model...
+2026-07-01 14:50:54,560 [INFO] Use pytorch device_name: cpu
+2026-07-01 14:50:54,574 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-07-01 14:50:59,483 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-07-01 14:51:22,450 [INFO] Round 1: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'govt toxic milk', 'adulterated milk deaths']
+2026-07-01 14:51:22,452 [ERROR] MC_API_TOKEN environment variable not set.
+2026-07-01 14:57:36,935 [INFO] Loaded 16 seed articles
+2026-07-01 14:57:36,935 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-07-01 14:57:36,935 [INFO] Loading KeyBERT model...
+2026-07-01 14:57:36,940 [INFO] Use pytorch device_name: cpu
+2026-07-01 14:57:36,940 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-07-01 14:57:41,988 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-07-01 14:58:04,221 [INFO] Round 1: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'govt toxic milk', 'adulterated milk deaths']
+2026-07-01 14:58:04,221 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (govt AND toxic AND milk) OR (adulterated AND milk AND deaths)))
+2026-07-01 14:58:25,382 [INFO] Retrieved 768 articles from Media Cloud.
+2026-07-01 14:58:25,394 [INFO] Round 1: 768 raw results fetched
+2026-07-01 14:58:25,403 [INFO] Round 1: 158/768 passed automated relevance filter
+2026-07-01 16:25:40,839 [INFO] Round 1: 132 articles kept after manual filter
+2026-07-01 16:26:32,069 [INFO] Loaded 16 seed articles
+2026-07-01 16:26:32,069 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-07-01 16:26:32,071 [INFO] Loading KeyBERT model...
+2026-07-01 16:26:32,075 [INFO] Use pytorch device_name: cpu
+2026-07-01 16:26:32,075 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-07-01 16:26:37,470 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-07-01 16:26:54,206 [INFO] Round 1: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'govt toxic milk', 'adulterated milk deaths']
+2026-07-01 16:26:54,206 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (govt AND toxic AND milk) OR (adulterated AND milk AND deaths)))
+2026-07-01 16:27:04,926 [INFO] Retrieved 768 articles from Media Cloud.
+2026-07-01 16:27:04,958 [INFO] Round 1: 768 raw results fetched
+2026-07-01 16:27:04,958 [INFO] Round 1: 158/768 passed automated relevance filter
+2026-07-01 16:39:53,484 [INFO] Round 1: 98 articles kept after manual filter
+2026-07-01 16:44:20,857 [INFO] Loaded 16 seed articles
+2026-07-01 16:44:20,857 [INFO] --- Round 1 starting with 16 articles in pool ---
+2026-07-01 16:44:20,857 [INFO] Loading KeyBERT model...
+2026-07-01 16:44:20,867 [INFO] Use pytorch device_name: cpu
+2026-07-01 16:44:20,867 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-07-01 16:44:25,864 [INFO] Extracting keywords from 16 documents using KeyBERT...
+2026-07-01 16:44:42,428 [INFO] Round 1: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'milk inspections surveillance', 'govt toxic milk', 'adulterated milk deaths']
+2026-07-01 16:44:42,430 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (milk AND inspections AND surveillance) OR (govt AND toxic AND milk) OR (adulterated AND milk AND deaths)))
+2026-07-01 16:44:54,678 [INFO] Retrieved 768 articles from Media Cloud.
+2026-07-01 16:44:54,687 [INFO] Round 1: 768 raw results fetched
+2026-07-01 16:44:54,695 [INFO] Round 1: 158/768 passed automated relevance filter
+2026-07-01 17:58:14,293 [INFO] Round 1: 116 articles kept after manual filter
+2026-07-01 17:58:14,604 [INFO] Deduped from 132 to 114 articles.
+2026-07-01 17:58:14,604 [INFO] Round 1: 114 unique articles accumulated so far
+2026-07-01 17:58:14,604 [INFO] --- Round 2 starting with 116 articles in pool ---
+2026-07-01 17:58:14,671 [INFO] Extracting keywords from 116 documents using KeyBERT...
+2026-07-01 17:58:29,316 [INFO] Round 2: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'adulterated milk deaths', 'milk poison death', 'contaminated milk anuria']
+2026-07-01 17:58:30,199 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (adulterated AND milk AND deaths) OR (milk AND poison AND death) OR (contaminated AND milk AND anuria)))
+2026-07-01 17:58:54,438 [INFO] Retrieved 613 articles from Media Cloud.
+2026-07-01 17:58:54,511 [INFO] Round 2: 613 raw results fetched
+2026-07-01 17:58:54,606 [INFO] Round 2: 156/613 passed automated relevance filter
+2026-07-01 18:18:57,936 [INFO] Round 2: 118 articles kept after manual filter
+2026-07-01 18:18:57,940 [INFO] Deduped from 232 to 134 articles.
+2026-07-01 18:18:57,940 [INFO] Round 2: 134 unique articles accumulated so far
+2026-07-01 18:18:57,940 [INFO] --- Round 3 starting with 118 articles in pool ---
+2026-07-01 18:18:57,998 [INFO] Extracting keywords from 118 documents using KeyBERT...
+2026-07-01 18:19:12,988 [INFO] Round 3: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'adulterated milk deaths', 'toxins contaminated milk', 'adulterated milk toll']
+2026-07-01 18:19:12,988 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (adulterated AND milk AND deaths) OR (toxins AND contaminated AND milk) OR (adulterated AND milk AND toll)))
+2026-07-01 18:19:48,080 [INFO] Retrieved 572 articles from Media Cloud.
+2026-07-01 18:19:48,112 [INFO] Round 3: 572 raw results fetched
+2026-07-01 18:19:48,162 [INFO] Round 3: 193/572 passed automated relevance filter
+2026-07-01 18:37:35,884 [INFO] Round 3: 155 articles kept after manual filter
+2026-07-01 18:37:35,892 [INFO] Deduped from 289 to 183 articles.
+2026-07-01 18:37:35,895 [INFO] Round 3: 183 unique articles accumulated so far
+2026-07-01 18:37:35,895 [INFO] --- Round 4 starting with 155 articles in pool ---
+2026-07-01 18:37:36,002 [INFO] Extracting keywords from 155 documents using KeyBERT...
+2026-07-01 18:37:58,502 [INFO] Retrieved 401 articles from Media Cloud.
+2026-07-01 18:37:58,613 [INFO] Round 4: 401 raw results fetched
+2026-07-01 18:37:58,629 [INFO] Round 4: 133/401 passed automated relevance filter
+2026-07-01 19:14:33,687 [INFO] Round 4: 110 articles kept after manual filter
+2026-07-01 19:14:33,693 [INFO] Deduped from 293 to 188 articles.
+2026-07-01 19:14:33,694 [INFO] Round 4: 188 unique articles accumulated so far
+2026-07-01 19:14:33,694 [INFO] --- Round 5 starting with 110 articles in pool ---
+2026-07-01 19:14:33,828 [INFO] Extracting keywords from 110 documents using KeyBERT...
+2026-07-01 19:15:04,038 [INFO] Retrieved 544 articles from Media Cloud.
+2026-07-01 19:15:04,051 [INFO] Round 5: 544 raw results fetched
+2026-07-01 19:15:04,072 [INFO] Round 5: 143/544 passed automated relevance filter
+2026-07-01 19:25:57,209 [INFO] Round 5: 99 articles kept after manual filter
+2026-07-01 19:25:57,218 [INFO] Deduped from 287 to 190 articles.
+2026-07-01 19:25:57,218 [INFO] Round 5: 190 unique articles accumulated so far
+2026-07-01 19:25:57,218 [INFO] --- Round 6 starting with 99 articles in pool ---
+2026-07-01 19:25:57,231 [INFO] Extracting keywords from 99 documents using KeyBERT...
+2026-07-01 19:26:01,842 [INFO] Round 6: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'adulterated milk deaths', 'milk poison death', 'contaminated milk anuria']
+2026-07-01 19:26:01,842 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (adulterated AND milk AND deaths) OR (milk AND poison AND death) OR (contaminated AND milk AND anuria)))
+2026-07-01 19:26:13,284 [INFO] Retrieved 613 articles from Media Cloud.
+2026-07-01 19:26:13,311 [INFO] Round 6: 613 raw results fetched
+2026-07-01 19:26:13,322 [INFO] Round 6: 156/613 passed automated relevance filter
+2026-07-01 19:26:27,829 [INFO] Round 6: 117 articles kept after manual filter
+2026-07-01 19:26:27,829 [INFO] Deduped from 307 to 195 articles.
+2026-07-01 19:26:27,829 [INFO] Round 6: 195 unique articles accumulated so far
+2026-07-01 19:26:27,829 [INFO] --- Round 7 starting with 117 articles in pool ---
+2026-07-01 19:26:27,981 [INFO] Extracting keywords from 117 documents using KeyBERT...
+2026-07-01 19:26:33,259 [INFO] Round 7: keywords = ['adulteration detected milk', 'officials examined milk', 'milk andhra rajahmundry', 'adulterated milk deaths', 'toxins contaminated milk', 'adulterated milk toll']
+2026-07-01 19:26:33,259 [INFO] Fetching Media Cloud with query: (milk AND ((adulteration AND detected AND milk) OR (officials AND examined AND milk) OR (milk AND andhra AND rajahmundry) OR (adulterated AND milk AND deaths) OR (toxins AND contaminated AND milk) OR (adulterated AND milk AND toll)))
+2026-07-01 19:26:37,561 [INFO] Retrieved 572 articles from Media Cloud.
+2026-07-01 19:26:37,577 [INFO] Round 7: 572 raw results fetched
+2026-07-01 19:26:37,588 [INFO] Round 7: 193/572 passed automated relevance filter
+2026-07-01 19:27:19,224 [INFO] Round 7: 148 articles kept after manual filter
+2026-07-01 19:27:19,224 [INFO] Deduped from 343 to 208 articles.
+2026-07-01 19:27:19,224 [INFO] Round 7: 208 unique articles accumulated so far
+2026-07-01 19:27:19,224 [INFO] --- Round 8 starting with 148 articles in pool ---
+2026-07-01 19:27:19,352 [INFO] Extracting keywords from 148 documents using KeyBERT...
+2026-07-01 19:27:37,851 [INFO] Retrieved 401 articles from Media Cloud.
+2026-07-01 19:27:37,891 [INFO] Round 8: 401 raw results fetched
+2026-07-01 19:27:37,906 [INFO] Round 8: 133/401 passed automated relevance filter
+2026-07-01 19:31:11,952 [INFO] Round 8: 98 articles kept after manual filter
+2026-07-01 19:31:11,954 [INFO] Deduped from 306 to 208 articles.
+2026-07-01 19:31:11,954 [INFO] Round 8: 208 unique articles accumulated so far
+2026-07-01 19:31:11,954 [INFO] --- Round 9 starting with 98 articles in pool ---
+2026-07-01 19:31:12,054 [INFO] Extracting keywords from 98 documents using KeyBERT...
+2026-07-01 19:31:25,957 [INFO] Retrieved 398 articles from Media Cloud.
+2026-07-01 19:31:25,982 [INFO] Round 9: 398 raw results fetched
+2026-07-01 19:31:25,998 [INFO] Round 9: 131/398 passed automated relevance filter
+2026-07-01 19:31:39,923 [INFO] Round 9: 96 articles kept after manual filter
+2026-07-01 19:31:39,925 [INFO] Deduped from 304 to 208 articles.
+2026-07-01 19:31:39,925 [INFO] Round 9: 208 unique articles accumulated so far
+2026-07-01 19:31:39,925 [INFO] User requested stop after round 9. Finalizing dataset.
+2026-07-01 19:31:39,946 [INFO] Scraping: https://www.deccanherald.com/india/karnataka/kmf-finds-nearly-0-2-of-milk-samples-adulterated-4011818
+2026-07-01 19:31:50,509 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/hazardous-chemicals-found-in-milk-during-raids-across-east-godavari/article70823682.ece
+2026-07-01 19:31:52,689 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/adulterated-milk-deaths-raise-food-safety-concerns/articleshow/130024210.cms
+2026-07-01 19:31:55,863 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-govt-plans-regulatory-authority-like-eagle-and-hydraa-to-curb-food-adulteration-cm/article70802831.ece
+2026-07-01 19:31:58,324 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-cognisance-of-16-deaths-due-to-adulterated-milk-seeks-report-1946513
+2026-07-01 19:31:59,956 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/nhrc-seeks-detailed-report-from-ap-govt-over-toxic-milk-death/articleshow/129831115.cms
+2026-07-01 19:32:02,049 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/nhrc-takes-suo-motucognisance-of-16-milk-adulteration-deaths-in-rajamahendravaram/article70788270.ece
+2026-07-01 19:32:03,797 [INFO] Scraping: https://scroll.in/latest/1091557/andhra-pradesh-toll-from-consuming-adulterated-milk-rises-to-16?utm_source=rss&utm_medium=public
+2026-07-01 19:32:05,481 [INFO] Scraping: https://www.news18.com/cities/hyderabad-news/sweet-death-why-ethylene-glycol-an-antifreeze-chemical-is-lurking-in-andhras-milk-ws-l-9991605.html
+2026-07-01 19:32:07,052 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/adulteration-found-in-3049-milk-samples-supplied-to-karnataka-dairies-in-a-year-govt-informs-council/article70735023.ece
+2026-07-01 19:32:08,845 [INFO] Scraping: https://www.news18.com/photogallery/cities/hyderabad-news/3-year-old-latest-victim-of-fake-milk-in-andhras-rajahmundry-12-dead-so-far-ws-kl-9955016.html
+2026-07-01 19:32:10,302 [INFO] Scraping: https://www.hindustantimes.com/india-news/rajahmundry-milk-adulteration-case-toll-mounts-to-9-eight-others-still-critical-101772825616955.html
+2026-07-01 19:32:11,717 [INFO] Scraping: https://m.rediff.com/news/commentary/2026/feb/26/andhra-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives/8c654fd04c50a9c69f6304747e1f6d1f
+2026-07-01 19:32:13,750 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-hauls-up-officials-over-diarrhea-milk-tragedy-1940180
+2026-07-01 19:32:15,128 [INFO] Scraping: https://dailypioneer.com/news/the-growing-menace-of-milk-adulteration-in-india
+2026-07-01 19:32:16,917 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/officials-crack-down-on-milk-adulteration-samples-sent-for-tests-in-rayalseema/articleshow/128792913.cms
+2026-07-01 19:32:18,744 [INFO] Scraping: https://www.newindianexpress.com/states/tamil-nadu/2026/Jun/30/60-milk-procured-by-aavin-in-10-districts-fails-quality-norms
+2026-07-01 19:32:21,016 [INFO] Scraping: https://indianexpress.com/article/cities/mumbai/maharashtra-fda-gutkha-food-adulteration-crackdown-10713418/
+2026-07-01 19:32:24,252 [INFO] Scraping: https://www.bhaskar.com/local/rajasthan/sikar/ranoli/news/palsana-saras-dairy-milk-adulteration-water-detected-consumers-aware-2026-137752226.html
+2026-07-01 19:32:25,730 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-milk-adulteration-shock-detergent-urea-found-again-after-deaths-officials-issue-warning-suchi-1510406.html
+2026-07-01 19:32:27,131 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/nhrc-issues-notice-to-officials-over-rajahmundry-contaminated-milk-incident-sj-1507587.html
+2026-07-01 19:32:28,385 [INFO] Scraping: https://www.freepressjournal.in/indore/indore-news-dairy-units-under-scanner-after-andhra-milk-incident
+2026-07-01 19:32:30,167 [INFO] Scraping: https://www.bhaskar.com/local/mp/indore/news/following-the-deaths-due-to-adulterated-milk-in-andhra-pradesh-a-team-of-food-and-administrative-officials-also-reached-indore-to-inspect-dairies-dbp-137517822.html
+2026-07-01 19:32:31,583 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-adulterated-milk-tragedy-16-dead-another-victim-dies-in-hospital-two-critical-vvnp-1506237.html
+2026-07-01 19:32:32,871 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/death-toll-in-andhra-milk-adulteration-case/article70772116.ece
+2026-07-01 19:32:35,395 [INFO] Scraping: https://www.livemint.com/news/india/andhra-pradesh-milk-adulteration-case-16-dead-dairys-milk-supply-suspended-what-did-preliminary-inquiry-reveal-11774172786384.html
+2026-07-01 19:32:37,934 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-07-01 19:32:38,111 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-adulteration-death-toll-rises-to-16-three-under-treatment-126032200182_1.html
+2026-07-01 19:32:39,124 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-rises-to-16-3940440
+2026-07-01 19:32:41,240 [INFO] Scraping: https://timesofindia.indiatimes.com/life-style/food-news/15-die-after-drinking-milk-contaminated-with-ethylene-glycol-how-to-do-milk-purity-test-and-5-other-calcium-rich-foods-to-consume/photostory/129640071.cms
+2026-07-01 19:32:46,704 [INFO] Scraping: https://timesofindia.indiatimes.com/technology/tech-news/flipkart-may-be-facing-problem-with-its-new-rs-1-milk-offers/articleshow/129632652.cms
+2026-07-01 19:32:49,361 [INFO] Scraping: https://www.thehansindia.com/karnataka/over-3000-adulterated-milk-samples-detected-across-state-in-one-year-1056529
+2026-07-01 19:32:50,838 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-adulteration-death-toll-reaches-14-several-hospitalised-in-east-godavari-3930401
+2026-07-01 19:32:53,106 [INFO] Scraping: https://www.thehindubusinessline.com/news/national/andhra-pradesh-milk-contamination-tragedy-14-dead-after-consuming-toxic-milk/article70738522.ece
+2026-07-01 19:32:54,523 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-contamination-toll-rises-to-14-9958504.html
+2026-07-01 19:32:56,682 [INFO] Scraping: https://indianexpress.com/article/cities/hyderabad/rajahmundry-milk-adulteration-toll-rises-to-13-after-toxic-fridge-coolant-leaks-into-milk-supply-10579534/
+2026-07-01 19:33:00,273 [INFO] Scraping: https://uttarbangasambad.com/adulterated-milk-deaths-andhra-pradesh-adulterated-milk-tragedy-13-dead-east-godavari/
+2026-07-01 19:33:05,655 [INFO] Scraping: https://assamtribune.com/national/death-toll-in-andhra-milk-adulteration-case-climbs-to-13-1609333
+2026-07-01 19:33:08,184 [INFO] Scraping: https://thelogicalindian.com/13-dead-after-consuming-toxic-milk-in-andhra-pradesh-dairy-supplying-106-families-under-investigation/
+2026-07-01 19:33:09,899 [INFO] Scraping: https://www.news18.com/business/economy/fssai-makes-registration-mandatory-for-independent-milk-producers-vendors-ws-l-9956557.html
+2026-07-01 19:33:11,901 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-deaths-sharmila-demands-rs-25l-ex-gratia-1055094
+2026-07-01 19:33:13,313 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/death-toll-due-to-adulterated-milk-in-andhra-pradesh-rises-to-12
+2026-07-01 19:33:15,078 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/ap-milk-contamination-death-toll-rises-to-10-toxic-antifreeze-presence-confirmed
+2026-07-01 19:33:16,857 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/visakhapatnam/rajahmundry-adulterated-milk-tragedy-ethylene-glycol-poisoning-confirmed-in-forensic-report-erk-1501464.html
+2026-07-01 19:33:18,178 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-deaths-rise-to-seven-10-elderly-three-infants-still-battling-for-life-in-rajamahendravaram-city/article70699307.ece
+2026-07-01 19:33:20,336 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/milk-as-poison-death-toll-rises-to-seven-1941290
+2026-07-01 19:33:21,732 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/adulterated-milk-76-year-old-man-among-six-dead-1941032
+2026-07-01 19:33:23,000 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/cm-reviews-srikakulam-diarrhoea-rajahmundry-milk-tragedy-1052141
+2026-07-01 19:33:24,349 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/ap-crackdown-after-milk-contamination-claims-5-lives-1052137
+2026-07-01 19:33:25,808 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/rajahmundry-adulterated-milk-victims-treated-with-fomepizole-minister-durgesh-avn-1498526.html
+2026-07-01 19:33:27,064 [INFO] Scraping: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-07-01 19:33:27,748 [ERROR] Failed to scrape https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054: 410 Client Error: Gone for url: https://www.greatandhra.com/politics/andhra-news/ap-milk-adulteration-7-people-in-critical-condition-153054
+2026-07-01 19:33:28,750 [INFO] Scraping: https://www.thenewsminute.com/andhra-pradesh/fifteen-people-affected-by-milk-adulteration-in-andhra-still-in-hospitals
+2026-07-01 19:33:30,587 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-safety-under-scanner-in-tirupati-after-mps-warning-1051944
+2026-07-01 19:33:31,890 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/cm-reviews-srikakulam-diarrhoea-rajamahendravaram-adulterated-milk-incidents-1051874
+2026-07-01 19:33:33,274 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-reviews-on-srikakulam-diarrhoea-cases-and-rajahmundry-adulterated-milk-issue-1940111
+2026-07-01 19:33:34,715 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-intensifies-crackdown-after-milk-contamination-claims-5-lives-1940073
+2026-07-01 19:33:36,048 [INFO] Scraping: https://thelogicalindian.com/beyond-contamination-what-andhras-adulterated-milk-tragedy-reveals-about-food-safety-oversight/
+2026-07-01 19:33:37,748 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/illegal-dairy-unit-sealed-after-fatal-milk-adulteration-incident-1051609
+2026-07-01 19:33:39,113 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/synthetic-milk-threat-prompts-tight-checks-1051605
+2026-07-01 19:33:40,538 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/food-safety-officers-launch-state-wide-milk-safety-inspections-after-deaths/article70676541.ece
+2026-07-01 19:33:42,966 [INFO] Scraping: https://timesofindia.indiatimes.com/india/fssai-seeks-report-on-adulterated-milk-incident-that-killed-4-in-andhra-pradesh/articleshow/128774319.cms
+2026-07-01 19:33:44,882 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/cm-naidu-reviews-srikakulam-diarrhoea-rajahmundry-milk-incidents:190309
+2026-07-01 19:33:50,216 [INFO] Scraping: https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455
+2026-07-01 19:33:50,567 [ERROR] Failed to scrape https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/andhra-milk-adulteration-seven-people-still-in-critical-condition-11131455
+2026-07-01 19:33:51,581 [INFO] Scraping: https://www.hindustantimes.com/india-news/toll-from-adulterated-milk-in-andhra-pradesh-s-east-godavari-district-rises-to-6-101771989183570.html
+2026-07-01 19:33:52,963 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/milk-contamination-leaves-four-dead-12-in-hospital-with-anuria-1051240
+2026-07-01 19:33:54,251 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/vigil-intensifies-amid-adulterated-milk-scare-in-tirupati-chittoor-districts-1939653
+2026-07-01 19:33:55,680 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-pradesh-milk-contamination-case-freezer-coolant-leak-suspected-3909698
+2026-07-01 19:33:57,888 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/andhra-milk-contamination-case-freezer-coolant-leak-suspected-samples-sent-to-fsl-3909698
+2026-07-01 19:34:01,345 [INFO] Scraping: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-07-01 19:34:01,714 [ERROR] Failed to scrape https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/4-dead-12-in-hospital-with-anuria-due-to-contaminated-milk-anuria-symptoms-risks-safety-tips-explained-11128391
+2026-07-01 19:34:02,725 [INFO] Scraping: https://scroll.in/latest/1090968/four-dead-after-consuming-adulterated-milk-in-andhra-pradesh?utm_source=rss&utm_medium=public
+2026-07-01 19:34:04,522 [INFO] Scraping: https://www.deccanherald.com/india/andhra-pradesh/four-die-12-ill-after-consuming-adulterated-milk-in-andhra-pradesh-3909540
+2026-07-01 19:34:08,095 [INFO] Scraping: https://timesofindia.indiatimes.com/city/hyderabad/four-die-in-ap-adulterated-milk-suspected-to-be-cause/articleshow/128727248.cms
+2026-07-01 19:34:09,573 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/andhra-milk-adulteration-deaths-cm-announces-rs-10-lakh-compensation-1051232
+2026-07-01 19:34:10,829 [INFO] Scraping: https://www.news18.com/agency-feeds/andhra-milk-adulteration-govt-announces-rs-10-lakh-ex-gratia-for-deceased-9924813.html
+2026-07-01 19:34:12,595 [INFO] Scraping: https://www.mid-day.com/news/india-news/article/four-die-in-andhra-pradeshs-rajamahendravaram-after-consuming-adulterated-milk-23617939
+2026-07-01 19:34:14,991 [INFO] Scraping: https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html
+2026-07-01 19:34:15,517 [ERROR] Failed to scrape https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html: 403 Client Error: Forbidden for url: https://zeenews.india.com/india/milk-adulteration-tragedy-in-andhra-claims-four-lives-due-to-anuria-3020085.html
+2026-07-01 19:34:16,532 [INFO] Scraping: https://www.siasat.com/ap-adulterated-milk-claims-4-lives-in-rajamahendravaram-3374087/
+2026-07-01 19:34:18,402 [INFO] Scraping: https://www.hindustantimes.com/cities/others/andhra-milk-adulteration-govt-announces-rs-10-lakh-ex-gratia-for-deceased-101771840048537.html
+2026-07-01 19:34:20,629 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/chandrababu-naidu-reviews-rajamahendravaram-deaths-jagan-demands-stringent-action/article70666087.ece
+2026-07-01 19:34:22,548 [INFO] Scraping: https://www.hindustantimes.com/india-news/four-die-in-andhra-pradesh-rajamahendravaram-after-consuming-adulterated-milk-101771830100532.html
+2026-07-01 19:34:24,228 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/4-die-of-suspected-anuria-in-andhra-pradesh-12-hospitalised-milk-adulteration-angle-probed-1-arrested/articleshow/128702187.cms
+2026-07-01 19:34:26,309 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/4-die-after-consuming-adulterated-milk-in-rajahmundry-1939217
+2026-07-01 19:34:27,642 [INFO] Scraping: https://www.ibtimes.co.in/fake-milk-products-12057-cases-filed-against-adulterators-2024-25-898189
+2026-07-01 19:34:29,372 [INFO] Scraping: https://www.thehansindia.com/news/national/five-of-same-family-die-after-allegedly-consuming-poisoned-milk-in-uttar-pradesh-village-1047314
+2026-07-01 19:34:30,736 [INFO] Scraping: https://www.hindustantimes.com/india-news/andhra-to-form-panel-to-identify-real-culprits-of-tirumala-ghee-adulteration-101770148393113.html
+2026-07-01 19:34:32,116 [INFO] Scraping: https://timesofindia.indiatimes.com/city/raipur/officials-seize-over-14-l-worth-of-adulterated-paneer-in-crackdown/articleshow/126125110.cms
+2026-07-01 19:34:33,876 [INFO] Scraping: https://thelogicalindian.com/68-lakh-kg-fake-ghee-worth-%E2%82%B9250-crore-supplied-to-tirupati-trust-by-dairy-that-never-procured-milk-report/
+2026-07-01 19:34:35,765 [INFO] Scraping: https://www.mid-day.com/news/india-news/article/cyclone-montha-pm-modi-speaks-to-andhra-cm-to-take-stock-of-preparations-officials-directed-to-step-up-precautionary-measures-23600445
+2026-07-01 19:34:37,692 [INFO] Scraping: https://indianexpress.com/article/cities/chandigarh/punjab-imposes-over-%E2%82%B93-crore-in-fines-for-adulterated-milk-products-in-five-years-10278656/
+2026-07-01 19:34:43,739 [ERROR] Failed to scrape https://indianexpress.com/article/cities/chandigarh/punjab-imposes-over-%E2%82%B93-crore-in-fines-for-adulterated-milk-products-in-five-years-10278656/: Exceeded 30 redirects.
+2026-07-01 19:34:44,740 [INFO] Scraping: https://timesofindia.indiatimes.com/india/punjab-launches-major-crackdown-on-food-adulteration-over-5000-kg-paneer-4000-kg-milk-destroyed-legal-action-seizures-follow/articleshow/123145941.cms
+2026-07-01 19:34:46,395 [INFO] Scraping: https://www.dnaindia.com/health/report-7-food-items-you-should-avoid-consuming-with-milk-3156891
+2026-07-01 19:34:46,505 [ERROR] Failed to scrape https://www.dnaindia.com/health/report-7-food-items-you-should-avoid-consuming-with-milk-3156891: 403 Client Error: Forbidden for url: https://www.dnaindia.com/health/report-7-food-items-you-should-avoid-consuming-with-milk-3156891
+2026-07-01 19:34:47,507 [INFO] Scraping: https://www.amarujala.com/uttar-pradesh/aligarh/adulteration-detected-in-milk-going-to-mother-dairy-delhi-24-thousand-liters-of-milk-seized-aligarh-news-c-2-1-gur1003-606455-2025-02-16
+2026-07-01 19:34:49,443 [INFO] Scraping: https://www.dnaindia.com/viral/report-ambani-s-drinks-milk-only-from-this-dairy-cattle-breed-know-about-it-s-superior-quality-3125991
+2026-07-01 19:34:49,532 [ERROR] Failed to scrape https://www.dnaindia.com/viral/report-ambani-s-drinks-milk-only-from-this-dairy-cattle-breed-know-about-it-s-superior-quality-3125991: 403 Client Error: Forbidden for url: https://www.dnaindia.com/viral/report-ambani-s-drinks-milk-only-from-this-dairy-cattle-breed-know-about-it-s-superior-quality-3125991
+2026-07-01 19:34:50,539 [INFO] Scraping: https://www.thehansindia.com/business/sids-farm-launches-awareness-campaign-on-pure-milk-730433
+2026-07-01 19:34:51,825 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/temple-laddu-case-sit-conducts-multi-state-inspections-examines-dairies-and-labs-1841217
+2026-07-01 19:34:53,158 [INFO] Scraping: https://www.newindianexpress.com/states/karnataka/2021/dec/17/ghee-adulteration-ring-busted-karnataka-milk-federation-officials-reach-mysuru-2396443.html
+2026-07-01 19:34:55,359 [INFO] Scraping: https://www.hindustantimes.com/cities/delhi-news/delhi-govt-to-intensify-checks-on-food-adulteration-amid-festive-season-101728844051312.html
+2026-07-01 19:34:57,228 [INFO] Scraping: https://www.thehansindia.com/karnataka/slow-probe-into-milk-adulteration-scam-raises-doubts-689724
+2026-07-01 19:34:58,524 [INFO] Scraping: https://indianexpress.com/article/opinion/columns/milk-production-india-dairy-sector-farmers-milk-price-7401583/
+2026-07-01 19:35:01,169 [INFO] Scraping: https://indianexpress.com/article/cities/delhi/people-consuming-milk-products-not-safe-hc-dairies-9316669/
+2026-07-01 19:35:04,117 [INFO] Scraping: https://timesofindia.indiatimes.com/blogs/voices/tech-solutions-can-tackle-the-burden-of-adulterated-milk-in-india/
+2026-07-01 19:35:06,464 [INFO] Scraping: https://www.tribuneindia.com/news/punjab/41per-cent-milk-samples-found-substandard-in-punjab-441963
+2026-07-01 19:35:06,768 [ERROR] Failed to scrape https://www.tribuneindia.com/news/punjab/41per-cent-milk-samples-found-substandard-in-punjab-441963: 404 Client Error: Not Found for url: https://www.tribuneindia.com/news/punjab/41per-cent-milk-samples-found-substandard-in-punjab-441963
+2026-07-01 19:35:07,782 [INFO] Scraping: https://www.thehindu.com/news/national/karnataka/test-milk-adulterants-in-10-minutes/article66238609.ece
+2026-07-01 19:35:09,613 [INFO] Scraping: https://timesofindia.indiatimes.com/city/ranchi/nhrc-seeks-report-over-spurious-milk/articleshow/96696602.cms
+2026-07-01 19:35:11,255 [INFO] Scraping: https://www.thehindu.com/news/national/kerala/15300-litres-of-adulterated-milk-seized-at-aryankavu-check-post/article66365890.ece
+2026-07-01 19:35:15,177 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/increase-food-safety-inspections-fssai-tells-city-officials/article66383594.ece
+2026-07-01 19:35:17,587 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/murrah-buffalo-yields-27-42-kg-milk-sets-record/articleshow/97298830.cms
+2026-07-01 19:35:19,127 [INFO] Scraping: https://economictimes.indiatimes.com/industry/cons-products/food/increase-surveillance-random-sampling-of-food-items-to-check-adulteration-fssai-tells-states/articleshow/98548407.cms
+2026-07-01 19:35:20,587 [INFO] Scraping: https://www.business-standard.com/article/economy-policy/increase-surveillance-on-food-items-to-check-adulteration-fssai-to-states-123031001131_1.html
+2026-07-01 19:35:20,843 [ERROR] Failed to scrape https://www.business-standard.com/article/economy-policy/increase-surveillance-on-food-items-to-check-adulteration-fssai-to-states-123031001131_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/article/economy-policy/increase-surveillance-on-food-items-to-check-adulteration-fssai-to-states-123031001131_1.html
+2026-07-01 19:35:21,844 [INFO] Scraping: https://timesofindia.indiatimes.com/city/gurgaon/ndri-develops-a-rapid-test-for-detection-of-sorbitol-adulteration-in-milk/articleshow/100653043.cms
+2026-07-01 19:35:23,480 [INFO] Scraping: https://www.tribuneindia.com/news/haryana/ndri-develops-rapid-test-to-detect-milk-adulteration-513058
+2026-07-01 19:35:25,450 [INFO] Scraping: https://timesofindia.indiatimes.com/city/chandigarh/ndri-develops-test-for-milk-adulteration/articleshow/100811311.cms
+2026-07-01 19:35:27,057 [INFO] Scraping: https://timesofindia.indiatimes.com/city/ranchi/70-of-milk-products-in-palamu-low-quality/articleshow/100835987.cms
+2026-07-01 19:35:28,507 [INFO] Scraping: https://timesofindia.indiatimes.com/city/kochi/two-donate-milk-to-gh-breast-milk-bank/articleshow/103725786.cms
+2026-07-01 19:35:30,048 [INFO] Scraping: https://timesofindia.indiatimes.com/city/jaipur/cid-cb-investigation-spurious-milk-case-kaithun-chaksu-jaipur/articleshow/105430331.cms
+2026-07-01 19:35:31,718 [INFO] Scraping: https://www.news18.com/agency-feeds/nhrc-takes-suo-motu-cognisance-of-285-inmate-deaths-in-chhattisgarh-jails-9998160.html
+2026-07-01 19:35:33,211 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/nhrc-takes-suo-motu-cognisance-of-rajamahendravaram-milk-contamination-tragedy-1946419
+2026-07-01 19:35:34,528 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/milk-adulteration-case-death-toll-rises-to-16-in-andhra-pradesh/articleshow/129729841.cms
+2026-07-01 19:35:36,006 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/adulterated-milk-toll-rises-to-11-1054853
+2026-07-01 19:35:37,294 [INFO] Scraping: https://www.thehindu.com/news/cities/Visakhapatnam/toxins-in-contaminated-milk-to-be-identified-soon-says-dr-ravi-raju/article70684241.ece
+2026-07-01 19:35:42,394 [INFO] Scraping: https://www.ndtv.com/health/andhra-milk-contamination-case-fifth-death-reported-15-undergoing-treatment-11136962
+2026-07-01 19:35:42,599 [ERROR] Failed to scrape https://www.ndtv.com/health/andhra-milk-contamination-case-fifth-death-reported-15-undergoing-treatment-11136962: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/andhra-milk-contamination-case-fifth-death-reported-15-undergoing-treatment-11136962
+2026-07-01 19:35:43,615 [INFO] Scraping: https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html
+2026-07-01 19:35:43,950 [ERROR] Failed to scrape https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/andhra-milk-contamination-fifth-death-reported-15-undergoing-treatment-126022501469_1.html
+2026-07-01 19:35:44,950 [INFO] Scraping: https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700
+2026-07-01 19:35:45,108 [ERROR] Failed to scrape https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700: 403 Client Error: Forbidden for url: https://www.ndtv.com/health/authorities-suspect-ethylene-glycol-in-andhra-milk-contamination-case-why-the-coolant-is-dangerous-11133700
+2026-07-01 19:35:46,121 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/milk-contamination-case-toll-rises-to-five-in-rajamahendravaram-accused-vendor-arrested/articleshow/128759697.cms
+2026-07-01 19:35:47,726 [INFO] Scraping: https://thelogicalindian.com/4-die-after-consuming-suspected-adulterated-milk-in-andhra-pradesh-dairy-owner-arrested-probe-underway/
+2026-07-01 19:35:49,536 [INFO] Scraping: https://www.ndtv.com/india-news/4-die-after-consuming-adulterated-milk-in-andhra-1-arrested-11128465#publisher=newsstand
+2026-07-01 19:35:49,710 [ERROR] Failed to scrape https://www.ndtv.com/india-news/4-die-after-consuming-adulterated-milk-in-andhra-1-arrested-11128465#publisher=newsstand: 403 Client Error: Forbidden for url: https://www.ndtv.com/india-news/4-die-after-consuming-adulterated-milk-in-andhra-1-arrested-11128465#publisher=newsstand
+2026-07-01 19:35:50,726 [INFO] Scraping: https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-24-february-2026-india-bhajan-clubbing-delhi-university-milk-contamination-leads-to-serious-illness-andhra-pradesh-mexico-cartel-10547656/
+2026-07-01 19:35:53,421 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/suspected-contaminated-milk-kills-woman-in-kakinada-hospitalizes-10:190223
+2026-07-01 19:35:56,555 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/suspected-contaminated-milk-kills-woman-hospitalizes-10-1939176
+2026-07-01 19:35:57,859 [INFO] Scraping: https://timesofindia.indiatimes.com/city/hyderabad/one-in-6-food-poisoning-deaths-linked-to-t-report-rings-alarm/articleshow/128222289.cms
+2026-07-01 19:35:59,368 [INFO] Scraping: https://www.en.etemaaddaily.com/health/fssai-cracks-down-on-fake-paneer-milk-and-khoya-in-nationwide-drive:186493
+2026-07-01 19:36:02,436 [INFO] Scraping: https://www.newkerala.com/news/o/fssai-orders-nationwide-enforcement-drive-curb-adulteration-milk-paneer-339
+2026-07-01 19:36:05,342 [INFO] Scraping: https://www.newindianexpress.com/nation/2025/Dec/16/fssai-announces-nationwide-crackdown-on-adulteration-of-milk-paneer-and-khoya
+2026-07-01 19:36:07,853 [INFO] Scraping: https://timesofindia.indiatimes.com/home/sunday-times/sale-of-breast-milk-raises-eyebrows/articleshow/92623732.cms
+2026-07-01 19:36:09,441 [INFO] Scraping: https://www.hindustantimes.com/cities/pune-news/taste-of-life-pune-doctor-s-struggle-to-justify-buttermilk-feed-to-reduce-risk-of-infant-mortality-101700684207547.html
+2026-07-01 19:36:11,043 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/h-fast-officials-seize-825-kg-of-suspected-adulterated-paneer-across-hyderabad/article71117812.ece
+2026-07-01 19:36:15,504 [INFO] Scraping: https://www.republicworld.com/india/stock-of-banned-pan-masala-gutkha-and-adulterated-foodstuffs-worth-158-crore-seized-in-seven-days-2026-06-04-126869
+2026-07-01 19:36:17,295 [INFO] Scraping: https://www.hindustantimes.com/cities/pune-news/fda-seizes-substandard-adulterated-food-products-worth-over-31-lakh-101780515229734.html
+2026-07-01 19:36:18,706 [INFO] Scraping: https://timesofindia.indiatimes.com/city/mumbai/maharashtra-fda-conducts-raids-across-cities-seizes-banned-and-adulterated-items-worth-rs-40-lakh-33-arrested-for-selling-gutka/articleshow/131376144.cms
+2026-07-01 19:36:20,155 [INFO] Scraping: https://www.deccanherald.com/health/explained-why-this-ngo-urged-centre-to-alert-parents-on-formula-milk-4012521
+2026-07-01 19:36:22,266 [INFO] Scraping: https://timesofindia.indiatimes.com/city/delhi/whats-cooking-in-pantry-bite-into-adulterated-truth/articleshow/130488415.cms
+2026-07-01 19:36:23,949 [INFO] Scraping: https://timesofindia.indiatimes.com/life-style/food-news/3800-kg-mango-pulp-worth-rs-2-23000-adulterated-with-unsafe-colours-destroyed-how-to-identify-fake-mangoes-at-home/articleshow/130280780.cms
+2026-07-01 19:36:25,662 [INFO] Scraping: https://timesofindia.indiatimes.com/city/pune/pune-fda-seizes-over-3800kg-of-adulterated-mango-pulp/articleshow/130152672.cms
+2026-07-01 19:36:27,232 [INFO] Scraping: https://www.freepressjournal.in/viral/dharam-ka-mazak-11000-litres-of-milk-poured-into-narmada-river-as-holy-offering-sparks-debate-over-blind-faith
+2026-07-01 19:36:29,101 [INFO] Scraping: https://www.thehindu.com/news/national/telangana/telangana-food-safety-department-demonstrates-methods-to-identify-adulterated-food/article70833242.ece
+2026-07-01 19:36:31,010 [INFO] Scraping: https://indianexpress.com/article/india/adulterated-osmania-biscuits-fake-paneer-rotten-eggs-what-hyderabads-crackdown-on-eateries-has-revealed-10612335/
+2026-07-01 19:36:33,854 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-death-toll-rises-to-16-in-rajamahendravaram/article70772927.ece
+2026-07-01 19:36:35,597 [INFO] Scraping: https://www.republicworld.com/india/andhra-pradesh-death-toll-rises-to-16-in-milk-adulteration-case
+2026-07-01 19:36:37,072 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-in-toxic-milk-case-rises-to-17-1945474
+2026-07-01 19:36:38,389 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-case-two-more-die-toll-rises-to-15/article70739472.ece
+2026-07-01 19:36:39,976 [INFO] Scraping: https://newstodaynet.com/2026/03/12/andhra-milk-contamination-death-toll-rises-to-13-seven-undergoing-treatment/
+2026-07-01 19:36:43,218 [INFO] Scraping: https://www.en.etemaaddaily.com/world/national/death-toll-rises-to-13-andhra-milk-contamination:191121
+2026-07-01 19:36:46,313 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-milk-contamination-death-toll-rises-to-13-1943271
+2026-07-01 19:36:47,584 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-rises-to-12-in-rajamahendravaram-milk-adulteration-incident-1943119
+2026-07-01 19:36:48,948 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/guidelines-issued-to-check-milk-adulteration-in-ap/article70726175.ece
+2026-07-01 19:36:50,695 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/food-safety-officials-launch-awareness-drive-on-milk-adulteration-1942879
+2026-07-01 19:36:51,918 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/telangana-vijaya-dairy-alleges-adulteration-in-ap-vijaya-ghee-1055114
+2026-07-01 19:36:53,328 [INFO] Scraping: https://timesofindia.indiatimes.com/city/vijayawada/rajahmundry-milk-adulteration-toll-climbs-to-11/articleshow/129285749.cms
+2026-07-01 19:36:54,851 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/milk-adulteration-death-toll-rises-to-11-condition-of-9-more-persons-remains-critical/article70718548.ece
+2026-07-01 19:36:56,583 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/death-toll-due-to-milk-adulteration-rises-to-10-1942258
+2026-07-01 19:36:57,881 [INFO] Scraping: https://www.livemint.com/news/india/gujarat-news-1-401-kg-of-adulterated-paneer-seized-in-surat-food-outlet-was-operating-without-licence-says-fssai-11772801034522.html
+2026-07-01 19:36:59,338 [INFO] Scraping: https://thelogicalindian.com/festive-sweets-and-hidden-risks-why-adulterated-food-returns-every-holi-diwali-in-indian-markets/
+2026-07-01 19:37:01,290 [INFO] Scraping: https://www.andhrajyothy.com/2026/andhra-pradesh/adulterated-milk-incident-in-east-godavari-toll-reaches-seven-critical-patients-under-treatment-1500405.html
+2026-07-01 19:37:02,619 [INFO] Scraping: https://vaartha.com/top-news/rajahmundry-adulterated-milk-case-updates-deaths-toll/659039/
+2026-07-01 19:37:04,861 [INFO] Scraping: https://www.deccanchronicle.com/southern-states/andhra-pradesh/6-year-old-dies-of-renal-failure-at-kgh-in-milk-contamination-case-1939663
+2026-07-01 19:37:06,181 [INFO] Scraping: https://www.thehindu.com/news/national/andhra-pradesh/acute-renal-failure-death-toll-in-ap-goes-up-to-five-milk-vendor-arrested/article70672332.ece
+2026-07-01 19:37:07,863 [INFO] Scraping: https://www.news18.com/india/up-barabanki-6000-litres-of-fake-mustard-oil-seized-raises-food-safety-concerns-aa-ws-l-9927362.html
+2026-07-01 19:37:09,702 [INFO] Scraping: https://www.newsx.com/india/artificial-ghee-supplied-tirumala-tirupati-devasthanams-laddu-ghee-found-adulterated-with-palm-oil-sit-chargesheet-names-36-accused-exposes-hawala-link-tirupati-laddu-scam-155783/
+2026-07-01 19:37:13,416 [INFO] Scraping: https://timesofindia.indiatimes.com/city/ludhiana/study-at-ludhiana-veterinary-university-links-contaminated-cattle-feed-to-toxins-detected-in-milk-/articleshow/125939018.cms
+2026-07-01 19:37:14,989 [INFO] Scraping: https://timesofindia.indiatimes.com/city/surat/smc-seizes-797-kg-adulterated-dairy-products-in-5-day-drive/articleshow/125352948.cms
+2026-07-01 19:37:16,530 [INFO] Scraping: https://timesofindia.indiatimes.com/city/pune/fda-raids-find-food-stock-worth-2cr-adulterated-or-misleading/articleshow/124613945.cms
+2026-07-01 19:37:18,196 [INFO] Scraping: https://www.hindustantimes.com/cities/lucknow-news/fsda-seizes-4-810kg-adulterated-paneer-on-lko-agra-expressway-destroys-it-101745263017242.html
+2026-07-01 19:37:19,855 [INFO] Scraping: https://www.newindianexpress.com/cities/hyderabad/2025/Feb/13/no-adulteration-of-milk-found-during-special-drive-in-hyderabad
+2026-07-01 19:37:21,824 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/kakinada-maintain-quality-in-housing-works-collector-ch-hari-kiran-tells-officials-699769
+2026-07-01 19:37:23,113 [INFO] Scraping: https://timesofindia.indiatimes.com/city/nagpur/experts-sound-note-of-caution-as-fda-finds-52-of-86-honey-samples-adulterated/articleshow/85336798.cms
+2026-07-01 19:37:24,606 [INFO] Scraping: https://www.business-standard.com/india-news/iit-m-researchers-develop-device-to-detect-milk-adulteration-in-30-seconds-123032700382_1.html
+2026-07-01 19:37:24,812 [ERROR] Failed to scrape https://www.business-standard.com/india-news/iit-m-researchers-develop-device-to-detect-milk-adulteration-in-30-seconds-123032700382_1.html: 403 Client Error: Forbidden for url: https://www.business-standard.com/india-news/iit-m-researchers-develop-device-to-detect-milk-adulteration-in-30-seconds-123032700382_1.html
+2026-07-01 19:37:25,827 [INFO] Scraping: https://www.thehindu.com/news/national/tamil-nadu/iit-madras-researchers-develop-device-to-test-milk-adulteration/article66667682.ece
+2026-07-01 19:37:27,763 [INFO] Scraping: https://timesofindia.indiatimes.com/city/chennai/iit-madras-researchers-develop-paper-based-device-to-detect-milk-adulteration/articleshow/99039271.cms
+2026-07-01 19:37:29,368 [INFO] Scraping: https://www.thehansindia.com/hans/young-hans/iit-ms-3d-portable-device-to-detect-milk-adulteration-789906
+2026-07-01 19:37:30,638 [INFO] Scraping: http://www.newindianexpress.com/states/tamil-nadu/2023/mar/28/iit-madras-develops-portable-paper-device-to-detect-adulteration-in-milk-2560162.html
+2026-07-01 19:37:32,274 [ERROR] Failed to scrape http://www.newindianexpress.com/states/tamil-nadu/2023/mar/28/iit-madras-develops-portable-paper-device-to-detect-adulteration-in-milk-2560162.html: 404 Client Error: Not Found for url: https://www.newindianexpress.com/states/tamil-nadu/2023/mar/28/iit-madras-develops-portable-paper-device-to-detect-adulteration-in-milk-2560162.html
+2026-07-01 19:37:33,274 [INFO] Scraping: https://timesofindia.indiatimes.com/city/chennai/iit-madras-develops-pocket-friendly-device-to-detect-milk-adulteration/articleshow/99047717.cms
+2026-07-01 19:37:34,914 [INFO] Scraping: http://www.newindianexpress.com/states/telangana/2023/apr/14/political-mudslinging-begins-over-deaths-in-telangana-due-to-adulterated-toddy-2565739.html
+2026-07-01 19:37:37,073 [INFO] Scraping: https://www.mid-day.com/mumbai/mumbai-news/article/mumbai-fda-conducts-surprise-milk-inspection-drive-on-5-toll-booths-in-city-23309239
+2026-07-01 19:37:39,202 [INFO] Scraping: https://www.hindustantimes.com/cities/mumbai-news/fda-returns-1-900-litres-of-adulterated-milk-101694803584899.html
+2026-07-01 19:37:40,897 [INFO] Scraping: https://vaartha.com/crime/vikarabad-crime-man-brutally-murdered-in-karan-kot-village/653624/
+2026-07-01 19:37:43,123 [INFO] Scraping: https://timesofindia.indiatimes.com/city/jaipur/1380-kg-of-adulterated-mawa-destroyed-at-milk-mandi-in-shastri-nagar/articleshow/124537183.cms
+2026-07-01 19:37:44,852 [INFO] Scraping: https://www.livemint.com/industry/fssai-food-adulteration-states-union-territories-festive-season-sweets-savouries-milk-milk-products-11726203930361.html
+2026-07-01 19:37:46,788 [INFO] Scraping: https://www.thehansindia.com/andhra-pradesh/ntr-dist-gets-50k-food-packets-milk-from-eluru-904038
+2026-07-01 19:37:48,134 [INFO] Scraping: https://www.thehindu.com/news/cities/Tiruchirapalli/steps-being-taken-to-increase-milk-production-says-minister-mano-thangaraj/article67139129.ece
+2026-07-01 19:37:50,154 [INFO] Scraping: https://www.newindianexpress.com/states/tamil-nadu/2024/Jun/18/as-heat-subsides-aavin-daily-milk-procurement-back-to-32-lakh-litres
+2026-07-01 19:37:52,075 [INFO] Scraping: https://www.newindianexpress.com/states/tamil-nadu/2024/Jun/10/low-in-high-fat-milk-aavin-adopts-2000-buffalo-calves
+2026-07-01 19:37:53,949 [INFO] Scraping: https://www.hindustantimes.com/india-news/father-poisons-three-children-then-dies-by-suicide-in-andhra-101767293359215.html
+2026-07-01 19:37:55,569 [INFO] Scraping: https://www.news18.com/news/india/under-financial-strain-due-to-covid-kerala-sees-15-deaths-in-seven-weeks-4023584.html
+2026-07-01 19:37:57,520 [INFO] Scraping: https://www.firstpost.com/india/a-look-at-the-delhi-gas-chamber-deaths-burari-horror-and-other-chilling-stories-of-suicide-pacts-10708231.html
+2026-07-01 19:37:59,504 [INFO] Scraping: https://www.mid-day.com/news/india-news/article/sangli-deaths-probe-rules-out-suicide-nine-members-of-same-family-were-poisoned-to-death-two-held-say-cops-23233340
+2026-07-01 19:38:01,724 [INFO] Scraping: https://frontline.thehindu.com/the-nation/gas-poisoning-deaths-in-giaspura-ludhiana-reveal-infrastructure-neglect-flouted-environmental-laws-coupled-with-lack-of-civic-amenities-led-to-tragedy/article66841767.ece
+2026-07-01 19:38:03,202 [INFO] Scraping: https://www.sentinelassam.com/topheadlines/rapid-low-cost-tests-can-help-prevent-child-deaths-from-contaminated-syrups
+2026-07-01 19:38:04,900 [INFO] Scraping: https://www.news18.com/india/over-3300-quintals-of-adulterated-food-worth-rs-4-76-crore-seized-before-diwali-in-up-ws-e-9641390.html
+2026-07-01 19:38:06,583 [INFO] Scraping: https://www.freepressjournal.in/uttar-pradesh/up-fsda-seizes-adulterated-food-worth-476-crore-under-diwali-special-drive
+2026-07-01 19:38:08,584 [INFO] Scraping: https://timesofindia.indiatimes.com/city/lucknow/crackdown-on-adulterated-food-across-state-ahead-of-diwali/articleshow/124589368.cms
+2026-07-01 19:38:10,206 [INFO] Scraping: https://www.thehansindia.com/news/national/2993-quintals-of-adulterated-food-seized-1155-quintals-destroyed-special-drive-runs-from-october-8-17-1015062
+2026-07-01 19:38:11,606 [INFO] Scraping: https://www.freepressjournal.in/india/uttar-pradesh-news-yogi-govt-launches-statewide-crackdown-on-adulterated-food-ahead-of-diwali-2025
+2026-07-01 19:38:13,465 [INFO] Scraping: https://www.freepressjournal.in/mumbai/mumbai-news-fda-destroys-218-kg-cheese-478-litres-milk-worth-54000-in-festive-season-adulteration-crackdown
+2026-07-01 19:38:15,346 [INFO] Scraping: https://timesofindia.indiatimes.com/blogs/seeing-the-invisible/milk-won-the-battle-against-measles-long-before-antibiotics-and-vaccines-part-2/
+2026-07-01 19:38:17,569 [INFO] Scraping: https://www.hindustantimes.com/cities/pune-news/fda-seizes-adulterated-food-items-worth-24-lakh-during-diwali-drive-101731090366158.html
+2026-07-01 19:38:19,204 [INFO] Scraping: https://www.freepressjournal.in/pune/pune-fda-seizes-adulterated-food-items-worth-2407-lakh
+2026-07-01 19:38:20,997 [INFO] Scraping: https://www.freepressjournal.in/pune/pune-fda-to-conduct-special-drive-to-crack-down-on-adulterated-food-items-during-diwali
+2026-07-01 19:38:22,727 [INFO] Scraping: https://www.hindustantimes.com/cities/pune-news/fda-seize-suspected-adulterated-food-items-worth-14-35-lakh-101726859521928.html
+2026-07-01 19:38:24,203 [INFO] Scraping: https://www.freepressjournal.in/pune/nashik-fda-raids-sweet-shops-at-saptashringi-garh-seizes-over-5-lakh-worth-of-adulterated-sweets
+2026-07-01 19:38:25,997 [INFO] Deduped from 208 to 207 articles.
+2026-07-01 19:38:26,033 [INFO] Pipeline complete. Final dataset: 207 articles.
