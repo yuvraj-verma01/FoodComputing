@@ -1,0 +1,4992 @@
+{
+  "status": "extraction_derived",
+  "scope": "Qwen oil event-bearing articles only",
+  "taxonomy_version": "hierarchical_v1",
+  "classification_policy": "Deterministic parent categories and normalized concepts; original Qwen labels are retained as aliases.",
+  "facets": [
+    {
+      "id": "food_products",
+      "label": "Food products",
+      "description": "Products and ingredients represented in Qwen event objects.",
+      "groups": [
+        {
+          "id": "food_products:group:oil",
+          "name": "Oil",
+          "definition": "The parent food category for every normalized edible-oil product in this release.",
+          "occurrences": 141,
+          "article_count": 101,
+          "event_count": 102,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-08837290b8f04c6c",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-13fd5c31e278a577",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-2027fa14e94958fd",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-63f43befc46e25fa",
+            "oil-66b89ef48f4536a9",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-722884cee1da5016",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-85127f0bde3109d3",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-8e1ede70f7533502",
+            "oil-9087ba5d7aa31b77",
+            "oil-94951aba738c80b3",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9c21da748413e6f9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aa814b41a4920904",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c4d815318f8299b0",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502",
+            "oil-ce4031737a7654b3",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "food_products:entry:oil:generic-edible-oil",
+              "name": "Generic edible oil",
+              "definition": "An edible-oil product reported without a more specific botanical source.",
+              "occurrences": 35,
+              "article_count": 35,
+              "event_count": 35,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-05aa031a4b58524e",
+                "oil-06d5928124689ba0",
+                "oil-081117bbf714a215",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-0db512df7c0cc7df",
+                "oil-156fd0980ec51fe6",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-21d4880656b0c52f",
+                "oil-2a83d0762b1ee1b8",
+                "oil-2f0a177eecae442b",
+                "oil-3aa9d09717e53c24",
+                "oil-3bd1cf9862ff569d",
+                "oil-431077a2a1ab59e9",
+                "oil-4bd4c6831e9c7077",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-63f43befc46e25fa",
+                "oil-66b89ef48f4536a9",
+                "oil-69a4843e2e016e1e",
+                "oil-722884cee1da5016",
+                "oil-7ced813eb9eb1314",
+                "oil-8236cb0c375f7c7f",
+                "oil-829d382c68663635",
+                "oil-846611108e27fafb",
+                "oil-85127f0bde3109d3",
+                "oil-898a1362002b727d",
+                "oil-af7d37f8450fbc59",
+                "oil-b69aa408b924b9b4",
+                "oil-c3728ff063420cf8",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be",
+                "oil-c84820229ce8af05",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil",
+                "fkg:EdibleOil",
+                "fkg:Food",
+                "fso:EdibleOil"
+              ],
+              "aliases": [
+                "adulterated oils",
+                "edible oil",
+                "edible oils",
+                "loose oil",
+                "oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:mustard-oil",
+              "name": "Mustard oil",
+              "definition": "Oil produced from mustard seed, including named mustard-oil brands.",
+              "occurrences": 32,
+              "article_count": 29,
+              "event_count": 29,
+              "article_ids": [
+                "oil-081117bbf714a215",
+                "oil-13fd5c31e278a577",
+                "oil-17abc10a59ca2c80",
+                "oil-2f0a177eecae442b",
+                "oil-30270b1b4280233d",
+                "oil-4868fc6b9046a8f9",
+                "oil-4877f76e174824e5",
+                "oil-48d56f0dc43d0ecc",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-7269f661e72c703f",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-7ed3f9582cae741d",
+                "oil-898a1362002b727d",
+                "oil-9087ba5d7aa31b77",
+                "oil-94951aba738c80b3",
+                "oil-9f582ea75e0eddfb",
+                "oil-a7080ed266c36f88",
+                "oil-aa814b41a4920904",
+                "oil-aca35e8b9bccaa60",
+                "oil-b434a85e1e9196d0",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c2fa50179af284f7",
+                "oil-ca9b994ce2d3e502",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [
+                "edible_oil",
+                "fflo:EdibleOil",
+                "fkg:EdibleOil",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "Fortune Kacchi Ghani Mustard Oil",
+                "Fortune Sarso Oil",
+                "mustard oil",
+                "Ranthambore brand mustard oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:soybean-oil",
+              "name": "Soybean oil",
+              "definition": "Oil produced from soybean; spelling and refined-product variants are combined.",
+              "occurrences": 19,
+              "article_count": 18,
+              "event_count": 19,
+              "article_ids": [
+                "oil-055a850c7fce9512",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-2027fa14e94958fd",
+                "oil-23d97461886d2622",
+                "oil-30270b1b4280233d",
+                "oil-431077a2a1ab59e9",
+                "oil-438415c185832786",
+                "oil-4b88eb2520f8cc22",
+                "oil-4d6bfb72c0733299",
+                "oil-69a4843e2e016e1e",
+                "oil-70649ae86f99dffc",
+                "oil-7269f661e72c703f",
+                "oil-97103cc7b062d80c",
+                "oil-a74af7bad030eb8a",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c1a2f95596a3b00d",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [
+                "edible_oil",
+                "fflo:EdibleOil",
+                "fkg:EdibleOil",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "Fortune Refined Soybean Oil",
+                "refined soyabean oil",
+                "refined soybean oil",
+                "soyabean oil",
+                "soybean oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:coconut-oil",
+              "name": "Coconut oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 13,
+              "article_count": 13,
+              "event_count": 13,
+              "article_ids": [
+                "oil-3be954e8def80c8d",
+                "oil-76b9943656157edc",
+                "oil-8e1bcc090b3c0db2",
+                "oil-8e1ede70f7533502",
+                "oil-9522cb6fbdcc239f",
+                "oil-992710122346e1a9",
+                "oil-9ab1d36fc93cf95c",
+                "oil-9c21da748413e6f9",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a882a3e8b7aeb487",
+                "oil-a9685f88d15906f6",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "coconut oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:cooking-oil",
+              "name": "Cooking oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 8,
+              "article_count": 8,
+              "event_count": 8,
+              "article_ids": [
+                "oil-0d7b13a282f9b466",
+                "oil-3c8df3ffa6943fef",
+                "oil-63426d939d718e7f",
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c",
+                "oil-af3a540365afc7c2",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil",
+                "fkg:EdibleOil",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "cooking oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:palm-oil",
+              "name": "Palm oil",
+              "definition": "A normalized food products concept combining 2 extracted labels.",
+              "occurrences": 8,
+              "article_count": 8,
+              "event_count": 8,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-08837290b8f04c6c",
+                "oil-3667d1bf7abe81ff",
+                "oil-438415c185832786",
+                "oil-7885df1b5e223e8b",
+                "oil-a0831d014f72baf3",
+                "oil-a776d4d8a8c71497",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant",
+                "fkg:EdibleOil",
+                "fkg:Food",
+                "fkg:Ingredient"
+              ],
+              "aliases": [
+                "palm oil",
+                "refined palm oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:groundnut-or-peanut-oil",
+              "name": "Groundnut or peanut oil",
+              "definition": "Oil produced from groundnut or peanut; both names are treated as one product category.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-2027fa14e94958fd",
+                "oil-431077a2a1ab59e9",
+                "oil-70649ae86f99dffc",
+                "oil-7885df1b5e223e8b",
+                "oil-992710122346e1a9"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil",
+                "fkg:EdibleOil",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "groundnut oil",
+                "peanut oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:sunflower-oil",
+              "name": "Sunflower oil",
+              "definition": "A normalized food products concept combining 2 extracted labels.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-7885df1b5e223e8b",
+                "oil-992710122346e1a9",
+                "oil-a776d4d8a8c71497"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil",
+                "fflo:Food",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "refined sunflower oil",
+                "sunflower oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:blended-or-multi-source-edible-oil",
+              "name": "Blended or multi-source edible oil",
+              "definition": "An edible-oil product represented as a blend of oils or sources.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-42c4efcdce45e35d",
+                "oil-4fbd8c2a2930c559"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "blended cooking oil",
+                "Mast Health Multi-source Edible Oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:branded-edible-oil",
+              "name": "Branded edible oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "Fresh Heart brand oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:palm-olein",
+              "name": "Palm olein",
+              "definition": "The liquid fraction of palm oil, including spelling variants such as palmolein.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-4b88eb2520f8cc22",
+                "oil-7ed3f9582cae741d"
+              ],
+              "ontology_types": [
+                "edible_oil",
+                "fflo:EdibleOil"
+              ],
+              "aliases": [
+                "palm olein oil",
+                "palmolein oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:refined-edible-oil",
+              "name": "Refined edible oil",
+              "definition": "A normalized food products concept combining 2 extracted labels.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-4d6bfb72c0733299"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "Binni refined oil",
+                "refined oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:almond-oil",
+              "name": "Almond oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-5413f17944743156"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil"
+              ],
+              "aliases": [
+                "almond oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:condensate-oil",
+              "name": "Condensate oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-9790eee6e00c0018"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "condensate oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:cottonseed-oil",
+              "name": "Cottonseed oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-86a403aef71f924e"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil"
+              ],
+              "aliases": [
+                "cottonseed oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:kalonji-oil",
+              "name": "Kalonji oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-5413f17944743156"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil"
+              ],
+              "aliases": [
+                "kalonji oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:rice-bran-oil",
+              "name": "Rice bran oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-898a1362002b727d"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "rice bran oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:safflower-oil",
+              "name": "Safflower oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-077084a32a4e8faa"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "safflower oil"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:vanaspati",
+              "name": "Vanaspati",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [
+                "fkg:Food"
+              ],
+              "aliases": [
+                "vanaspati"
+              ]
+            },
+            {
+              "id": "food_products:entry:oil:walnut-oil",
+              "name": "Walnut oil",
+              "definition": "A normalized food products concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-5413f17944743156"
+              ],
+              "ontology_types": [
+                "fflo:EdibleOil"
+              ],
+              "aliases": [
+                "walnut oil"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "issue_types",
+      "label": "Issue types",
+      "description": "Food-safety and fraud issue categories assigned to event objects.",
+      "groups": [
+        {
+          "id": "issue_types:group:food-fraud-and-authenticity",
+          "name": "Food fraud and authenticity",
+          "definition": "Issues concerning product identity, composition, substitution, dilution, or fraudulent presentation.",
+          "occurrences": 110,
+          "article_count": 79,
+          "event_count": 79,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-05aa031a4b58524e",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-08837290b8f04c6c",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-13fd5c31e278a577",
+            "oil-156fd0980ec51fe6",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-21d4880656b0c52f",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-63f43befc46e25fa",
+            "oil-66b89ef48f4536a9",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-722884cee1da5016",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-85127f0bde3109d3",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-8e1ede70f7533502",
+            "oil-9087ba5d7aa31b77",
+            "oil-94951aba738c80b3",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9c21da748413e6f9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aa814b41a4920904",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b96369f55af40397",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c84820229ce8af05",
+            "oil-ca9b994ce2d3e502",
+            "oil-ce4031737a7654b3",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "issue_types:entry:food-fraud-and-authenticity:adulteration",
+              "name": "Adulteration",
+              "definition": "A substance, process, or product condition is reported as compromising the food.",
+              "occurrences": 60,
+              "article_count": 60,
+              "event_count": 60,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-06d5928124689ba0",
+                "oil-077084a32a4e8faa",
+                "oil-081117bbf714a215",
+                "oil-08837290b8f04c6c",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-0d7b13a282f9b466",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-13fd5c31e278a577",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-21d4880656b0c52f",
+                "oil-2f0a177eecae442b",
+                "oil-3bd1cf9862ff569d",
+                "oil-3be954e8def80c8d",
+                "oil-3c8df3ffa6943fef",
+                "oil-4d6bfb72c0733299",
+                "oil-5ac9372e2a178a90",
+                "oil-63426d939d718e7f",
+                "oil-63f43befc46e25fa",
+                "oil-66b89ef48f4536a9",
+                "oil-70649ae86f99dffc",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-7ced813eb9eb1314",
+                "oil-7ed3f9582cae741d",
+                "oil-8236cb0c375f7c7f",
+                "oil-829d382c68663635",
+                "oil-846611108e27fafb",
+                "oil-85127f0bde3109d3",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-898a1362002b727d",
+                "oil-8e1bcc090b3c0db2",
+                "oil-8e1ede70f7533502",
+                "oil-9087ba5d7aa31b77",
+                "oil-94951aba738c80b3",
+                "oil-9522cb6fbdcc239f",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-9c21da748413e6f9",
+                "oil-9f582ea75e0eddfb",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a7080ed266c36f88",
+                "oil-a776d4d8a8c71497",
+                "oil-a882a3e8b7aeb487",
+                "oil-a9685f88d15906f6",
+                "oil-aca35e8b9bccaa60",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b434a85e1e9196d0",
+                "oil-b96369f55af40397",
+                "oil-c1a2f95596a3b00d",
+                "oil-c2fa50179af284f7",
+                "oil-c3728ff063420cf8",
+                "oil-ca9b994ce2d3e502",
+                "oil-ce4031737a7654b3",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "adulteration"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-fraud-and-authenticity:mislabeling",
+              "name": "Mislabeling",
+              "definition": "The label, identity, composition, or declaration does not match the reported product.",
+              "occurrences": 23,
+              "article_count": 23,
+              "event_count": 23,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-156fd0980ec51fe6",
+                "oil-3aa9d09717e53c24",
+                "oil-3bd1cf9862ff569d",
+                "oil-3c8df3ffa6943fef",
+                "oil-4b88eb2520f8cc22",
+                "oil-4bd4c6831e9c7077",
+                "oil-5413f17944743156",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-63426d939d718e7f",
+                "oil-6e721139517af252",
+                "oil-722884cee1da5016",
+                "oil-76b9943656157edc",
+                "oil-7885df1b5e223e8b",
+                "oil-8826c3388f25a8b2",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9522cb6fbdcc239f",
+                "oil-9ab1d36fc93cf95c",
+                "oil-a74af7bad030eb8a",
+                "oil-a776d4d8a8c71497",
+                "oil-aa814b41a4920904",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "mislabeling"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-fraud-and-authenticity:counterfeit",
+              "name": "Counterfeit",
+              "definition": "A product is presented as an authentic brand or food when it is allegedly fake.",
+              "occurrences": 14,
+              "article_count": 14,
+              "event_count": 14,
+              "article_ids": [
+                "oil-05aa031a4b58524e",
+                "oil-0d7b13a282f9b466",
+                "oil-2a83d0762b1ee1b8",
+                "oil-30270b1b4280233d",
+                "oil-3bd1cf9862ff569d",
+                "oil-5413f17944743156",
+                "oil-5ac9372e2a178a90",
+                "oil-7269f661e72c703f",
+                "oil-8236cb0c375f7c7f",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9ab1d36fc93cf95c",
+                "oil-aa814b41a4920904",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "counterfeit"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-fraud-and-authenticity:substitution",
+              "name": "Substitution",
+              "definition": "The expected food or ingredient is replaced wholly or partly by another material.",
+              "occurrences": 12,
+              "article_count": 12,
+              "event_count": 12,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-08837290b8f04c6c",
+                "oil-2a83d0762b1ee1b8",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-85127f0bde3109d3",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-a776d4d8a8c71497",
+                "oil-aa814b41a4920904",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "substitution"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-fraud-and-authenticity:dilution",
+              "name": "Dilution",
+              "definition": "The product is weakened by adding a lower-value or undeclared material.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-992710122346e1a9"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "dilution"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "issue_types:group:food-safety-and-quality",
+          "name": "Food safety and quality",
+          "definition": "Issues concerning contamination, standards, prohibited additives, or unsafe product condition.",
+          "occurrences": 76,
+          "article_count": 57,
+          "event_count": 58,
+          "article_ids": [
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-081117bbf714a215",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-2027fa14e94958fd",
+            "oil-23d97461886d2622",
+            "oil-2f0a177eecae442b",
+            "oil-3667d1bf7abe81ff",
+            "oil-3be954e8def80c8d",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5847641c3b5b8b8f",
+            "oil-63f43befc46e25fa",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ed3f9582cae741d",
+            "oil-829d382c68663635",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-9087ba5d7aa31b77",
+            "oil-9522cb6fbdcc239f",
+            "oil-9f582ea75e0eddfb",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a74af7bad030eb8a",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aca35e8b9bccaa60",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c1a2f95596a3b00d",
+            "oil-c4d815318f8299b0",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450"
+          ],
+          "entries": [
+            {
+              "id": "issue_types:entry:food-safety-and-quality:substandard",
+              "name": "Substandard",
+              "definition": "The product is reported as failing a quality, composition, or safety requirement.",
+              "occurrences": 53,
+              "article_count": 52,
+              "event_count": 53,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-055a850c7fce9512",
+                "oil-05aa031a4b58524e",
+                "oil-081117bbf714a215",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-156fd0980ec51fe6",
+                "oil-17abc10a59ca2c80",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-2027fa14e94958fd",
+                "oil-23d97461886d2622",
+                "oil-2f0a177eecae442b",
+                "oil-3667d1bf7abe81ff",
+                "oil-3be954e8def80c8d",
+                "oil-42c4efcdce45e35d",
+                "oil-431077a2a1ab59e9",
+                "oil-438415c185832786",
+                "oil-4868fc6b9046a8f9",
+                "oil-4877f76e174824e5",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4b88eb2520f8cc22",
+                "oil-4fbd8c2a2930c559",
+                "oil-5847641c3b5b8b8f",
+                "oil-63f43befc46e25fa",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-76b9943656157edc",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-7ed3f9582cae741d",
+                "oil-829d382c68663635",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-9522cb6fbdcc239f",
+                "oil-9f582ea75e0eddfb",
+                "oil-a0831d014f72baf3",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a74af7bad030eb8a",
+                "oil-a882a3e8b7aeb487",
+                "oil-a9685f88d15906f6",
+                "oil-b69aa408b924b9b4",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be",
+                "oil-c84820229ce8af05",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "substandard"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-safety-and-quality:unsafe-food",
+              "name": "Unsafe food",
+              "definition": "The report describes a concrete food-safety concern without a narrower issue type.",
+              "occurrences": 13,
+              "article_count": 12,
+              "event_count": 13,
+              "article_ids": [
+                "oil-055a850c7fce9512",
+                "oil-11313f68b0e0b1d7",
+                "oil-17abc10a59ca2c80",
+                "oil-23d97461886d2622",
+                "oil-4bd4c6831e9c7077",
+                "oil-4fbd8c2a2930c559",
+                "oil-5847641c3b5b8b8f",
+                "oil-69a4843e2e016e1e",
+                "oil-76b9943656157edc",
+                "oil-b69aa408b924b9b4",
+                "oil-c4d815318f8299b0",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "unsafe_food"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-safety-and-quality:contamination",
+              "name": "Contamination",
+              "definition": "The product contains an unwanted physical, chemical, or biological contaminant.",
+              "occurrences": 9,
+              "article_count": 9,
+              "event_count": 9,
+              "article_ids": [
+                "oil-0db512df7c0cc7df",
+                "oil-3667d1bf7abe81ff",
+                "oil-4868fc6b9046a8f9",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-6e721139517af252",
+                "oil-9087ba5d7aa31b77",
+                "oil-a0831d014f72baf3",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "contamination"
+              ]
+            },
+            {
+              "id": "issue_types:entry:food-safety-and-quality:prohibited-additive",
+              "name": "Prohibited additive",
+              "definition": "The report identifies an additive that is not permitted for the stated use.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-48d56f0dc43d0ecc"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "prohibited_additive"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adulterants",
+      "label": "Adulterants and reported materials",
+      "description": "Named or generic materials represented as adulterants in extracted events.",
+      "groups": [
+        {
+          "id": "adulterants:group:degraded-fake-or-unspecified-product",
+          "name": "Degraded, fake, or unspecified product",
+          "definition": "Product-condition descriptions where a more specific adulterant is not established.",
+          "occurrences": 19,
+          "article_count": 19,
+          "event_count": 19,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-077084a32a4e8faa",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-2f0a177eecae442b",
+            "oil-5ac9372e2a178a90",
+            "oil-722884cee1da5016",
+            "oil-8236cb0c375f7c7f",
+            "oil-85127f0bde3109d3",
+            "oil-8826c3388f25a8b2",
+            "oil-8e1bcc090b3c0db2",
+            "oil-8e1ede70f7533502",
+            "oil-97103cc7b062d80c",
+            "oil-9c21da748413e6f9",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a882a3e8b7aeb487",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:unspecified-material",
+              "name": "Unspecified material",
+              "definition": "A normalized adulterants and reported materials concept combining 4 extracted labels.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-8e1ede70f7533502",
+                "oil-af7d37f8450fbc59",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "unknown",
+                "unknown adulterant",
+                "unspecified",
+                "unspecified adulterant"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:adulterated-oil",
+              "name": "Adulterated oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-722884cee1da5016",
+                "oil-8236cb0c375f7c7f",
+                "oil-9c21da748413e6f9"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "adulterated oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:expired-cooking-oil",
+              "name": "Expired cooking oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "expired cooking oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:adulterated-coconut-oil",
+              "name": "Adulterated coconut oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-a4f6b6de8fcb2c3d"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "adulterated coconut oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:fake-coconut-oil",
+              "name": "Fake coconut oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-8e1bcc090b3c0db2"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "fake coconut oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:fake-cooking-oil",
+              "name": "Fake cooking oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-0d7b13a282f9b466"
+              ],
+              "ontology_types": [
+                "fflo:AdulteratedProduct"
+              ],
+              "aliases": [
+                "fake cooking oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:harmful-substances",
+              "name": "Harmful substances",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-077084a32a4e8faa"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "harmful substances"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:impure-edible-oil",
+              "name": "Impure edible oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-5ac9372e2a178a90"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "impure edible oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:inferior-and-adulterated-oils",
+              "name": "Inferior and adulterated oils",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-a882a3e8b7aeb487"
+              ],
+              "ontology_types": [
+                "fkg:Adulterant"
+              ],
+              "aliases": [
+                "inferior and adulterated oils"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:old-oil",
+              "name": "Old oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-85127f0bde3109d3"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "old oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:reused-cooking-oil",
+              "name": "Reused cooking oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-af3a540365afc7c2"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "reused cooking oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:spurious-oil",
+              "name": "Spurious oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-09a4e4c4bd7a4ed0"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "spurious oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:degraded-fake-or-unspecified-product:unfit-edible-oil",
+              "name": "Unfit edible oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-2f0a177eecae442b"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "unfit edible oil"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adulterants:group:substitute-oils-and-fats",
+          "name": "Substitute oils and fats",
+          "definition": "Lower-value, undeclared, or non-food oils and fats reported as substitutes.",
+          "occurrences": 10,
+          "article_count": 10,
+          "event_count": 10,
+          "article_ids": [
+            "oil-077084a32a4e8faa",
+            "oil-08837290b8f04c6c",
+            "oil-2a83d0762b1ee1b8",
+            "oil-73603e3fbe5b2e10",
+            "oil-846611108e27fafb",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-a776d4d8a8c71497",
+            "oil-aa814b41a4920904",
+            "oil-ca9b994ce2d3e502"
+          ],
+          "entries": [
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:lower-grade-or-unspecified-oil",
+              "name": "Lower-grade or unspecified oil",
+              "definition": "A normalized adulterants and reported materials concept combining 3 extracted labels.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-2a83d0762b1ee1b8",
+                "oil-aa814b41a4920904",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant",
+                "fkg:Food"
+              ],
+              "aliases": [
+                "cheaper brands",
+                "local oil",
+                "other oils"
+              ]
+            },
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:palm-oil-or-palm-olein",
+              "name": "Palm oil or palm olein",
+              "definition": "A normalized adulterants and reported materials concept combining 2 extracted labels.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-992710122346e1a9",
+                "oil-a776d4d8a8c71497"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant",
+                "fflo:NaturalAdulterant"
+              ],
+              "aliases": [
+                "palm oil",
+                "refined palm olein"
+              ]
+            },
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:animal-fat",
+              "name": "Animal fat",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-077084a32a4e8faa"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant"
+              ],
+              "aliases": [
+                "animal fats"
+              ]
+            },
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:condensate-oil",
+              "name": "Condensate oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-9790eee6e00c0018"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "condensate oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:rice-bran-oil",
+              "name": "Rice bran oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-73603e3fbe5b2e10"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant"
+              ],
+              "aliases": [
+                "rice bran oil"
+              ]
+            },
+            {
+              "id": "adulterants:entry:substitute-oils-and-fats:used-motor-oil",
+              "name": "Used motor oil",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-846611108e27fafb"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "used motor oil"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adulterants:group:chemicals-additives-and-quality-indicators",
+          "name": "Chemicals, additives, and quality indicators",
+          "definition": "Chemical substances, additives, or measured quality indicators reported in connection with the issue.",
+          "occurrences": 4,
+          "article_count": 4,
+          "event_count": 4,
+          "article_ids": [
+            "oil-3667d1bf7abe81ff",
+            "oil-4d6bfb72c0733299",
+            "oil-898a1362002b727d",
+            "oil-b96369f55af40397"
+          ],
+          "entries": [
+            {
+              "id": "adulterants:entry:chemicals-additives-and-quality-indicators:colouring-material",
+              "name": "Colouring material",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-898a1362002b727d"
+              ],
+              "ontology_types": [
+                "fkg:Substance"
+              ],
+              "aliases": [
+                "colouring material"
+              ]
+            },
+            {
+              "id": "adulterants:entry:chemicals-additives-and-quality-indicators:sulphur",
+              "name": "Sulphur",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-b96369f55af40397"
+              ],
+              "ontology_types": [
+                "fkg:Chemical"
+              ],
+              "aliases": [
+                "sulphur"
+              ]
+            },
+            {
+              "id": "adulterants:entry:chemicals-additives-and-quality-indicators:total-polar-compound",
+              "name": "Total polar compound",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-3667d1bf7abe81ff"
+              ],
+              "ontology_types": [
+                "fflo:ContaminantAdulterant"
+              ],
+              "aliases": [
+                "Total Polar Compound"
+              ]
+            },
+            {
+              "id": "adulterants:entry:chemicals-additives-and-quality-indicators:vitamin-d",
+              "name": "Vitamin d",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-4d6bfb72c0733299"
+              ],
+              "ontology_types": [
+                "fflo:Adulterant"
+              ],
+              "aliases": [
+                "Vitamin D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adulterants:group:toxic-seeds-and-plant-oils",
+          "name": "Toxic seeds and plant oils",
+          "definition": "Named toxic botanical materials or oils reported as adulterants.",
+          "occurrences": 4,
+          "article_count": 4,
+          "event_count": 4,
+          "article_ids": [
+            "oil-3bd1cf9862ff569d",
+            "oil-9087ba5d7aa31b77",
+            "oil-a7080ed266c36f88",
+            "oil-aca35e8b9bccaa60"
+          ],
+          "entries": [
+            {
+              "id": "adulterants:entry:toxic-seeds-and-plant-oils:argemone-seed-or-oil",
+              "name": "Argemone seed or oil",
+              "definition": "A normalized adulterants and reported materials concept combining 4 extracted labels.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-3bd1cf9862ff569d",
+                "oil-9087ba5d7aa31b77",
+                "oil-a7080ed266c36f88",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant"
+              ],
+              "aliases": [
+                "argemone",
+                "Argemone mexicana seed oil",
+                "argemone mexicana seeds",
+                "Argemone oil"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adulterants:group:physical-contaminants",
+          "name": "Physical contaminants",
+          "definition": "Foreign physical material reported in the food product.",
+          "occurrences": 5,
+          "article_count": 3,
+          "event_count": 3,
+          "article_ids": [
+            "oil-0db512df7c0cc7df",
+            "oil-4fbd8c2a2930c559",
+            "oil-7ced813eb9eb1314"
+          ],
+          "entries": [
+            {
+              "id": "adulterants:entry:physical-contaminants:dust",
+              "name": "Dust",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-0db512df7c0cc7df",
+                "oil-4fbd8c2a2930c559"
+              ],
+              "ontology_types": [
+                "fflo:ContaminantAdulterant"
+              ],
+              "aliases": [
+                "dust"
+              ]
+            },
+            {
+              "id": "adulterants:entry:physical-contaminants:animal-carcasses",
+              "name": "Animal carcasses",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-7ced813eb9eb1314"
+              ],
+              "ontology_types": [
+                "fflo:NaturalAdulterant"
+              ],
+              "aliases": [
+                "animal carcasses"
+              ]
+            },
+            {
+              "id": "adulterants:entry:physical-contaminants:mud",
+              "name": "Mud",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-0db512df7c0cc7df"
+              ],
+              "ontology_types": [
+                "fflo:ContaminantAdulterant"
+              ],
+              "aliases": [
+                "mud"
+              ]
+            },
+            {
+              "id": "adulterants:entry:physical-contaminants:sand",
+              "name": "Sand",
+              "definition": "A normalized adulterants and reported materials concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-4fbd8c2a2930c559"
+              ],
+              "ontology_types": [
+                "fflo:ContaminantAdulterant"
+              ],
+              "aliases": [
+                "sand"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claim_statuses",
+      "label": "Claim status",
+      "description": "How strongly the article presents the event claim, kept separate from relevance.",
+      "groups": [
+        {
+          "id": "claim_statuses:group:unconfirmed-or-qualified-finding",
+          "name": "Unconfirmed or qualified finding",
+          "definition": "Suspected, alleged, pending, or otherwise unresolved claims.",
+          "occurrences": 99,
+          "article_count": 98,
+          "event_count": 99,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-08837290b8f04c6c",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-13fd5c31e278a577",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-2027fa14e94958fd",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-30270b1b4280233d",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-63f43befc46e25fa",
+            "oil-66b89ef48f4536a9",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-722884cee1da5016",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-85127f0bde3109d3",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-8e1ede70f7533502",
+            "oil-9087ba5d7aa31b77",
+            "oil-94951aba738c80b3",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9c21da748413e6f9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aa814b41a4920904",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c4d815318f8299b0",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502",
+            "oil-ce4031737a7654b3"
+          ],
+          "entries": [
+            {
+              "id": "claim_statuses:entry:unconfirmed-or-qualified-finding:suspected",
+              "name": "Suspected",
+              "definition": "A concrete event is reported, but the issue remains a suspicion rather than a confirmed result.",
+              "occurrences": 70,
+              "article_count": 69,
+              "event_count": 70,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-055a850c7fce9512",
+                "oil-05aa031a4b58524e",
+                "oil-06d5928124689ba0",
+                "oil-081117bbf714a215",
+                "oil-08837290b8f04c6c",
+                "oil-0d7b13a282f9b466",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-2027fa14e94958fd",
+                "oil-21d4880656b0c52f",
+                "oil-23d97461886d2622",
+                "oil-2a83d0762b1ee1b8",
+                "oil-3aa9d09717e53c24",
+                "oil-3be954e8def80c8d",
+                "oil-3c8df3ffa6943fef",
+                "oil-42c4efcdce45e35d",
+                "oil-431077a2a1ab59e9",
+                "oil-438415c185832786",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4b88eb2520f8cc22",
+                "oil-4bd4c6831e9c7077",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-5413f17944743156",
+                "oil-63426d939d718e7f",
+                "oil-63f43befc46e25fa",
+                "oil-66b89ef48f4536a9",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-73603e3fbe5b2e10",
+                "oil-7b8839ea47991949",
+                "oil-7ed3f9582cae741d",
+                "oil-829d382c68663635",
+                "oil-85127f0bde3109d3",
+                "oil-86a403aef71f924e",
+                "oil-898a1362002b727d",
+                "oil-8e1ede70f7533502",
+                "oil-9087ba5d7aa31b77",
+                "oil-94951aba738c80b3",
+                "oil-9522cb6fbdcc239f",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-9c21da748413e6f9",
+                "oil-9f582ea75e0eddfb",
+                "oil-a0831d014f72baf3",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a7080ed266c36f88",
+                "oil-a74af7bad030eb8a",
+                "oil-a776d4d8a8c71497",
+                "oil-a9685f88d15906f6",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b434a85e1e9196d0",
+                "oil-b69aa408b924b9b4",
+                "oil-b96369f55af40397",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c2fa50179af284f7",
+                "oil-c3728ff063420cf8",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be",
+                "oil-c94e003c369b3450",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "suspected"
+              ]
+            },
+            {
+              "id": "claim_statuses:entry:unconfirmed-or-qualified-finding:alleged",
+              "name": "Alleged",
+              "definition": "The source attributes the issue as an allegation.",
+              "occurrences": 23,
+              "article_count": 23,
+              "event_count": 23,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-077084a32a4e8faa",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-156fd0980ec51fe6",
+                "oil-30270b1b4280233d",
+                "oil-3bd1cf9862ff569d",
+                "oil-4877f76e174824e5",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-722884cee1da5016",
+                "oil-7269f661e72c703f",
+                "oil-76b9943656157edc",
+                "oil-7ced813eb9eb1314",
+                "oil-8236cb0c375f7c7f",
+                "oil-846611108e27fafb",
+                "oil-8826c3388f25a8b2",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9ab1d36fc93cf95c",
+                "oil-a882a3e8b7aeb487",
+                "oil-aa814b41a4920904",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c84820229ce8af05",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "alleged"
+              ]
+            },
+            {
+              "id": "claim_statuses:entry:unconfirmed-or-qualified-finding:unclear",
+              "name": "Unclear",
+              "definition": "The available evidence does not establish one more specific status.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-13fd5c31e278a577",
+                "oil-17abc10a59ca2c80",
+                "oil-3667d1bf7abe81ff",
+                "oil-bd1df718191f8f6e"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "unclear"
+              ]
+            },
+            {
+              "id": "claim_statuses:entry:unconfirmed-or-qualified-finding:pending-test",
+              "name": "Pending test",
+              "definition": "The target product has been sent for testing and no final result is reported.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-4868fc6b9046a8f9",
+                "oil-7885df1b5e223e8b"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "pending_test"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "claim_statuses:group:confirmed-finding",
+          "name": "Confirmed finding",
+          "definition": "Claims presented as supported by a reported laboratory result.",
+          "occurrences": 3,
+          "article_count": 3,
+          "event_count": 3,
+          "article_ids": [
+            "oil-2f0a177eecae442b",
+            "oil-aca35e8b9bccaa60",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "claim_statuses:entry:confirmed-finding:lab-confirmed",
+              "name": "Lab confirmed",
+              "definition": "A laboratory result is reported as confirming the finding.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-2f0a177eecae442b",
+                "oil-aca35e8b9bccaa60",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "lab_confirmed"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulatory_actions",
+      "label": "Regulatory actions",
+      "description": "Reported enforcement, inspection, seizure, legal, or administrative actions.",
+      "groups": [
+        {
+          "id": "regulatory_actions:group:product-control-measures",
+          "name": "Product control measures",
+          "definition": "Actions that seize, confiscate, prohibit, or otherwise remove products from circulation.",
+          "occurrences": 64,
+          "article_count": 62,
+          "event_count": 63,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-081117bbf714a215",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3c8df3ffa6943fef",
+            "oil-438415c185832786",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-63f43befc46e25fa",
+            "oil-66b89ef48f4536a9",
+            "oil-69a4843e2e016e1e",
+            "oil-73603e3fbe5b2e10",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-94951aba738c80b3",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9f582ea75e0eddfb",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aa814b41a4920904",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c4d815318f8299b0",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-ce4031737a7654b3"
+          ],
+          "entries": [
+            {
+              "id": "regulatory_actions:entry:product-control-measures:seizure-or-confiscation",
+              "name": "Seizure or confiscation",
+              "definition": "A product-control action taking reported goods into official custody.",
+              "occurrences": 63,
+              "article_count": 61,
+              "event_count": 62,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-0536bbfbc5745875",
+                "oil-055a850c7fce9512",
+                "oil-05aa031a4b58524e",
+                "oil-081117bbf714a215",
+                "oil-0d7b13a282f9b466",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-21d4880656b0c52f",
+                "oil-23d97461886d2622",
+                "oil-2a83d0762b1ee1b8",
+                "oil-3667d1bf7abe81ff",
+                "oil-3aa9d09717e53c24",
+                "oil-3bd1cf9862ff569d",
+                "oil-3c8df3ffa6943fef",
+                "oil-438415c185832786",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4bd4c6831e9c7077",
+                "oil-4d6bfb72c0733299",
+                "oil-5413f17944743156",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-63426d939d718e7f",
+                "oil-63f43befc46e25fa",
+                "oil-66b89ef48f4536a9",
+                "oil-69a4843e2e016e1e",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-7ced813eb9eb1314",
+                "oil-7ed3f9582cae741d",
+                "oil-8236cb0c375f7c7f",
+                "oil-829d382c68663635",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-898a1362002b727d",
+                "oil-8e1bcc090b3c0db2",
+                "oil-94951aba738c80b3",
+                "oil-9522cb6fbdcc239f",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-9ab1d36fc93cf95c",
+                "oil-9f582ea75e0eddfb",
+                "oil-a74af7bad030eb8a",
+                "oil-a776d4d8a8c71497",
+                "oil-a9685f88d15906f6",
+                "oil-aa814b41a4920904",
+                "oil-af7d37f8450fbc59",
+                "oil-b434a85e1e9196d0",
+                "oil-b69aa408b924b9b4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c2fa50179af284f7",
+                "oil-c3728ff063420cf8",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be",
+                "oil-c84820229ce8af05",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [
+                "fflo:EnforcementAction",
+                "fflo:RegulatoryAction",
+                "fflo:Seizure",
+                "fkg:RegulatoryAction",
+                "fso:RegulatoryAction",
+                "seizure"
+              ],
+              "aliases": [
+                "confiscation",
+                "seizure",
+                "Seizure of 15 litres of cooking oil",
+                "Seizure of 34 litre refined soyabean oil",
+                "Seizure of 799 litre mustard oil",
+                "seizure of adulterated oil"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:product-control-measures:ban-or-prohibition",
+              "name": "Ban or prohibition",
+              "definition": "A regulatory action prohibiting a product, brand, activity, or sale.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-a882a3e8b7aeb487"
+              ],
+              "ontology_types": [
+                "fkg:RegulatoryAction"
+              ],
+              "aliases": [
+                "banning of 42 brands of coconut oil"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regulatory_actions:group:legal-and-corrective-measures",
+          "name": "Legal and corrective measures",
+          "definition": "Arrest, case registration, prosecution, fines, notices, warnings, and advisories.",
+          "occurrences": 43,
+          "article_count": 38,
+          "event_count": 38,
+          "article_ids": [
+            "oil-0536bbfbc5745875",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0db512df7c0cc7df",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-1c3f4e35a1252449",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3aa9d09717e53c24",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-69a4843e2e016e1e",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-898a1362002b727d",
+            "oil-9790eee6e00c0018",
+            "oil-9ab1d36fc93cf95c",
+            "oil-a7080ed266c36f88",
+            "oil-aa814b41a4920904",
+            "oil-af3a540365afc7c2",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c3728ff063420cf8",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ce4031737a7654b3",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:arrest-or-custody",
+              "name": "Arrest or custody",
+              "definition": "A normalized regulatory actions concept combining 3 extracted labels.",
+              "occurrences": 10,
+              "article_count": 10,
+              "event_count": 10,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-156fd0980ec51fe6",
+                "oil-1c3f4e35a1252449",
+                "oil-5847641c3b5b8b8f",
+                "oil-73603e3fbe5b2e10",
+                "oil-9790eee6e00c0018",
+                "oil-9ab1d36fc93cf95c",
+                "oil-aa814b41a4920904",
+                "oil-c3728ff063420cf8",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [
+                "fflo:Custody",
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction"
+              ],
+              "aliases": [
+                "arrest",
+                "custody",
+                "detention"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:case-registration-or-fir",
+              "name": "Case registration or FIR",
+              "definition": "Registration or filing of a police or regulatory case, including an FIR.",
+              "occurrences": 10,
+              "article_count": 10,
+              "event_count": 10,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-2a83d0762b1ee1b8",
+                "oil-30270b1b4280233d",
+                "oil-3aa9d09717e53c24",
+                "oil-5ac9372e2a178a90",
+                "oil-7269f661e72c703f",
+                "oil-9ab1d36fc93cf95c",
+                "oil-bfcfd938ead3b8a8",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction",
+                "fso:RegulatoryAction"
+              ],
+              "aliases": [
+                "booking",
+                "booking of three persons",
+                "case registration",
+                "case_booked",
+                "case_filed",
+                "FIR filed",
+                "FIR lodged",
+                "First Information Report",
+                "registration of criminal cases"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:notice-warning-or-advisory",
+              "name": "Notice, warning, or advisory",
+              "definition": "A normalized regulatory actions concept combining 8 extracted labels.",
+              "occurrences": 9,
+              "article_count": 9,
+              "event_count": 9,
+              "article_ids": [
+                "oil-06d5928124689ba0",
+                "oil-0db512df7c0cc7df",
+                "oil-2f0a177eecae442b",
+                "oil-42c4efcdce45e35d",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-69a4843e2e016e1e",
+                "oil-a7080ed266c36f88",
+                "oil-b96369f55af40397"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction"
+              ],
+              "aliases": [
+                "advisory",
+                "notice",
+                "notice issued",
+                "notices",
+                "public announcement",
+                "public notice",
+                "show-cause notice",
+                "warning"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:financial-penalty",
+              "name": "Financial penalty",
+              "definition": "A fine or monetary penalty imposed or reported.",
+              "occurrences": 7,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-17abc10a59ca2c80",
+                "oil-76b9943656157edc",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e",
+                "oil-c0e8fd0149fa83c4",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction"
+              ],
+              "aliases": [
+                "fine of Rs 20,000 each under Section 51 of the FSSA",
+                "fine of Rs 5,000 each under Section 59 (i) of the Act",
+                "Fine of ₹7 lakh",
+                "fines",
+                "penalty",
+                "Rs 2 lakh fine",
+                "Rs 2.25 lakh fine"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:prosecution-or-legal-action",
+              "name": "Prosecution or legal action",
+              "definition": "A normalized regulatory actions concept combining 4 extracted labels.",
+              "occurrences": 5,
+              "article_count": 5,
+              "event_count": 5,
+              "article_ids": [
+                "oil-42c4efcdce45e35d",
+                "oil-431077a2a1ab59e9",
+                "oil-48d56f0dc43d0ecc",
+                "oil-898a1362002b727d",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fso:RegulatoryAction"
+              ],
+              "aliases": [
+                "criminal proceedings likely",
+                "legal action",
+                "Legal action under Food Safety and Standards Act",
+                "legal proceedings"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:legal-and-corrective-measures:other-corrective-action",
+              "name": "Other corrective action",
+              "definition": "A normalized regulatory actions concept combining 2 extracted labels.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-af3a540365afc7c2",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction"
+              ],
+              "aliases": [
+                "Action is being initiated against the outlet",
+                "necessary action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regulatory_actions:group:inspection-and-evidence-collection",
+          "name": "Inspection and evidence collection",
+          "definition": "Raids, inspections, sampling, testing orders, and survey activity.",
+          "occurrences": 25,
+          "article_count": 24,
+          "event_count": 24,
+          "article_ids": [
+            "oil-08837290b8f04c6c",
+            "oil-2a83d0762b1ee1b8",
+            "oil-30270b1b4280233d",
+            "oil-3aa9d09717e53c24",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-4bd4c6831e9c7077",
+            "oil-5847641c3b5b8b8f",
+            "oil-66b89ef48f4536a9",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-7885df1b5e223e8b",
+            "oil-85127f0bde3109d3",
+            "oil-8826c3388f25a8b2",
+            "oil-97103cc7b062d80c",
+            "oil-9f582ea75e0eddfb",
+            "oil-aca35e8b9bccaa60",
+            "oil-b434a85e1e9196d0",
+            "oil-b96369f55af40397",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c3728ff063420cf8",
+            "oil-ca9b994ce2d3e502"
+          ],
+          "entries": [
+            {
+              "id": "regulatory_actions:entry:inspection-and-evidence-collection:raid-or-search",
+              "name": "Raid or search",
+              "definition": "An enforcement visit or search of premises.",
+              "occurrences": 18,
+              "article_count": 18,
+              "event_count": 18,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-2a83d0762b1ee1b8",
+                "oil-30270b1b4280233d",
+                "oil-3aa9d09717e53c24",
+                "oil-3be954e8def80c8d",
+                "oil-3c8df3ffa6943fef",
+                "oil-4877f76e174824e5",
+                "oil-4bd4c6831e9c7077",
+                "oil-5847641c3b5b8b8f",
+                "oil-66b89ef48f4536a9",
+                "oil-7269f661e72c703f",
+                "oil-73603e3fbe5b2e10",
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c",
+                "oil-9f582ea75e0eddfb",
+                "oil-b96369f55af40397",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction",
+                "fso:RegulatoryAction"
+              ],
+              "aliases": [
+                "Operation Oil",
+                "raid",
+                "raid on Singhania oil mill",
+                "raids",
+                "surprise raid"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:inspection-and-evidence-collection:sampling-or-testing-order",
+              "name": "Sampling or testing order",
+              "definition": "Collection of samples or an instruction that samples be tested.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-4868fc6b9046a8f9",
+                "oil-85127f0bde3109d3",
+                "oil-b434a85e1e9196d0",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction",
+                "fso:Action"
+              ],
+              "aliases": [
+                "order to collect mustard oil samples for testing",
+                "sample_collection",
+                "sampling"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:inspection-and-evidence-collection:inspection-or-survey",
+              "name": "Inspection or survey",
+              "definition": "A normalized regulatory actions concept combining 2 extracted labels.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-4868fc6b9046a8f9",
+                "oil-7885df1b5e223e8b",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction"
+              ],
+              "aliases": [
+                "inspection",
+                "survey"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regulatory_actions:group:premises-and-licence-controls",
+          "name": "Premises and licence controls",
+          "definition": "Closure, sealing, operational suspension, or licence action.",
+          "occurrences": 14,
+          "article_count": 12,
+          "event_count": 12,
+          "article_ids": [
+            "oil-0db512df7c0cc7df",
+            "oil-2027fa14e94958fd",
+            "oil-4b88eb2520f8cc22",
+            "oil-4fbd8c2a2930c559",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-898a1362002b727d",
+            "oil-9522cb6fbdcc239f",
+            "oil-992710122346e1a9",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497"
+          ],
+          "entries": [
+            {
+              "id": "regulatory_actions:entry:premises-and-licence-controls:closure-or-sealing",
+              "name": "Closure or sealing",
+              "definition": "Closure or sealing of premises, storage, equipment, or a business unit.",
+              "occurrences": 10,
+              "article_count": 10,
+              "event_count": 10,
+              "article_ids": [
+                "oil-0db512df7c0cc7df",
+                "oil-2027fa14e94958fd",
+                "oil-4fbd8c2a2930c559",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-898a1362002b727d",
+                "oil-9522cb6fbdcc239f",
+                "oil-992710122346e1a9",
+                "oil-a74af7bad030eb8a"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fso:RegulatoryAction"
+              ],
+              "aliases": [
+                "closure",
+                "premises sealed",
+                "sealed",
+                "sealing",
+                "sealing of coconut oil unit",
+                "warehouse sealed"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:premises-and-licence-controls:licence-or-operational-suspension",
+              "name": "Licence or operational suspension",
+              "definition": "Suspension of a licence or direction to stop operations.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-2027fa14e94958fd",
+                "oil-4b88eb2520f8cc22",
+                "oil-70649ae86f99dffc",
+                "oil-a776d4d8a8c71497"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction",
+                "fso:RegulatoryAction",
+                "regulatory_action"
+              ],
+              "aliases": [
+                "suspend operations",
+                "suspension",
+                "suspension of licence"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regulatory_actions:group:investigation-and-administration",
+          "name": "Investigation and administration",
+          "definition": "Investigations, inquiries, committees, referrals, and administrative directions.",
+          "occurrences": 7,
+          "article_count": 6,
+          "event_count": 6,
+          "article_ids": [
+            "oil-2f0a177eecae442b",
+            "oil-846611108e27fafb",
+            "oil-86a403aef71f924e",
+            "oil-9087ba5d7aa31b77",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-ca9b994ce2d3e502"
+          ],
+          "entries": [
+            {
+              "id": "regulatory_actions:entry:investigation-and-administration:investigation-or-inquiry",
+              "name": "Investigation or inquiry",
+              "definition": "A normalized regulatory actions concept combining 4 extracted labels.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-2f0a177eecae442b",
+                "oil-86a403aef71f924e",
+                "oil-9087ba5d7aa31b77",
+                "oil-a4f6b6de8fcb2c3d"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction"
+              ],
+              "aliases": [
+                "committee formation",
+                "investigation",
+                "probe",
+                "urgent inquiry directive"
+              ]
+            },
+            {
+              "id": "regulatory_actions:entry:investigation-and-administration:administrative-direction-or-referral",
+              "name": "Administrative direction or referral",
+              "definition": "A normalized regulatory actions concept combining 3 extracted labels.",
+              "occurrences": 3,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-846611108e27fafb",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [
+                "fflo:RegulatoryAction"
+              ],
+              "aliases": [
+                "directive to find central govt policy",
+                "referred to Monopolies and Restrictive Trade Practices Commission",
+                "written to Ministry of Petroleum and Chemicals"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply_chain_stages",
+      "label": "Supply-chain stages",
+      "description": "Where the extracted event is situated in the food supply chain.",
+      "groups": [
+        {
+          "id": "supply_chain_stages:group:downstream-supply-chain",
+          "name": "Downstream supply chain",
+          "definition": "Retail and point-of-sale stages.",
+          "occurrences": 62,
+          "article_count": 61,
+          "event_count": 62,
+          "article_ids": [
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3be954e8def80c8d",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-4868fc6b9046a8f9",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-63f43befc46e25fa",
+            "oil-69a4843e2e016e1e",
+            "oil-722884cee1da5016",
+            "oil-73603e3fbe5b2e10",
+            "oil-7885df1b5e223e8b",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-85127f0bde3109d3",
+            "oil-8e1ede70f7533502",
+            "oil-9087ba5d7aa31b77",
+            "oil-9522cb6fbdcc239f",
+            "oil-9790eee6e00c0018",
+            "oil-9c21da748413e6f9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a882a3e8b7aeb487",
+            "oil-aa814b41a4920904",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502"
+          ],
+          "entries": [
+            {
+              "id": "supply_chain_stages:entry:downstream-supply-chain:retail",
+              "name": "Retail",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 62,
+              "article_count": 61,
+              "event_count": 62,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-055a850c7fce9512",
+                "oil-05aa031a4b58524e",
+                "oil-06d5928124689ba0",
+                "oil-077084a32a4e8faa",
+                "oil-081117bbf714a215",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-0d7b13a282f9b466",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-156fd0980ec51fe6",
+                "oil-17abc10a59ca2c80",
+                "oil-21d4880656b0c52f",
+                "oil-23d97461886d2622",
+                "oil-3667d1bf7abe81ff",
+                "oil-3aa9d09717e53c24",
+                "oil-3be954e8def80c8d",
+                "oil-42c4efcdce45e35d",
+                "oil-431077a2a1ab59e9",
+                "oil-4868fc6b9046a8f9",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4b88eb2520f8cc22",
+                "oil-4bd4c6831e9c7077",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-5413f17944743156",
+                "oil-5847641c3b5b8b8f",
+                "oil-63f43befc46e25fa",
+                "oil-69a4843e2e016e1e",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-7ced813eb9eb1314",
+                "oil-7ed3f9582cae741d",
+                "oil-829d382c68663635",
+                "oil-846611108e27fafb",
+                "oil-85127f0bde3109d3",
+                "oil-8e1ede70f7533502",
+                "oil-9087ba5d7aa31b77",
+                "oil-9522cb6fbdcc239f",
+                "oil-9790eee6e00c0018",
+                "oil-9c21da748413e6f9",
+                "oil-9f582ea75e0eddfb",
+                "oil-a0831d014f72baf3",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a882a3e8b7aeb487",
+                "oil-aa814b41a4920904",
+                "oil-aca35e8b9bccaa60",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b434a85e1e9196d0",
+                "oil-b69aa408b924b9b4",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e",
+                "oil-c1a2f95596a3b00d",
+                "oil-c2fa50179af284f7",
+                "oil-c72d68cafd2478be",
+                "oil-c84820229ce8af05",
+                "oil-c94e003c369b3450",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "retail"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supply_chain_stages:group:trade-and-distribution",
+          "name": "Trade and distribution",
+          "definition": "Distribution, import, and export stages.",
+          "occurrences": 27,
+          "article_count": 27,
+          "event_count": 27,
+          "article_ids": [
+            "oil-08837290b8f04c6c",
+            "oil-17abc10a59ca2c80",
+            "oil-2027fa14e94958fd",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3bd1cf9862ff569d",
+            "oil-4877f76e174824e5",
+            "oil-5ac9372e2a178a90",
+            "oil-722884cee1da5016",
+            "oil-7269f661e72c703f",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-8236cb0c375f7c7f",
+            "oil-846611108e27fafb",
+            "oil-8826c3388f25a8b2",
+            "oil-8e1bcc090b3c0db2",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-a7080ed266c36f88",
+            "oil-a9685f88d15906f6",
+            "oil-b96369f55af40397",
+            "oil-bfcfd938ead3b8a8",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "supply_chain_stages:entry:trade-and-distribution:distribution",
+              "name": "Distribution",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 26,
+              "article_count": 26,
+              "event_count": 26,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-17abc10a59ca2c80",
+                "oil-2027fa14e94958fd",
+                "oil-2a83d0762b1ee1b8",
+                "oil-2f0a177eecae442b",
+                "oil-30270b1b4280233d",
+                "oil-3bd1cf9862ff569d",
+                "oil-4877f76e174824e5",
+                "oil-5ac9372e2a178a90",
+                "oil-722884cee1da5016",
+                "oil-7269f661e72c703f",
+                "oil-76b9943656157edc",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-8236cb0c375f7c7f",
+                "oil-846611108e27fafb",
+                "oil-8826c3388f25a8b2",
+                "oil-8e1bcc090b3c0db2",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-9ab1d36fc93cf95c",
+                "oil-a9685f88d15906f6",
+                "oil-b96369f55af40397",
+                "oil-bfcfd938ead3b8a8",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "distribution"
+              ]
+            },
+            {
+              "id": "supply_chain_stages:entry:trade-and-distribution:export",
+              "name": "Export",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-a7080ed266c36f88"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "export"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supply_chain_stages:group:midstream-supply-chain",
+          "name": "Midstream supply chain",
+          "definition": "Processing, packaging, and storage stages.",
+          "occurrences": 20,
+          "article_count": 19,
+          "event_count": 19,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-1c3f4e35a1252449",
+            "oil-21d4880656b0c52f",
+            "oil-3c8df3ffa6943fef",
+            "oil-438415c185832786",
+            "oil-5ac9372e2a178a90",
+            "oil-66b89ef48f4536a9",
+            "oil-6e721139517af252",
+            "oil-73603e3fbe5b2e10",
+            "oil-85127f0bde3109d3",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-94951aba738c80b3",
+            "oil-992710122346e1a9",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a9685f88d15906f6",
+            "oil-c3728ff063420cf8"
+          ],
+          "entries": [
+            {
+              "id": "supply_chain_stages:entry:midstream-supply-chain:processing",
+              "name": "Processing",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 8,
+              "article_count": 8,
+              "event_count": 8,
+              "article_ids": [
+                "oil-3c8df3ffa6943fef",
+                "oil-5ac9372e2a178a90",
+                "oil-6e721139517af252",
+                "oil-898a1362002b727d",
+                "oil-a7080ed266c36f88",
+                "oil-a74af7bad030eb8a",
+                "oil-a9685f88d15906f6",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "processing"
+              ]
+            },
+            {
+              "id": "supply_chain_stages:entry:midstream-supply-chain:packaging",
+              "name": "Packaging",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-438415c185832786",
+                "oil-66b89ef48f4536a9",
+                "oil-85127f0bde3109d3",
+                "oil-8826c3388f25a8b2",
+                "oil-a776d4d8a8c71497",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "packaging"
+              ]
+            },
+            {
+              "id": "supply_chain_stages:entry:midstream-supply-chain:storage",
+              "name": "Storage",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-1c3f4e35a1252449",
+                "oil-21d4880656b0c52f",
+                "oil-73603e3fbe5b2e10",
+                "oil-94951aba738c80b3",
+                "oil-992710122346e1a9"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "storage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supply_chain_stages:group:upstream-supply-chain",
+          "name": "Upstream supply chain",
+          "definition": "Primary production stages.",
+          "occurrences": 18,
+          "article_count": 18,
+          "event_count": 18,
+          "article_ids": [
+            "oil-08837290b8f04c6c",
+            "oil-17abc10a59ca2c80",
+            "oil-1852e8a212bd5903",
+            "oil-2027fa14e94958fd",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-3be954e8def80c8d",
+            "oil-4877f76e174824e5",
+            "oil-63426d939d718e7f",
+            "oil-70649ae86f99dffc",
+            "oil-7b8839ea47991949",
+            "oil-85127f0bde3109d3",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-8e1bcc090b3c0db2",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-ce4031737a7654b3"
+          ],
+          "entries": [
+            {
+              "id": "supply_chain_stages:entry:upstream-supply-chain:production",
+              "name": "Production",
+              "definition": "A normalized supply-chain stages concept combining 1 extracted label.",
+              "occurrences": 18,
+              "article_count": 18,
+              "event_count": 18,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-17abc10a59ca2c80",
+                "oil-1852e8a212bd5903",
+                "oil-2027fa14e94958fd",
+                "oil-2a83d0762b1ee1b8",
+                "oil-2f0a177eecae442b",
+                "oil-3be954e8def80c8d",
+                "oil-4877f76e174824e5",
+                "oil-63426d939d718e7f",
+                "oil-70649ae86f99dffc",
+                "oil-7b8839ea47991949",
+                "oil-85127f0bde3109d3",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9522cb6fbdcc239f",
+                "oil-97103cc7b062d80c",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "production"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection_methods",
+      "label": "Detection methods",
+      "description": "Methods reported as identifying or investigating the issue.",
+      "groups": [
+        {
+          "id": "detection_methods:group:regulatory-field-detection",
+          "name": "Regulatory field detection",
+          "definition": "Inspection, raid, search, or enforcement activity used to identify a possible issue.",
+          "occurrences": 73,
+          "article_count": 72,
+          "event_count": 73,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-156fd0980ec51fe6",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-2027fa14e94958fd",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4fbd8c2a2930c559",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-63f43befc46e25fa",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-7885df1b5e223e8b",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-94951aba738c80b3",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-af3a540365afc7c2",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c1a2f95596a3b00d",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c4d815318f8299b0",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ce4031737a7654b3"
+          ],
+          "entries": [
+            {
+              "id": "detection_methods:entry:regulatory-field-detection:inspection",
+              "name": "Inspection",
+              "definition": "A normalized detection methods concept combining 8 extracted labels.",
+              "occurrences": 46,
+              "article_count": 45,
+              "event_count": 46,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-055a850c7fce9512",
+                "oil-06d5928124689ba0",
+                "oil-081117bbf714a215",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-156fd0980ec51fe6",
+                "oil-2027fa14e94958fd",
+                "oil-21d4880656b0c52f",
+                "oil-23d97461886d2622",
+                "oil-3667d1bf7abe81ff",
+                "oil-3aa9d09717e53c24",
+                "oil-3be954e8def80c8d",
+                "oil-431077a2a1ab59e9",
+                "oil-438415c185832786",
+                "oil-4868fc6b9046a8f9",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4b88eb2520f8cc22",
+                "oil-4bd4c6831e9c7077",
+                "oil-4fbd8c2a2930c559",
+                "oil-5413f17944743156",
+                "oil-5847641c3b5b8b8f",
+                "oil-63f43befc46e25fa",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-7269f661e72c703f",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-829d382c68663635",
+                "oil-86a403aef71f924e",
+                "oil-8e1bcc090b3c0db2",
+                "oil-94951aba738c80b3",
+                "oil-9522cb6fbdcc239f",
+                "oil-9f582ea75e0eddfb",
+                "oil-a74af7bad030eb8a",
+                "oil-a776d4d8a8c71497",
+                "oil-af3a540365afc7c2",
+                "oil-b434a85e1e9196d0",
+                "oil-b69aa408b924b9b4",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c2fa50179af284f7",
+                "oil-c4d815318f8299b0",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:Inspection",
+                "fflo:InspectionMethod",
+                "fkg:DetectionMethod",
+                "fkg:Inspection",
+                "fso:DetectionMethod",
+                "fso:Inspection",
+                "inspection",
+                "regulatory_inspection"
+              ],
+              "aliases": [
+                "in-depth examination",
+                "inspection",
+                "regulatory inspection",
+                "regulatory_inspection",
+                "routine_inspection",
+                "surprise inspection",
+                "visual inspection",
+                "visual_inspection"
+              ]
+            },
+            {
+              "id": "detection_methods:entry:regulatory-field-detection:raid-or-search",
+              "name": "Raid or search",
+              "definition": "An enforcement visit or search of premises.",
+              "occurrences": 21,
+              "article_count": 21,
+              "event_count": 21,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-077084a32a4e8faa",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-1852e8a212bd5903",
+                "oil-1c3f4e35a1252449",
+                "oil-2a83d0762b1ee1b8",
+                "oil-3c8df3ffa6943fef",
+                "oil-5ac9372e2a178a90",
+                "oil-7ced813eb9eb1314",
+                "oil-7ed3f9582cae741d",
+                "oil-8826c3388f25a8b2",
+                "oil-898a1362002b727d",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-a9685f88d15906f6",
+                "oil-b96369f55af40397",
+                "oil-c1a2f95596a3b00d",
+                "oil-c3728ff063420cf8",
+                "oil-c84820229ce8af05",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:EnforcementAction",
+                "fflo:Inspection",
+                "fflo:RegulatoryAction",
+                "fkg:RegulatoryAction",
+                "fso:DetectionMethod"
+              ],
+              "aliases": [
+                "cordon and search",
+                "enforcement_raids",
+                "Operation Oil",
+                "police raid",
+                "raid",
+                "raids",
+                "regulatory raid",
+                "surprise raid",
+                "vigilance raid"
+              ]
+            },
+            {
+              "id": "detection_methods:entry:regulatory-field-detection:other-enforcement-detection",
+              "name": "Other enforcement detection",
+              "definition": "A normalized detection methods concept combining 4 extracted labels.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-05aa031a4b58524e",
+                "oil-0d7b13a282f9b466",
+                "oil-3bd1cf9862ff569d",
+                "oil-63426d939d718e7f",
+                "oil-8236cb0c375f7c7f",
+                "oil-a882a3e8b7aeb487"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:EnforcementAction",
+                "fflo:Seizure",
+                "fkg:DetectionMethod"
+              ],
+              "aliases": [
+                "law enforcement action",
+                "regulatory_action",
+                "regulatory_seizure",
+                "seizure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "detection_methods:group:laboratory-and-analytical-detection",
+          "name": "Laboratory and analytical detection",
+          "definition": "Sampling, laboratory analysis, mobile testing, or other analytical methods.",
+          "occurrences": 17,
+          "article_count": 16,
+          "event_count": 16,
+          "article_ids": [
+            "oil-17abc10a59ca2c80",
+            "oil-2f0a177eecae442b",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-4877f76e174824e5",
+            "oil-4d6bfb72c0733299",
+            "oil-76b9943656157edc",
+            "oil-7b8839ea47991949",
+            "oil-85127f0bde3109d3",
+            "oil-a7080ed266c36f88",
+            "oil-aca35e8b9bccaa60",
+            "oil-af7d37f8450fbc59",
+            "oil-bd1df718191f8f6e",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c72d68cafd2478be",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "detection_methods:entry:laboratory-and-analytical-detection:laboratory-or-analytical-testing",
+              "name": "Laboratory or analytical testing",
+              "definition": "A normalized detection methods concept combining 8 extracted labels.",
+              "occurrences": 11,
+              "article_count": 10,
+              "event_count": 10,
+              "article_ids": [
+                "oil-17abc10a59ca2c80",
+                "oil-2f0a177eecae442b",
+                "oil-42c4efcdce45e35d",
+                "oil-431077a2a1ab59e9",
+                "oil-4877f76e174824e5",
+                "oil-4d6bfb72c0733299",
+                "oil-85127f0bde3109d3",
+                "oil-a7080ed266c36f88",
+                "oil-aca35e8b9bccaa60",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:LabTest",
+                "fflo:LabTesting",
+                "fso:Analysis"
+              ],
+              "aliases": [
+                "acid value test",
+                "lab test",
+                "lab_testing",
+                "laboratory testing",
+                "laboratory_testing",
+                "nature of oil test",
+                "preliminary analysis",
+                "routine surveillance and laboratory testing"
+              ]
+            },
+            {
+              "id": "detection_methods:entry:laboratory-and-analytical-detection:sampling",
+              "name": "Sampling",
+              "definition": "A normalized detection methods concept combining 1 extracted label.",
+              "occurrences": 4,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-76b9943656157edc",
+                "oil-7b8839ea47991949",
+                "oil-bd1df718191f8f6e",
+                "oil-c0e8fd0149fa83c4"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fkg:DetectionMethod",
+                "fso:Sampling"
+              ],
+              "aliases": [
+                "sampling"
+              ]
+            },
+            {
+              "id": "detection_methods:entry:laboratory-and-analytical-detection:on-site-or-mobile-testing",
+              "name": "On-site or mobile testing",
+              "definition": "A normalized detection methods concept combining 2 extracted labels.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-af7d37f8450fbc59",
+                "oil-c72d68cafd2478be"
+              ],
+              "ontology_types": [
+                "fflo:FieldTest"
+              ],
+              "aliases": [
+                "Food Safety on Wheels (FSW) mobile testing unit",
+                "on-the-spot testing"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "detection_methods:group:complaint-and-intelligence-detection",
+          "name": "Complaint and intelligence detection",
+          "definition": "Complaints, tips, whistleblowers, intelligence, or public media reports.",
+          "occurrences": 15,
+          "article_count": 15,
+          "event_count": 15,
+          "article_ids": [
+            "oil-08837290b8f04c6c",
+            "oil-2a83d0762b1ee1b8",
+            "oil-3c8df3ffa6943fef",
+            "oil-66b89ef48f4536a9",
+            "oil-722884cee1da5016",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-8826c3388f25a8b2",
+            "oil-9522cb6fbdcc239f",
+            "oil-97103cc7b062d80c",
+            "oil-9ab1d36fc93cf95c",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-aa814b41a4920904",
+            "oil-ca9b994ce2d3e502"
+          ],
+          "entries": [
+            {
+              "id": "detection_methods:entry:complaint-and-intelligence-detection:complaint",
+              "name": "Complaint",
+              "definition": "A normalized detection methods concept combining 2 extracted labels.",
+              "occurrences": 9,
+              "article_count": 9,
+              "event_count": 9,
+              "article_ids": [
+                "oil-2a83d0762b1ee1b8",
+                "oil-3c8df3ffa6943fef",
+                "oil-73603e3fbe5b2e10",
+                "oil-76b9943656157edc",
+                "oil-9ab1d36fc93cf95c",
+                "oil-a0831d014f72baf3",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-aa814b41a4920904",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fkg:DetectionMethod",
+                "fso:DetectionMethod"
+              ],
+              "aliases": [
+                "complaint",
+                "complaints"
+              ]
+            },
+            {
+              "id": "detection_methods:entry:complaint-and-intelligence-detection:tip-off-or-intelligence",
+              "name": "Tip-off or intelligence",
+              "definition": "A normalized detection methods concept combining 5 extracted labels.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-66b89ef48f4536a9",
+                "oil-722884cee1da5016",
+                "oil-8826c3388f25a8b2",
+                "oil-9522cb6fbdcc239f",
+                "oil-97103cc7b062d80c"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:TipOff"
+              ],
+              "aliases": [
+                "intelligence_based",
+                "social media video",
+                "tip off",
+                "tip-off",
+                "whistleblower report"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "detection_methods:group:survey-and-surveillance-detection",
+          "name": "Survey and surveillance detection",
+          "definition": "Organized market surveys, surveillance, or monitoring programmes.",
+          "occurrences": 5,
+          "article_count": 5,
+          "event_count": 5,
+          "article_ids": [
+            "oil-30270b1b4280233d",
+            "oil-7b8839ea47991949",
+            "oil-846611108e27fafb",
+            "oil-8e1ede70f7533502",
+            "oil-9c21da748413e6f9"
+          ],
+          "entries": [
+            {
+              "id": "detection_methods:entry:survey-and-surveillance-detection:survey-or-surveillance",
+              "name": "Survey or surveillance",
+              "definition": "A normalized detection methods concept combining 5 extracted labels.",
+              "occurrences": 5,
+              "article_count": 5,
+              "event_count": 5,
+              "article_ids": [
+                "oil-30270b1b4280233d",
+                "oil-7b8839ea47991949",
+                "oil-846611108e27fafb",
+                "oil-8e1ede70f7533502",
+                "oil-9c21da748413e6f9"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fflo:SurveyAggregated",
+                "fkg:DetectionMethod"
+              ],
+              "aliases": [
+                "all-India sample survey",
+                "food safety department survey",
+                "market_report",
+                "routine_market_survey",
+                "surveillance"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "detection_methods:group:specialist-or-documentary-review",
+          "name": "Specialist or documentary review",
+          "definition": "Company, record, medical-history, or other specialist examination.",
+          "occurrences": 2,
+          "article_count": 2,
+          "event_count": 2,
+          "article_ids": [
+            "oil-30270b1b4280233d",
+            "oil-9087ba5d7aa31b77"
+          ],
+          "entries": [
+            {
+              "id": "detection_methods:entry:specialist-or-documentary-review:specialist-or-documentary-review",
+              "name": "Specialist or documentary review",
+              "definition": "A normalized detection methods concept combining 2 extracted labels.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-30270b1b4280233d",
+                "oil-9087ba5d7aa31b77"
+              ],
+              "ontology_types": [
+                "fflo:DetectionMethod",
+                "fkg:DetectionMethod"
+              ],
+              "aliases": [
+                "company_examination",
+                "medical history review"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ontology_predicates",
+      "label": "Ontology relationships",
+      "description": "FFLO or provenance predicates appearing in retained article triplets.",
+      "groups": [
+        {
+          "id": "ontology_predicates:group:food-composition-and-adulteration",
+          "name": "Food composition and adulteration",
+          "definition": "Relationships describing food identity, composition, adulterants, fraud, and substitution.",
+          "occurrences": 170,
+          "article_count": 67,
+          "event_count": 67,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-08837290b8f04c6c",
+            "oil-0db512df7c0cc7df",
+            "oil-13fd5c31e278a577",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-42c4efcdce45e35d",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4bd4c6831e9c7077",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5413f17944743156",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-722884cee1da5016",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ced813eb9eb1314",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-85127f0bde3109d3",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-8e1bcc090b3c0db2",
+            "oil-9087ba5d7aa31b77",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-9ab1d36fc93cf95c",
+            "oil-a0831d014f72baf3",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-aa814b41a4920904",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b69aa408b924b9b4",
+            "oil-c2fa50179af284f7",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502",
+            "oil-ce4031737a7654b3",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-hasadulterant",
+              "name": "fflo:hasAdulterant",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 60,
+              "article_count": 36,
+              "event_count": 36,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-077084a32a4e8faa",
+                "oil-081117bbf714a215",
+                "oil-08837290b8f04c6c",
+                "oil-0db512df7c0cc7df",
+                "oil-13fd5c31e278a577",
+                "oil-17abc10a59ca2c80",
+                "oil-3667d1bf7abe81ff",
+                "oil-3bd1cf9862ff569d",
+                "oil-3be954e8def80c8d",
+                "oil-438415c185832786",
+                "oil-4868fc6b9046a8f9",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-63426d939d718e7f",
+                "oil-69a4843e2e016e1e",
+                "oil-73603e3fbe5b2e10",
+                "oil-7b8839ea47991949",
+                "oil-7ced813eb9eb1314",
+                "oil-829d382c68663635",
+                "oil-846611108e27fafb",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9087ba5d7aa31b77",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a7080ed266c36f88",
+                "oil-a776d4d8a8c71497",
+                "oil-aca35e8b9bccaa60",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b69aa408b924b9b4",
+                "oil-c2fa50179af284f7",
+                "oil-ca9b994ce2d3e502",
+                "oil-ce4031737a7654b3",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasAdulterant"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-hasfraudtype",
+              "name": "fflo:hasFraudType",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 35,
+              "article_count": 25,
+              "event_count": 25,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-0db512df7c0cc7df",
+                "oil-156fd0980ec51fe6",
+                "oil-30270b1b4280233d",
+                "oil-3aa9d09717e53c24",
+                "oil-3bd1cf9862ff569d",
+                "oil-3c8df3ffa6943fef",
+                "oil-4bd4c6831e9c7077",
+                "oil-5413f17944743156",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-63426d939d718e7f",
+                "oil-6e721139517af252",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-76b9943656157edc",
+                "oil-8236cb0c375f7c7f",
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-9ab1d36fc93cf95c",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-aa814b41a4920904",
+                "oil-c84820229ce8af05",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasFraudType"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-belongstocategory",
+              "name": "fflo:belongsToCategory",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 29,
+              "article_count": 18,
+              "event_count": 18,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-0db512df7c0cc7df",
+                "oil-23d97461886d2622",
+                "oil-3aa9d09717e53c24",
+                "oil-42c4efcdce45e35d",
+                "oil-48d56f0dc43d0ecc",
+                "oil-63426d939d718e7f",
+                "oil-69a4843e2e016e1e",
+                "oil-70649ae86f99dffc",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-85127f0bde3109d3",
+                "oil-9087ba5d7aa31b77",
+                "oil-97103cc7b062d80c",
+                "oil-c84820229ce8af05",
+                "oil-ca9b994ce2d3e502",
+                "oil-ce4031737a7654b3"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:belongsToCategory"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-hasadulterationmethod",
+              "name": "fflo:hasAdulterationMethod",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 22,
+              "article_count": 15,
+              "event_count": 15,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-055a850c7fce9512",
+                "oil-4fbd8c2a2930c559",
+                "oil-63426d939d718e7f",
+                "oil-6e721139517af252",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-76b9943656157edc",
+                "oil-7ced813eb9eb1314",
+                "oil-829d382c68663635",
+                "oil-8826c3388f25a8b2",
+                "oil-a74af7bad030eb8a",
+                "oil-aa814b41a4920904",
+                "oil-af7d37f8450fbc59",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasAdulterationMethod"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-issubstitutefor",
+              "name": "fflo:isSubstituteFor",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 8,
+              "article_count": 7,
+              "event_count": 7,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-21d4880656b0c52f",
+                "oil-73603e3fbe5b2e10",
+                "oil-829d382c68663635",
+                "oil-85127f0bde3109d3",
+                "oil-97103cc7b062d80c",
+                "oil-a776d4d8a8c71497"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:isSubstituteFor"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-hasintentionality",
+              "name": "fflo:hasIntentionality",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 5,
+              "article_count": 5,
+              "event_count": 5,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-3aa9d09717e53c24",
+                "oil-73603e3fbe5b2e10",
+                "oil-8236cb0c375f7c7f",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasIntentionality"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fkg-hasingredient",
+              "name": "fkg:hasIngredient",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 7,
+              "article_count": 5,
+              "event_count": 5,
+              "article_ids": [
+                "oil-2f0a177eecae442b",
+                "oil-3bd1cf9862ff569d",
+                "oil-4fbd8c2a2930c559",
+                "oil-a0831d014f72baf3",
+                "oil-a7080ed266c36f88"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fkg:hasIngredient"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-constitutes",
+              "name": "fflo:constitutes",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-4b88eb2520f8cc22",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:constitutes"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-hasingredient",
+              "name": "fflo:hasIngredient",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-4868fc6b9046a8f9"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasIngredient"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:food-composition-and-adulteration:fflo-infood",
+              "name": "fflo:inFood",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-3667d1bf7abe81ff"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:inFood"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ontology_predicates:group:location-and-supply-chain",
+          "name": "Location and supply chain",
+          "definition": "Relationships linking a claim to place, region, production, or supply-chain stage.",
+          "occurrences": 145,
+          "article_count": 66,
+          "event_count": 66,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-055a850c7fce9512",
+            "oil-05aa031a4b58524e",
+            "oil-081117bbf714a215",
+            "oil-08837290b8f04c6c",
+            "oil-0d7b13a282f9b466",
+            "oil-0db512df7c0cc7df",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-13fd5c31e278a577",
+            "oil-1852e8a212bd5903",
+            "oil-1c3f4e35a1252449",
+            "oil-2027fa14e94958fd",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3bd1cf9862ff569d",
+            "oil-3c8df3ffa6943fef",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-722884cee1da5016",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-898a1362002b727d",
+            "oil-8e1bcc090b3c0db2",
+            "oil-9522cb6fbdcc239f",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9c21da748413e6f9",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a776d4d8a8c71497",
+            "oil-a9685f88d15906f6",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b69aa408b924b9b4",
+            "oil-bd1df718191f8f6e",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c2fa50179af284f7",
+            "oil-c3728ff063420cf8",
+            "oil-c72d68cafd2478be",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-foundatstep",
+              "name": "fflo:foundAtStep",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 31,
+              "article_count": 24,
+              "event_count": 24,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-055a850c7fce9512",
+                "oil-081117bbf714a215",
+                "oil-0db512df7c0cc7df",
+                "oil-11313f68b0e0b1d7",
+                "oil-13fd5c31e278a577",
+                "oil-48d56f0dc43d0ecc",
+                "oil-5847641c3b5b8b8f",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-73603e3fbe5b2e10",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-829d382c68663635",
+                "oil-898a1362002b727d",
+                "oil-8e1bcc090b3c0db2",
+                "oil-a9685f88d15906f6",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b69aa408b924b9b4",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c2fa50179af284f7",
+                "oil-c72d68cafd2478be",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:foundAtStep"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-inregion",
+              "name": "fflo:inRegion",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 27,
+              "article_count": 21,
+              "event_count": 21,
+              "article_ids": [
+                "oil-05aa031a4b58524e",
+                "oil-0d7b13a282f9b466",
+                "oil-11313f68b0e0b1d7",
+                "oil-13fd5c31e278a577",
+                "oil-1852e8a212bd5903",
+                "oil-2027fa14e94958fd",
+                "oil-23d97461886d2622",
+                "oil-2f0a177eecae442b",
+                "oil-30270b1b4280233d",
+                "oil-3bd1cf9862ff569d",
+                "oil-431077a2a1ab59e9",
+                "oil-4877f76e174824e5",
+                "oil-4d6bfb72c0733299",
+                "oil-722884cee1da5016",
+                "oil-76b9943656157edc",
+                "oil-898a1362002b727d",
+                "oil-992710122346e1a9",
+                "oil-aca35e8b9bccaa60",
+                "oil-b69aa408b924b9b4",
+                "oil-bd1df718191f8f6e",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:inRegion"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-foundat",
+              "name": "fflo:foundAt",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 27,
+              "article_count": 20,
+              "event_count": 20,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-0536bbfbc5745875",
+                "oil-0db512df7c0cc7df",
+                "oil-0deaa05c0dac8925",
+                "oil-21d4880656b0c52f",
+                "oil-2a83d0762b1ee1b8",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-5ac9372e2a178a90",
+                "oil-69a4843e2e016e1e",
+                "oil-6e721139517af252",
+                "oil-8236cb0c375f7c7f",
+                "oil-9522cb6fbdcc239f",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-9c21da748413e6f9",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a776d4d8a8c71497",
+                "oil-af7d37f8450fbc59",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:foundAt"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-collectedat",
+              "name": "fflo:collectedAt",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 16,
+              "article_count": 10,
+              "event_count": 10,
+              "article_ids": [
+                "oil-1c3f4e35a1252449",
+                "oil-3c8df3ffa6943fef",
+                "oil-438415c185832786",
+                "oil-4868fc6b9046a8f9",
+                "oil-7ed3f9582cae741d",
+                "oil-a7080ed266c36f88",
+                "oil-a74af7bad030eb8a",
+                "oil-af7d37f8450fbc59",
+                "oil-b69aa408b924b9b4",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:collectedAt"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-foundin",
+              "name": "fflo:foundIn",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 11,
+              "article_count": 8,
+              "event_count": 8,
+              "article_ids": [
+                "oil-431077a2a1ab59e9",
+                "oil-4877f76e174824e5",
+                "oil-898a1362002b727d",
+                "oil-aca35e8b9bccaa60",
+                "oil-bd1df718191f8f6e",
+                "oil-c72d68cafd2478be",
+                "oil-c94e003c369b3450",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:foundIn"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-commonin",
+              "name": "fflo:commonIn",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 22,
+              "article_count": 7,
+              "event_count": 7,
+              "article_ids": [
+                "oil-08837290b8f04c6c",
+                "oil-722884cee1da5016",
+                "oil-73603e3fbe5b2e10",
+                "oil-8236cb0c375f7c7f",
+                "oil-846611108e27fafb",
+                "oil-8e1bcc090b3c0db2",
+                "oil-9790eee6e00c0018"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:commonIn"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-producedby",
+              "name": "fflo:producedBy",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 7,
+              "article_count": 5,
+              "event_count": 5,
+              "article_ids": [
+                "oil-431077a2a1ab59e9",
+                "oil-7269f661e72c703f",
+                "oil-af7d37f8450fbc59",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c72d68cafd2478be"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:producedBy"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fso-haslocation",
+              "name": "fso:hasLocation",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-ca9b994ce2d3e502",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fso:hasLocation"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-occursat",
+              "name": "fflo:occursAt",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-9ab1d36fc93cf95c"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:occursAt"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:location-and-supply-chain:fflo-outputof",
+              "name": "fflo:outputOf",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-2f0a177eecae442b"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:outputOf"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ontology_predicates:group:regulation-and-enforcement",
+          "name": "Regulation and enforcement",
+          "definition": "Relationships describing authorities, targets, actions, standards, and penalties.",
+          "occurrences": 164,
+          "article_count": 66,
+          "event_count": 66,
+          "article_ids": [
+            "oil-06d5928124689ba0",
+            "oil-077084a32a4e8faa",
+            "oil-081117bbf714a215",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-17abc10a59ca2c80",
+            "oil-1852e8a212bd5903",
+            "oil-2027fa14e94958fd",
+            "oil-21d4880656b0c52f",
+            "oil-23d97461886d2622",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-3c8df3ffa6943fef",
+            "oil-42c4efcdce45e35d",
+            "oil-431077a2a1ab59e9",
+            "oil-438415c185832786",
+            "oil-4868fc6b9046a8f9",
+            "oil-4877f76e174824e5",
+            "oil-48d56f0dc43d0ecc",
+            "oil-4b88eb2520f8cc22",
+            "oil-4d6bfb72c0733299",
+            "oil-4fbd8c2a2930c559",
+            "oil-5ac9372e2a178a90",
+            "oil-63f43befc46e25fa",
+            "oil-66b89ef48f4536a9",
+            "oil-69a4843e2e016e1e",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-76b9943656157edc",
+            "oil-7885df1b5e223e8b",
+            "oil-7b8839ea47991949",
+            "oil-7ced813eb9eb1314",
+            "oil-7ed3f9582cae741d",
+            "oil-8236cb0c375f7c7f",
+            "oil-829d382c68663635",
+            "oil-85127f0bde3109d3",
+            "oil-898a1362002b727d",
+            "oil-9522cb6fbdcc239f",
+            "oil-9ab1d36fc93cf95c",
+            "oil-9c21da748413e6f9",
+            "oil-9f582ea75e0eddfb",
+            "oil-a4f6b6de8fcb2c3d",
+            "oil-a7080ed266c36f88",
+            "oil-a74af7bad030eb8a",
+            "oil-a882a3e8b7aeb487",
+            "oil-a9685f88d15906f6",
+            "oil-aa814b41a4920904",
+            "oil-af3a540365afc7c2",
+            "oil-af7d37f8450fbc59",
+            "oil-b434a85e1e9196d0",
+            "oil-b69aa408b924b9b4",
+            "oil-b96369f55af40397",
+            "oil-bd1df718191f8f6e",
+            "oil-c0e8fd0149fa83c4",
+            "oil-c1a2f95596a3b00d",
+            "oil-c3728ff063420cf8",
+            "oil-c4d815318f8299b0",
+            "oil-c72d68cafd2478be",
+            "oil-c94e003c369b3450",
+            "oil-ca9b994ce2d3e502",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-issuedby",
+              "name": "fflo:issuedBy",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 60,
+              "article_count": 39,
+              "event_count": 39,
+              "article_ids": [
+                "oil-06d5928124689ba0",
+                "oil-077084a32a4e8faa",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-11313f68b0e0b1d7",
+                "oil-21d4880656b0c52f",
+                "oil-2f0a177eecae442b",
+                "oil-3bd1cf9862ff569d",
+                "oil-3be954e8def80c8d",
+                "oil-42c4efcdce45e35d",
+                "oil-438415c185832786",
+                "oil-4877f76e174824e5",
+                "oil-4b88eb2520f8cc22",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-63f43befc46e25fa",
+                "oil-69a4843e2e016e1e",
+                "oil-76b9943656157edc",
+                "oil-7885df1b5e223e8b",
+                "oil-7b8839ea47991949",
+                "oil-7ced813eb9eb1314",
+                "oil-7ed3f9582cae741d",
+                "oil-829d382c68663635",
+                "oil-9522cb6fbdcc239f",
+                "oil-9ab1d36fc93cf95c",
+                "oil-9f582ea75e0eddfb",
+                "oil-a4f6b6de8fcb2c3d",
+                "oil-a7080ed266c36f88",
+                "oil-af3a540365afc7c2",
+                "oil-af7d37f8450fbc59",
+                "oil-b434a85e1e9196d0",
+                "oil-b69aa408b924b9b4",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c3728ff063420cf8",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:issuedBy"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-targets",
+              "name": "fflo:targets",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 48,
+              "article_count": 28,
+              "event_count": 28,
+              "article_ids": [
+                "oil-081117bbf714a215",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-17abc10a59ca2c80",
+                "oil-2027fa14e94958fd",
+                "oil-21d4880656b0c52f",
+                "oil-23d97461886d2622",
+                "oil-3667d1bf7abe81ff",
+                "oil-3aa9d09717e53c24",
+                "oil-3be954e8def80c8d",
+                "oil-438415c185832786",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4d6bfb72c0733299",
+                "oil-63f43befc46e25fa",
+                "oil-76b9943656157edc",
+                "oil-7ced813eb9eb1314",
+                "oil-a74af7bad030eb8a",
+                "oil-a882a3e8b7aeb487",
+                "oil-a9685f88d15906f6",
+                "oil-aa814b41a4920904",
+                "oil-af7d37f8450fbc59",
+                "oil-b96369f55af40397",
+                "oil-bd1df718191f8f6e",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c1a2f95596a3b00d",
+                "oil-c3728ff063420cf8",
+                "oil-c4d815318f8299b0",
+                "oil-c72d68cafd2478be"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:targets"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-triggeredaction",
+              "name": "fflo:triggeredAction",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 12,
+              "article_count": 12,
+              "event_count": 12,
+              "article_ids": [
+                "oil-17abc10a59ca2c80",
+                "oil-2027fa14e94958fd",
+                "oil-3667d1bf7abe81ff",
+                "oil-431077a2a1ab59e9",
+                "oil-5ac9372e2a178a90",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-7b8839ea47991949",
+                "oil-898a1362002b727d",
+                "oil-bd1df718191f8f6e",
+                "oil-c94e003c369b3450",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:triggeredAction"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fso-isperformedon",
+              "name": "fso:isPerformedOn",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 13,
+              "article_count": 12,
+              "event_count": 12,
+              "article_ids": [
+                "oil-0deaa05c0dac8925",
+                "oil-17abc10a59ca2c80",
+                "oil-1852e8a212bd5903",
+                "oil-2a83d0762b1ee1b8",
+                "oil-3c8df3ffa6943fef",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4d6bfb72c0733299",
+                "oil-4fbd8c2a2930c559",
+                "oil-66b89ef48f4536a9",
+                "oil-a7080ed266c36f88",
+                "oil-af3a540365afc7c2",
+                "oil-c1a2f95596a3b00d"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fso:isPerformedOn"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fso-isperformedat",
+              "name": "fso:isPerformedAt",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 15,
+              "article_count": 11,
+              "event_count": 11,
+              "article_ids": [
+                "oil-2027fa14e94958fd",
+                "oil-3c8df3ffa6943fef",
+                "oil-4868fc6b9046a8f9",
+                "oil-48d56f0dc43d0ecc",
+                "oil-4d6bfb72c0733299",
+                "oil-70649ae86f99dffc",
+                "oil-85127f0bde3109d3",
+                "oil-a74af7bad030eb8a",
+                "oil-c0e8fd0149fa83c4",
+                "oil-c3728ff063420cf8",
+                "oil-ca9b994ce2d3e502"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fso:isPerformedAt"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-appliestofood",
+              "name": "fflo:appliesToFood",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 6,
+              "article_count": 6,
+              "event_count": 6,
+              "article_ids": [
+                "oil-2027fa14e94958fd",
+                "oil-3be954e8def80c8d",
+                "oil-63f43befc46e25fa",
+                "oil-7b8839ea47991949",
+                "oil-9c21da748413e6f9",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:appliesToFood"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-complieswith",
+              "name": "fflo:compliesWith",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 5,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-9c21da748413e6f9",
+                "oil-a74af7bad030eb8a",
+                "oil-af3a540365afc7c2"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:compliesWith"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-appliesto",
+              "name": "fflo:appliesTo",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 3,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-3667d1bf7abe81ff",
+                "oil-8236cb0c375f7c7f"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:appliesTo"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-triggerspenalty",
+              "name": "fflo:triggersPenalty",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-42c4efcdce45e35d"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:triggersPenalty"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:regulation-and-enforcement:fflo-violates",
+              "name": "fflo:violates",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:violates"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ontology_predicates:group:evidence-detection-and-provenance",
+          "name": "Evidence, detection, and provenance",
+          "definition": "Relationships describing evidence, detection, attribution, and provenance.",
+          "occurrences": 90,
+          "article_count": 47,
+          "event_count": 47,
+          "article_ids": [
+            "oil-028241dff8c29c89",
+            "oil-0536bbfbc5745875",
+            "oil-077084a32a4e8faa",
+            "oil-09a4e4c4bd7a4ed0",
+            "oil-0deaa05c0dac8925",
+            "oil-11313f68b0e0b1d7",
+            "oil-156fd0980ec51fe6",
+            "oil-17abc10a59ca2c80",
+            "oil-21d4880656b0c52f",
+            "oil-2a83d0762b1ee1b8",
+            "oil-2f0a177eecae442b",
+            "oil-30270b1b4280233d",
+            "oil-3667d1bf7abe81ff",
+            "oil-3aa9d09717e53c24",
+            "oil-3c8df3ffa6943fef",
+            "oil-4877f76e174824e5",
+            "oil-4d6bfb72c0733299",
+            "oil-5847641c3b5b8b8f",
+            "oil-5ac9372e2a178a90",
+            "oil-63426d939d718e7f",
+            "oil-66b89ef48f4536a9",
+            "oil-6e721139517af252",
+            "oil-70649ae86f99dffc",
+            "oil-7269f661e72c703f",
+            "oil-73603e3fbe5b2e10",
+            "oil-76b9943656157edc",
+            "oil-829d382c68663635",
+            "oil-846611108e27fafb",
+            "oil-86a403aef71f924e",
+            "oil-8826c3388f25a8b2",
+            "oil-898a1362002b727d",
+            "oil-97103cc7b062d80c",
+            "oil-9790eee6e00c0018",
+            "oil-992710122346e1a9",
+            "oil-9ab1d36fc93cf95c",
+            "oil-a0831d014f72baf3",
+            "oil-a7080ed266c36f88",
+            "oil-a776d4d8a8c71497",
+            "oil-aa814b41a4920904",
+            "oil-aca35e8b9bccaa60",
+            "oil-af3a540365afc7c2",
+            "oil-bfcfd938ead3b8a8",
+            "oil-c3728ff063420cf8",
+            "oil-c72d68cafd2478be",
+            "oil-c84820229ce8af05",
+            "oil-c94e003c369b3450",
+            "oil-d02d8c31bf513f40"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:prov-wasassociatedwith",
+              "name": "prov:wasAssociatedWith",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 34,
+              "article_count": 23,
+              "event_count": 23,
+              "article_ids": [
+                "oil-077084a32a4e8faa",
+                "oil-09a4e4c4bd7a4ed0",
+                "oil-0deaa05c0dac8925",
+                "oil-11313f68b0e0b1d7",
+                "oil-156fd0980ec51fe6",
+                "oil-17abc10a59ca2c80",
+                "oil-2a83d0762b1ee1b8",
+                "oil-3aa9d09717e53c24",
+                "oil-3c8df3ffa6943fef",
+                "oil-5847641c3b5b8b8f",
+                "oil-66b89ef48f4536a9",
+                "oil-6e721139517af252",
+                "oil-73603e3fbe5b2e10",
+                "oil-76b9943656157edc",
+                "oil-86a403aef71f924e",
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c",
+                "oil-9790eee6e00c0018",
+                "oil-992710122346e1a9",
+                "oil-a776d4d8a8c71497",
+                "oil-aa814b41a4920904",
+                "oil-af3a540365afc7c2",
+                "oil-c3728ff063420cf8"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "prov:wasAssociatedWith"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:prov-used",
+              "name": "prov:used",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 24,
+              "article_count": 18,
+              "event_count": 18,
+              "article_ids": [
+                "oil-0536bbfbc5745875",
+                "oil-156fd0980ec51fe6",
+                "oil-21d4880656b0c52f",
+                "oil-2a83d0762b1ee1b8",
+                "oil-30270b1b4280233d",
+                "oil-3aa9d09717e53c24",
+                "oil-5847641c3b5b8b8f",
+                "oil-5ac9372e2a178a90",
+                "oil-6e721139517af252",
+                "oil-70649ae86f99dffc",
+                "oil-7269f661e72c703f",
+                "oil-76b9943656157edc",
+                "oil-829d382c68663635",
+                "oil-8826c3388f25a8b2",
+                "oil-97103cc7b062d80c",
+                "oil-9ab1d36fc93cf95c",
+                "oil-aa814b41a4920904",
+                "oil-c84820229ce8af05"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "prov:used"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:prov-wasattributedto",
+              "name": "prov:wasAttributedTo",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 11,
+              "article_count": 8,
+              "event_count": 8,
+              "article_ids": [
+                "oil-028241dff8c29c89",
+                "oil-4877f76e174824e5",
+                "oil-898a1362002b727d",
+                "oil-a0831d014f72baf3",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c72d68cafd2478be",
+                "oil-c94e003c369b3450",
+                "oil-d02d8c31bf513f40"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "prov:wasAttributedTo"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-identifies",
+              "name": "fflo:identifies",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 3,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-4d6bfb72c0733299",
+                "oil-846611108e27fafb",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:identifies"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-producesindicator",
+              "name": "fflo:producesIndicator",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 11,
+              "article_count": 3,
+              "event_count": 3,
+              "article_ids": [
+                "oil-63426d939d718e7f",
+                "oil-bfcfd938ead3b8a8",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:producesIndicator"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-detectedby",
+              "name": "fflo:detectedBy",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-4d6bfb72c0733299",
+                "oil-a7080ed266c36f88"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:detectedBy"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-supportedby",
+              "name": "fflo:supportedBy",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-4877f76e174824e5",
+                "oil-a0831d014f72baf3"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:supportedBy"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-confirmedby",
+              "name": "fflo:confirmedBy",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-2f0a177eecae442b"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:confirmedBy"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fflo-hasvalue",
+              "name": "fflo:hasValue",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-3667d1bf7abe81ff"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasValue"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:evidence-detection-and-provenance:fso-isresultof",
+              "name": "fso:isResultOf",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-4d6bfb72c0733299"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fso:isResultOf"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ontology_predicates:group:health-and-effects",
+          "name": "Health and effects",
+          "definition": "Relationships describing effects, indicators, and health consequences.",
+          "occurrences": 39,
+          "article_count": 12,
+          "event_count": 12,
+          "article_ids": [
+            "oil-06d5928124689ba0",
+            "oil-21d4880656b0c52f",
+            "oil-2f0a177eecae442b",
+            "oil-3667d1bf7abe81ff",
+            "oil-3bd1cf9862ff569d",
+            "oil-4d6bfb72c0733299",
+            "oil-722884cee1da5016",
+            "oil-8236cb0c375f7c7f",
+            "oil-8e1ede70f7533502",
+            "oil-9087ba5d7aa31b77",
+            "oil-a0831d014f72baf3",
+            "oil-aca35e8b9bccaa60"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:health-and-effects:fflo-causeseffect",
+              "name": "fflo:causesEffect",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 34,
+              "article_count": 11,
+              "event_count": 11,
+              "article_ids": [
+                "oil-06d5928124689ba0",
+                "oil-21d4880656b0c52f",
+                "oil-2f0a177eecae442b",
+                "oil-3667d1bf7abe81ff",
+                "oil-3bd1cf9862ff569d",
+                "oil-4d6bfb72c0733299",
+                "oil-722884cee1da5016",
+                "oil-8236cb0c375f7c7f",
+                "oil-8e1ede70f7533502",
+                "oil-9087ba5d7aa31b77",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:causesEffect"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:health-and-effects:fflo-haseffecttype",
+              "name": "fflo:hasEffectType",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 5,
+              "article_count": 4,
+              "event_count": 4,
+              "article_ids": [
+                "oil-2f0a177eecae442b",
+                "oil-4d6bfb72c0733299",
+                "oil-a0831d014f72baf3",
+                "oil-aca35e8b9bccaa60"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasEffectType"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ontology_predicates:group:other-or-schema-review",
+          "name": "Other or schema review",
+          "definition": "Relationships outside the main families, including explicit schema mismatches.",
+          "occurrences": 6,
+          "article_count": 6,
+          "event_count": 6,
+          "article_ids": [
+            "oil-3bd1cf9862ff569d",
+            "oil-3be954e8def80c8d",
+            "oil-42c4efcdce45e35d",
+            "oil-8236cb0c375f7c7f",
+            "oil-b96369f55af40397",
+            "oil-c94e003c369b3450"
+          ],
+          "entries": [
+            {
+              "id": "ontology_predicates:entry:other-or-schema-review:fflo-hasdefinition",
+              "name": "fflo:hasDefinition",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-3bd1cf9862ff569d",
+                "oil-8236cb0c375f7c7f"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:hasDefinition"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:other-or-schema-review:lkif-created-by",
+              "name": "lkif:created_by",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 2,
+              "article_count": 2,
+              "event_count": 2,
+              "article_ids": [
+                "oil-3be954e8def80c8d",
+                "oil-c94e003c369b3450"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "lkif:created_by"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:other-or-schema-review:fflo-contactnumber",
+              "name": "fflo:contactNumber",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-42c4efcdce45e35d"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "fflo:contactNumber"
+              ]
+            },
+            {
+              "id": "ontology_predicates:entry:other-or-schema-review:schema-mismatch",
+              "name": "SCHEMA_MISMATCH",
+              "definition": "A normalized ontology relationships concept combining 1 extracted label.",
+              "occurrences": 1,
+              "article_count": 1,
+              "event_count": 1,
+              "article_ids": [
+                "oil-b96369f55af40397"
+              ],
+              "ontology_types": [],
+              "aliases": [
+                "SCHEMA_MISMATCH"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

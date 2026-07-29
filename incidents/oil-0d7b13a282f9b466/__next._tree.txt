@@ -1,0 +1,2 @@
+:HL["/FoodComputing/_next/static/css/e44c78ab2444d4d5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"incidents","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"oil-0d7b13a282f9b466","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"yquNMVRJjMvZHRnn6g2C4"}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Qwen oil event snapshot",
+  "scope": "Event-bearing edible-oil articles only",
+  "source_qwen_outputs": 427,
+  "incident_articles": 101,
+  "event_objects": 102,
+  "article_label_counts": {
+    "unclear": 32,
+    "relevant_event": 69
+  },
+  "event_label_counts": {
+    "unclear": 32,
+    "relevant_event": 70
+  },
+  "claim_status_counts": {
+    "suspected": 70,
+    "alleged": 23,
+    "pending_test": 2,
+    "unclear": 4,
+    "lab_confirmed": 3
+  },
+  "relevant_event_state_counts": {
+    "Uttar Pradesh": 7,
+    "Nagaland": 1,
+    "Telangana": 10,
+    "Jharkhand": 1,
+    "Kerala": 9,
+    "Maharashtra": 11,
+    "Tamil Nadu": 4,
+    "Punjab": 6,
+    "Bihar": 1,
+    "Rajasthan": 8,
+    "Punjab and Haryana": 1,
+    "Unspecified": 2,
+    "Madhya Pradesh": 5,
+    "Uttarakhand": 1,
+    "Andhra Pradesh": 2,
+    "West Bengal": 1
+  },
+  "classifier_scored_articles": 82,
+  "accepted_triplets": 175,
+  "schema_gap_claims": 1,
+  "unresolved_triplets": 438,
+  "status_note": "Preliminary Qwen event assembly. Claim status is separate from event relevance, and unresolved triplets are retained as context."
+}
