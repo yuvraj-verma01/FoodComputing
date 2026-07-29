@@ -1,0 +1,9 @@
+import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
+import { ConfidenceBadge, StatusBadge } from "@/components/status-badge";
+import type { ArticleSummary } from "@/lib/types";
+import { formatDate } from "@/lib/utils";
+
+export function ArticleTable({ articles }: { articles: ArticleSummary[] }) {
+  return <div className="overflow-x-auto border border-[var(--line)] bg-[var(--white)]"><table className="w-full min-w-[860px] border-collapse text-left text-sm"><thead><tr className="border-b border-[var(--line)] bg-[var(--paper-deep)] text-xs uppercase tracking-[.06em] text-[var(--muted)]"><th className="px-4 py-3 font-semibold">Article</th><th className="px-4 py-3 font-semibold">Category</th><th className="px-4 py-3 font-semibold">Human label</th><th className="px-4 py-3 font-semibold">Confidence</th><th className="px-4 py-3 font-semibold">Date</th><th className="w-12"><span className="sr-only">Open</span></th></tr></thead><tbody>{articles.map((article) => <tr key={`${article.article_id}-${article.food_keyword}`} className="border-b border-[var(--line)] last:border-0 hover:bg-[#fbf8f1]"><td className="max-w-xl px-4 py-4"><Link className="focus-ring font-semibold text-[var(--maroon-dark)] hover:underline" href={`/incidents/${article.slug}`}>{article.title}</Link><p className="mt-1 text-xs text-[var(--muted)]">{article.source ?? "Source unavailable"}</p></td><td className="px-4 py-4">{article.food_keyword ?? "Uncategorised"}</td><td className="px-4 py-4"><StatusBadge label={article.human_label} /></td><td className="px-4 py-4"><ConfidenceBadge score={article.classifier_score} /></td><td className="px-4 py-4 text-[var(--muted)]">{formatDate(article.date)}</td><td className="px-4 py-4"><Link className="focus-ring text-[var(--maroon)]" href={`/incidents/${article.slug}`} aria-label={`Open ${article.title}`}><ArrowUpRight className="h-4 w-4" /></Link></td></tr>)}</tbody></table></div>;
+}
