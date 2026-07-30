@@ -1,0 +1,63 @@
+{
+  "dataset": "Qwen oil event snapshot",
+  "scope": "Event-bearing edible-oil articles only",
+  "input_articles": 621,
+  "source_qwen_outputs": 527,
+  "completed_qwen_articles": 527,
+  "qwen_technical_failures": 94,
+  "all_model_label_counts": {
+    "irrelevant": 374,
+    "relevant_event": 91,
+    "unclear": 62
+  },
+  "event_object_counts_by_model_label": {
+    "irrelevant": 0,
+    "relevant_event": 92,
+    "unclear": 44
+  },
+  "final_label_source": "model",
+  "policy_used_for_final_label": false,
+  "incident_articles": 133,
+  "event_objects": 136,
+  "article_label_counts": {
+    "relevant_event": 91,
+    "unclear": 42
+  },
+  "event_label_counts": {
+    "relevant_event": 92,
+    "unclear": 44
+  },
+  "claim_status_counts": {
+    "alleged": 30,
+    "suspected": 95,
+    "lab_confirmed": 4,
+    "pending_test": 3,
+    "unclear": 4
+  },
+  "relevant_event_state_counts": {
+    "Telangana": 11,
+    "Jharkhand": 2,
+    "Maharashtra": 13,
+    "Delhi": 1,
+    "Uttar Pradesh": 11,
+    "Nagaland": 1,
+    "Kerala": 11,
+    "Punjab": 7,
+    "Rajasthan": 9,
+    "Tamil Nadu": 5,
+    "Bihar": 1,
+    "Punjab and Haryana": 1,
+    "Gujarat": 3,
+    "Unspecified": 3,
+    "Madhya Pradesh": 8,
+    "Himachal Pradesh": 1,
+    "Uttarakhand": 1,
+    "Andhra Pradesh": 2,
+    "West Bengal": 1
+  },
+  "classifier_scored_articles": 106,
+  "accepted_triplets": 229,
+  "schema_gap_claims": 1,
+  "unresolved_triplets": 599,
+  "status_note": "Preliminary Qwen event assembly. Qwen model labels are authoritative for completed outputs; the deterministic policy is diagnostic only. Claim status is separate from event relevance, and unresolved triplets are retained as context."
+}
