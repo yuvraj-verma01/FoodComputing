@@ -1,63 +1,143 @@
 {
-  "dataset": "Qwen oil event snapshot",
-  "scope": "Event-bearing edible-oil articles only",
-  "input_articles": 621,
-  "source_qwen_outputs": 527,
-  "completed_qwen_articles": 527,
-  "qwen_technical_failures": 94,
+  "dataset": "Oil and Ghee model event release",
+  "scope": "Oil event-bearing records and all model-relevant Ghee records",
+  "input_articles": 1636,
+  "completed_model_articles": 1541,
+  "technical_failures": 95,
+  "source_qwen_outputs": 1352,
+  "completed_qwen_articles": 1352,
+  "qwen_technical_failures": 95,
   "all_model_label_counts": {
-    "irrelevant": 374,
-    "relevant_event": 91,
-    "unclear": 62
+    "relevant_event": 509,
+    "unclear": 42
   },
   "event_object_counts_by_model_label": {
-    "irrelevant": 0,
-    "relevant_event": 92,
+    "relevant_event": 558,
     "unclear": 44
   },
   "final_label_source": "model",
   "policy_used_for_final_label": false,
-  "incident_articles": 133,
-  "event_objects": 136,
+  "incident_articles": 551,
+  "event_objects": 602,
   "article_label_counts": {
-    "relevant_event": 91,
+    "relevant_event": 509,
     "unclear": 42
   },
   "event_label_counts": {
-    "relevant_event": 92,
+    "relevant_event": 558,
     "unclear": 44
   },
+  "food_category_article_counts": {
+    "Edible Oil": 133,
+    "Ghee": 418
+  },
+  "food_category_event_counts": {
+    "Edible Oil": 136,
+    "Ghee": 466
+  },
+  "publication_status_counts": {
+    "validated": 521,
+    "provisional": 30
+  },
+  "source_model_counts": {
+    "Qwen/Qwen3.5-27B-FP8": 466,
+    "RedHatAI/Mistral-Small-3.2-24B-Instruct-2506-FP8": 85
+  },
   "claim_status_counts": {
-    "alleged": 30,
-    "suspected": 95,
-    "lab_confirmed": 4,
-    "pending_test": 3,
+    "alleged": 343,
+    "suspected": 135,
+    "recall_triggered": 20,
+    "pending_test": 81,
+    "lab_confirmed": 19,
     "unclear": 4
   },
   "relevant_event_state_counts": {
-    "Telangana": 11,
-    "Jharkhand": 2,
-    "Maharashtra": 13,
-    "Delhi": 1,
-    "Uttar Pradesh": 11,
+    "Telangana": 32,
+    "Jharkhand": 5,
+    "Delhi": 19,
+    "Haryana": 2,
+    "Maharashtra": 22,
+    "Unspecified": 117,
+    "Andhra Pradesh": 176,
+    "Rajasthan": 30,
+    "Uttar Pradesh": 16,
+    "Gujarat": 32,
     "Nagaland": 1,
+    "Madhya Pradesh": 28,
     "Kerala": 11,
-    "Punjab": 7,
-    "Rajasthan": 9,
-    "Tamil Nadu": 5,
+    "Uttarakhand": 8,
+    "Punjab": 12,
+    "Karnataka": 24,
+    "Odisha": 4,
+    "Delhi, Haryana": 1,
+    "Tamil Nadu": 14,
     "Bihar": 1,
     "Punjab and Haryana": 1,
-    "Gujarat": 3,
-    "Unspecified": 3,
-    "Madhya Pradesh": 8,
     "Himachal Pradesh": 1,
-    "Uttarakhand": 1,
-    "Andhra Pradesh": 2,
     "West Bengal": 1
   },
-  "classifier_scored_articles": 106,
-  "accepted_triplets": 229,
+  "classifier_scored_articles": 426,
+  "accepted_triplets": 1320,
   "schema_gap_claims": 1,
-  "unresolved_triplets": 599,
-  "status_note": "Preliminary Qwen event assembly. Qwen model labels are authoritative for completed outputs; the deterministic policy is diagnostic only. Claim status is separate from event relevance, and unresolved triplets are retained as context."
+  "unresolved_triplets": 3010,
+  "ghee_release": {
+    "input_articles": 1015,
+    "semantic_outputs": 1014,
+    "technical_failures": 1,
+    "model_label_counts": {
+      "unclear": 337,
+      "relevant_event": 418,
+      "irrelevant": 259
+    },
+    "event_object_counts_by_model_label": {
+      "unclear": 290,
+      "relevant_event": 466,
+      "irrelevant": 59
+    },
+    "source_model_counts": {
+      "Qwen/Qwen3.5-27B-FP8": 825,
+      "RedHatAI/Mistral-Small-3.2-24B-Instruct-2506-FP8": 189
+    },
+    "publication_status_counts": {
+      "validated": 984,
+      "provisional": 30
+    },
+    "provisional_relevant_articles": 30,
+    "provisional_article_ids": [
+      "0e464dfa-d504-4806-9005-c1ba38758bf8",
+      "1a066d87-0093-4ca8-9c10-84c004b76c48",
+      "1b74e29d-f583-4ee4-96bc-e93553c915b3",
+      "1de65c17-36dd-4ba6-ada6-bcd98b556aad",
+      "2679a7a3-abde-4979-ac6e-5cf24113e0db",
+      "2c075e82-3fe3-4b95-a68a-f0fad41e51f5",
+      "336a89c4-d98a-4242-8803-4d479689bc4d",
+      "3797cfc4-05a5-422b-b823-ed3bb850f540",
+      "4661fe17-e88d-41ab-a8c6-9aefcbbaed5c",
+      "5118358f-2777-4bfd-a761-adb4bc1da763",
+      "51a534c1-9193-4b8c-bbd2-b4e368930ead",
+      "5374dadc-cd7f-41df-b8d9-8ef7c10ec693",
+      "5804b97c-c416-49d1-9fbd-5bb52c0595dd",
+      "67c4a0dd-5f32-4dde-b733-4a4a9e5dfafb",
+      "7a59b547-cf09-4b46-bbfe-d7a7f34b7cfc",
+      "92b301e8-97fb-47a7-94a6-b858beb0a1fb",
+      "948eda84-20a8-442d-8a0a-ffba051904a4",
+      "9849e210-d94b-448b-885e-7bdffe11cfe9",
+      "aed9cf49-b6d3-4952-8acb-37e1eae1c31a",
+      "b6a4c3c9-311e-4a4f-beaf-d0012bbfbf51",
+      "c66f7c07-f922-4abd-8805-71a0fade560f",
+      "c6dcef79-69bf-47eb-a0b5-7b4d6bef00fc",
+      "e4aba04c-81ff-438c-a506-881ff2436c82",
+      "e53f3cca-ca53-449c-9f09-737f317fb169",
+      "e8fbbd18-0c64-4437-9ea9-4b4877081943",
+      "ec990258-7999-4c93-81af-59b6ab2c65df",
+      "f502d85e-d523-4b8c-9dec-469aa08204df",
+      "f58af8d2-a271-4586-b2b4-1b399c9f84de",
+      "f9720bd0-18fb-4774-96e6-eca25490f73e",
+      "ff4c3069-118e-4f08-aa39-6394130a8ec4"
+    ],
+    "public_relevant_articles": 418,
+    "final_label_source": "model",
+    "policy_used_for_final_label": false
+  },
+  "status_note": "Model labels are authoritative. The public Ghee release contains 388 validated/recovered and 30 provisional relevant articles. Provisional events retain grounding warnings and unresolved triplets. One Ghee article with no model output is excluded."
 }
