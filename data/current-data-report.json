@@ -1,6 +1,6 @@
 {
   "dataset": "Oil and Ghee model event release",
-  "scope": "Oil event-bearing records and all model-relevant Ghee records",
+  "scope": "Oil event-bearing records, incident-scope-retained Ghee events, and model-unclear Ghee review records",
   "input_articles": 1636,
   "completed_model_articles": 1541,
   "technical_failures": 95,
@@ -8,78 +8,78 @@
   "completed_qwen_articles": 1352,
   "qwen_technical_failures": 95,
   "all_model_label_counts": {
-    "relevant_event": 509,
-    "unclear": 42
+    "unclear": 260,
+    "relevant_event": 274
   },
   "event_object_counts_by_model_label": {
-    "relevant_event": 558,
-    "unclear": 44
+    "unclear": 231,
+    "relevant_event": 290
   },
   "final_label_source": "model",
   "policy_used_for_final_label": false,
-  "incident_articles": 551,
-  "event_objects": 602,
+  "incident_articles": 534,
+  "event_objects": 521,
   "article_label_counts": {
-    "relevant_event": 509,
-    "unclear": 42
+    "unclear": 260,
+    "relevant_event": 274
   },
   "event_label_counts": {
-    "relevant_event": 558,
-    "unclear": 44
+    "unclear": 231,
+    "relevant_event": 290
   },
   "food_category_article_counts": {
-    "Edible Oil": 133,
-    "Ghee": 418
+    "Ghee": 401,
+    "Edible Oil": 133
   },
   "food_category_event_counts": {
-    "Edible Oil": 136,
-    "Ghee": 466
+    "Ghee": 385,
+    "Edible Oil": 136
   },
   "publication_status_counts": {
     "validated": 521,
-    "provisional": 30
+    "provisional": 13
   },
   "source_model_counts": {
-    "Qwen/Qwen3.5-27B-FP8": 466,
-    "RedHatAI/Mistral-Small-3.2-24B-Instruct-2506-FP8": 85
+    "Qwen/Qwen3.5-27B-FP8": 461,
+    "RedHatAI/Mistral-Small-3.2-24B-Instruct-2506-FP8": 73
   },
   "claim_status_counts": {
-    "alleged": 343,
-    "suspected": 135,
-    "recall_triggered": 20,
-    "pending_test": 81,
-    "lab_confirmed": 19,
+    "suspected": 168,
+    "alleged": 272,
+    "pending_test": 59,
+    "recall_triggered": 10,
+    "lab_confirmed": 8,
     "unclear": 4
   },
   "relevant_event_state_counts": {
-    "Telangana": 32,
-    "Jharkhand": 5,
-    "Delhi": 19,
+    "Telangana": 30,
+    "Jharkhand": 4,
+    "Delhi": 16,
     "Haryana": 2,
-    "Maharashtra": 22,
-    "Unspecified": 117,
-    "Andhra Pradesh": 176,
+    "Maharashtra": 21,
+    "Unspecified": 41,
     "Rajasthan": 30,
-    "Uttar Pradesh": 16,
-    "Gujarat": 32,
+    "Gujarat": 25,
+    "Uttar Pradesh": 13,
     "Nagaland": 1,
-    "Madhya Pradesh": 28,
+    "Madhya Pradesh": 27,
+    "Andhra Pradesh": 17,
     "Kerala": 11,
-    "Uttarakhand": 8,
-    "Punjab": 12,
-    "Karnataka": 24,
-    "Odisha": 4,
+    "Punjab": 11,
+    "Uttarakhand": 4,
+    "Karnataka": 23,
     "Delhi, Haryana": 1,
-    "Tamil Nadu": 14,
+    "Tamil Nadu": 6,
     "Bihar": 1,
     "Punjab and Haryana": 1,
+    "Odisha": 3,
     "Himachal Pradesh": 1,
     "West Bengal": 1
   },
-  "classifier_scored_articles": 426,
-  "accepted_triplets": 1320,
+  "classifier_scored_articles": 380,
+  "accepted_triplets": 897,
   "schema_gap_claims": 1,
-  "unresolved_triplets": 3010,
+  "unresolved_triplets": 2661,
   "ghee_release": {
     "input_articles": 1015,
     "semantic_outputs": 1014,
@@ -135,9 +135,118 @@
       "f9720bd0-18fb-4774-96e6-eca25490f73e",
       "ff4c3069-118e-4f08-aa39-6394130a8ec4"
     ],
-    "public_relevant_articles": 418,
+    "public_relevant_articles": 183,
     "final_label_source": "model",
-    "policy_used_for_final_label": false
+    "policy_used_for_final_label": false,
+    "pre_scope_public_relevant_articles": 418,
+    "incident_scope_reaudit": {
+      "input_articles": 418,
+      "successful_scope_outputs": 352,
+      "technical_failure_articles": 66,
+      "scope_label_counts": {
+        "irrelevant": 16,
+        "relevant_event": 336,
+        "technical_failure": 66
+      },
+      "content_type_counts": {
+        "enforcement_followup": 1,
+        "explainer_or_background_only": 1,
+        "incident_report": 298,
+        "mixed_with_qualifying_incident": 37,
+        "other_nonincident": 1,
+        "political_commentary_only": 12,
+        "research_or_method_only": 2,
+        "technical_failure": 66
+      },
+      "publication_action_counts": {
+        "exclude": 16,
+        "manual_review": 66,
+        "retain": 336
+      },
+      "source_event_objects_modified": false,
+      "excluded_articles_deleted_from_audit": false,
+      "unclear_policy": "manual_review; do not publish as a settled incident",
+      "complete": false
+    },
+    "pre_scope_public_unclear_articles": 337,
+    "public_unclear_articles": 218,
+    "public_articles": 401,
+    "pre_ttd_filter_public_articles": 673,
+    "pre_ttd_filter_public_relevant_articles": 336,
+    "pre_ttd_filter_public_unclear_articles": 337,
+    "ttd_title_exclusion": {
+      "filter_version": "ghee_ttd_title_v1",
+      "filter_scope": "Ghee article title only",
+      "title_markers": [
+        "TTD",
+        "Tirupati",
+        "Tirumala",
+        "Devasthanam",
+        "Laddu",
+        "Prasadam",
+        "Srivari"
+      ],
+      "body_text_used_for_exclusion": false,
+      "excluded_articles": 272,
+      "excluded_article_label_counts": {
+        "relevant_event": 153,
+        "unclear": 119
+      },
+      "excluded_event_objects": 281,
+      "excluded_accepted_triplets": 472,
+      "excluded_schema_gap_claims": 0,
+      "excluded_unresolved_triplets": 1367,
+      "published_ghee_articles_after_filter": 401,
+      "published_ghee_article_label_counts": {
+        "relevant_event": 183,
+        "unclear": 218
+      },
+      "retained_articles_with_case_terms_only_in_body": 52
+    }
   },
-  "status_note": "Model labels are authoritative. The public Ghee release contains 388 validated/recovered and 30 provisional relevant articles. Provisional events retain grounding warnings and unresolved triplets. One Ghee article with no model output is excluded."
+  "status_note": "The Ghee publication candidates comprise 336 incident-scope-retained relevant records and 337 model-unclear review records. A temporary title-only TTD case-family filter keeps 272 records in a separate audit archive and publishes 401 Ghee records. Unclear records are shown as unresolved model decisions, not settled incidents. The scope audit separately excludes 16, and holds 66 for manual review. Held records remain in the audit release but are not published as settled incidents.",
+  "ghee_scope_publication_actions": {
+    "exclude": 16,
+    "manual_review": 66,
+    "retain": 336
+  },
+  "ghee_scope_content_types": {
+    "enforcement_followup": 1,
+    "explainer_or_background_only": 1,
+    "incident_report": 298,
+    "mixed_with_qualifying_incident": 37,
+    "other_nonincident": 1,
+    "political_commentary_only": 12,
+    "research_or_method_only": 2,
+    "technical_failure": 66
+  },
+  "ghee_ttd_title_exclusion": {
+    "filter_version": "ghee_ttd_title_v1",
+    "filter_scope": "Ghee article title only",
+    "title_markers": [
+      "TTD",
+      "Tirupati",
+      "Tirumala",
+      "Devasthanam",
+      "Laddu",
+      "Prasadam",
+      "Srivari"
+    ],
+    "body_text_used_for_exclusion": false,
+    "excluded_articles": 272,
+    "excluded_article_label_counts": {
+      "relevant_event": 153,
+      "unclear": 119
+    },
+    "excluded_event_objects": 281,
+    "excluded_accepted_triplets": 472,
+    "excluded_schema_gap_claims": 0,
+    "excluded_unresolved_triplets": 1367,
+    "published_ghee_articles_after_filter": 401,
+    "published_ghee_article_label_counts": {
+      "relevant_event": 183,
+      "unclear": 218
+    },
+    "retained_articles_with_case_terms_only_in_body": 52
+  }
 }

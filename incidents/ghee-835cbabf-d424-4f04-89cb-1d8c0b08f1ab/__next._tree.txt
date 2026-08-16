@@ -1,2 +1,0 @@
-:HL["/FoodComputing/_next/static/chunks/2y6i1cmye4nzd.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"incidents","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ghee-835cbabf-d424-4f04-89cb-1d8c0b08f1ab","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"0ifx137sa9Idv3Z-A8PaH"}
