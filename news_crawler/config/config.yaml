@@ -9,26 +9,16 @@ date_range:
 
 # --- Food / Oil Terms ---
 food_terms:
-  - edible oil
-  - mustard oil
-  - cooking oil
-  - vegetable oil
-  - palm oil
-  - soybean oil
-  - groundnut oil
-  - sesame oil
-  - sunflower oil
-  - cottonseed oil
-  - blended oil
-  - rice bran oil
-  - coconut oil
-  - refined oil
-  - crude palm oil
-  - loose oil
-  - sarson tel
-  - vanaspati
-  - rapeseed oil
-  - linseed oil
+  - Whole Milk
+  - Skimmed Milk
+  - Cow Milk
+  - Buffalo Milk
+  - Goat Milk
+  - Soy Milk
+  - Almond Milk
+  - Coconut Milk
+  - Milk
+
 
 # --- Adulteration / Incident Terms ---
 adulteration_terms:
