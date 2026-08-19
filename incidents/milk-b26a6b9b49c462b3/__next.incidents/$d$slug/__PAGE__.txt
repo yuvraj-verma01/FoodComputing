@@ -1,0 +1,366 @@
+1:"$Sreact.fragment"
+2:I[22016,["/FoodComputing/_next/static/chunks/11ajig91nhgba.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],""]
+3:I[5014,["/FoodComputing/_next/static/chunks/11ajig91nhgba.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"default"]
+32:I[97367,["/FoodComputing/_next/static/chunks/11ajig91nhgba.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"OutletBoundary"]
+33:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"border-b border-[var(--line)] bg-[var(--white)]","children":["$","div",null,{"className":"section-shell py-12 md:py-16","children":[["$","$L2",null,{"href":"/incidents","className":"focus-ring inline-flex items-center gap-2 text-sm font-semibold text-[var(--maroon)]","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]],"className":"lucide-arrow-left h-4 w-4"}],"Back to incidents"]}],["$","div",null,{"className":"mt-10 flex flex-wrap gap-2","children":[["$","span",null,{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-amber-800/20 bg-amber-50 text-amber-900","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z","key":"oel41y"}],["path",{"d":"M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3","key":"mhlwft"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-shield-question-mark h-3.5 w-3.5","aria-hidden":"true"}],"Unclear"]}],["$","span",null,{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-[#9b5c18]/25 bg-[#fff4df] text-[#7a4311]","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2","key":"18mbvz"}],["path",{"d":"M6.453 15h11.094","key":"3shlmq"}],["path",{"d":"M8.5 2h7","key":"csnxdl"}]],"className":"lucide-flask-conical h-3.5 w-3.5","aria-hidden":"true"}],"Provisional Evidence"]}],false,[["$","span","alleged",{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-[#9b5c18]/25 bg-[#fff4df] text-[#7a4311]","children":[["$","$L3",null,{"iconNode":"$0:rsc:props:children:0:0:props:children:props:children:1:props:children:1:props:children:0:props:iconNode","className":"lucide-flask-conical h-3.5 w-3.5","aria-hidden":"true"}],"Alleged"]}]],["$","span",null,{"className":"rounded-full bg-[var(--surface-muted)] px-2.5 py-1 text-xs font-semibold","children":"Milk"}]]}],["$","h1",null,{"className":"font-editorial mt-6 max-w-5xl text-4xl leading-tight text-[var(--maroon-dark)] md:text-6xl","children":"Asia Cup News Updates: Sri Lanka beat India by 6 wickets in Super Four match - The Economic Times"}],["$","div",null,{"className":"mt-7 flex flex-wrap items-center gap-4 text-sm text-[var(--muted)]","children":[["$","span",null,{"children":"economictimes.indiatimes.com"}],["$","span",null,{"aria-hidden":"true","children":"|"}],["$","span",null,{"children":"6 Sept 2022"}],["$","a",null,{"href":"https://economictimes.indiatimes.com/news/newsblogs/daily-news-and-latest-updates-live-06-september-2022/liveblog/94014361.cms","target":"_blank","rel":"noreferrer","children":["Original article ",["$","$L3",null,{"iconNode":[["path",{"d":"M15 3h6v6","key":"1q9fwt"}],["path",{"d":"M10 14 21 3","key":"gplh6r"}],["path",{"d":"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6","key":"a6xqqp"}]],"className":"lucide-external-link h-3.5 w-3.5"}]],"className":"focus-ring inline-flex items-center justify-center gap-2 rounded-[4px] text-sm font-semibold transition-colors disabled:pointer-events-none disabled:opacity-50 border border-[var(--maroon)] text-[var(--maroon)] hover:bg-[var(--paper-deep)] h-9 min-h-9 px-3","ref":null}]]}]]}]}],["$","div",null,{"className":"section-shell py-12","children":[["$","dl",null,{"className":"grid gap-x-8 border-y border-[var(--line)] sm:grid-cols-2 lg:grid-cols-4","children":[["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Source"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"economictimes.indiatimes.com"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":["$L4","$L5"]}],"$L6","$L7","$L8","$L9","$La","$Lb"]}],"$Lc","$Ld"]}]],null,"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"D7Q44pGuedvcAhgsSzG8N"}
+4:["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Publication date"}]
+5:["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"6 Sept 2022"}]
+6:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Food category"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"Milk"}]]}]
+7:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Event model label"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":["$","span",null,{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-amber-800/20 bg-amber-50 text-amber-900","children":[["$","$L3",null,{"iconNode":"$0:rsc:props:children:0:0:props:children:props:children:1:props:children:0:props:children:0:props:iconNode","className":"lucide-shield-question-mark h-3.5 w-3.5","aria-hidden":"true"}],"Unclear"]}]}]]}]
+8:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Model confidence"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"65%"}]]}]
+9:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Classifier output"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+a:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Classifier score"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":["$","span",null,{"className":"text-sm text-[var(--muted)]","children":"Not available"}]}]]}]
+b:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Classifier model"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+c:["$","div",null,{"className":"mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem]","children":[["$","main",null,{"className":"min-w-0","children":[["$","section",null,{"children":[["$","p",null,{"className":"eyebrow","children":"Model event assembly"}],["$","h2",null,{"className":"font-editorial mt-3 text-3xl text-[var(--maroon-dark)]","children":"Article-level decision"}],["$","div",null,{"className":"mt-6 border-l-2 border-[var(--saffron)] pl-5","children":[["$","p",null,{"className":"leading-7 text-[var(--muted)]","children":"The article describes an incident involving adulterated paneer. The adulterants include skimmed milk powder. The target category is Milk. Since the incident is about paneer (a finished food product) and not liquid milk itself, and there is no separate mention of milk being sampled or found adulterated, the event is not a direct Milk event. However, the involvement of a milk derivative (skimmed milk powder) creates ambiguity. The unresolved triplet does not provide enough evidence to confirm a Milk event. Hence, the label is unclear."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-2","children":[["$","span","target_food_affected",{"className":"border border-[var(--line)] bg-[var(--surface-muted)] px-2 py-1 text-xs font-semibold","children":"Target Food Affected"}],["$","span","insufficient_evidence",{"className":"border border-[var(--line)] bg-[var(--surface-muted)] px-2 py-1 text-xs font-semibold","children":"Insufficient Evidence"}]]}]]}]]}],["$","section",null,{"className":"mt-14","children":[["$","p",null,{"className":"eyebrow","children":"Structured events"}],["$","h2",null,{"className":"font-editorial mt-3 text-3xl text-[var(--maroon-dark)]","children":[1," extracted event object",""]}],["$","div",null,{"className":"mt-8 space-y-14","children":[["$","article","evt_milk_b26a6b9b49c462b3_001",{"className":"border-t-4 border-[var(--maroon)] pt-7","children":[["$","div",null,{"className":"flex flex-wrap items-start justify-between gap-4","children":[["$","div",null,{"children":[["$","p",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--saffron)]","children":["Event ","01"]}],["$","h3",null,{"className":"font-editorial mt-2 text-3xl text-[var(--maroon-dark)]","children":"paneer"}],["$","code",null,{"className":"mt-2 block break-all text-xs text-[var(--muted)]","children":"evt_milk_b26a6b9b49c462b3_001"}]]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span",null,{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-[#9b5c18]/25 bg-[#fff4df] text-[#7a4311]","children":[["$","$L3",null,{"iconNode":"$0:rsc:props:children:0:0:props:children:props:children:1:props:children:1:props:children:0:props:iconNode","className":"lucide-flask-conical h-3.5 w-3.5","aria-hidden":"true"}],"Alleged"]}],[["$","span","adulteration",{"className":"inline-flex w-fit items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold border-[var(--line)] bg-[var(--surface-muted)] text-[var(--muted)]","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M10.1 2.182a10 10 0 0 1 3.8 0","key":"5ilxe3"}],["path",{"d":"M13.9 21.818a10 10 0 0 1-3.8 0","key":"11zvb9"}],["path",{"d":"M17.609 3.721a10 10 0 0 1 2.69 2.7","key":"1iw5b2"}],["path",{"d":"M2.182 13.9a10 10 0 0 1 0-3.8","key":"c0bmvh"}],["path",{"d":"M20.279 17.609a10 10 0 0 1-2.7 2.69","key":"1ruxm7"}],["path",{"d":"M21.818 10.1a10 10 0 0 1 0 3.8","key":"qkgqxc"}],["path",{"d":"M3.721 6.391a10 10 0 0 1 2.7-2.69","key":"1mcia2"}],["path",{"d":"M6.391 20.279a10 10 0 0 1-2.69-2.7","key":"1fvljs"}]],"className":"lucide-circle-dashed h-3.5 w-3.5","aria-hidden":"true"}],"Adulteration"]}]]]}]]}],["$","dl",null,{"className":"mt-7 grid gap-x-8 border-y border-[var(--line)] sm:grid-cols-2","children":[["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Food items and roles"}],"$Lf"]}],"$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b"]}],"$L2c",null,"$L2d"]}]]}]]}],"$L2e","$L2f","$L30"]}],"$L31"]}]
+d:["$","div",null,{"className":"mt-12 flex gap-4 border border-red-900/20 bg-red-50 p-6 text-sm leading-6 text-red-950","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z","key":"oel41y"}],["path",{"d":"M12 8v4","key":"1got3b"}],["path",{"d":"M12 16h.01","key":"1drbdi"}]],"className":"lucide-shield-alert mt-0.5 h-5 w-5 shrink-0"}],["$","p",null,{"children":[["$","strong",null,{"children":"Research annotation disclaimer."}]," Classification and extraction outputs are research annotations. They are not independent verification of claims in the original news report."]}]]}]
+e:["$","$L32",null,{"children":["$","$33",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+f:["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"paneer [Affected Product]"}]
+10:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Adulterants"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"skimmed milk powder | RBD Pamolin oil"}]]}]
+11:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Issue types"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"adulteration"}]]}]
+12:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Adulteration method"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+13:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Fraud type"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+14:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Intentionality"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+15:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Claim status"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"alleged"}]]}]
+16:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Laboratory status"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"Samples collected: no | Sent for testing: no | Result: Pending"}]]}]
+17:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Location"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"Pune, Pune, Maharashtra, India [India relevance: yes]"}]]}]
+18:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Quantities"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"900 kgs [Seized]"}]]}]
+19:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Food business operators"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+1a:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Supply-chain stages"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"processing"}]]}]
+1b:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Finding type"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"incident_finding"}]]}]
+1c:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Detection methods"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"raid"}]]}]
+1d:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Detection indicators"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+1e:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Samples"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+1f:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Analysis results"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+20:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Measurements"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+21:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Laboratories"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+22:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Regulatory bodies"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"Food and Drug Administration, Pune"}]]}]
+23:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Regulatory actions"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"raid | seizure"}]]}]
+24:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Standards and limits"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+25:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Violations"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+26:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Health effects"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+27:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Vulnerable populations"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}]
+28:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Incident date"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"precision: unknown"}]]}]
+29:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Event extraction confidence"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"85%"}]]}]
+2a:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Event notes"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"The article reports the seizure of adulterated paneer containing skimmed milk powder. While skimmed milk powder is a milk derivative, the primary affected product is paneer. The target category is Milk. The presence of skimmed milk powder as an adulterant in paneer does not constitute a direct Milk event (adulteration of liquid milk itself) unless the article explicitly states that milk was also sampled or found adulterated. The unresolved triplet regarding the processing step of paneer does not confirm a Milk event. Therefore, the label is unclear as the connection to the target food 'Milk' as the primary affected product is not established, though a milk-derived ingredient is involved."}]]}]
+2b:["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Schema mismatches"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"[{\"subject\":\"adulterated paneer\",\"natural_language_relation\":\"foundAtStep\",\"object\":\"Processing\",\"evidence_span\":\"raided an illegal factory in Manjari Khurd\"}]"}]]}]
+2c:["$","div",null,{"className":"mt-8 grid gap-8 lg:grid-cols-[.8fr_1.2fr]","children":[["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold","children":"Exact event evidence"}],["$","div",null,{"className":"mt-3 divide-y divide-[var(--line)] border-y border-[var(--line)]","children":[["$","blockquote","Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.-0",{"className":"py-4","children":[["$","p",null,{"className":"text-sm leading-6","children":"Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune."}],["$","p",null,{"className":"mt-2 text-xs text-[var(--muted)]","children":["Supports: ","Food Items, Adulterant, Location, Quantities, Regulatory Bodies, Regulatory Actions"]}]]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold","children":"Supporting ontology triplets"}],["$","div",null,{"className":"mt-3 border-y border-[var(--line)]","children":[]}]]}]]}]
+35:Tee7,{
+  "event_id": "evt_milk_b26a6b9b49c462b3_001",
+  "food_items": [
+    {
+      "name": "paneer",
+      "normalized_name": "paneer",
+      "ontology_type": "fflo:FoodProduct",
+      "role": "affected_product"
+    }
+  ],
+  "adulterants": [
+    {
+      "name": "Skimmed milk powder",
+      "normalized_name": "skimmed milk powder",
+      "ontology_type": "fflo:Adulterant",
+      "adulterant_type": "adulterant"
+    },
+    {
+      "name": "RBD Pamolin oil",
+      "normalized_name": "RBD Pamolin oil",
+      "ontology_type": "fflo:Adulterant",
+      "adulterant_type": "adulterant"
+    }
+  ],
+  "issue_types": [
+    "adulteration"
+  ],
+  "adulteration_method": null,
+  "fraud_type": null,
+  "intentionality": null,
+  "claim_status": "alleged",
+  "laboratory_status": {
+    "samples_collected": null,
+    "samples_sent_for_testing": null,
+    "result_status": "pending",
+    "result_summary": null
+  },
+  "location": {
+    "city": "Pune",
+    "district": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "india_relevance": "yes"
+  },
+  "quantities": [
+    {
+      "raw_value": "900 kgs",
+      "value": 900,
+      "unit": "kg",
+      "role": "seized"
+    }
+  ],
+  "food_business_operators": [],
+  "supply_chain_stages": [
+    "processing"
+  ],
+  "finding_type": "incident_finding",
+  "detection_methods": [
+    {
+      "name": "raid",
+      "normalized_name": "raid",
+      "ontology_type": "fflo:DetectionMethod"
+    }
+  ],
+  "detection_indicators": [],
+  "samples": [],
+  "analysis_results": [],
+  "measurements": [],
+  "laboratories": [],
+  "regulatory_bodies": [
+    {
+      "name": "Pune FDA",
+      "normalized_name": "Food and Drug Administration, Pune",
+      "ontology_type": "fflo:RegulatoryBody"
+    }
+  ],
+  "regulatory_actions": [
+    {
+      "name": "raid",
+      "normalized_name": "raid",
+      "ontology_type": "fflo:RegulatoryAction"
+    },
+    {
+      "name": "seizure",
+      "normalized_name": "seizure",
+      "ontology_type": "fflo:RegulatoryAction"
+    }
+  ],
+  "standards_and_limits": [],
+  "violations": [],
+  "health_effects": [],
+  "vulnerable_populations": [],
+  "incident_date": {
+    "value": null,
+    "raw_text": null,
+    "precision": "unknown"
+  },
+  "evidence_spans": [
+    {
+      "evidence_text": "Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.",
+      "snippet_id": "milk-b26a6b9b49c462b3::fulltext",
+      "supports_fields": [
+        "food_items",
+        "adulterant",
+        "location",
+        "quantities",
+        "regulatory_bodies",
+        "regulatory_actions"
+      ],
+      "triplet_index": null
+    }
+  ],
+  "ontology_triplets": [],
+  "schema_mismatches": [
+    {
+      "subject": "adulterated paneer",
+      "natural_language_relation": "foundAtStep",
+      "object": "Processing",
+      "evidence_span": "raided an illegal factory in Manjari Khurd"
+    }
+  ],
+  "extraction_confidence": 0.85,
+  "notes": "The article reports the seizure of adulterated paneer containing skimmed milk powder. While skimmed milk powder is a milk derivative, the primary affected product is paneer. The target category is Milk. The presence of skimmed milk powder as an adulterant in paneer does not constitute a direct Milk event (adulteration of liquid milk itself) unless the article explicitly states that milk was also sampled or found adulterated. The unresolved triplet regarding the processing step of paneer does not confirm a Milk event. Therefore, the label is unclear as the connection to the target food 'Milk' as the primary affected product is not established, though a milk-derived ingredient is involved."
+}2d:["$","details",null,{"className":"mt-6 border border-[var(--line)] bg-[var(--surface-muted)]","children":[["$","summary",null,{"className":"focus-ring flex cursor-pointer list-none items-center gap-3 p-4 text-sm font-semibold","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6","key":"14cnrg"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5","key":"wfsgrz"}],["path",{"d":"M5 14a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1 1 1 0 0 1 1 1v2a1 1 0 0 0 1 1","key":"sr0ebq"}],["path",{"d":"M9 22a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1","key":"w793db"}]],"className":"lucide-file-braces-corner h-4 w-4 text-[var(--saffron)]"}],"Complete event JSON"]}],["$","pre",null,{"className":"max-h-[36rem] overflow-auto border-t border-[var(--line)] p-4 text-[11px] leading-5","children":"$35"}]]}]
+2e:["$","section",null,{"className":"mt-16","children":[["$","p",null,{"className":"eyebrow","children":"Triplet audit trail"}],["$","h2",null,{"className":"font-editorial mt-3 text-3xl text-[var(--maroon-dark)]","children":"Article-level ontology evidence"}],["$","p",null,{"className":"mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]","children":"Accepted triplets passed the current validation route. Schema gaps retain supported claims the current ontology cannot represent. Unresolved triplets remain visible as yellow context and are not presented as settled mappings."}],["$","div",null,{"className":"mt-7 grid gap-4","children":[["$","details",null,{"className":"border border-emerald-700/30 bg-emerald-50/45 text-emerald-900","open":true,"children":[["$","summary",null,{"className":"focus-ring flex cursor-pointer list-none items-start justify-between gap-6 p-5","children":[["$","span",null,{"className":"flex gap-3","children":[["$","$L3",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]],"className":"lucide-circle-check mt-0.5 h-5 w-5 shrink-0"}],["$","span",null,{"children":[["$","strong",null,{"className":"block","children":"Accepted and corrected triplets"}],["$","span",null,{"className":"mt-1 block text-sm leading-6 opacity-75","children":"Retained ontology claims after the two-model triplet validation route."}]]}]]}],["$","span",null,{"className":"shrink-0 text-sm font-semibold","children":0}]]}],["$","p",null,{"className":"border-t border-current/15 bg-white/65 p-5 text-sm italic text-[var(--muted)]","children":"No records in this category."}]]}],["$","details",null,{"className":"border border-sky-700/30 bg-sky-50/55 text-sky-950","open":false,"children":[["$","summary",null,{"className":"focus-ring flex cursor-pointer list-none items-start justify-between gap-6 p-5","children":[["$","span",null,{"className":"flex gap-3","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M15 6a9 9 0 0 0-9 9V3","key":"1cii5b"}],["circle",{"cx":"18","cy":"6","r":"3","key":"1h7g24"}],["circle",{"cx":"6","cy":"18","r":"3","key":"fqmcym"}]],"className":"lucide-git-branch mt-0.5 h-5 w-5 shrink-0"}],["$","span",null,{"children":[["$","strong",null,{"className":"block","children":"Supported ontology gaps"}],["$","span",null,{"className":"mt-1 block text-sm leading-6 opacity-75","children":"Article-supported claims that are not representable in the current FFLO schema."}]]}]]}],["$","span",null,{"className":"shrink-0 text-sm font-semibold","children":0}]]}],["$","p",null,{"className":"border-t border-current/15 bg-white/65 p-5 text-sm italic text-[var(--muted)]","children":"No records in this category."}]]}],["$","details",null,{"className":"border border-amber-700/35 bg-amber-50/65 text-amber-950","open":false,"children":[["$","summary",null,{"className":"focus-ring flex cursor-pointer list-none items-start justify-between gap-6 p-5","children":[["$","span",null,{"className":"flex gap-3","children":[["$","$L3",null,{"iconNode":[["path",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3","key":"wmoenq"}],["path",{"d":"M12 9v4","key":"juzpu7"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-triangle-alert mt-0.5 h-5 w-5 shrink-0"}],["$","span",null,{"children":[["$","strong",null,{"className":"block","children":"Unresolved triplets"}],["$","span",null,{"className":"mt-1 block text-sm leading-6 opacity-75","children":"Retained article context whose evidence, structure, or model agreement remains unresolved."}]]}]]}],["$","span",null,{"className":"shrink-0 text-sm font-semibold","children":1}]]}],["$","ol",null,{"className":"border-t border-current/15 bg-white/65","children":[["$","li","milk-b26a6b9b49c462b3_chunk_0009::2",{"className":"border-b border-[var(--line)] p-5 last:border-0","children":[["$","div",null,{"className":"grid gap-3 text-sm md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:items-center","children":[["$","span",null,{"className":"min-w-0","children":[["$","strong",null,{"className":"block break-words text-[var(--ink)]","children":"adulterated paneer"}],["$","code",null,{"className":"mt-1 block break-all text-[11px] text-[var(--muted)]","children":"fflo:IncidentFinding"}]]}],"$L36","$L37"]}],"$L38","$L39"]}]]}]]}]]}],"$L3a"]}]
+2f:["$","section",null,{"className":"mt-16","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","$L3",null,{"iconNode":[["path",{"d":"M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z","key":"rib7q0"}],["path",{"d":"M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z","key":"1ymkrd"}]],"className":"lucide-quote h-5 w-5 text-[var(--saffron)]"}],["$","h2",null,{"className":"font-editorial text-3xl text-[var(--maroon-dark)]","children":"Article-level evidence"}]]}],["$","div",null,{"className":"mt-6 divide-y divide-[var(--line)] border-y border-[var(--line)]","children":[["$","blockquote","Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.-0",{"className":"py-5","children":[["$","p",null,{"className":"text-lg leading-8","children":"Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune."}],["$","p",null,{"className":"mt-3 text-xs text-[var(--muted)]","children":["Supports: ","Food Items, Adulterant, Location, Quantities, Regulatory Bodies, Regulatory Actions"]}]]}]]}]]}]
+3b:T4278,More
+
+ScienceDefenceInternationalUS NewsGlobal TrendsCanada NewsUK NewsAustraliaNew ZealandSaudi ArabiaUAESingaporeHong KongBusinessWorld NewsET ExplainsCompanyCorporate TrendsIndustryTrendingMorning Brief PodcastET EvokeBengaluru NewsPune NewsMumbai NewsVideosLatest NewsMost ReadMost SharedMost Commented
+
+Business News›News›Newsblogs›Asia Cup News Updates: Sri Lanka beat India by 6 wickets in Super Four match
+
+LIVE BLOG
+
+Asia Cup News Updates: Sri Lanka (174/4) beat India (173/8) by six wickets in the Super Four game in Dubai.
+
+1 New Update
+
+- Sri Lanka beat India by 6 wickets in Super Four match in Dubai
+
+- NSE probe: Ravi Narain, former NSE CEO arrested by the ED
+
+- Liz Truss becomes UK prime minister with queen in audience
+
+- UK's Queen Elizabeth accepts Boris Johnson's resignation
+
+- Sensex falls 48.99 points to end at 59,196.99; Nifty slips 10.20 points to 17,655.60
+
+- DCGI approves Bharat Biotech's intranasal COVID-19 vaccine candidate, BBV-154
+
+- Tata Sons Chairman Cyrus Mistry last rites performed today
+
+- Piyush Goyal expresses hope for early conclusion of trade pact with UK
+
+- Rupee falls 12 paise to 79.90 against US dollar in early trade
+
+- ED conducts raids in Delhi Excise Policy case
+
+- India logs lowest single-day rise in Covid cases in 3 months
+
+- Death toll reaches 65 after strong earthquake in China
+
+The Lucknow bench of the Allahabad High Court on Tuesday upheld the death sentence awarded by a CBI court to a man convicted of killing six people, including his wife and their three children, in 2009. The convict, Sarvan, had also killed his neighbour and her son. The bench also upheld the four-year rigorous imprisonment sentence awarded to Sarvan's sister-in-law Suman for tampering with evidence.
+
+India stared at elimination in the Asia Cup after their six-wicket loss to Sri Lanka here on Tuesday but captain Rohit Sharma said there are no long-term worries as they were experimenting with three seamers in view of the upcoming T20 World Cup in Australia. Rohit said the back-to-back losses in the Asia Cup -- the first against arch-rivals Pakistan on Sunday -- will teach the team how to find answers before the ICC event in October-November.
+
+Suella Braverman, nee Fernandes, the Conservative Party member of Parliament for Fareham in south-east England, on Tuesday appointed as the UK's new Home Secretary, succeeding fellow Indian-origin colleague Priti Patel. The 42-year-old barrister, who until now served as the Attorney General in the Boris Johnson led government, was among the first contenders to throw her hat in the ring to replace Johnson as Tory leader and Prime Minister. Braverman was named as the Home Secretary by newly-appointed Prime Minister Liz Truss.
+
+Scotland's leader said on Tuesday she will bring in emergency legislation to introduce an immediate rent freeze to protect tenants as part of measures to tackle the U.K.'s cost-of-living crisis. First Minister Nicola Sturgeon said the emergency law will "give people security about the roof over their head this winter through a moratorium on evictions." It will also include measures to deliver a rent freeze for tenants in both the private and public rental markets.
+
+Telangana on Tuesday recorded 141 new COVID-19 cases, taking the overall caseload to 8,35,337. Hyderabad district saw the highest number of cases with 59. A Health department bulletin said 190 people recuperated from the infection and the cumulative number of recoveries till date was 8,30,222. The recovery rate stood at 99.39 per cent.
+
+Ravi Narain, former NSE CEO arrested by the ED in its money laundering case pertaining to the alleged phone tapping of primary rate interface (PRI) lines used by the NSE employees. These lines were illegally intercepted between 2009 and 2017, according to people in the know.
+
+U.S. President Joe Biden congratulated Liz Truss for taking over as the British prime minister on Tuesday and said Washington and London would continue to cooperate on global issues, including Russia's invasion of Ukraine. "I look forward to deepening the special relationship between our countries and working in close cooperation on global challenges, including continued support for Ukraine as it defends itself against Russian aggression," Biden said in a message posted on Twitter.
+
+Delhi Police has registered an FIR under sections 285 and 336 IPC at PS Kotwali in Chandni Chowk building fire incident of September 4.
+
+Parts of Odisha received light to moderate rain on Tuesday as a new low pressure area is expected to form over Bay of Bengal in the next few days. A cyclonic circulation may take shape over the east-central Bay of Bengal around Thursday. Under its influence, the formation of a low pressure area is likely over west-central Bay during the subsequent 48 hours, the Met office said.
+
+Minister for Road Transport and Highways, Nitin Gadkari on September 6 announced at an event that a penalty will be levied on passengers not wearing seat belts in the rear seats in cars. The move comes after the recent death of business tycoon Cyrus Mistry in a tragic car accident on this way to Mumbai. Reports stated that Mistry was seated in the rear seats and was not wearing a seatbelt. His life could have been saved if he had worn a seatbelt.
+
+Puducherry reported 62 fresh COVID-19 cases, taking the overall caseload to 1,73,094, a senior official of the Department of Health said here on Tuesday. Director of Health G Sriramulu in a release said, the 62 new cases surfaced during examination of 1,057 samples in the last 24 hours ending 10 AM today. While Puducherry region accounted for 54 new cases out of the 62, Karaikal and Yanam regions registered four cases each.
+
+The Dalai Lama on Tuesday congratulated Liz Truss, the United Kingdom's new prime minister, and hoped that country will continue to contribute to peace in an interdependent world. In his letter, the Tibetan spiritual leader said, "Historically, we Tibetans have enjoyed a long and unique relationship with Great Britain. To this day, we maintain close contacts with members of the families of British Government officials who were posted in Tibet prior to 1959." "I am also very appreciative of our British friends' strong interest in and support for the Tibetan people's aspirations for freedom and dignity," he added.
+
+The Spanish government on Tuesday passed a law giving hundreds of thousands of domestic cleaners and carers the right to unemployment benefits and other job protection measures for the first time. Labor Minister Yolanda Díaz said the law would benefit more than 370,000 people, 95% of whom are women. She said the bill was intended to end discrimination against workers whose jobs have been undervalued for too long.
+
+The European Union's anti-trust watchdog announced on Tuesday that it is blocking the buyout of cancer-screening company GRAIL by biotech giant Illumina in a rare move by European regulators against two US companies. Illumina is a major supplier of next-generation sequencing (NGS) systems for genetic and genomic analysis, while GRAIL is a health company developing blood tests to try to catch cancer early. Illumina announced an $8 billion acquisition of GRAIL in 2020.
+
+Four people were killed and eight injured as the roof of a house collapsed in Mutthi Ganj area here on Tuesday, police said. Chief Minister Yogi Adityanath condoled the deaths and directed the district officials to provide free treatment to those injured. He also announced Rs 4 lakh ex-gratia to the kin of the deceased.
+
+China has logged its hottest August since records began, state media reported Tuesday, following an unusually intense summer heat wave that parched rivers, scorched crops and triggered isolated blackouts. Southern China last month sweltered under what experts said may have been one of the worst heat waves in global history, with parts of Sichuan province and the megacity of Chongqing clocking a string of days well over 40 degrees Celsius (104 Fahrenheit).
+
+Karnataka Chief Minister Basavaraj Bommai on Monday announced the constitution of the 7th Pay Commission in October, 2022 to revise the pay scale of the government employees in the State. Bommai was speaking at the first State-level State government employees' day and State-level 'Sarvothama Seva' awards function. Speaking at the banquet hall of the State Secretariat in the State-level 'Sarvothama Seva' awards function, Bommai told employees of 'A' and 'B' categories to adopt cows under the 'Punyakoti Dattu Yojana', a cattle adoption scheme of the government by paying an annual fee of Rs11,000.
+
+The Central government's decision to rename Rajpath as 'Kartavya Path' has drawn mixed reactions from the public. While some of them welcomed the move and termed it as a 'positive change', some others disagreed to the idea and said that the concept of Rajpath and Janpath crossing each other will no longer remain the same.
+
+Liz Truss became U.K. prime minister on Tuesday and immediately confronted the enormous task ahead of her amid increasing pressure to curb soaring prices, ease labor unrest and fix a health care system burdened by long waiting lists and staff shortages. At the top of her in-box is the energy crisis triggered by Russia's invasion of Ukraine, which threatens to push energy bills to unaffordable levels, shuttering businesses and leaving the nation's poorest people shivering in icy homes this winter.
+
+An American diplomat in Tokyo on Tuesday criticised China's "increasingly hostile maritime actions" as a threat to the safety of waterways in the resource-rich Indo-Pacific, as the United States seeks to strengthen security cooperation with allies Japan and the Philippines. US Deputy Chief of Mission Raymond Greene said disregard for international law and heavy-handed actions by Beijing are aimed at increasing its control over the region. "Specifically, the increasingly hostile maritime actions by the People's Republic of China threaten the safety of our waterways," he said at a news conference ahead of a meeting of officials from the three countries.
+
+Prime Minister Narendra Modi and his Bangladeshi counterpart Sheikh Hasina on Tuesday held an extensive discussion on a range of bilateral issues as they decided to start negotiations on a comprehensive economic partnership agreement (CEPA) to sustain momentum in the bilateral ties. India and Bangladesh today signed seven Memorandum of Understanding (MoUs) in the presence of PM Modi and visiting prime minister Sheikh Hasina. These agreements were signed after delegation-level talks were held at the Hyderabad House.
+
+Britain's Queen Elizabeth accepted Boris Johnson's resignation as prime minister on Tuesday during a meeting at her Balmoral Castle in Scotland, a Buckingham Palace statement said.
+
+Encounter has started at the Poshkreeri area of Anantnag. Police and security forces are on the job. Search going on. Further details shall follow: Jammu and Kashmir Police, informed Jammu and Kashmir Police.
+
+Delhi Lieutenant Governor V K Saxena sent a legal notice to AAP leaders over their "false and derogatory" charges against him for his alleged involvement in a Rs 1,400 crore "scam" during his tenure as the KVIC chairman. The notice served on Aam Aadmi Party (AAP) leaders Atishi, Durgesh Pathak, Saurabh Bharadwaj, Sanjay Singh and Jasmine Shah, among others, asks them to issue a press release "directing all members of the party and all persons associated with it, whether directly or indirectly, to cease and desist from spreading and circulating false, defamatory, malicious and unsubstantiated statements".
+
+Foreign Secretary Vinay Kwatra said, PM Narendra Modi and Bangladesh PM Sheikh Hasina had an extensive and productive discussion on an entire range of bilateral issues related to water, trade, economic ties, and regional and global issues. "Today, later in the evening Bangladesh PM Sheikh Hasina will call on President Droupadi Murmu & Vice President Jagdeep Dhankhar. Both leaders underscored the importance of continuing our close security cooperation in the fields of counter-terrorism, border management, & cross-border crimes & agreed to further enhance our development partnership incl upgradation of railway infra projects in Bangladesh."
+
+Hotel owners Rahul Agarwal & Rohit Agarwal along with general manager Sagar Srivastava sent to 14-day judicial custody.
+
+Seasoned diplomat Sanjay Kumar Verma was appointed as India's next High Commissioner to Canada, while Amit Kumar, currently Consulate General of India in Chicago, has been named as the next ambassador to the Republic of Korea. Verma, a 1988-batch IFS officer and presently India's Ambassador to Japan, is expected to take up the assignment shortly, the Ministry of External Affairs said in a statement.
+
+Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.
+
+Delhi BJP workers staged protest against AAP government demanding CM Arvind Kejriwal and Deputy CM Manish Sisodia resignation.
+
+Fire broke out at a private buses workshop in Gurugram, Haryana. Three buses gutted in fire. On getting information, we sent 2 fire engines from Bhim Nagar fire station to the spot. We controlled the fire quickly, did not let it spread. Slum areas on the back side & 3 buses standing on the front side of the area caught fire, informed Dinesh Kumar, Fire Officer.
+
+Bharat Biotech's intranasal COVID-19 vaccine candidate, BBV-154, has been approved by the Drugs Controller General of India (DCGI).
+
+- Shantanu Narayen, CEO, Adobe
+
+The Fifteenth Finance Commission has recommended a total Post Devolution Revenue Deficit Grant of Rs 86,201 crores to 14 States for the financial year 2022-23. Dept of Expenditure, Ministry of Finance releases the 6th monthly installment of Post Devolution Revenue Deficit (PDRD) Grant of Rs 7,183.42 crore to 14 States. The grant has been released as per the recommendations of the Fifteenth Finance Commission.
+
+Supreme Court issues notice to UP Government on plea filed by Ashish Mishra, the son of Union Minister Ajay Mishra Teni, challenging Allahabad High Court decision which denied bail to him in connection with the Lakhimpur Kheri violence case.
+
+Bangladesh PM Sheikh Hasina in a joint brief congratulated Indian and said, "I would like to take this opportunity to congratulate the Govt of India and my Indian friends on the successful completion of the Azadi ka Amrit Mahotsav, the year-long celebration to mark the 75th year of India's independence. At the new dawn of the Amrit Kaal for the next 25 years, I extend our best wishes as India moves forward to attaining the resolutions made for Aatmanirbhar Bharat," she said.
+
+- Bangladesh is India's biggest development partner and our biggest trade partner in the region.
+
+- Trade between India-Bangladesh is increasing rapidly.
+
+- We have decided to extend cooperation in the IT, Space and Nuclear sectors.
+
+- India & Bangladesh on power transmission lines
+
+- Important agreement signed regarding water-sharing of Kushiyara River
+
+- PM Modi at joint brief
+
+- LoCs of US$ 2 billion for Power and Health sector
+
+- Finalised Kushiyara river water sharing
+
+- Scholarship to Bangladeshi students for education
+
+- LoCs for US $1 billion for roads and railways
+
+- 3 lines credit (LoCs) to Bangladesh worth US$ 8 billion
+
+PM Modi and Bangladesh PM held JT brief, the key MoUs exchanged.
+
+When asked if they would implement the Bihar model across the nation Bihar CM Nitish Kumar said, "What is the Bihar model? We are working to build the model of the country."
+
+Jamiat Ulama-i-Hind Maulana Mehmood Madani sent an application to concerned authorities, seeking time to meet them. "Nothing should be done in a wrong manner, even if it is good work. There's always room for improving something. Manner in which it's being portrayed is wrong. You saw what happened in Assam. It is illegal if that method is taken up" he said.
+
+The 'Bharat Jodo Yatra' could achieve both "Bharat jodo" and "Congress jodo" as it could also unite Congressmen and women across the country around the party's values and ideals as well as service to the people, said senior leader Shashi Tharoor. "We are engaged in existential struggle to defend idea of India. We should never surrender to majoritarianism. Yatra message is Congress can unite India and if public sufficiently inspired by this, it will inaugurate party's revival," the minister said.
+
+- Shashi Tharoor on Congress prez poll
+
+- Will take 100 years to modernise country's 10 lakh govt schools
+
+- Appeal to PM Modi to prepare plan with states to modernise all 10 lakh govt schools in next 5 yrs
+
+It has been an absolute honour to represent my country & state UP. I would like to announce my retirement from all… https://t.co/Ypnevv0eX5
+
+— Suresh Raina (@ImRaina) 166244690000030:["$","section",null,{"className":"mt-16","children":[["$","p",null,{"className":"eyebrow","children":"Article text"}],["$","h2",null,{"className":"font-editorial mt-3 text-3xl text-[var(--maroon-dark)]","children":"Cleaned research copy"}],["$","div",null,{"className":"mt-6 whitespace-pre-wrap border border-[var(--line)] bg-[var(--white)] p-6 text-[15px] leading-8 md:p-9","children":"$3b"}]]}]
+31:["$","aside",null,{"className":"space-y-6 lg:sticky lg:top-24 lg:self-start","children":[["$","div",null,{"className":"border border-[var(--line)] bg-[var(--white)] p-6","children":[["$","h2",null,{"className":"font-semibold","children":"Record provenance"}],["$","dl",null,{"className":"mt-4","children":[["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Article ID"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":["$","code",null,{"className":"break-all text-xs","children":"milk-b26a6b9b49c462b3"}]}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Model completed"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"18 Aug 2026"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Source model"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"Qwen/Qwen3.5-27B-FP8"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Publication status"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"provisional"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Field enrichment"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6 italic text-[var(--muted)]","children":"Not reported"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Prompt version"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":"triplet_event_assembler_milk_parity_v1"}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Source text SHA-256"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":["$","code",null,{"className":"break-all text-[11px]","children":"7dd548b1d1b13e6cd2c1391f407e29f630cb6e1c7889402f3d82ff5b7d065b7f"}]}]]}]]}]]}],["$","div",null,{"className":"border border-[var(--line)] bg-[var(--white)] p-6","children":[["$","h2",null,{"className":"font-semibold","children":"Evidence counts"}],["$","dl",null,{"className":"mt-4","children":[["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Events"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":1}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Accepted triplets"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":0}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Schema gaps"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":0}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":[["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Unresolved triplets"}],["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":1}]]}],["$","div",null,{"className":"border-b border-[var(--line)] py-4 last:border-0","children":["$L3c","$L3d"]}]]}]]}],"$L3e","$L3f"]}]
+34:null
+36:["$","code",null,{"className":"break-all bg-[var(--surface-muted)] px-2 py-1 text-xs text-[var(--maroon-dark)]","children":"fflo:foundAtStep"}]
+37:["$","span",null,{"className":"min-w-0","children":[["$","strong",null,{"className":"block break-words text-[var(--ink)]","children":"Processing"}],["$","code",null,{"className":"mt-1 block break-all text-[11px] text-[var(--muted)]","children":"fflo:SupplyChainStep"}]]}]
+38:["$","blockquote",null,{"className":"mt-4 border-l-2 border-[var(--saffron)] pl-4 text-sm leading-6 text-[var(--muted)]","children":"raided an illegal factory in Manjari Khurd"}]
+39:["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-[var(--muted)]","children":[["$","code",null,{"children":"milk-b26a6b9b49c462b3_chunk_0009::2"}],["$","span",null,{"children":"Auto Excluded Unresolved"}],["$","span",null,{"children":"Second Judge Low Confidence"}],["$","span",null,{"children":["Confidence ","75%"]}],"$undefined"]}]
+3a:["$","p",null,{"className":"mt-4 text-xs text-[var(--muted)]","children":[6," rejected triplets are counted in the audit but excluded from event facts."]}]
+3c:["$","dt",null,{"className":"text-xs font-semibold uppercase tracking-[.08em] text-[var(--muted)]","children":"Rejected triplets"}]
+3d:["$","dd",null,{"className":"mt-1.5 text-sm leading-6","children":6}]
+3e:["$","aside",null,{"className":"border-l-4 border-[var(--saffron)] bg-[#fff7e9] p-6","children":["$","div",null,{"className":"flex gap-3","children":[["$","$L3",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["line",{"x1":"12","x2":"12","y1":"8","y2":"12","key":"1pkeuh"}],["line",{"x1":"12","x2":"12.01","y1":"16","y2":"16","key":"4dfq90"}]],"className":"lucide-circle-alert mt-0.5 h-5 w-5 shrink-0 text-[var(--saffron)]"}],["$","div",null,{"children":[["$","h3",null,{"className":"font-semibold text-[var(--maroon-dark)]","children":"Interpretation note"}],["$","div",null,{"className":"mt-2 text-sm leading-6 text-[var(--muted)]","children":"This is a model-generated event record. A relevant event can carry a suspected or alleged claim status. Provisional records failed strict citation grounding; unresolved triplets remain visible and distinct from accepted ontology mappings. A source-event fallback means the core event remains available but optional field enrichment failed technically and was not invented or imputed."}]]}]]}]}]
+40:T537,{
+  "schema_valid": true,
+  "evidence": {
+    "total": 2,
+    "exact": 2,
+    "snippet_id_correct": 2,
+    "all_exact": true,
+    "all_snippet_ids_correct": true,
+    "details": [
+      {
+        "index": 0,
+        "evidence_text": "Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.",
+        "exact": true,
+        "snippet_id_correct": true,
+        "word_count": 48
+      },
+      {
+        "index": 1,
+        "evidence_text": "Pune FDA (Food and Drug Administration) raided an illegal factory in Manjari Khurd in Pune and seized around 900 kgs of adulterated paneer worth Rs 1.98 lakhs. Skimmed milk powder & RBD Pamolin oil worth Rs 2.24 lakhs were also seized, informed Sanjay Naragude, Asst Commissioner, FDA, Pune.",
+        "exact": true,
+        "snippet_id_correct": true,
+        "word_count": 48
+      }
+    ]
+  },
+  "triplet_grounding": {
+    "supporting_evidence_records": 0,
+    "events": [
+      {
+        "event_index": 0,
+        "supported": false,
+        "supporting_triplet_ids": []
+      }
+    ],
+    "all_events_supported": false
+  },
+  "normalization_actions": []
+}3f:["$","details",null,{"className":"border border-[var(--line)] bg-[var(--white)]","children":[["$","summary",null,{"className":"focus-ring flex cursor-pointer list-none items-center gap-3 p-5 font-semibold","children":[["$","$L3",null,{"iconNode":"$2d:props:children:0:props:children:0:props:iconNode","className":"lucide-file-braces-corner h-4 w-4 text-[var(--saffron)]"}],"Processing audit JSON"]}],["$","pre",null,{"className":"max-h-[28rem] overflow-auto border-t border-[var(--line)] bg-[var(--surface-muted)] p-4 text-[11px] leading-5","children":"$40"}]]}]

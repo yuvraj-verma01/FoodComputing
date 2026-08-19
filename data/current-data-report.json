@@ -1,6 +1,6 @@
 {
-  "dataset": "Oil and Ghee model event release",
-  "scope": "Oil event-bearing records, incident-scope-retained Ghee events, and model-unclear Ghee review records",
+  "dataset": "Oil, Ghee and Milk model event release",
+  "scope": "Oil event-bearing records, incident-scope-retained Ghee events, model-unclear Ghee review records, and Milk Oil/Ghee-parity relevant and unclear review records",
   "input_articles": 1636,
   "completed_model_articles": 1541,
   "technical_failures": 95,
@@ -8,78 +8,86 @@
   "completed_qwen_articles": 1352,
   "qwen_technical_failures": 95,
   "all_model_label_counts": {
-    "unclear": 260,
-    "relevant_event": 274
+    "unclear": 352,
+    "relevant_event": 378
   },
   "event_object_counts_by_model_label": {
-    "unclear": 231,
-    "relevant_event": 290
+    "unclear": 323,
+    "relevant_event": 395
   },
   "final_label_source": "model",
   "policy_used_for_final_label": false,
-  "incident_articles": 534,
-  "event_objects": 521,
+  "incident_articles": 730,
+  "event_objects": 718,
   "article_label_counts": {
-    "unclear": 260,
-    "relevant_event": 274
+    "unclear": 352,
+    "relevant_event": 378
   },
   "event_label_counts": {
-    "unclear": 231,
-    "relevant_event": 290
+    "unclear": 323,
+    "relevant_event": 395
   },
   "food_category_article_counts": {
     "Ghee": 401,
-    "Edible Oil": 133
+    "Edible Oil": 133,
+    "Milk": 196
   },
   "food_category_event_counts": {
     "Ghee": 385,
-    "Edible Oil": 136
+    "Edible Oil": 136,
+    "Milk": 197
   },
   "publication_status_counts": {
-    "validated": 521,
-    "provisional": 13
+    "validated": 649,
+    "provisional": 81
   },
   "source_model_counts": {
-    "Qwen/Qwen3.5-27B-FP8": 461,
+    "Qwen/Qwen3.5-27B-FP8": 657,
     "RedHatAI/Mistral-Small-3.2-24B-Instruct-2506-FP8": 73
   },
   "claim_status_counts": {
-    "suspected": 168,
-    "alleged": 272,
-    "pending_test": 59,
+    "suspected": 215,
+    "alleged": 407,
+    "pending_test": 67,
     "recall_triggered": 10,
-    "lab_confirmed": 8,
-    "unclear": 4
+    "lab_confirmed": 11,
+    "unclear": 5,
+    "survey_aggregated": 2,
+    "refuted": 1
   },
   "relevant_event_state_counts": {
-    "Telangana": 30,
-    "Jharkhand": 4,
-    "Delhi": 16,
-    "Haryana": 2,
-    "Maharashtra": 21,
-    "Unspecified": 41,
+    "Telangana": 31,
+    "Jharkhand": 5,
+    "Delhi": 19,
+    "Haryana": 3,
+    "Maharashtra": 29,
+    "Unspecified": 47,
     "Rajasthan": 30,
     "Gujarat": 25,
-    "Uttar Pradesh": 13,
+    "Uttar Pradesh": 21,
     "Nagaland": 1,
-    "Madhya Pradesh": 27,
-    "Andhra Pradesh": 17,
-    "Kerala": 11,
-    "Punjab": 11,
+    "Madhya Pradesh": 29,
+    "Andhra Pradesh": 72,
+    "Kerala": 13,
+    "Punjab": 16,
     "Uttarakhand": 4,
-    "Karnataka": 23,
+    "Karnataka": 26,
     "Delhi, Haryana": 1,
-    "Tamil Nadu": 6,
+    "Tamil Nadu": 9,
     "Bihar": 1,
     "Punjab and Haryana": 1,
     "Odisha": 3,
     "Himachal Pradesh": 1,
-    "West Bengal": 1
+    "West Bengal": 2,
+    "India": 3,
+    "Punjab, Haryana, Himachal": 1,
+    "Chandigarh": 1,
+    "State": 1
   },
   "classifier_scored_articles": 380,
-  "accepted_triplets": 897,
-  "schema_gap_claims": 1,
-  "unresolved_triplets": 2661,
+  "accepted_triplets": 1390,
+  "schema_gap_claims": 3,
+  "unresolved_triplets": 3674,
   "ghee_release": {
     "input_articles": 1015,
     "semantic_outputs": 1014,
@@ -248,5 +256,18 @@
       "unclear": 218
     },
     "retained_articles_with_case_terms_only_in_body": 52
+  },
+  "milk_release": {
+    "run_id": "qwen35_milk_1150_events_oil_ghee_parity_v001",
+    "published_labels": [
+      "relevant_event",
+      "unclear"
+    ],
+    "published_articles": 196,
+    "label_counts": {
+      "relevant_event": 104,
+      "unclear": 92
+    },
+    "note": "Milk technical-failure recovery is still in progress; recovered records will be published in a later update."
   }
 }
