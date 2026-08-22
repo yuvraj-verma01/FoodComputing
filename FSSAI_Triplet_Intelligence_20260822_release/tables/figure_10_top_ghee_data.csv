@@ -1,0 +1,16 @@
+﻿food,candidate,food_candidate,distinct_articles,mean_confidence
+Ghee,fake ghee,Ghee -> fake ghee,8,0.885
+Ghee,starch,Ghee -> starch,9,0.865
+Ghee,refined oil,Ghee -> refined oil,9,0.9199999999999999
+Khoya/mawa,starch,Khoya/mawa -> starch,9,0.91
+Ghee,coconut oil,Ghee -> coconut oil,10,0.8923076923076922
+Ghee,beta carotene,Ghee -> beta carotene,14,0.8933333333333333
+Tirupati laddu,animal fat,Tirupati laddu -> animal fat,14,0.8323529411764705
+Ghee,acetic acid ester,Ghee -> acetic acid ester,18,0.9047619047619048
+Ghee,fish oil,Ghee -> fish oil,18,0.8842105263157894
+Ghee,beef tallow,Ghee -> beef tallow,19,0.8681818181818182
+Ghee,lard/pig fat,Ghee -> lard/pig fat,22,0.892
+Ghee,vanaspati,Ghee -> vanaspati,30,0.9051282051282051
+Ghee,vegetable oil/fat,Ghee -> vegetable oil/fat,69,0.9079310344827586
+Ghee,palm oil family,Ghee -> palm oil family,92,0.9123529411764706
+Ghee,animal fat,Ghee -> animal fat,96,0.8829457364341086

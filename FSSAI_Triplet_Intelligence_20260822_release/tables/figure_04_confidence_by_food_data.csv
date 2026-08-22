@@ -1,0 +1,4 @@
+﻿food_pool,input_articles,articles_with_triplets,triplet_rows,mean_confidence,median_confidence,rows_confidence_ge_0_90
+Oil,621,519,3260,0.8845,0.9,1956
+Ghee,1015,933,6907,0.8866,0.9,4290
+Milk,1150,518,4787,0.8903,0.9,3123

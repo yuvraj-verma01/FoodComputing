@@ -1,0 +1,3 @@
+﻿corpus,triplet_rows,unique_normalized_triplets,unique_entities,distinct_sources,mean_confidence,median_confidence,minimum_confidence,maximum_confidence
+FSSAI baseline,13355,12388,9603,27,0.9415,0.95,0.5,0.95
+News,14954,11588,9470,1970,0.8873,0.9,0.45,0.98

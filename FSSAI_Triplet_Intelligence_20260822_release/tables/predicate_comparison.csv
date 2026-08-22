@@ -1,0 +1,145 @@
+﻿corpus,predicate,triplet_rows,distinct_sources,mean_confidence
+FSSAI baseline,hasfunction,1829,12,0.9408
+FSSAI baseline,hasingredient,1635,18,0.9287
+FSSAI baseline,hasvalue,1455,21,0.9483
+FSSAI baseline,infood,1361,20,0.941
+FSSAI baseline,forproperty,1220,20,0.9476
+FSSAI baseline,hasdefinition,1106,25,0.9443
+FSSAI baseline,hasobligation,1020,22,0.9455
+FSSAI baseline,hassubcategory,692,10,0.9415
+FSSAI baseline,appliesto,589,22,0.939
+FSSAI baseline,haspermissiblelimit,306,15,0.935
+FSSAI baseline,hasscientificname,264,12,0.9475
+FSSAI baseline,belongstocategory,260,9,0.946
+FSSAI baseline,complieswith,252,19,0.946
+FSSAI baseline,isempoweredto,159,11,0.9387
+FSSAI baseline,appliestofood,155,3,0.9458
+FSSAI baseline,detectedby,127,5,0.9496
+FSSAI baseline,producedby,86,8,0.9442
+FSSAI baseline,specifiedin,79,17,0.95
+FSSAI baseline,hasadulterant,72,13,0.9403
+FSSAI baseline,definedin,61,15,0.9369
+FSSAI baseline,wasgeneratedby,46,4,0.9489
+FSSAI baseline,actsonbehalfof,38,5,0.9382
+FSSAI baseline,tablelabel,35,6,0.95
+FSSAI baseline,governssampling,30,7,0.9383
+FSSAI baseline,appliestocategory,27,9,0.937
+FSSAI baseline,producesindicator,26,6,0.9442
+FSSAI baseline,inputto,26,7,0.9269
+FSSAI baseline,hasadulterationmethod,25,9,0.864
+FSSAI baseline,affectspopulation,23,2,0.9435
+FSSAI baseline,amends,22,7,0.9386
+FSSAI baseline,associatedwith,21,2,0.9048
+FSSAI baseline,isperformedat,20,4,0.95
+FSSAI baseline,isperformedas,20,4,0.92
+FSSAI baseline,issubstitutefor,20,4,0.9125
+FSSAI baseline,created_by,17,8,0.9353
+FSSAI baseline,outputof,17,5,0.9471
+FSSAI baseline,foundat,17,6,0.9471
+FSSAI baseline,issuedby,16,6,0.9375
+FSSAI baseline,collectedat,16,1,0.9406
+FSSAI baseline,wasassociatedwith,16,5,0.95
+FSSAI baseline,identifies,13,2,0.95
+FSSAI baseline,foundatstep,12,4,0.9417
+FSSAI baseline,targets,10,6,0.94
+FSSAI baseline,used,10,3,0.9
+FSSAI baseline,defines,8,7,0.925
+FSSAI baseline,occursat,8,2,0.9375
+FSSAI baseline,isperformedon,8,4,0.9437
+FSSAI baseline,unmapped,7,3,0.95
+FSSAI baseline,requireskit,7,2,0.95
+FSSAI baseline,hasnumericvalue,7,2,0.95
+FSSAI baseline,wasattributedto,6,3,0.9417
+FSSAI baseline,commonin,6,1,0.95
+FSSAI baseline,foundin,6,2,0.95
+FSSAI baseline,causeseffect,5,2,0.9
+FSSAI baseline,constitutes,5,4,0.94
+FSSAI baseline,comparedagainst,4,4,0.95
+FSSAI baseline,relatestoproperty,4,2,0.9375
+FSSAI baseline,excludedfrom,4,1,0.95
+FSSAI baseline,wasinfluencedby,3,3,0.9333
+FSSAI baseline,hassampletype,3,2,0.9167
+FSSAI baseline,inregion,2,2,0.925
+FSSAI baseline,exemptfrom,2,1,0.9
+FSSAI baseline,carriedby,2,1,0.9
+FSSAI baseline,supportedby,1,1,0.95
+FSSAI baseline,hasintentionality,1,1,0.8
+FSSAI baseline,violates,1,1,0.8
+FSSAI baseline,prohibited,1,1,0.95
+FSSAI baseline,hasfraudtype,1,1,0.85
+FSSAI baseline,isperformedby,1,1,0.95
+FSSAI baseline,haslocation,1,1,0.9
+News,hasadulterant,2806,982,0.8872
+News,causeseffect,1093,345,0.8682
+News,hasingredient,1080,269,0.9186
+News,wasassociatedwith,1059,519,0.894
+News,issuedby,849,546,0.9059
+News,foundat,594,407,0.865
+News,targets,560,300,0.8922
+News,belongstocategory,528,261,0.9066
+News,inregion,522,356,0.9057
+News,hasfraudtype,481,331,0.8658
+News,used,451,333,0.92
+News,producesindicator,407,113,0.8838
+News,foundatstep,401,297,0.8544
+News,issubstitutefor,362,252,0.8846
+News,hasadulterationmethod,343,260,0.8442
+News,foundin,248,198,0.9087
+News,wasattributedto,218,149,0.8741
+News,detectedby,214,113,0.8821
+News,isperformedat,207,166,0.8816
+News,affectspopulation,200,113,0.8808
+News,commonin,198,120,0.8722
+News,triggeredaction,176,140,0.877
+News,collectedat,165,98,0.8606
+News,appliestofood,154,84,0.8815
+News,hasintentionality,150,143,0.89
+News,complieswith,148,113,0.8606
+News,isperformedon,143,125,0.8808
+News,hasdefinition,142,103,0.9215
+News,haseffecttype,127,92,0.8634
+News,identifies,102,84,0.901
+News,supportedby,96,82,0.8818
+News,haspermissiblelimit,76,47,0.9
+News,producedby,63,58,0.8825
+News,hasfunction,58,42,0.8514
+News,created_by,56,50,0.8982
+News,appliesto,54,33,0.8796
+News,occursat,40,34,0.8688
+News,associatedwith,36,23,0.8764
+News,constitutes,36,29,0.8611
+News,hasvalue,31,25,0.9129
+News,requireskit,31,25,0.8661
+News,inputto,28,24,0.8696
+News,wasgeneratedby,24,21,0.8833
+News,outputof,21,17,0.881
+News,schema_mismatch,17,12,0.8471
+News,haslocation,17,16,0.9118
+News,infood,15,14,0.9267
+News,citesfinding,13,11,0.8577
+News,appliestocategory,13,4,0.8846
+News,defines,10,8,0.875
+News,forproperty,10,9,0.93
+News,confirmedby,10,9,0.9
+News,isperformedas,9,9,0.8278
+News,violates,9,7,0.8667
+News,ismeasuredin,7,6,0.8643
+News,specifiedin,6,5,0.8833
+News,carriedby,5,5,0.86
+News,hassubcategory,5,2,0.89
+News,propagatesto,5,4,0.78
+News,relatestoproperty,5,3,0.86
+News,wasinfluencedby,4,4,0.8375
+News,hassampletype,2,2,0.9
+News,definedin,2,2,0.875
+News,hasfoodbusinessoperator,2,1,0.9
+News,amends,1,1,0.85
+News,procuredfrom,1,1,0.9
+News,failedtocurb,1,1,0.75
+News,promoted,1,1,0.75
+News,ignores,1,1,0.8
+News,affectedby,1,1,0.85
+News,triggerspenalty,1,1,0.9
+News,contactnumber,1,1,0.95
+News,hasaccreditationstatus,1,1,0.9
+News,isresultof,1,1,0.9

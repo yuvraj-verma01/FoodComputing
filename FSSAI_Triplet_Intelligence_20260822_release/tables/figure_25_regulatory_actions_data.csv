@@ -1,0 +1,17 @@
+﻿predicate,object,distinct_sources,relation
+issuedby,FSDA,14,issuedby -> FSDA
+targets,gutkha,14,targets -> gutkha
+targets,mustard oil,15,targets -> mustard oil
+issuedby,Food Safety and Standards Authority of India,16,issuedby -> Food Safety and Standards Authority of India
+issuedby,food safety department,16,issuedby -> food safety department
+targets,palm oil,17,targets -> palm oil
+targets,edible oil,19,targets -> edible oil
+issuedby,Food and Drug Administration,22,issuedby -> Food and Drug Administration
+issuedby,Maharashtra Food and Drug Administration,22,issuedby -> Maharashtra Food and Drug Administration
+targets,paneer,25,targets -> paneer
+issuedby,Food Safety Department,27,issuedby -> Food Safety Department
+issuedby,FDA,28,issuedby -> FDA
+issuedby,Maharashtra FDA,29,issuedby -> Maharashtra FDA
+targets,milk,29,targets -> milk
+targets,ghee,54,targets -> ghee
+issuedby,FSSAI,108,issuedby -> FSSAI

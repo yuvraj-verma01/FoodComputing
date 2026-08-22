@@ -1,0 +1,234 @@
+[
+  {
+    "number": 1,
+    "slug": "corpus_scale",
+    "title": "Comparable corpus scale",
+    "caption": "All retained news triplets are included; no status-based partition is used.",
+    "png": "figures\\figure_01_corpus_scale.png",
+    "data_csv": "tables\\figure_01_corpus_scale_data.csv"
+  },
+  {
+    "number": 2,
+    "slug": "graph_breadth",
+    "title": "Knowledge-graph breadth",
+    "caption": "The corpora are similar in row scale but encode different knowledge functions.",
+    "png": "figures\\figure_02_graph_breadth.png",
+    "data_csv": "tables\\figure_02_graph_breadth_data.csv"
+  },
+  {
+    "number": 3,
+    "slug": "confidence_distribution",
+    "title": "Confidence distributions",
+    "caption": "Confidence is preserved as supplied and is the only model-quality signal used for news rankings.",
+    "png": "figures\\figure_03_confidence_distribution.png",
+    "data_csv": "tables\\figure_03_confidence_distribution_data.csv"
+  },
+  {
+    "number": 4,
+    "slug": "confidence_by_food",
+    "title": "News confidence by food pool",
+    "caption": "The three pools have similar confidence distributions; counts and food-specific evidence drive substantive differences.",
+    "png": "figures\\figure_04_confidence_by_food.png",
+    "data_csv": "tables\\figure_04_confidence_by_food_data.csv"
+  },
+  {
+    "number": 5,
+    "slug": "food_pool_coverage",
+    "title": "News-triplet coverage by food pool",
+    "caption": "Article counts measure corpus representation, not incident prevalence.",
+    "png": "figures\\figure_05_food_pool_coverage.png",
+    "data_csv": "tables\\figure_05_food_pool_coverage_data.csv"
+  },
+  {
+    "number": 6,
+    "slug": "predicate_comparison",
+    "title": "Dominant predicates reveal different corpus functions",
+    "caption": "FSSAI baseline emphasizes standards and definitions; news emphasizes incidents, adulterants, effects, places and actions.",
+    "png": "figures\\figure_06_predicate_comparison.png",
+    "data_csv": "tables\\figure_06_predicate_comparison_data.csv"
+  },
+  {
+    "number": 7,
+    "slug": "overlap",
+    "title": "Normalized overlap is sparse",
+    "caption": "Exact overlap is conservative; terminology and role differences can hide contextual overlap.",
+    "png": "figures\\figure_07_overlap.png",
+    "data_csv": "tables\\figure_07_overlap_data.csv"
+  },
+  {
+    "number": 8,
+    "slug": "top_food_adulterants",
+    "title": "Most reported food-adulterant relationships",
+    "caption": "Ranks use unique articles and retain the explicitly named affected food.",
+    "png": "figures\\figure_08_top_food_adulterants.png",
+    "data_csv": "tables\\figure_08_top_food_adulterants_data.csv"
+  },
+  {
+    "number": 9,
+    "slug": "top_oil",
+    "title": "Most reported relationships in the Oil article pool",
+    "caption": "Food is taken from the triplet; the pool only identifies the source collection.",
+    "png": "figures\\figure_09_top_oil.png",
+    "data_csv": "tables\\figure_09_top_oil_data.csv"
+  },
+  {
+    "number": 10,
+    "slug": "top_ghee",
+    "title": "Most reported relationships in the Ghee article pool",
+    "caption": "Food is taken from the triplet; the pool only identifies the source collection.",
+    "png": "figures\\figure_10_top_ghee.png",
+    "data_csv": "tables\\figure_10_top_ghee_data.csv"
+  },
+  {
+    "number": 11,
+    "slug": "top_milk",
+    "title": "Most reported relationships in the Milk article pool",
+    "caption": "Food is taken from the triplet; the pool only identifies the source collection.",
+    "png": "figures\\figure_11_top_milk.png",
+    "data_csv": "tables\\figure_11_top_milk_data.csv"
+  },
+  {
+    "number": 12,
+    "slug": "food_adulterant_heatmap",
+    "title": "Food-specific adulterant article matrix",
+    "caption": "The same candidate is not assumed equally likely across foods.",
+    "png": "figures\\figure_12_food_adulterant_heatmap.png",
+    "data_csv": "tables\\figure_12_food_adulterant_heatmap_data.csv"
+  },
+  {
+    "number": 13,
+    "slug": "recurrence_confidence",
+    "title": "Recurrence and confidence are complementary signals",
+    "caption": "Confidence ranks extraction certainty; recurrence measures corpus repetition and can include duplicate incident coverage.",
+    "png": "figures\\figure_13_recurrence_confidence.png",
+    "data_csv": "tables\\figure_13_recurrence_confidence_data.csv"
+  },
+  {
+    "number": 14,
+    "slug": "gap_classes",
+    "title": "FSSAI baseline representation classes",
+    "caption": "Absence means absent from the supplied verified baseline, not necessarily from every current FSSAI document.",
+    "png": "figures\\figure_14_gap_classes.png",
+    "data_csv": "tables\\figure_14_gap_classes_data.csv"
+  },
+  {
+    "number": 15,
+    "slug": "gap_priority",
+    "title": "Priority candidates combine recurrence, confidence and local health links",
+    "caption": "The score is a transparent discovery heuristic, not a risk or prevalence estimate.",
+    "png": "figures\\figure_15_gap_priority.png",
+    "data_csv": "tables\\figure_15_gap_priority_data.csv"
+  },
+  {
+    "number": 16,
+    "slug": "test_coverage",
+    "title": "Candidate-specific test representation",
+    "caption": "A missing graph edge triggers method retrieval and validation; it does not prove no test exists.",
+    "png": "figures\\figure_16_test_coverage.png",
+    "data_csv": "tables\\figure_16_test_coverage_data.csv"
+  },
+  {
+    "number": 17,
+    "slug": "health_effects",
+    "title": "Most represented health effects in news triplets",
+    "caption": "These are reported effects in the local corpus, not incidence estimates.",
+    "png": "figures\\figure_17_health_effects.png",
+    "data_csv": "tables\\figure_17_health_effects_data.csv"
+  },
+  {
+    "number": 18,
+    "slug": "effect_food_heatmap",
+    "title": "Health-effect representation by source food pool",
+    "caption": "Pool-level differences reflect corpus composition and repeated coverage.",
+    "png": "figures\\figure_18_effect_food_heatmap.png",
+    "data_csv": "tables\\figure_18_effect_food_heatmap_data.csv"
+  },
+  {
+    "number": 19,
+    "slug": "direct_causal_chains",
+    "title": "Directly joined food-adulterant-effect chains",
+    "caption": "Both graph edges occur in the same article and share the canonical adulterant node.",
+    "png": "figures\\figure_19_direct_causal_chains.png",
+    "data_csv": "tables\\figure_19_direct_causal_chains_data.csv"
+  },
+  {
+    "number": 20,
+    "slug": "causal_chain_classes",
+    "title": "Causal-chain evidence levels",
+    "caption": "Repository-inferred chains are hypotheses and are separated from same-article direct joins.",
+    "png": "figures\\figure_20_causal_chain_classes.png",
+    "data_csv": "tables\\figure_20_causal_chain_classes_data.csv"
+  },
+  {
+    "number": 21,
+    "slug": "renal_reverse_hypothesis",
+    "title": "Candidate presence given Milk and renal-failure context",
+    "caption": "The percentage is an article association share, not a diagnostic or causal probability.",
+    "png": "figures\\figure_21_renal_reverse_hypothesis.png",
+    "data_csv": "tables\\figure_21_renal_reverse_hypothesis_data.csv"
+  },
+  {
+    "number": 22,
+    "slug": "food_specificity",
+    "title": "Food specificity of leading adulterant candidates",
+    "caption": "This directly answers whether a candidate is represented across foods or concentrated in one food matrix.",
+    "png": "figures\\figure_22_food_specificity.png",
+    "data_csv": "tables\\figure_22_food_specificity_data.csv"
+  },
+  {
+    "number": 23,
+    "slug": "time_food_pool",
+    "title": "Publication-year coverage by food pool",
+    "caption": "Publication date is not incident date; 2026 is partial and collection intensity varies.",
+    "png": "figures\\figure_23_time_food_pool.png",
+    "data_csv": "tables\\figure_23_time_food_pool_data.csv"
+  },
+  {
+    "number": 24,
+    "slug": "candidate_time_series",
+    "title": "Publication trajectories of leading candidates",
+    "caption": "Trends describe the collected corpus and repeated reporting, not population prevalence.",
+    "png": "figures\\figure_24_candidate_time_series.png",
+    "data_csv": "tables\\figure_24_candidate_time_series_data.csv"
+  },
+  {
+    "number": 25,
+    "slug": "regulatory_actions",
+    "title": "Most represented regulatory-action relations",
+    "caption": "Action relations complement food chemistry by showing what authorities or operators did.",
+    "png": "figures\\figure_25_regulatory_actions.png",
+    "data_csv": "tables\\figure_25_regulatory_actions_data.csv"
+  },
+  {
+    "number": 26,
+    "slug": "detection_methods",
+    "title": "Most represented news detection and method relations",
+    "caption": "News-only method language; a method mention is not automatically a validated food-specific protocol.",
+    "png": "figures\\figure_26_detection_methods.png",
+    "data_csv": "tables\\figure_26_detection_methods_data.csv"
+  },
+  {
+    "number": 27,
+    "slug": "publisher_concentration",
+    "title": "News-source concentration",
+    "caption": "Concentrated sourcing can amplify repeated incidents and editorial framing.",
+    "png": "figures\\figure_27_publisher_concentration.png",
+    "data_csv": "tables\\figure_27_publisher_concentration_data.csv"
+  },
+  {
+    "number": 28,
+    "slug": "confidence_sensitivity",
+    "title": "Sensitivity to confidence thresholds",
+    "caption": "Threshold views are reported alongside the all-triplet result; no historical status field is used.",
+    "png": "figures\\figure_28_confidence_sensitivity.png",
+    "data_csv": "tables\\figure_28_confidence_sensitivity_data.csv"
+  },
+  {
+    "number": 29,
+    "slug": "causal_network",
+    "title": "Leading directly joined causal-chain network",
+    "caption": "Blue nodes are foods, gold nodes are adulterants, and red nodes are effects.",
+    "png": "figures\\figure_29_causal_network.png",
+    "data_csv": "tables\\figure_29_causal_network_data.csv"
+  }
+]

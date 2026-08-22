@@ -1,0 +1,501 @@
+{
+  "package": "FSSAI_Triplet_Intelligence_20260822_release",
+  "generated_at_utc": "2026-08-22T07:30:44.865856+00:00",
+  "analysis_contract": {
+    "reference_name": "FSSAI baseline",
+    "foods": [
+      "Oil",
+      "Ghee",
+      "Milk"
+    ],
+    "historical_news_status_used": false,
+    "news_model_confidence_used": true,
+    "internet_or_external_data_used": false,
+    "compatible_triplet_columns": [
+      "snippet_id",
+      "source_id",
+      "source_file",
+      "source_type",
+      "chunk_index",
+      "subject",
+      "subject_type",
+      "subject_id",
+      "predicate",
+      "object",
+      "object_type",
+      "object_id",
+      "confidence",
+      "evidence_span"
+    ],
+    "causal_claim_boundary": "article-level graph association and hypothesis ranking; not epidemiological proof or calibrated diagnosis",
+    "baseline_absence_boundary": "not represented in the supplied FSSAI baseline; not proof of absence from all FSSAI documents"
+  },
+  "metrics": {
+    "fssai_baseline_rows": 13355,
+    "news_rows": 14954,
+    "combined_rows": 28309,
+    "news_articles_represented": 1970,
+    "direct_news_food_adulterant_rows": 3168,
+    "news_health_effect_rows": 1229,
+    "figures": 29
+  },
+  "figures": 29,
+  "inputs": [
+    {
+      "path": "triplets_verified.csv",
+      "bytes": 3124796,
+      "sha256": "7294752d149314e888975f0e8a8d4a47fdcf2a768fc823a306735f54e9c79a93"
+    },
+    {
+      "path": "News_Triplets_Oil_Ghee_Milk_20260820.csv",
+      "bytes": 5726048,
+      "sha256": "427fe55c3b92058d54617cbd8ad25dc85f3b10f05922bff1251239005d9538f0"
+    },
+    {
+      "path": "qwen_oil_detailed_20260729_230158\\oil_articles.cleaned.jsonl",
+      "bytes": 1653239,
+      "sha256": "0ceb37141542f0ff3638eeaa96783039107b43fb04b0b96fafe74a4a7fe1f025"
+    },
+    {
+      "path": "ghee_qwen_events_20260802_101933\\ghee_articles.cleaned.jsonl",
+      "bytes": 2899219,
+      "sha256": "195b7a0f0a19d993b7f6b0b0a69a1484607cfb87b76c4e184b92befdaf11ff95"
+    },
+    {
+      "path": "milk_parity_final_20260819_173030\\blind_recall_articles.jsonl",
+      "bytes": 6229552,
+      "sha256": "79815966e1123ab66a5f63fd59bfcaacf22717de4c0a87e9f5302412b98f1db3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Combined_FSSAI_Baseline_and_News_Triplets_20260822.csv",
+      "bytes": 8692612,
+      "sha256": "641cec59f906455f29a449801be9a8198587170d3b1ffc076ed391643a29d82e"
+    },
+    {
+      "path": "Combined_Triplet_Provenance_20260822.csv",
+      "bytes": 13128335,
+      "sha256": "8de40be8003837ea2aad5e430c7db4f8263ae66c4cf9e495e9a71f279b3bc6b7"
+    },
+    {
+      "path": "figure_manifest.json",
+      "bytes": 10140,
+      "sha256": "44f9af55f8019496bc72f5b711d0c165cc4dbee591f489cad60420c11c432fd6"
+    },
+    {
+      "path": "figures/figure_01_corpus_scale.png",
+      "bytes": 46025,
+      "sha256": "5611a4b5282751c5ed0f1b113fb91dc4ca5c6bc2d07c1f25647d69211311022e"
+    },
+    {
+      "path": "figures/figure_02_graph_breadth.png",
+      "bytes": 58949,
+      "sha256": "0ca19e23ce9fc79ab7056347b81ac50989b3fdb4b38301591df00d5237b92ca9"
+    },
+    {
+      "path": "figures/figure_03_confidence_distribution.png",
+      "bytes": 44921,
+      "sha256": "0fddff34caacc46d2fe0811f687714293389947a79692ad417009b003f56f347"
+    },
+    {
+      "path": "figures/figure_04_confidence_by_food.png",
+      "bytes": 44845,
+      "sha256": "41dc2f112535242ab81316e563130d336238e4fa822577ba983180fd06a610a2"
+    },
+    {
+      "path": "figures/figure_05_food_pool_coverage.png",
+      "bytes": 54500,
+      "sha256": "68396b8e96a8152a23dbf8a4692a4669cdd5434b7461a9d655cef161c4a6c029"
+    },
+    {
+      "path": "figures/figure_06_predicate_comparison.png",
+      "bytes": 85869,
+      "sha256": "fa9a56695009ce83c6744d712f636fe533e6f120e461bf4be0bc08e91d6f073b"
+    },
+    {
+      "path": "figures/figure_07_overlap.png",
+      "bytes": 47138,
+      "sha256": "44d013abb3d877e5ba7304fc2548f68b0736659fcc35ec55f7439c68821d0f2d"
+    },
+    {
+      "path": "figures/figure_08_top_food_adulterants.png",
+      "bytes": 111469,
+      "sha256": "12028804ff215b562d5478cf70c851d20f4c0b97224abc810234a53e97ccb0b3"
+    },
+    {
+      "path": "figures/figure_09_top_oil.png",
+      "bytes": 99824,
+      "sha256": "647c6460eb79db5f8b66b061102a48c7211850e3ea28f11cdd62fbd3ae2beac2"
+    },
+    {
+      "path": "figures/figure_10_top_ghee.png",
+      "bytes": 100335,
+      "sha256": "4e987cc704f7da5fe68f760e807edc778458fe360e9186a1076430086791f6d3"
+    },
+    {
+      "path": "figures/figure_11_top_milk.png",
+      "bytes": 91679,
+      "sha256": "6f865df96dca0239a1e05f2a3a2fe15289ecd8be5e674ef22bb4d7b5e9519115"
+    },
+    {
+      "path": "figures/figure_12_food_adulterant_heatmap.png",
+      "bytes": 111253,
+      "sha256": "84304f2e72f70b85ef509fe2b64b9a67465d378344d3d87fde8752a4b30382cc"
+    },
+    {
+      "path": "figures/figure_13_recurrence_confidence.png",
+      "bytes": 148815,
+      "sha256": "4966db7800d9ec83aa10e969dfdf56aab59b6d7956d7d9c95c79d09ad8ad21fa"
+    },
+    {
+      "path": "figures/figure_14_gap_classes.png",
+      "bytes": 57024,
+      "sha256": "d4826425363cb85f98ee8f350c6d15a4223f3c1f72b60fb1d9cb2c3896b2da0c"
+    },
+    {
+      "path": "figures/figure_15_gap_priority.png",
+      "bytes": 190169,
+      "sha256": "cfdc6a865932718286403505751d758faf0e7d947620cf62d58ad0e06d922908"
+    },
+    {
+      "path": "figures/figure_16_test_coverage.png",
+      "bytes": 54749,
+      "sha256": "d9aef95907a086eaa1c87a5087aca43a76ba87d2ebd318141226a5cea66586b3"
+    },
+    {
+      "path": "figures/figure_17_health_effects.png",
+      "bytes": 97456,
+      "sha256": "691a8d1af1bd808ef74ff676c9409fff47f7fbd5199ec770619fde43054c0c3e"
+    },
+    {
+      "path": "figures/figure_18_effect_food_heatmap.png",
+      "bytes": 90809,
+      "sha256": "d05bf995b993e8ac2f3b0986f12e39cf450fac3497b523dc4d3db814ef27de21"
+    },
+    {
+      "path": "figures/figure_19_direct_causal_chains.png",
+      "bytes": 153785,
+      "sha256": "f4cdab27218c8d561fdb87a5bcc3ac466d305337962ca258c01ba7654e4c31b9"
+    },
+    {
+      "path": "figures/figure_20_causal_chain_classes.png",
+      "bytes": 39529,
+      "sha256": "c27284d2f20d656ae13a0829cbff24171e299e67b2bc099ce8cab79e6ebebf3f"
+    },
+    {
+      "path": "figures/figure_21_renal_reverse_hypothesis.png",
+      "bytes": 94767,
+      "sha256": "69bc73b794e2d26eefa0cb73bcafdb7398ce8768faf4b3537b8e6ff59fa409f2"
+    },
+    {
+      "path": "figures/figure_22_food_specificity.png",
+      "bytes": 137683,
+      "sha256": "05aa96c69dd29011eaa51e0a8e65e477a0b05f7bbfd349ddd74167674b852bf3"
+    },
+    {
+      "path": "figures/figure_23_time_food_pool.png",
+      "bytes": 113340,
+      "sha256": "2cc918c5ed5ea7516afa66e89fba9b04e76d3f764e2bcd29ff2ec27e9cef9891"
+    },
+    {
+      "path": "figures/figure_24_candidate_time_series.png",
+      "bytes": 166481,
+      "sha256": "40a3396e0b7d882c8b1db3f82857f32978fb2bc29ad0cf66f641bd0648d40bd3"
+    },
+    {
+      "path": "figures/figure_25_regulatory_actions.png",
+      "bytes": 122404,
+      "sha256": "4a76ca3237f0d67a1172b86b8fab7537e2d2c78ebe3bfcab4250a1347a70922a"
+    },
+    {
+      "path": "figures/figure_26_detection_methods.png",
+      "bytes": 133979,
+      "sha256": "8cec38da0b586a619bd19cb3dbf0d8d9cb89853547351e2d3ec138263a2cc6e4"
+    },
+    {
+      "path": "figures/figure_27_publisher_concentration.png",
+      "bytes": 103047,
+      "sha256": "262635cc4d5d654d102d878d3254c978491c7df48774f279c3e975eeca5bcbf8"
+    },
+    {
+      "path": "figures/figure_28_confidence_sensitivity.png",
+      "bytes": 93447,
+      "sha256": "acb0daa8607a03045b8bef383cb538462e9476fae357becbdc28f9445d4152d4"
+    },
+    {
+      "path": "figures/figure_29_causal_network.png",
+      "bytes": 212664,
+      "sha256": "a38351518d874191564701b8387b110485d1c57cf8bd0ee31921689e87ed23f2"
+    },
+    {
+      "path": "FSSAI_Baseline_Triplets_20260822.csv",
+      "bytes": 3124796,
+      "sha256": "7294752d149314e888975f0e8a8d4a47fdcf2a768fc823a306735f54e9c79a93"
+    },
+    {
+      "path": "FSSAI_Triplet_Intelligence_Figures_20260822.pdf",
+      "bytes": 140090,
+      "sha256": "f25a78a805727c359044e936b7a4b1f1fb553288845b2d95c3f609fe627df341"
+    },
+    {
+      "path": "FSSAI_Triplet_Intelligence_Report_20260822.docx",
+      "bytes": 2570966,
+      "sha256": "b8fea43949f8af86d74f6d96e52ca9859bae2d491819b153819194c50e778dc8"
+    },
+    {
+      "path": "FSSAI_Triplet_Intelligence_Report_20260822.md",
+      "bytes": 56252,
+      "sha256": "891bad90fac02f143a4a5cb57924505d2d3151a56fd363d1d696a8060cddbdea"
+    },
+    {
+      "path": "FSSAI_Triplet_Intelligence_Workbook_20260822.xlsx",
+      "bytes": 12178024,
+      "sha256": "7e78343d77c2c1f07f62f09aba706ae3c7d2102fdf61a130912aeee491c3a30f"
+    },
+    {
+      "path": "News_Triplets_Oil_Ghee_Milk_20260822.csv",
+      "bytes": 5567970,
+      "sha256": "ef4cf2efdd06ac3f505897a6207955b4d899f32d8805b412d8e4333b995947d4"
+    },
+    {
+      "path": "release_validation.json",
+      "bytes": 6912,
+      "sha256": "cf3a2a491926a0cf5e04b1997b00e821275d09293a4e0149019e6782a1d6ac1e"
+    },
+    {
+      "path": "tables/confidence_sensitivity.csv",
+      "bytes": 611,
+      "sha256": "27c3d3be558984dcaf44fbc4ba4aebcd2b5db8e10caa2f569c2c31524650c073"
+    },
+    {
+      "path": "tables/contextual_causal_hypotheses.csv",
+      "bytes": 341856,
+      "sha256": "4b65119c3c37811a083761d2485d7e026ee2856f41489c558ce0513762b08303"
+    },
+    {
+      "path": "tables/core_profiles.csv",
+      "bytes": 262,
+      "sha256": "45c45cef5f76d35622b757f14cf151c6af7b38549fd7802cc99a32adcbc1ffbd"
+    },
+    {
+      "path": "tables/detection_methods.csv",
+      "bytes": 341504,
+      "sha256": "51912ba966db006388c1ae4dca56a6f9eb1b8bb63ddc012be834269713f7320a"
+    },
+    {
+      "path": "tables/direct_and_inferred_causal_chains.csv",
+      "bytes": 702405,
+      "sha256": "a16825acdf21a6a608b56c7a889fd2caacf313bc4c91a1ab4495ddad6f5bbc42"
+    },
+    {
+      "path": "tables/figure_01_corpus_scale_data.csv",
+      "bytes": 97,
+      "sha256": "d6ea88fbdd981ffa3f91c87d98070810a59e9caf0467317a032722d7923fa7ef"
+    },
+    {
+      "path": "tables/figure_02_graph_breadth_data.csv",
+      "bytes": 98,
+      "sha256": "591eff0f23a038692d43efa6bc4cd70b401b9510c9d458b6f0da44a43b029345"
+    },
+    {
+      "path": "tables/figure_03_confidence_distribution_data.csv",
+      "bytes": 108,
+      "sha256": "5229409bd0560294ecda2ba83086f22d348a577cdce71627c3b4e043c1f11fe7"
+    },
+    {
+      "path": "tables/figure_04_confidence_by_food_data.csv",
+      "bytes": 229,
+      "sha256": "3fa3b12446ad651ea0a671fc585915f81bca570445d1a3d2d53bad17e185f43f"
+    },
+    {
+      "path": "tables/figure_05_food_pool_coverage_data.csv",
+      "bytes": 229,
+      "sha256": "3fa3b12446ad651ea0a671fc585915f81bca570445d1a3d2d53bad17e185f43f"
+    },
+    {
+      "path": "tables/figure_06_predicate_comparison_data.csv",
+      "bytes": 336,
+      "sha256": "23b42475328ec6a4f049a1ec5f05465a8d8ee6d08f271a6db6e2b1f5c4868eef"
+    },
+    {
+      "path": "tables/figure_07_overlap_data.csv",
+      "bytes": 127,
+      "sha256": "efcc787c23e9129fbfa69370a531707f0386c28ea85882a661092078775e3911"
+    },
+    {
+      "path": "tables/figure_08_top_food_adulterants_data.csv",
+      "bytes": 1117,
+      "sha256": "0eae6c8b680bf79adfd9db6755747a11af5e369acb251fd3751a38de9b6016bc"
+    },
+    {
+      "path": "tables/figure_09_top_oil_data.csv",
+      "bytes": 999,
+      "sha256": "4f680eb87a35d88a36bebc99e94926a7ebe50a39db85eac0bef299c2a7ac7a00"
+    },
+    {
+      "path": "tables/figure_10_top_ghee_data.csv",
+      "bytes": 943,
+      "sha256": "85c4ec38cd981489d35f676ade59b94b3d0f5a02e1291b7186c3ea449c0f61ff"
+    },
+    {
+      "path": "tables/figure_11_top_milk_data.csv",
+      "bytes": 842,
+      "sha256": "f1676fce95d6ea9a9ea4d4b3a69c3e735a187c2fbb1ffc9d074ba2a11477d9b1"
+    },
+    {
+      "path": "tables/figure_12_food_adulterant_heatmap_data.csv",
+      "bytes": 522,
+      "sha256": "aa17775cd14bdb45118c78ef12cfcab70948bec07c0c496e48a9ce175a2a3766"
+    },
+    {
+      "path": "tables/figure_13_recurrence_confidence_data.csv",
+      "bytes": 18457,
+      "sha256": "29863212e086ced53725fe9bb210f9bdcc2d79f7811953e652bb04ace830b9c4"
+    },
+    {
+      "path": "tables/figure_14_gap_classes_data.csv",
+      "bytes": 239,
+      "sha256": "0bef1029a2221d6dc8df0e3d34301d0535695f11ff7028ceec481f52bfee4420"
+    },
+    {
+      "path": "tables/figure_15_gap_priority_data.csv",
+      "bytes": 14558,
+      "sha256": "67d2cdb9d535b664a93cf3dea7fa2812db9ce23766b15e614f89551a65411e55"
+    },
+    {
+      "path": "tables/figure_16_test_coverage_data.csv",
+      "bytes": 218,
+      "sha256": "e1973a7d2ec9553246d0646d911e74a68801eeb828b281e9b8f9e4dac71c7e3d"
+    },
+    {
+      "path": "tables/figure_17_health_effects_data.csv",
+      "bytes": 360,
+      "sha256": "a05e042b4197a12d8b36c82d4035e597b6539f6f44eca8b576c7460aa6487400"
+    },
+    {
+      "path": "tables/figure_18_effect_food_heatmap_data.csv",
+      "bytes": 363,
+      "sha256": "879abe7a44451f7263e00a7bc61f12b563fa24c33465821bd9fad721b2f78bf7"
+    },
+    {
+      "path": "tables/figure_19_direct_causal_chains_data.csv",
+      "bytes": 10099,
+      "sha256": "49805e61350e95f829fb0f8366ba580ebaca9eb77a93fdbd48719b38822acac7"
+    },
+    {
+      "path": "tables/figure_20_causal_chain_classes_data.csv",
+      "bytes": 162,
+      "sha256": "5a18020a9cd7f451e17fa4264eaab26876b411304d4a79e6c6e0ff143d28a20c"
+    },
+    {
+      "path": "tables/figure_21_renal_reverse_hypothesis_data.csv",
+      "bytes": 1952,
+      "sha256": "f5827dbb6b2b962ed3e8c20da40c3c5be3dac9fd66c7a3fea9202d73cd6b4b7c"
+    },
+    {
+      "path": "tables/figure_22_food_specificity_data.csv",
+      "bytes": 1563,
+      "sha256": "9fb77492cd477c136cea108ea6ca90f4f4c92d4b5481ede631b9a27720f69ac5"
+    },
+    {
+      "path": "tables/figure_23_time_food_pool_data.csv",
+      "bytes": 299,
+      "sha256": "0d16b0ecef1fc44896806bef3fd3017562b6ba5e5728705023b126c3f2401496"
+    },
+    {
+      "path": "tables/figure_24_candidate_time_series_data.csv",
+      "bytes": 852,
+      "sha256": "247e7b66efcc0b69e061ed201209a05188c5d6005a0aa461c010ee76c0ad372b"
+    },
+    {
+      "path": "tables/figure_25_regulatory_actions_data.csv",
+      "bytes": 930,
+      "sha256": "dd5b2c97da970e2f7723d7a8d7dc0f70dc0de183d28e3efd3d7e4b7f8c203f2c"
+    },
+    {
+      "path": "tables/figure_26_detection_methods_data.csv",
+      "bytes": 1146,
+      "sha256": "5c9fe84183571088f3b688e5effe9a86cbaf29ce4968562c66510f12a25d9e6c"
+    },
+    {
+      "path": "tables/figure_27_publisher_concentration_data.csv",
+      "bytes": 429,
+      "sha256": "60f21bbfa4dfad3b52ea6ea7c6b2198503b55901bb7e3d615d68cedcf11b1076"
+    },
+    {
+      "path": "tables/figure_28_confidence_sensitivity_data.csv",
+      "bytes": 611,
+      "sha256": "27c3d3be558984dcaf44fbc4ba4aebcd2b5db8e10caa2f569c2c31524650c073"
+    },
+    {
+      "path": "tables/figure_29_causal_network_data.csv",
+      "bytes": 547,
+      "sha256": "bfe594c0fc82f8b23d6c193934c0525bce69025a0db394de68349a40b5335179"
+    },
+    {
+      "path": "tables/food_adulterant_edges.csv",
+      "bytes": 1195210,
+      "sha256": "c61c7fe1037029139b39e7fbaf6eeba460d01f574b841a42939a0cb9d4e26754"
+    },
+    {
+      "path": "tables/food_adulterant_summary.csv",
+      "bytes": 431193,
+      "sha256": "361bf6e33575e479019dcfb6156784282f78bf62275a98197caa36ef9b4d2219"
+    },
+    {
+      "path": "tables/food_pool_profiles.csv",
+      "bytes": 229,
+      "sha256": "3fa3b12446ad651ea0a671fc585915f81bca570445d1a3d2d53bad17e185f43f"
+    },
+    {
+      "path": "tables/food_specificity.csv",
+      "bytes": 46756,
+      "sha256": "154f873694dc63c03a66911c885d2986879817df0c47549dcd9d8df85e897a50"
+    },
+    {
+      "path": "tables/gap_candidates.csv",
+      "bytes": 607764,
+      "sha256": "42801376098641849bf85869cbea2907a60b1194e51d5e47fcf12179095449b7"
+    },
+    {
+      "path": "tables/health_relations.csv",
+      "bytes": 263649,
+      "sha256": "6d10753b93f91a9f3b5154f67c334e7e863c06af6a9b7fd1da858f294172fb30"
+    },
+    {
+      "path": "tables/predicate_comparison.csv",
+      "bytes": 5181,
+      "sha256": "4d975d932bad890949699ed1b76acda3a3d7ef188040c297be124674ad908094"
+    },
+    {
+      "path": "tables/publication_time_series.csv",
+      "bytes": 61247,
+      "sha256": "cf0dd467e5438be71c8b3a1b7af287151a6ab5c5a8ff3f8e595f18a0c6f6c3bc"
+    },
+    {
+      "path": "tables/publisher_concentration.csv",
+      "bytes": 3893,
+      "sha256": "de63cde98009fed65ea5c793c0d0a81654eae41922db069becf1ab493393e49b"
+    },
+    {
+      "path": "tables/regulatory_actions.csv",
+      "bytes": 436232,
+      "sha256": "ce017acfc2e1ed213bc689bb0f6eeddb1027b4ffe5126d5ff1db49dc3fcc9149"
+    },
+    {
+      "path": "tables/reverse_hypotheses.csv",
+      "bytes": 368392,
+      "sha256": "ad60ab2834a3a068f53aa5131b69fe1a854be8d1a477836f911f54dd38ff18a9"
+    },
+    {
+      "path": "tables/test_priorities.csv",
+      "bytes": 812991,
+      "sha256": "d0d913eb766a6aea599e0932b265cd6c1f6695dd5e55a21b50ec590aac711dee"
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "checks": 22
+  }
+}

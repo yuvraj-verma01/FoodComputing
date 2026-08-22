@@ -1,0 +1,4 @@
+﻿baseline_gap_class,food_candidate_pairs,news_articles
+food-adulterant pair represented in FSSAI baseline,1,1
+"candidate represented, but food-adulterant relation absent",357,1173
+candidate not represented in FSSAI baseline,860,1280

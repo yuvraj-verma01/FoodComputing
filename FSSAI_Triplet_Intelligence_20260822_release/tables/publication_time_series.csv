@@ -1,0 +1,1563 @@
+﻿publication_year,food,adulterant_or_substitute,triplet_rows,distinct_articles,mean_confidence
+2018,Coconut oil,palm oil family,1,1,0.95
+2018,Coconut oil,paraffin,1,1,0.95
+2021,Cheese,hexachlorobenzene,1,1,0.95
+2021,Coconut oil,unspecified adulterant,1,1,0.75
+2021,Edible/cooking oil,aflatoxins,1,1,0.9
+2021,Edible/cooking oil,pesticide residue,1,1,0.9
+2021,Edible/cooking oil,heavy metals,1,1,0.9
+2021,Edible/cooking oil,hydrocyanic acid,1,1,0.85
+2021,Edible/cooking oil,contaminants,1,1,0.75
+2021,Edible/cooking oil,metanil yellow,1,1,0.95
+2021,Edible/cooking oil,high tpm,1,1,0.85
+2021,Ghee,vanaspati,7,4,0.9
+2021,Ghee,low quality edible oil,3,3,0.9167
+2021,Ghee,vegetable cooking oil,2,2,0.875
+2021,Ghee,dalda,4,2,0.8875
+2021,Ghee,trans fatty acids,1,1,0.9
+2021,Ghee,colouring powders,1,1,0.85
+2021,Ghee,sub standard raw material,1,1,0.85
+2021,Ghee,adulterated ghee,1,1,0.9
+2021,Ghee,vegetable oil/fat,2,1,0.925
+2021,Ghee,spurious ghee,1,1,0.9
+2021,Ghee,palmoline oil,2,1,0.875
+2021,Ghee,unspecified adulterant,1,1,0.9
+2021,Ghee,palmolive oil,1,1,0.95
+2021,Ghee,coconut oil,1,1,0.9
+2021,Ghee,almond oil,1,1,0.9
+2021,Ghee,hydrogenated oils,1,1,0.85
+2021,Ghee,low quality edible oils,1,1,0.95
+2021,Ghee,vegetable ghee,1,1,0.95
+2021,Ghee,oil coloured with turmeric,1,1,0.95
+2021,Ghee,palm oil family,1,1,0.9
+2021,Ghee,yellow chemical colour,1,1,0.9
+2021,Ghee,colgate,1,1,0.9
+2021,Milk,dioxins,1,1,0.85
+2021,Milk,embalming powder,1,1,0.9
+2021,Milk,carcinogenic toxics,1,1,0.95
+2021,Milk,hexachlorobenzene,1,1,0.95
+2021,Milk,water,2,1,0.925
+2021,Milk,garbage,2,1,0.85
+2021,Mustard oil,argemone oil,2,2,0.95
+2021,Mustard oil,unspecified adulterant in mustard oil,1,1,0.85
+2021,Mustard oil,canola rapeseed mustard,1,1,0.75
+2021,Mustard oil,palm oil family,1,1,0.85
+2021,Mustard oil,rice bran oil,4,1,0.8875
+2021,Mustard oil,dyes,1,1,0.95
+2021,Mustard oil,chemicals,1,1,0.95
+2021,Mustard oil,essence,1,1,0.85
+2021,Mustard oil,colour,1,1,0.85
+2021,Mustard oil,metanil yellow,1,1,0.95
+2021,Mustard oil,white oil,1,1,0.9
+2021,Mustard oil,castor oil,1,1,0.95
+2021,Mustard oil,soybean oil,1,1,0.9
+2021,Mustard oil,groundnut oil,1,1,0.9
+2021,Mustard oil,cotton seed oil,1,1,0.95
+2021,Mustard oil,hexane,1,1,0.95
+2021,Paneer,cooking oil,1,1,0.85
+2021,Paneer,water,1,1,0.85
+2021,Soybean oil,argemone oil,1,1,0.75
+2021,Soybean oil,palm oil family,1,1,0.95
+2021,Sunflower oil,palm oil family,2,1,0.95
+2021,besan,maida,1,1,0.9
+2021,biryani,prohibited food colours,1,1,0.95
+2021,biryani,reprocessed oils,1,1,0.95
+2021,biryani,vanaspati,1,1,0.85
+2021,biryani,cheap quality spices,1,1,0.8
+2021,biscuits,embalming powder,1,1,0.9
+2021,channa bhujia,non permitted colour,1,1,0.9
+2021,channa bhujia,palm oil family,1,1,0.9
+2021,chilli powder,spurious material,1,1,0.85
+2021,chilli powder,aniline dyes,1,1,0.9
+2021,cofset,diethylene glycol,1,1,0.98
+2021,edible oils,pesticide residue,2,2,0.9
+2021,edible oils,heavy metals,2,2,0.9
+2021,edible oils,aflatoxins,1,1,0.9
+2021,edible oils,hydrocyanic acid,1,1,0.85
+2021,fish,thallium,1,1,0.95
+2021,food left at room temperature,bacteria,1,1,0.85
+2021,fried items,artificial food colours,1,1,0.85
+2021,honey,mannose,2,2,0.95
+2021,honey,maltose,2,2,0.95
+2021,honey,maltotriose,2,2,0.95
+2021,honey,high fructose corn syrup,2,2,0.9
+2021,honey,rice syrup,5,2,0.89
+2021,honey,corn syrup,2,2,0.9
+2021,honey,sugarcane syrup,2,2,0.9
+2021,honey,beetroot syrup,2,2,0.9
+2021,honey,water,1,1,0.9
+2021,honey,sugar,1,1,0.9
+2021,honey,chemical colour,1,1,0.9
+2021,honey,advanced syrups,1,1,0.85
+2021,laddu,maida,2,1,0.825
+2021,laddu,spurious colour,1,1,0.85
+2021,laddu,artificial fragrance,1,1,0.85
+2021,laddu,low grade oil,1,1,0.85
+2021,laddu,arrowroot,1,1,0.85
+2021,maida,arrowroot,1,1,0.85
+2021,namkeen,caustic soda,1,1,0.95
+2021,namkeen,substandard gram flour,1,1,0.9
+2021,namkeen,used edible oil,1,1,0.95
+2021,oil,sub standard raw material,1,1,0.85
+2021,packaged drinking water,contaminant,1,1,0.85
+2021,protein powders,heavy metals,1,1,0.85
+2021,rapeseed oil,tri ortho cresyl phosphate,1,1,0.95
+2021,soya chunks,ammonium bicarbonate,1,1,0.9
+2021,tea,unknown green leaf or seed powder,1,1,0.75
+2021,turmeric,spurious material,1,1,0.85
+2021,turmeric powder,red colour,2,1,0.925
+2021,turmeric powder,rice flour,1,1,0.95
+2021,turmeric powder,corn flour,1,1,0.95
+2021,turmeric powder,waste rice powder,1,1,0.9
+2021,turmeric powder,non edible synthetic yellow colour,1,1,0.9
+2021,turmeric powder,wood powder,1,1,0.9
+2021,water,bacteria,1,1,0.75
+2021,whey protein,steroids,1,1,0.95
+2022,Coconut oil,sulphur,1,1,0.85
+2022,Edible/cooking oil,dust,2,2,0.925
+2022,Edible/cooking oil,sand,2,2,0.925
+2022,Edible/cooking oil,total polar compounds,1,1,0.85
+2022,Ghee,vegetable oil/fat,6,5,0.9167
+2022,Ghee,palm oil family,6,4,0.9
+2022,Ghee,fake ghee,6,4,0.875
+2022,Ghee,unspecified adulterant,4,4,0.8875
+2022,Ghee,refined oil,3,2,0.9167
+2022,Ghee,colour,3,2,0.85
+2022,Ghee,essence,2,2,0.85
+2022,Ghee,refined soybean oil,1,1,0.9
+2022,Ghee,flavor,1,1,0.85
+2022,Ghee,special type of chemical,1,1,0.85
+2022,Ghee,duplicate ghee,1,1,0.9
+2022,Ghee,dalda,1,1,0.95
+2022,Ghee,vanaspati,1,1,0.95
+2022,Ghee,trans fatty acids,1,1,0.9
+2022,Ghee,animal fat,1,1,0.95
+2022,Ghee,petroleum jelly,1,1,0.95
+2022,Ghee,unspecified adulterant in ghee,1,1,0.9
+2022,Ghee,spurious ghee,1,1,0.85
+2022,Groundnut oil,palm oil family,2,1,0.925
+2022,Khoya/mawa,milk powder,2,2,0.85
+2022,Khoya/mawa,starch,2,2,0.9
+2022,Khoya/mawa,refined oil,1,1,0.85
+2022,Milk,vegetable oil/fat,4,3,0.9375
+2022,Milk,urea,3,2,0.9167
+2022,Milk,poison,3,2,0.9167
+2022,Milk,adulterant,1,1,0.75
+2022,Milk,detergent,1,1,0.95
+2022,Milk,caustic soda,1,1,0.9
+2022,Milk,refined oil,1,1,0.9
+2022,Milk,salmonella,1,1,0.8
+2022,Milk,shigella dysenteriae,1,1,0.85
+2022,Milk,pesticide residue,1,1,0.85
+2022,Milk,antibiotic residue,1,1,0.9
+2022,Milk,lead,1,1,0.95
+2022,Milk,arsenic,1,1,0.95
+2022,Milk,thallium,1,1,0.95
+2022,Milk,hydrogen peroxide,1,1,0.9
+2022,Milk,plastic froth,1,1,0.9
+2022,Milk,chemical,1,1,0.8
+2022,Mustard oil,rice bran oil,5,3,0.94
+2022,Mustard oil,unspecified adulterant,1,1,0.85
+2022,Mustard oil,argemone mexicana,3,1,0.9
+2022,Palm oil,soybean oil,1,1,0.95
+2022,Palm oil,rice bran oil,1,1,0.8
+2022,Palm oil,cottonseed oil,1,1,0.8
+2022,Paneer,oil,2,1,0.8
+2022,Paneer,unspecified adulterant,1,1,0.9
+2022,Soybean oil,palm oil family,4,3,0.9375
+2022,Sunflower oil,palm oil family,10,8,0.9
+2022,Sunflower oil,groundnut oil,1,1,0.85
+2022,Sunflower oil,soybean oil,1,1,0.85
+2022,adulterated oil,animal carcasses,1,1,0.95
+2022,artificial coloured rice,artificial colour,1,1,0.85
+2022,black pepper,dried papaya seeds,1,1,0.95
+2022,black pepper,mineral oils,1,1,0.85
+2022,branded edible oils,locally procured oils,1,1,0.8
+2022,fish,mercury,1,1,0.85
+2022,fish,chemical,1,1,0.85
+2022,fish,formalin/formaldehyde,1,1,0.9
+2022,fish curry,thallium,1,1,0.9
+2022,food,thallium,1,1,0.9
+2022,food,arsenic,1,1,0.9
+2022,fried items,trans fat,1,1,0.85
+2022,gingelly oil,rice bran oil,2,1,0.925
+2022,higher valued oil,low cost edible oil,1,1,0.9
+2022,hydrogenated oils,trans fatty acids,1,1,0.85
+2022,maggi noodles,rat poison,1,1,0.95
+2022,mithais,synthetic dyes,1,1,0.85
+2022,mustard seeds,argemone mexicana,1,1,0.9
+2022,new product,old oil,1,1,0.8
+2022,oil,mud,1,1,0.95
+2022,oil,dust,1,1,0.95
+2022,processed foods,trans fat,1,1,0.85
+2022,rasgulla,unspecified adulterant,1,1,0.85
+2022,soyoil,palm oil family,1,1,0.75
+2022,special barfi,milk powder,1,1,0.8
+2022,special barfi,vanaspati,1,1,0.8
+2022,spurious oils,diglyceride,1,1,0.9
+2022,sun flower oil,palm oil family,1,1,0.9
+2022,tender coconut,arsenic,1,1,0.9
+2022,tender coconut,thallium,1,1,0.9
+2022,vanaspati,trans fatty acids,1,1,0.9
+2022,water,arsenic,1,1,0.9
+2022,water,thallium,1,1,0.9
+2023,Edible/cooking oil,unspecified adulterant,2,2,0.8
+2023,Edible/cooking oil,cockroaches,1,1,0.8
+2023,Edible/cooking oil,cockroaches and rats,2,1,0.85
+2023,Ghee,palm oil family,5,5,0.92
+2023,Ghee,vegetable oil/fat,5,4,0.93
+2023,Ghee,vanaspati,2,2,0.875
+2023,Ghee,scent,1,1,0.9
+2023,Ghee,dalda cooking oil,1,1,0.95
+2023,Ghee,artificial ghee,1,1,0.85
+2023,Ghee,ghee like substance,1,1,0.85
+2023,Ghee,soybean oil,2,1,0.925
+2023,Ghee,ghee flavour,1,1,0.9
+2023,Ghee,potato,1,1,0.9
+2023,Ghee,starch,1,1,0.9
+2023,Ghee,burnt engine oil,1,1,0.9
+2023,Ghee,dangerous chemicals,1,1,0.85
+2023,Ghee,unknown adulterant in ghee,1,1,0.9
+2023,Ghee,unspecified adulterant,1,1,0.85
+2023,Ghee,chemicals,1,1,0.85
+2023,Ghee,fake ghee,1,1,0.9
+2023,Ghee,toxic chemicals,1,1,0.85
+2023,Ghee,animal fat,2,1,0.925
+2023,Ghee,herbicides,1,1,0.85
+2023,Ghee,antibiotic residue,1,1,0.85
+2023,Ghee,heavy metals,1,1,0.85
+2023,Ghee,harmful chemicals,1,1,0.85
+2023,Ghee,refined oil,1,1,0.9
+2023,Groundnut oil,palm oil family,1,1,0.95
+2023,Khoya/mawa,milk powder,1,1,0.95
+2023,Khoya/mawa,artificial flavors,2,1,0.9
+2023,Khoya/mawa,vanaspati,1,1,0.95
+2023,Khoya/mawa,fake mawa,1,1,0.9
+2023,Khoya/mawa,starch,1,1,0.9
+2023,Milk,starch,7,7,0.9429
+2023,Milk,hydrogen peroxide,8,7,0.95
+2023,Milk,urea,6,6,0.9417
+2023,Milk,detergent,5,5,0.94
+2023,Milk,sodium hydrogen carbonate,4,4,0.95
+2023,Milk,sorbitol,4,3,0.95
+2023,Milk,soap,3,3,0.95
+2023,Milk,salt,3,3,0.9167
+2023,Milk,milk powder,3,2,0.8833
+2023,Milk,poison,3,2,0.9167
+2023,Milk,unspecified adulterant,2,2,0.85
+2023,Milk,water,2,2,0.95
+2023,Milk,whey powder,1,1,0.85
+2023,Milk,e coli,2,1,0.85
+2023,Milk,bacteria,1,1,0.85
+2023,Milk,formalin/formaldehyde,1,1,0.95
+2023,Milk,cereal flours,1,1,0.95
+2023,Milk,adulterant_in_milk_sample,1,1,0.9
+2023,Milk,oxytocin,1,1,0.85
+2023,Milk,glucose,1,1,0.85
+2023,Milk,maltodextrin,1,1,0.85
+2023,Milk,refined oil,1,1,0.95
+2023,Milk,caustic soda,1,1,0.95
+2023,Milk,colourless liquid,1,1,0.9
+2023,Palm oil,palm oil family,1,1,0.75
+2023,Palm oil,animal fat,1,1,0.9
+2023,Palm oil,harmful substances,1,1,0.85
+2023,Paneer,refined oil,2,2,0.9
+2023,Paneer,detergent,2,2,0.9
+2023,Paneer,acetic acid,1,1,0.9
+2023,Paneer,industrial grade chemicals,1,1,0.85
+2023,Paneer,foreign fat,2,1,0.925
+2023,Paneer,starch,1,1,0.9
+2023,Paneer,hydrogenated oil,1,1,0.85
+2023,Paneer,sulphuric acid,1,1,0.95
+2023,Paneer,maida,1,1,0.85
+2023,Paneer,palm oil family,1,1,0.9
+2023,Paneer,baking powder,1,1,0.9
+2023,Paneer,discarded skimmed milk,1,1,0.85
+2023,Paneer,bicarbonate of soda,1,1,0.9
+2023,Paneer,sulfuric acid,1,1,0.9
+2023,Paneer,urea,1,1,0.95
+2023,Paneer,acid,1,1,0.9
+2023,Paneer,edible oil,1,1,0.95
+2023,Soybean oil,linseed,1,1,0.95
+2023,Soybean oil,flax seed,1,1,0.95
+2023,adulterated toddy,chemicals,1,1,0.75
+2023,baby food,lead,1,1,0.95
+2023,baby food,heavy metals,1,1,0.9
+2023,baby food,nano plastics,1,1,0.9
+2023,balushahi,synthetic colours,1,1,0.9
+2023,basmati rice,colours,1,1,0.75
+2023,betel nut,palm seeds,2,1,0.85
+2023,carrots,nanoplastics,1,1,0.85
+2023,chemical laced fish,chemical,1,1,0.8
+2023,chicken,non permitted colouring agents,1,1,0.85
+2023,chicken manchurian,unapproved colours,1,1,0.85
+2023,chilli gobi,non permitted colouring agents,1,1,0.85
+2023,chilli powder,suspected adulteration,1,1,0.6
+2023,coffee,microplastics,1,1,0.9
+2023,cough syrup,ethylene glycol,2,2,0.85
+2023,cough syrup,diethylene glycol,2,2,0.85
+2023,cough syrup,toxic industrial solvents,1,1,0.95
+2023,dok 1 max syrup,ethylene glycol,1,1,0.95
+2023,edible oils,harmful chemicals,1,1,0.85
+2023,edible oils,various oils,1,1,0.85
+2023,fish,formalin/formaldehyde,1,1,0.95
+2023,food,toxic particles,1,1,0.8
+2023,fruits and vegetables,harmful chemicals,1,1,0.85
+2023,fruits and vegetables,chemical nutrients,1,1,0.8
+2023,gobi manchurian,unapproved colours,1,1,0.85
+2023,ice cream,adulterated ice cream,1,1,0.75
+2023,leafy greens,heavy metals,1,1,0.9
+2023,lettuce,nanoplastics,1,1,0.85
+2023,mashed sweet potatoes,lead,1,1,0.85
+2023,packaged table salt,microplastics,1,1,0.9
+2023,pharmaceutical grade propylene glycol,ethylene glycol,1,1,0.95
+2023,propylene glycol,ethylene glycol,1,1,0.9
+2023,radishes,nanoplastics,1,1,0.85
+2023,refined oil,unknown adulterant,1,1,0.75
+2023,rice,arsenic,1,1,0.9
+2023,rice cereal,arsenic,1,1,0.95
+2023,salt,extraneous matter,1,1,0.9
+2023,sweets,synthetic colours,2,2,0.925
+2023,sweets,adulterated sweets,1,1,0.65
+2023,sweets,synthetic sugar,1,1,0.9
+2023,sweets,non permitted colours,1,1,0.9
+2023,sweets,harmful colours,1,1,0.85
+2023,sweets and savouries,re heated oil,1,1,0.85
+2023,syrup,ethylene glycol,1,1,0.95
+2023,syrup,diethylene glycol,1,1,0.9
+2023,tea,microplastics,1,1,0.9
+2023,tea,colours,1,1,0.75
+2023,traditional sweets,excessive color additives,1,1,0.75
+2023,water,arsenic,1,1,0.95
+2024,Butter,paraffin wax,1,1,0.95
+2024,Cheese,vegetable oil/fat,8,4,0.9
+2024,Cheese,cheese analogues,3,2,0.9333
+2024,Cheese,escherichia coli,1,1,0.85
+2024,Cheese,e coli,1,1,0.85
+2024,Cheese,cheese analogue,1,1,0.9
+2024,Coconut oil,palm oil family,1,1,0.8
+2024,Coconut oil,chemicals,1,1,0.75
+2024,Coconut oil,cheaper oils,1,1,0.8
+2024,Edible/cooking oil,argemone oil,1,1,0.9
+2024,Edible/cooking oil,soybean oil,1,1,0.85
+2024,Edible/cooking oil,industrial oils,1,1,0.8
+2024,Edible/cooking oil,harmful chemicals,1,1,0.8
+2024,Edible/cooking oil,used motor oil,1,1,0.95
+2024,Edible/cooking oil,acrylamide,1,1,0.95
+2024,Edible/cooking oil,acrolein,1,1,0.95
+2024,Edible/cooking oil,spurious cooking oil,1,1,0.8
+2024,Edible/cooking oil,palm oil family,1,1,0.8
+2024,Ghee,animal fat,60,45,0.8683
+2024,Ghee,vegetable oil/fat,34,20,0.8838
+2024,Ghee,lard/pig fat,22,18,0.8841
+2024,Ghee,beef tallow,18,16,0.8722
+2024,Ghee,palm oil family,23,16,0.8935
+2024,Ghee,fish oil,16,15,0.8875
+2024,Ghee,unspecified adulterant,12,12,0.7958
+2024,Ghee,vanaspati,8,6,0.925
+2024,Ghee,fake ghee,4,4,0.8875
+2024,Ghee,adulterant,4,4,0.7875
+2024,Ghee,soybean oil,4,4,0.9
+2024,Ghee,β sitosterol,3,3,0.8833
+2024,Ghee,unknown adulterant,3,3,0.7167
+2024,Ghee,foreign fats,4,3,0.925
+2024,Ghee,palm kernel fat,2,2,0.875
+2024,Ghee,hydrogenated fats,2,2,0.95
+2024,Ghee,animal body fats,2,2,0.95
+2024,Ghee,starchy substances,2,2,0.95
+2024,Ghee,tallow,3,2,0.9
+2024,Ghee,other oils,2,2,0.9
+2024,Ghee,refined oil,2,2,0.95
+2024,Ghee,starch,3,2,0.8167
+2024,Ghee,fats rendered from dead animals,2,2,0.9
+2024,Ghee,kokum butter,3,2,0.9167
+2024,Ghee,synthetic essence of ghee,2,2,0.925
+2024,Ghee,adulterated ghee,2,2,0.875
+2024,Ghee,soya bean fat,1,1,0.85
+2024,Ghee,foreign fat,1,1,0.8
+2024,Ghee,counterfeit ghee,1,1,0.9
+2024,Ghee,vegetable refined oil,1,1,0.9
+2024,Ghee,butter flavour,1,1,0.9
+2024,Ghee,adulterants,1,1,0.95
+2024,Ghee,artificial fragrance,1,1,0.95
+2024,Ghee,cheap oils,1,1,0.9
+2024,Ghee,added fragrance,1,1,0.9
+2024,Ghee,other oil,1,1,0.75
+2024,Ghee,margarine,1,1,0.95
+2024,Ghee,animal body fat,1,1,0.95
+2024,Ghee,procured ghee,1,1,0.75
+2024,Ghee,adulterant in ghee,1,1,0.85
+2024,Ghee,contaminated ghee,1,1,0.85
+2024,Ghee,buffalo grease,1,1,0.95
+2024,Ghee,diluted products,1,1,0.85
+2024,Ghee,hazardous chemicals,1,1,0.85
+2024,Ghee,flower oil,1,1,0.9
+2024,Ghee,colour,1,1,0.9
+2024,Ghee,stearin,1,1,0.95
+2024,Ghee,contaminated substance,1,1,0.75
+2024,Ghee,less expensive oils and fats,1,1,0.85
+2024,Ghee,ghee essence,1,1,0.95
+2024,Ghee,sanchi brand counterfeit ghee,1,1,0.8
+2024,Ghee,blended fats,1,1,0.9
+2024,Ghee,beef oil,1,1,0.85
+2024,Ghee,substandard ghee,1,1,0.75
+2024,Ghee,counterfeit saras ghee,1,1,0.9
+2024,Ghee,colouring agents,1,1,0.85
+2024,Ghee,flavouring agents,1,1,0.85
+2024,Ghee,soybean fat,1,1,0.85
+2024,Ghee,sunflower fat,1,1,0.9
+2024,Ghee,plant oil,2,1,0.8
+2024,Ghee,butter oil derived from cross bred cows,1,1,0.85
+2024,Ghee,sunflower oil,1,1,0.95
+2024,Ghee,olive oil,1,1,0.95
+2024,Ghee,corn oil,1,1,0.95
+2024,Ghee,linoleic acid,1,1,0.8
+2024,Khoya/mawa,unknown adulterant,3,3,0.7167
+2024,Khoya/mawa,refined oil,2,2,0.825
+2024,Khoya/mawa,palm oil family,2,2,0.9
+2024,Khoya/mawa,unspecified adulterant,1,1,0.85
+2024,Khoya/mawa,adulterant,1,1,0.6
+2024,Khoya/mawa,milk powder,1,1,0.95
+2024,Khoya/mawa,vegetable oil/fat,1,1,0.95
+2024,Khoya/mawa,food colour,1,1,0.9
+2024,Khoya/mawa,substandard quality,1,1,0.75
+2024,Khoya/mawa,powdered milk,1,1,0.85
+2024,Milk,urea,3,3,0.9167
+2024,Milk,palm oil family,4,3,0.85
+2024,Milk,vegetable oil/fat,2,2,0.85
+2024,Milk,hazardous waste,2,2,0.85
+2024,Milk,detergent,2,2,0.9
+2024,Milk,maltodextrin powder,1,1,0.95
+2024,Milk,sulfates,2,1,0.925
+2024,Milk,phosphates,1,1,0.95
+2024,Milk,carbonate oils,1,1,0.95
+2024,Milk,caustic soda,1,1,0.85
+2024,Milk,animal fat,1,1,0.8
+2024,Milk,intoxicants,1,1,0.9
+2024,Milk,oxytocin,1,1,0.95
+2024,Milk,tallow,1,1,0.8
+2024,Milk,mineral oils,1,1,0.9
+2024,Milk,e coli,1,1,0.85
+2024,Milk,harmful chemicals,1,1,0.85
+2024,Milk,pesticide residue,1,1,0.9
+2024,Milk,salmonella,1,1,0.85
+2024,Milk,dioxin,1,1,0.85
+2024,Milk,poison,1,1,0.9
+2024,Milk,glucose,1,1,0.95
+2024,Milk,refined oil,1,1,0.95
+2024,Milk,whey powder,1,1,0.9
+2024,Milk,edible oil,1,1,0.9
+2024,Milk,water,2,1,0.925
+2024,Milk,powdered milk,1,1,0.85
+2024,Mustard oil,substandard quality,1,1,0.75
+2024,Mustard oil,argemone mexicana seed oil,1,1,0.85
+2024,Mustard oil,argemone,2,1,0.95
+2024,Mustard oil,argemone mexicana seeds,1,1,0.95
+2024,Mustard oil,miscible oils,1,1,0.85
+2024,Mustard oil,other oils,1,1,0.85
+2024,Mustard oil,refined rice bran oil,1,1,0.9
+2024,Palm oil,beef tallow,1,1,0.9
+2024,Palm oil,animal fat,1,1,0.85
+2024,Palm oil,total polar compound,1,1,0.9
+2024,Paneer,vegetable oil/fat,7,3,0.9071
+2024,Paneer,palm oil family,3,2,0.95
+2024,Paneer,glycerol monostearate,2,2,0.95
+2024,Paneer,artificial substance,1,1,0.75
+2024,Paneer,unknown contaminant,1,1,0.75
+2024,Paneer,adulterated paneer,1,1,0.75
+2024,Paneer,whey permeate powder,1,1,0.95
+2024,Paneer,edible oil,1,1,0.85
+2024,Sunflower oil,palm oil family,1,1,0.8
+2024,Sunflower oil,cheaper oil,1,1,0.85
+2024,Tirupati laddu,animal fat,12,9,0.8333
+2024,Tirupati laddu,beef tallow,3,3,0.95
+2024,Tirupati laddu,ghee,2,2,0.75
+2024,Tirupati laddu,adulterated ghee,2,2,0.85
+2024,Tirupati laddu,substandard ingredients,2,2,0.725
+2024,Tirupati laddu,fish oil,2,2,0.925
+2024,Tirupati laddu,lard/pig fat,1,1,0.95
+2024,Tirupati laddu,adulterant,1,1,0.75
+2024,Tirupati laddu,soya bean fat,1,1,0.9
+2024,adulterated mangoes,chemicals,1,1,0.9
+2024,adulterated oils,unspecified adulterant,1,1,0.75
+2024,avocado oil,soybean oil,1,1,0.85
+2024,betel nuts,palm seeds,1,1,0.95
+2024,biryani,rotten meat,1,1,0.9
+2024,black forest cake,cancer causing ingredient,1,1,0.85
+2024,bread,human waste,1,1,0.9
+2024,cake,additive,1,1,0.9
+2024,cashew nuts,decayed cashew nuts,1,1,0.85
+2024,caviar,non sturgeon fish roe,1,1,0.9
+2024,chilli powder,artificial coloring,1,1,0.85
+2024,chinese garlic,pesticide residue,1,1,0.9
+2024,chips,synthetic food colours,1,1,0.9
+2024,cider,e coli,1,1,0.85
+2024,citrus fruits,artificial wax,1,1,0.8
+2024,citrus fruits,pesticide residue,1,1,0.85
+2024,coffee,corn,1,1,0.85
+2024,coffee,soybeans,1,1,0.85
+2024,cooked chicken,fungal infestation,1,1,0.85
+2024,cooked chicken,house flies,1,1,0.85
+2024,cooking oils,miscible oil,1,1,0.85
+2024,counterfeit mysore sandal soap,heavy metals,1,1,0.9
+2024,curry powder,ethylene oxide,2,2,0.9
+2024,curry powder masala,ethylene oxide,4,2,0.95
+2024,dark chocolate,lead,3,1,0.9167
+2024,dark chocolate,cadmium,3,1,0.9167
+2024,dry fruits,chemical powders,1,1,0.9
+2024,eggs,salmonella,1,1,0.85
+2024,everest fish curry masala,ethylene oxide,4,3,0.95
+2024,everest garam masala,salmonella,2,2,0.9
+2024,everest masala,ethylene oxide,1,1,0.85
+2024,everest spice mix,ethylene oxide,2,2,0.95
+2024,extra virgin olive oil,seed oil,1,1,0.9
+2024,extra virgin olive oil,chlorophyll,1,1,0.85
+2024,fast food,artificial colours,1,1,0.9
+2024,fish,cadmium,1,1,0.9
+2024,fish,mercury,1,1,0.9
+2024,fish,tcdd,1,1,0.8
+2024,fish,escolar,1,1,0.9
+2024,fish curry masala,ethylene oxide,1,1,0.95
+2024,fruit cake,rotten eggs,1,1,0.85
+2024,fruits,pesticide residue,1,1,0.9
+2024,garlic,heavy metals,1,1,0.85
+2024,ginger and garlic paste,sodium benzoate,1,1,0.9
+2024,ginger and garlic paste,colour powder,1,1,0.9
+2024,ground spices,sand,1,1,0.85
+2024,ground spices,starch,1,1,0.85
+2024,ground spices,lead,1,1,0.9
+2024,guar gum,ethylene oxide,2,2,0.9
+2024,hair oil,used motor oil,1,1,0.95
+2024,hamburgers,e coli,1,1,0.9
+2024,honey,high fructose corn syrup,1,1,0.8
+2024,hot dishes,spoiled food items,1,1,0.85
+2024,hydrogenated vanaspati,trans fat,1,1,0.95
+2024,ice cream,e coli,1,1,0.85
+2024,infant formula,melamine,1,1,0.95
+2024,italian olive oil,bogus oil,1,1,0.9
+2024,jaggery,banned colours,1,1,0.95
+2024,juice,human waste,1,1,0.85
+2024,juice,e coli,1,1,0.85
+2024,kodo millet,cyclopiazonic acid,1,1,0.95
+2024,kodo millet,ergot,1,1,0.9
+2024,laddu,ghee,1,1,0.85
+2024,laddu,animal fat,1,1,0.75
+2024,laddu prasadam,adulterated ghee,3,3,0.85
+2024,laddu prasadam,animal fat,2,2,0.85
+2024,laddu prasadam,adulterated cow ghee,1,1,0.8
+2024,laddu prasadam,low standard ingredients,1,1,0.75
+2024,laddus,animal fat,2,2,0.8
+2024,lentils,human waste,1,1,0.9
+2024,madras curry powder,ethylene oxide,3,2,0.95
+2024,maggi masala ae magic,salmonella,2,2,0.9
+2024,mangoes,calcium carbide,1,1,0.9
+2024,masala powder,duplicate masala powder,1,1,0.85
+2024,mcdonald s kedgaon branch products,cheese analogues,1,1,0.85
+2024,mdh,ethylene oxide,1,1,0.85
+2024,mdh sambhar masala,salmonella,2,2,0.95
+2024,mithai,chocolate,1,1,0.85
+2024,octopus,cadmium,1,1,0.9
+2024,olive oil,palm oil family,2,2,0.85
+2024,olive oil,chlorophyll,2,2,0.95
+2024,olive oil,denatured rapeseed oil,3,2,0.95
+2024,olive oil,rapeseed oil,1,1,0.85
+2024,olive oil,sunflower oil,1,1,0.85
+2024,olive oil,soybean oil,1,1,0.85
+2024,olive oil,beta carotene,1,1,0.95
+2024,olive oil,seed oil,2,1,0.925
+2024,organic dark chocolate,lead,1,1,0.8
+2024,poultry,salmonella,1,1,0.9
+2024,prasad,adulterated ghee,1,1,0.9
+2024,protein powder,fungal toxin,1,1,0.85
+2024,protein powder,pesticide residue,1,1,0.9
+2024,protein powder,lead,1,1,0.85
+2024,protein powder,arsenic,1,1,0.9
+2024,rasgullas,contaminant,1,1,0.75
+2024,raw split chickpeas,unsafe substance,1,1,0.75
+2024,red velvet cake,cancer causing ingredient,1,1,0.85
+2024,rice,pesticide residue,1,1,0.9
+2024,sambhar masala,ethylene oxide,3,2,0.95
+2024,sambhar masala,salmonella,2,2,0.9
+2024,samosa,dead spider,1,1,0.95
+2024,seafood,antibiotic residue,1,1,0.9
+2024,spice blends,ethylene oxide,2,1,0.9
+2024,spice mix,ethylene oxide,1,1,0.95
+2024,spice mixes,ethylene oxide,5,2,0.91
+2024,spices,artificial colours,1,1,0.9
+2024,squid,cadmium,1,1,0.9
+2024,srivari laddu prasadam,ghee,1,1,0.95
+2024,sturgeon caviar,salmon roe,1,1,0.9
+2024,sturgeon caviar,trout roe,1,1,0.9
+2024,sweets,excessive colours,1,1,0.85
+2024,sweets,decayed cashew nuts,1,1,0.9
+2024,sweets,artificial colour,1,1,0.85
+2024,sweets,synthetic colourants,1,1,0.95
+2024,tea powder,coconut shell powder,1,1,0.95
+2024,tea powder,sunset yellow,1,1,0.9
+2024,tea powder,tartrazine,1,1,0.9
+2024,tea powder,toxic chemical essence,1,1,0.9
+2024,tirupati laddus,animal fat,6,5,0.875
+2024,tirupati laddus,adulterated ghee,1,1,0.75
+2024,tirupati laddus,fish oil,1,1,0.95
+2024,tirupati laddus,beef tallow,1,1,0.95
+2024,tirupati laddus,palm oil family,1,1,0.9
+2024,tirupati laddus,substandard ingredients,1,1,0.75
+2024,tirupati laddus,lard/pig fat,1,1,0.95
+2024,tirupati laddus,impurities,1,1,0.85
+2024,tirupati prasadam,beef tallow,1,1,0.85
+2024,tirupati prasadam,animal fat,1,1,0.75
+2024,truffle,artificial flavoring,1,1,0.9
+2024,truffle oil,artificial flavoring,1,1,0.95
+2024,tuna,tilapia,1,1,0.9
+2024,tuna,pangasius,1,1,0.9
+2024,tuna,escolar,1,1,0.95
+2024,turmeric,artificial coloring,1,1,0.85
+2024,vanaspati,beef tallow,3,2,0.9333
+2024,vanaspati,refined oils,1,1,0.9
+2024,vanaspati,palm oil family,1,1,0.85
+2024,wall s frozen products,vegetable oil/fat,1,1,0.85
+2024,wheat flour,pesticide residue,1,1,0.9
+2025,Butter,unknown adulterant,1,1,0.7
+2025,Butter,starch,1,1,0.9
+2025,Butter,vegetable oil/fat,1,1,0.95
+2025,Butter,fatty acids,1,1,0.95
+2025,Cheese,cheese analog,2,2,0.85
+2025,Cheese,listeria,1,1,0.75
+2025,Cheese,palm oil family,2,1,0.85
+2025,Cheese,adulterant,1,1,0.8
+2025,Coconut oil,unspecified adulterant,2,2,0.85
+2025,Coconut oil,palm oil family,4,2,0.8625
+2025,Coconut oil,spurious coconut oil,1,1,0.85
+2025,Coconut oil,monoglycerides,1,1,0.9
+2025,Coconut oil,acetic acid ester,1,1,0.9
+2025,Coconut oil,refined coconut oil,1,1,0.85
+2025,Coconut oil,paraffin wax,1,1,0.9
+2025,Coconut oil,synthetic antioxidants,1,1,0.9
+2025,Coconut oil,hydrogenated fats,1,1,0.9
+2025,Coconut oil,spurious edible oils,1,1,0.75
+2025,Coconut oil,fake coconut oil,1,1,0.85
+2025,Coconut oil,testa oil,3,1,0.8667
+2025,Coconut oil,sunflower oil,2,1,0.85
+2025,Curd/yoghurt,fungus,3,3,0.8833
+2025,Curd/yoghurt,milk powder,2,2,0.95
+2025,Curd/yoghurt,fungal infestation,2,2,0.875
+2025,Curd/yoghurt,fungi,1,1,0.95
+2025,Curd/yoghurt,dead lizard,1,1,0.9
+2025,Curd/yoghurt,detergent,1,1,0.9
+2025,Curd/yoghurt,poison,2,1,0.925
+2025,Edible/cooking oil,used cooking oil,1,1,0.9
+2025,Edible/cooking oil,total polar compounds,1,1,0.9
+2025,Edible/cooking oil,animal fat,1,1,0.9
+2025,Ghee,palm oil family,77,41,0.9117
+2025,Ghee,animal fat,41,32,0.9
+2025,Ghee,vegetable oil/fat,29,18,0.9093
+2025,Ghee,acetic acid ester,17,14,0.9088
+2025,Ghee,chemicals,12,12,0.875
+2025,Ghee,vanaspati,11,10,0.9091
+2025,Ghee,beta carotene,8,8,0.9
+2025,Ghee,coconut oil,11,8,0.8909
+2025,Ghee,adulterated ghee,8,7,0.8625
+2025,Ghee,unknown adulterant,7,6,0.7214
+2025,Ghee,unspecified adulterant,6,6,0.8417
+2025,Ghee,monodiglycerides,6,6,0.8917
+2025,Ghee,starch,5,5,0.9
+2025,Ghee,beef tallow,5,5,0.83
+2025,Ghee,lard/pig fat,4,4,0.8875
+2025,Ghee,monoglycerides,4,4,0.9125
+2025,Ghee,dalda,8,4,0.8875
+2025,Ghee,refined oil,4,4,0.9125
+2025,Ghee,ghee essence,5,4,0.88
+2025,Ghee,beta sitosterol,7,4,0.8714
+2025,Ghee,synthetic essence,3,3,0.9233
+2025,Ghee,artificial fragrances,3,3,0.95
+2025,Ghee,urea,3,3,0.9
+2025,Ghee,artificial colour,3,3,0.9
+2025,Ghee,essence,4,3,0.8875
+2025,Ghee,houseflies,3,3,0.9167
+2025,Ghee,adulterated substance,3,3,0.85
+2025,Ghee,spurious ghee,4,3,0.8625
+2025,Ghee,artificial essence,5,3,0.884
+2025,Ghee,mosquitoes,3,3,0.9167
+2025,Ghee,lactic acid ester,3,3,0.9
+2025,Ghee,animal carcass residues,3,3,0.9167
+2025,Ghee,cheap refined oil,2,2,0.925
+2025,Ghee,foreign fat,2,2,0.85
+2025,Ghee,mono glycerides,2,2,0.9
+2025,Ghee,artificial ghee essence,2,2,0.925
+2025,Ghee,adulterant in ghee,2,2,0.875
+2025,Ghee,fish oil,2,2,0.9
+2025,Ghee,acetic acid,2,2,0.9
+2025,Ghee,esters,2,2,0.875
+2025,Ghee,groundnut oil,2,2,0.9
+2025,Ghee,synthetic colors,2,2,0.9
+2025,Ghee,soapstone,2,2,0.9
+2025,Ghee,adulterants,2,2,0.925
+2025,Ghee,non edible oils,2,2,0.95
+2025,Ghee,ghee flavour,2,2,0.9
+2025,Ghee,unspecified adulterant in ghee,2,2,0.9
+2025,Ghee,unsafe substances,2,2,0.8
+2025,Ghee,soybean,3,2,0.9
+2025,Ghee,hydrogenated fats,2,2,0.875
+2025,Ghee,synthetic ghee,2,2,0.925
+2025,Ghee,paraffin wax,2,2,0.875
+2025,Ghee,adulterant,2,2,0.75
+2025,Ghee,foreign fats,2,2,0.925
+2025,Ghee,preservatives,2,2,0.8
+2025,Ghee,water,2,2,0.775
+2025,Ghee,fatty acid mono and diglycerides,3,2,0.9
+2025,Ghee,synthetic essences,3,2,0.95
+2025,Ghee,mono and diglycerides,2,2,0.9
+2025,Ghee,artificial flavourings,1,1,0.95
+2025,Ghee,chemical flavouring agents,2,1,0.95
+2025,Ghee,mosquitoes and houseflies,1,1,0.9
+2025,Ghee,artificial ghee flavour,1,1,0.9
+2025,Ghee,palm kernel derivatives,1,1,0.95
+2025,Ghee,chemical additives,1,1,0.9
+2025,Ghee,food colouring,1,1,0.9
+2025,Ghee,cheap fats,1,1,0.9
+2025,Ghee,cream,1,1,0.85
+2025,Ghee,milk powder,1,1,0.85
+2025,Ghee,adulterated variants,1,1,0.75
+2025,Ghee,aroma,1,1,0.85
+2025,Ghee,low grade edible oils,2,1,0.875
+2025,Ghee,acetic acid esters,1,1,0.95
+2025,Ghee,cheaper oils,2,1,0.85
+2025,Ghee,mashed potatoes,1,1,0.85
+2025,Ghee,sweet potatoes,1,1,0.85
+2025,Ghee,various chemicals,1,1,0.85
+2025,Ghee,detergent,1,1,0.9
+2025,Ghee,animal tallow,2,1,0.85
+2025,Ghee,ghee flavor,1,1,0.9
+2025,Ghee,tallow,1,1,0.9
+2025,Ghee,synthetic flavors,1,1,0.9
+2025,Ghee,spurious types of oils,1,1,0.85
+2025,Ghee,chemical based flavouring agents,1,1,0.9
+2025,Ghee,diglycerides,2,1,0.9
+2025,Ghee,fatty acid mono,1,1,0.9
+2025,Ghee,other oil,1,1,0.7
+2025,Ghee,impure substances,1,1,0.95
+2025,Ghee,synthetic colours,1,1,0.95
+2025,Ghee,artificial flavours,1,1,0.9
+2025,Ghee,refined oils,1,1,0.9
+2025,Ghee,non dairy substances,1,1,0.9
+2025,Ghee,additives to extend shelf life,1,1,0.85
+2025,Ghee,trans fats,1,1,0.9
+2025,Ghee,food colours,1,1,0.85
+2025,Ghee,kernel oil,1,1,0.95
+2025,Ghee,edible oils,1,1,0.9
+2025,Ghee,β sitosterol,1,1,0.9
+2025,Ghee,ghee from sri vyshnavi dairy specialties,1,1,0.75
+2025,Ghee,houseflies and mosquitoes,1,1,0.85
+2025,Ghee,synthetic fat,1,1,0.95
+2025,Ghee,hydrogenated oils,1,1,0.9
+2025,Ghee,industrial fats,1,1,0.9
+2025,Ghee,mono and di glycerides,1,1,0.9
+2025,Ghee,chemical esters,1,1,0.9
+2025,Ghee,fake amul labelled ghee,1,1,0.85
+2025,Ghee,refined soybean oil,1,1,0.95
+2025,Ghee,toxic substances,1,1,0.85
+2025,Ghee,lactic acid,1,1,0.9
+2025,Ghee,yellow colouring,1,1,0.9
+2025,Ghee,yellow colour,1,1,0.85
+2025,Ghee,synthetic aroma,1,1,0.85
+2025,Ghee,harmful chemicals,2,1,0.875
+2025,Ghee,artificial flavour,1,1,0.9
+2025,Khoya/mawa,starch,9,8,0.9056
+2025,Khoya/mawa,detergent,5,4,0.89
+2025,Khoya/mawa,milk powder,3,3,0.8833
+2025,Khoya/mawa,flour,2,2,0.875
+2025,Khoya/mawa,palm oil family,2,2,0.95
+2025,Khoya/mawa,potato,1,1,0.9
+2025,Khoya/mawa,sweet potato,1,1,0.9
+2025,Khoya/mawa,soap,1,1,0.9
+2025,Khoya/mawa,washing soda,1,1,0.85
+2025,Khoya/mawa,synthetic fat,1,1,0.8
+2025,Khoya/mawa,contaminated khoya,1,1,0.85
+2025,Khoya/mawa,skimmed milk powder,1,1,0.9
+2025,Khoya/mawa,unidentified white powder,1,1,0.85
+2025,Khoya/mawa,ghee,1,1,0.75
+2025,Khoya/mawa,synthetic milk,1,1,0.9
+2025,Khoya/mawa,artificial ingredients,1,1,0.85
+2025,Khoya/mawa,synthetic materials,1,1,0.9
+2025,Khoya/mawa,urea,1,1,0.85
+2025,Khoya/mawa,formalin/formaldehyde,1,1,0.95
+2025,Khoya/mawa,fungus,1,1,0.85
+2025,Khoya/mawa,adulterated khoya,1,1,0.75
+2025,Khoya/mawa,oil adulterants,1,1,0.9
+2025,Khoya/mawa,substandard materials,1,1,0.8
+2025,Khoya/mawa,unknown adulterant in khoya,1,1,0.9
+2025,Milk,water,12,11,0.9125
+2025,Milk,urea,12,9,0.925
+2025,Milk,detergent,10,8,0.9
+2025,Milk,starch,7,6,0.9357
+2025,Milk,refined oil,7,6,0.8714
+2025,Milk,unspecified adulterant,4,4,0.8375
+2025,Milk,palm oil family,6,4,0.8583
+2025,Milk,carbonate neutraliser,4,4,0.9
+2025,Milk,poison,4,4,0.9125
+2025,Milk,vegetable oil/fat,5,3,0.85
+2025,Milk,formalin/formaldehyde,3,3,0.9333
+2025,Milk,foreign fat,2,2,0.9
+2025,Milk,cheap oils,2,2,0.9
+2025,Milk,vanaspati,2,2,0.9
+2025,Milk,caustic soda,2,2,0.95
+2025,Milk,glucose,2,2,0.9
+2025,Milk,ammonium carbonate,1,1,0.95
+2025,Milk,synthetic colours,1,1,0.85
+2025,Milk,bacteria,1,1,0.9
+2025,Milk,diphtheria bacteria,1,1,0.9
+2025,Milk,typhoid bacteria,1,1,0.9
+2025,Milk,bovine tuberculosis,1,1,0.9
+2025,Milk,septic sore throat bacteria,1,1,0.9
+2025,Milk,plastic,1,1,0.85
+2025,Milk,plastic waste,1,1,0.85
+2025,Milk,selfoss,2,1,0.95
+2025,Milk,synthetic milk,1,1,0.85
+2025,Milk,contaminant,1,1,0.75
+2025,Milk,mercury,2,1,0.85
+2025,Milk,salt,1,1,0.9
+2025,Milk,campylobacter jejuni,1,1,0.9
+2025,Milk,melamine,1,1,0.95
+2025,Milk,harmful chemicals,1,1,0.85
+2025,Milk,tremetol,1,1,0.95
+2025,Milk,listeria,1,1,0.9
+2025,Milk,campylobacter,1,1,0.9
+2025,Milk,aflatoxins,1,1,0.95
+2025,Milk,aflatoxin,2,1,0.95
+2025,Milk,pesticide residue,1,1,0.95
+2025,Milk,chemicals,1,1,0.85
+2025,Milk,soap solution,1,1,0.9
+2025,Milk,poster colour,1,1,0.9
+2025,Milk,optical whitening agents,1,1,0.9
+2025,Milk,soybean based milk,1,1,0.9
+2025,Milk,artificial sweeteners,1,1,0.9
+2025,Milk,calcium hydroxide,1,1,0.95
+2025,Milk,alum,1,1,0.95
+2025,Mustard oil,argemone oil,5,4,0.92
+2025,Mustard oil,palm oil family,5,3,0.91
+2025,Mustard oil,artificial colours,2,2,0.95
+2025,Mustard oil,rice bran oil,2,2,0.9
+2025,Mustard oil,cottonseed oil,1,1,0.8
+2025,Mustard oil,mineral oil,1,1,0.9
+2025,Mustard oil,karanja oil,1,1,0.9
+2025,Mustard oil,cyanide,1,1,0.9
+2025,Mustard oil,linseed oil,1,1,0.9
+2025,Mustard oil,artificial allyl isothiocyanate,1,1,0.9
+2025,Mustard oil,synthetic mustard essence,1,1,0.95
+2025,Mustard oil,soybean oil,1,1,0.85
+2025,Mustard oil,artificial colour,1,1,0.95
+2025,Mustard oil,substandard mustard oil,1,1,0.85
+2025,Mustard oil,adulterant,1,1,0.75
+2025,Palm oil,monoglycerides,1,1,0.9
+2025,Palm oil,acetic acid ester,1,1,0.9
+2025,Paneer,palm oil family,9,9,0.8944
+2025,Paneer,starch,8,8,0.925
+2025,Paneer,detergent,6,5,0.9083
+2025,Paneer,vegetable oil/fat,5,4,0.89
+2025,Paneer,cheese analog,6,4,0.9
+2025,Paneer,carbonate neutraliser,4,4,0.95
+2025,Paneer,skimmed milk powder,5,4,0.88
+2025,Paneer,harmful chemicals,3,3,0.8667
+2025,Paneer,urea,4,3,0.9125
+2025,Paneer,milk powder,3,3,0.8667
+2025,Paneer,unspecified adulterant,3,3,0.8667
+2025,Paneer,cheese analogue,4,3,0.9375
+2025,Paneer,refined oil,3,3,0.95
+2025,Paneer,unidentified liquid substances,2,2,0.85
+2025,Paneer,unknown adulterant in paneer,2,2,0.85
+2025,Paneer,unknown adulterant,2,2,0.8
+2025,Paneer,formalin/formaldehyde,1,1,0.9
+2025,Paneer,chemicals,1,1,0.85
+2025,Paneer,water,1,1,0.85
+2025,Paneer,anti foam agents,1,1,0.85
+2025,Paneer,analogue paneer,1,1,0.95
+2025,Paneer,oil,1,1,0.95
+2025,Paneer,sucrose,1,1,0.95
+2025,Paneer,tinopal,2,1,0.95
+2025,Paneer,ala,1,1,0.95
+2025,Paneer,adulterant,1,1,0.8
+2025,Paneer,bacteria,1,1,0.9
+2025,Paneer,pathogens,1,1,0.9
+2025,Paneer,synthetic colours,2,1,0.9
+2025,Paneer,saccharin,2,1,0.9
+2025,Paneer,bacterial presence,1,1,0.85
+2025,Paneer,non dairy additives,1,1,0.85
+2025,Paneer,oils,1,1,0.9
+2025,Paneer,fatty ingredients,1,1,0.85
+2025,Paneer,artificial fat,1,1,0.85
+2025,Paneer,arrowroot,2,1,0.925
+2025,Paneer,listeria,1,1,0.75
+2025,Paneer,e coli,1,1,0.85
+2025,Paneer,chemical adulterants,1,1,0.85
+2025,Paneer,unsafe condition,1,1,0.75
+2025,Paneer,low quality oils,1,1,0.9
+2025,Paneer,hydrogen peroxide,1,1,0.95
+2025,Paneer,safolite,1,1,0.95
+2025,Paneer,soybean,1,1,0.9
+2025,Paneer,calcium hydroxide,1,1,0.9
+2025,Paneer,unspecified adulterant in paneer,1,1,0.75
+2025,Paneer,acetic acid,1,1,0.95
+2025,Paneer,foul smelling substance,1,1,0.75
+2025,Rice bran oil,unknown adulterant in rice bran oil,1,1,0.75
+2025,Soybean oil,vitamin d,1,1,0.95
+2025,Tirupati laddu,adulterated ghee,2,2,0.85
+2025,Tirupati laddu,plant based ingredients,1,1,0.85
+2025,Tirupati laddu,palm oil family,1,1,0.95
+2025,Tirupati laddu,animal fat,1,1,0.75
+2025,Tirupati laddu,substandard ingredients,1,1,0.75
+2025,Tirupati laddu,synthetic ghee,1,1,0.9
+2025,Tirupati laddu,chemically treated ghee,1,1,0.9
+2025,almonds,fungus,3,2,0.9
+2025,animal fat,vegetable oil/fat,1,1,0.9
+2025,ar dairy,adulterated ghee,1,1,0.85
+2025,barfi,fungus,1,1,0.85
+2025,beta sitosterol,ghee,1,1,0.95
+2025,bhole baba organic dairy,monodiglycerides,1,1,0.85
+2025,binni refined oil,vitamin d,1,1,0.8
+2025,birthday cake,hazardous substances,1,1,0.85
+2025,boondi laddoo,fungus,2,1,0.95
+2025,bottled water,microplastics,1,1,0.9
+2025,buckwheat flour,contaminant,1,1,0.85
+2025,bun muska,glass pieces,1,1,0.95
+2025,cake,synthetic colours,1,1,0.95
+2025,chhena,starch,1,1,0.9
+2025,chilli powder,artificial colour,2,2,0.875
+2025,chilli powder,brick powder,3,2,0.9333
+2025,chilli powder,sudan red,1,1,0.9
+2025,chilli powder,harmful colouring agents,1,1,0.95
+2025,chilli powder,lead chromate,1,1,0.95
+2025,chilli powder,metanil yellow,1,1,0.95
+2025,chilli powder,rhodamine B,1,1,0.95
+2025,chilli powder,sand,1,1,0.85
+2025,coffee powder,clay,1,1,0.9
+2025,colour infused sweets,synthetic colours,1,1,0.75
+2025,cooked rice,bacillus cereus,1,1,0.9
+2025,cooking oils,animal fat,1,1,0.95
+2025,cool drinks,water,1,1,0.9
+2025,cool drinks,phosphoric acid,1,1,0.95
+2025,cotton candy,rhodamine B,1,1,0.95
+2025,dairy products,salmonella,1,1,0.85
+2025,doughnuts,artificial colouring,1,1,0.95
+2025,dry fruits,mineral oil,2,2,0.875
+2025,dry fruits,artificial colour,1,1,0.9
+2025,dry fruits,artificial colours,1,1,0.85
+2025,edible oils,cheaper oils,1,1,0.85
+2025,edible oils,artificial colours,1,1,0.9
+2025,edible oils,artificial flavours,1,1,0.9
+2025,egg,underweight egg,1,1,0.75
+2025,egg,substances containing carcinogenic elements,1,1,0.75
+2025,eggs,chikki,2,1,0.9
+2025,eggs,banana,1,1,0.9
+2025,fake nandini pouches,adulterated ghee,1,1,0.9
+2025,fast foods,harmful colours,2,1,0.85
+2025,fish,formalin/formaldehyde,2,2,0.925
+2025,fish,malachite green,1,1,0.9
+2025,fish,rhodamine B,1,1,0.9
+2025,fish,ammonia,1,1,0.9
+2025,food,microplastics,1,1,0.85
+2025,food items,artificial colors,2,1,0.85
+2025,fortified oil,vitamin d,1,1,0.95
+2025,fresh meat,decayed and dead animal meat,1,1,0.9
+2025,fresh meat,decayed or spoiled meat,1,1,0.95
+2025,fruits,pesticide residue,4,4,0.9
+2025,fruits,microplastics,1,1,0.9
+2025,fruits,calcium carbide,1,1,0.95
+2025,fruits,heavy metals,1,1,0.9
+2025,ginger garlic paste,maida,1,1,0.85
+2025,ginger garlic paste,cornflour,1,1,0.85
+2025,ginger garlic paste,artificial colours,1,1,0.85
+2025,ginger garlic paste,preservatives,1,1,0.75
+2025,ginger garlic paste,spoiled ginger,1,1,0.8
+2025,ginger garlic paste,spoiled garlic,1,1,0.8
+2025,golgappas,water,1,1,0.85
+2025,green veggies,malachite green,1,1,0.9
+2025,groundnut,contaminant,1,1,0.75
+2025,halwa,adulterated ghee,1,1,0.95
+2025,hing,krista brand bandhani hing,1,1,0.95
+2025,honey,sugar,2,2,0.9
+2025,honey,rice syrup,1,1,0.95
+2025,honey,glucose,1,1,0.85
+2025,hydrogenated oils,trans fats,1,1,0.9
+2025,ice cream,detergent,3,2,0.95
+2025,ice cream,chalk powder,1,1,0.95
+2025,ice cream,washing soda,1,1,0.95
+2025,jalebi,synthetic food colours,2,2,0.95
+2025,jam,artificial colours,1,1,0.85
+2025,kalakand,formalin/formaldehyde,1,1,0.9
+2025,kera haritham,fake fssai numbers,1,1,0.85
+2025,kera surya,fake fssai numbers,1,1,0.85
+2025,khowa,starch,2,2,0.95
+2025,khowa,industrial colour,1,1,0.85
+2025,koya,synthetic food colours,2,2,0.95
+2025,laddu,tainted ghee,1,1,0.8
+2025,laddu,palm oil family,1,1,0.95
+2025,laddu,chemical additives,1,1,0.85
+2025,laddu,spurious ghee,1,1,0.95
+2025,laddu,adulterated ghee,1,1,0.95
+2025,laddu prasadam,ghee,1,1,0.95
+2025,laddus,synthetic food colours,2,2,0.95
+2025,laddus,spurious ghee,1,1,0.95
+2025,laddus,adulterated ghee,1,1,0.8
+2025,leafy greens,e coli,1,1,0.85
+2025,leafy greens,listeria,1,1,0.85
+2025,leafy greens,salmonella,1,1,0.85
+2025,locally prepared snacks,auramine,1,1,0.75
+2025,maize,aflatoxin,1,1,0.95
+2025,mangoes,calcium carbide,1,1,0.9
+2025,meat,plastic,1,1,0.85
+2025,meat,plastic waste,1,1,0.85
+2025,medicinal syrups,deadly contaminants,1,1,0.95
+2025,medicinal syrups,ethylene glycol,1,1,0.85
+2025,medicinal syrups,diethylene glycol,1,1,0.85
+2025,mithai,starch,2,2,0.9
+2025,mithai,artificial dyes,2,2,0.9
+2025,mithai,metallic powders,2,2,0.9
+2025,mithai,fake khoya,1,1,0.9
+2025,mithai,aluminium,1,1,0.9
+2025,mithai,detergent,1,1,0.85
+2025,mithai,industrial dyes,1,1,0.9
+2025,mustard seeds,argemone seeds,1,1,0.95
+2025,oil,animal fat,1,1,0.95
+2025,oil,total polar compounds,1,1,0.9
+2025,oil,vitamin d,1,1,0.95
+2025,oysters,vibrio,1,1,0.9
+2025,pakoras,water,1,1,0.85
+2025,palm kernel oil,monoglycerides,1,1,0.9
+2025,palm kernel oil,acetic acid ester,1,1,0.9
+2025,pasta,bacillus cereus,1,1,0.9
+2025,peppercorns,ethylene oxide,1,1,0.9
+2025,petha,artificial colour,1,1,0.9
+2025,poultry,microplastics,1,1,0.9
+2025,prawns,contaminants,1,1,0.8
+2025,pre cut fruits,e coli,1,1,0.85
+2025,pre cut fruits,listeria,1,1,0.85
+2025,pre cut fruits,salmonella,1,1,0.85
+2025,prepared foods,microplastics,1,1,0.9
+2025,protein supplements,lead,1,1,0.9
+2025,protein supplements,mercury,1,1,0.9
+2025,protein supplements,cadmium,1,1,0.9
+2025,protein supplements,arsenic,1,1,0.9
+2025,protein supplements,synthetic flavours,1,1,0.85
+2025,protein supplements,hydrogenated oils,1,1,0.85
+2025,protein supplements,unverified herbal stimulants,1,1,0.8
+2025,rasgullas,fly infested,1,1,0.9
+2025,raw sprouts,e coli,1,1,0.85
+2025,raw sprouts,salmonella,1,1,0.85
+2025,red chilli powder,coloured stems,2,2,0.9
+2025,red chilli powder,dust,2,2,0.85
+2025,rice,bacillus cereus,1,1,0.85
+2025,rice,plastic,1,1,0.95
+2025,roasted flattened rice,insects,1,1,0.85
+2025,saffron,auramine,1,1,0.8
+2025,salt,chalk,1,1,0.9
+2025,salt,chalk powder,1,1,0.95
+2025,seafood,microplastics,1,1,0.9
+2025,sella rice,turmeric,1,1,0.95
+2025,silk dupatta,polyester,1,1,0.9
+2025,silver vark,aluminium foil,2,2,0.95
+2025,soft drinks,vegetable oil/fat,1,1,0.85
+2025,sonpapdi,fungus,1,1,0.85
+2025,soy sauce,potato pulp,3,1,0.95
+2025,spice products,ethylene oxide,1,1,0.9
+2025,spices,acetamiprid,1,1,0.9
+2025,spices,imidacloprid,1,1,0.9
+2025,spices,adulterant,1,1,0.75
+2025,spices,sudan dyes,1,1,0.95
+2025,split cashews,insects,1,1,0.9
+2025,sri vyshnavi dairy specialities,beta sitosterol,1,1,0.9
+2025,srivari laddu prasadam,adulterated ghee,1,1,0.95
+2025,street food,carcinogenic compounds,1,1,0.8
+2025,substandard flour,substandard,1,1,0.75
+2025,sugar,chalk,1,1,0.9
+2025,sweets,substandard ingredients,3,3,0.7833
+2025,sweets,non food grade silver foils,2,2,0.9
+2025,sweets,harmful colouring agents,1,1,0.85
+2025,sweets,adulterated ghee,1,1,0.85
+2025,sweets,artificial colors,1,1,0.85
+2025,sweets,synthetic food colours,1,1,0.95
+2025,sweets,detergent,1,1,0.9
+2025,sweets,auramine o,1,1,0.9
+2025,sweets,metanil yellow,1,1,0.9
+2025,sweets,rhodamine B,1,1,0.9
+2025,sweets,malachite green,1,1,0.9
+2025,sweets,artificial dyes,1,1,0.95
+2025,sweets,non edible food colours,1,1,0.95
+2025,sweets,rotten matter,1,1,0.85
+2025,sweets,suspicious ingredients,1,1,0.75
+2025,tap water,bacteria,1,1,0.9
+2025,tap water,viruses,1,1,0.9
+2025,tap water,harmful chemicals,1,1,0.9
+2025,tea,pesticide residue,3,3,0.9
+2025,tea leaves,iron filings,1,1,0.95
+2025,tea leaves,artificial colouring,1,1,0.95
+2025,tirupati laddoo,adulterated ghee,1,1,0.95
+2025,tirupati laddus,animal fat,1,1,0.7
+2025,toast,saccharin,1,1,0.85
+2025,ttd laddu,ghee,1,1,0.75
+2025,turmeric,lead chromate,5,5,0.95
+2025,turmeric,rice flour,2,2,0.95
+2025,turmeric,metanil yellow,2,2,0.95
+2025,turmeric,auramine,2,1,0.85
+2025,turmeric,brick powder,1,1,0.95
+2025,turmeric,rhodamine B,1,1,0.95
+2025,turmeric powder,metanil yellow,1,1,0.95
+2025,turmeric powder,lead chromate,1,1,0.9
+2025,turmeric powder,chalk powder,1,1,0.85
+2025,undercooked beef,e coli,1,1,0.9
+2025,vegetable sauce,potato pulp,2,1,0.95
+2025,vegetables,pesticide residue,7,4,0.9071
+2025,vegetables,microplastics,1,1,0.9
+2025,wheat,benzoyl peroxide,1,1,0.95
+2025,wheat,aflatoxin,1,1,0.95
+2026,Butter,starch,1,1,0.85
+2026,Cheese,skimmed milk powder,2,2,0.775
+2026,Cheese,non milk raw materials,1,1,0.75
+2026,Cheese,vegetable oil/fat,1,1,0.85
+2026,Coconut oil,adulterated coconut oil,2,1,0.85
+2026,Curd/yoghurt,ethylene glycol,1,1,0.9
+2026,Curd/yoghurt,starch,1,1,0.9
+2026,Edible/cooking oil,used cooking oil,2,2,0.875
+2026,Edible/cooking oil,stale and hazardous cooking oil,1,1,0.8
+2026,Edible/cooking oil,stale cooking oil,1,1,0.8
+2026,Edible/cooking oil,total polar compounds tpc,1,1,0.95
+2026,Edible/cooking oil,degraded cooking oil,1,1,0.8
+2026,Edible/cooking oil,reused oil,1,1,0.85
+2026,Edible/cooking oil,diesel,1,1,0.95
+2026,Edible/cooking oil,expired cooking oil,1,1,0.85
+2026,Edible/cooking oil,reused cooking oil,1,1,0.75
+2026,Edible/cooking oil,unspecified adulterant,1,1,0.85
+2026,Edible/cooking oil,total polar compounds,2,1,0.875
+2026,Edible/cooking oil,hazardous storage contaminants,1,1,0.75
+2026,Ghee,palm oil family,72,33,0.9181
+2026,Ghee,vegetable oil/fat,48,25,0.9104
+2026,Ghee,animal fat,35,23,0.8814
+2026,Ghee,chemicals,20,20,0.8325
+2026,Ghee,unspecified adulterant,11,11,0.8091
+2026,Ghee,vanaspati,12,9,0.8958
+2026,Ghee,beta carotene,8,7,0.8875
+2026,Ghee,adulterated ghee,8,6,0.8187
+2026,Ghee,acetic acid ester,5,5,0.89
+2026,Ghee,lard/pig fat,5,5,0.88
+2026,Ghee,synthetic ghee,8,5,0.9187
+2026,Ghee,unknown adulterant,4,4,0.8
+2026,Ghee,acetic acid,3,3,0.8833
+2026,Ghee,sunflower oil,3,3,0.85
+2026,Ghee,non dairy constituents,3,3,0.9
+2026,Ghee,cottonseed oil,3,3,0.8667
+2026,Ghee,monoglycerides,4,3,0.8875
+2026,Ghee,sweet potato,4,3,0.8875
+2026,Ghee,starch,3,3,0.8667
+2026,Ghee,soybean oil,3,3,0.8667
+2026,Ghee,lactic acid,3,3,0.9
+2026,Ghee,beef tallow,4,3,0.85
+2026,Ghee,acetic acid esters,3,2,0.9167
+2026,Ghee,fish oil,2,2,0.875
+2026,Ghee,unknown adulterant in ghee,2,2,0.775
+2026,Ghee,adulterated substance,2,2,0.75
+2026,Ghee,spurious substance,2,2,0.75
+2026,Ghee,additives,2,2,0.85
+2026,Ghee,unidentified oil,3,2,0.85
+2026,Ghee,artificial flavouring agents,2,2,0.875
+2026,Ghee,potato,2,2,0.9
+2026,Ghee,synthetic oils,2,2,0.875
+2026,Ghee,beta sitosterol,2,2,0.9
+2026,Ghee,rapeseed oil,2,2,0.85
+2026,Ghee,ghee flavour,1,1,0.9
+2026,Ghee,laboratory esters,1,1,0.9
+2026,Ghee,artificial flavouring,1,1,0.9
+2026,Ghee,synthetic material,1,1,0.9
+2026,Ghee,animal skin,1,1,0.9
+2026,Ghee,animal bones,1,1,0.9
+2026,Ghee,soybean,2,1,0.85
+2026,Ghee,rapeseed,1,1,0.85
+2026,Ghee,cottonseed,1,1,0.85
+2026,Ghee,harmful substances,1,1,0.7
+2026,Ghee,hydrogenated fats,1,1,0.9
+2026,Ghee,chemical substances,1,1,0.85
+2026,Ghee,carrot extract,2,1,0.85
+2026,Ghee,coconut oil,1,1,0.9
+2026,Ghee,synthetic blends,1,1,0.85
+2026,Ghee,hydrogenated oil,1,1,0.9
+2026,Ghee,flavouring essence,1,1,0.9
+2026,Ghee,refined soybean oil,1,1,0.95
+2026,Ghee,synthetic essence,3,1,0.9333
+2026,Ghee,non milk raw materials,1,1,0.75
+2026,Ghee,fatty acid mono and diglycerides,1,1,0.85
+2026,Ghee,soapstone,1,1,0.9
+2026,Ghee,animal body fat,1,1,0.9
+2026,Ghee,mashed potatoes,1,1,0.9
+2026,Ghee,synthetic flavouring agents,1,1,0.9
+2026,Ghee,cheap oils,2,1,0.825
+2026,Ghee,low quality substances,1,1,0.75
+2026,Ghee,β sitosterol,1,1,0.95
+2026,Ghee,carotenoids extracted from carrots,1,1,0.85
+2026,Ghee,cheaper oils,1,1,0.85
+2026,Ghee,preservatives,1,1,0.75
+2026,Ghee,water,1,1,0.75
+2026,Ghee,synthetic materials,1,1,0.95
+2026,Ghee,mono glycerides,1,1,0.85
+2026,Ghee,î² sitosterol,1,1,0.95
+2026,Ghee,chemically manufactured substance,1,1,0.85
+2026,Ghee,adulterant,1,1,0.9
+2026,Ghee,buffalo fat,1,1,0.9
+2026,Ghee,cotton seeds,2,1,0.925
+2026,Ghee,fake saras ghee,1,1,0.85
+2026,Ghee,unspecified adulterant in ghee,1,1,0.9
+2026,Ghee,yellow food colour,3,1,0.8
+2026,Ghee,vegetable ghee,1,1,0.95
+2026,Ghee,vegetable butter,1,1,0.95
+2026,Ghee,artificial essence,1,1,0.95
+2026,Ghee,synthetic colouring,1,1,0.95
+2026,Ghee,substances allegedly used for cleaning bathrooms,1,1,0.85
+2026,Ghee,bathroom chemicals,1,1,0.9
+2026,Ghee,synthetic substance,1,1,0.95
+2026,Ghee,lethal chemicals,1,1,0.85
+2026,Ghee,synthetic fake ghee,1,1,0.9
+2026,Ghee,artificial ghee flavours,1,1,0.9
+2026,Ghee,bathroom cleaning chemicals,1,1,0.95
+2026,Ghee,plant oils,1,1,0.9
+2026,Ghee,labsa,1,1,0.9
+2026,Ghee,synthetic substances,1,1,0.95
+2026,Ghee,food grade lactic acid,1,1,0.9
+2026,Ghee,artificial ghee flavour,1,1,0.9
+2026,Ghee,synthetic food colour,1,1,0.85
+2026,Ghee,chemical mixture,1,1,0.85
+2026,Ghee,inferior fats,1,1,0.85
+2026,Ghee,chemical additives,1,1,0.9
+2026,Ghee,foreign fats,1,1,0.9
+2026,Ghee,impurities,1,1,0.85
+2026,Khoya/mawa,starch,5,4,0.9
+2026,Khoya/mawa,fungus,2,2,0.9
+2026,Khoya/mawa,adulterants,1,1,0.85
+2026,Khoya/mawa,spoiled khoya,1,1,0.75
+2026,Khoya/mawa,fungal contamination,1,1,0.95
+2026,Khoya/mawa,packaged multigrain bread,1,1,0.9
+2026,Khoya/mawa,dangerous chemicals,1,1,0.8
+2026,Khoya/mawa,fake khoya,1,1,0.9
+2026,Khoya/mawa,vegetable oil/fat,1,1,0.85
+2026,Khoya/mawa,inexpensive ingredients,1,1,0.75
+2026,Khoya/mawa,skimmed milk powder,1,1,0.85
+2026,Khoya/mawa,unspecified adulterant,1,1,0.85
+2026,Milk,ethylene glycol,46,34,0.9315
+2026,Milk,unknown adulterant,34,33,0.8397
+2026,Milk,urea,25,22,0.93
+2026,Milk,detergent,21,19,0.931
+2026,Milk,starch,16,15,0.925
+2026,Milk,water,16,11,0.9156
+2026,Milk,edible oil,17,11,0.8912
+2026,Milk,unspecified adulterant,6,6,0.825
+2026,Milk,palm oil family,6,5,0.925
+2026,Milk,maltodextrin,4,4,0.925
+2026,Milk,unknown contaminant,4,4,0.825
+2026,Milk,caustic soda,3,3,0.95
+2026,Milk,saccharine,2,2,0.9
+2026,Milk,formalin/formaldehyde,2,2,0.95
+2026,Milk,glucose,4,2,0.9125
+2026,Milk,soybean oil,2,2,0.95
+2026,Milk,maize flour,2,2,0.95
+2026,Milk,starchy substances,2,2,0.9
+2026,Milk,chemicals,2,2,0.825
+2026,Milk,adulterant,2,2,0.8
+2026,Milk,sodium bicarbonate,2,2,0.925
+2026,Milk,salt,3,2,0.95
+2026,Milk,sugar,3,2,0.95
+2026,Milk,contaminant,2,2,0.85
+2026,Milk,poison,2,2,0.95
+2026,Milk,glycol,3,2,0.95
+2026,Milk,vegetable oil/fat,2,2,0.95
+2026,Milk,neutralisers,2,2,0.875
+2026,Milk,skimmed milk powder,2,1,0.875
+2026,Milk,sucrose,1,1,0.9
+2026,Milk,whey powder,1,1,0.9
+2026,Milk,coolant,1,1,0.85
+2026,Milk,non milk raw materials,1,1,0.8
+2026,Milk,pesticide residue,1,1,0.85
+2026,Milk,heavy metals,1,1,0.85
+2026,Milk,hydrogen peroxide,1,1,0.95
+2026,Milk,animal fat,1,1,0.85
+2026,Milk,synthetic ghee,1,1,0.95
+2026,Milk,synthetic oils,1,1,0.9
+2026,Milk,adulterants,1,1,0.8
+2026,Milk,rat poison,1,1,0.95
+2026,Milk,neutralizers,1,1,0.85
+2026,Milk,unidentified adulterant,1,1,0.85
+2026,Milk,ddt,1,1,0.95
+2026,Milk,insecticide,1,1,0.95
+2026,Milk,m seal,1,1,0.9
+2026,Milk,intoxicating substance,1,1,0.85
+2026,Milk,adhesive compound,1,1,0.85
+2026,Milk,synthetic chemicals,1,1,0.85
+2026,Milk,hazardous additives,1,1,0.85
+2026,Milk,unknown toxic substance,1,1,0.85
+2026,Milk,adulterated milk,1,1,0.75
+2026,Milk,toxins,1,1,0.75
+2026,Milk,unknown toxin,1,1,0.95
+2026,Milk,toxic adulterants,1,1,0.85
+2026,Milk,milk powder,1,1,0.65
+2026,Milk,expired milk powder,1,1,0.9
+2026,Milk,oil,1,1,0.9
+2026,Milk,coolant oil,1,1,0.9
+2026,Milk,adulteration,1,1,0.85
+2026,Milk,preservatives,1,1,0.9
+2026,Milk,gruel,1,1,0.95
+2026,Milk,flour based substances,1,1,0.95
+2026,Milk,toxic adulterant,1,1,0.75
+2026,Mustard oil,argemone oil,2,2,0.95
+2026,Palm oil,carrot extract,1,1,0.9
+2026,Palm oil,false fortification claim,1,1,0.85
+2026,Palm oil,mislabeling,1,1,0.75
+2026,Palm oil,total polar compounds,1,1,0.9
+2026,Paneer,starch,11,11,0.8909
+2026,Paneer,cheese analogue,11,6,0.9273
+2026,Paneer,water,4,4,0.9
+2026,Paneer,analogue paneer,3,3,0.9167
+2026,Paneer,unspecified adulterant,3,3,0.8333
+2026,Paneer,synthetic milk,3,3,0.9
+2026,Paneer,dust,4,3,0.825
+2026,Paneer,suspected adulterant,3,3,0.7833
+2026,Paneer,non milk fats,3,3,0.8833
+2026,Paneer,adulterants,2,2,0.85
+2026,Paneer,vegetable oil/fat,2,2,0.85
+2026,Paneer,vegetable proteins,2,2,0.85
+2026,Paneer,industrial grade acetic acid,4,2,0.85
+2026,Paneer,non food grade substances,2,2,0.85
+2026,Paneer,unknown adulterant,3,2,0.75
+2026,Paneer,chemicals,2,2,0.8
+2026,Paneer,caustic soda,2,2,0.95
+2026,Paneer,washing soda,2,2,0.9
+2026,Paneer,detergent,2,2,0.9
+2026,Paneer,urea,2,2,0.9
+2026,Paneer,palm oil family,2,2,0.85
+2026,Paneer,non milk raw materials,1,1,0.75
+2026,Paneer,other contaminants,1,1,0.75
+2026,Paneer,cheese analogue products,1,1,0.95
+2026,Paneer,skimmed milk,1,1,0.7
+2026,Paneer,tofu,1,1,0.9
+2026,Paneer,adulterated substance,1,1,0.75
+2026,Paneer,flies,1,1,0.85
+2026,Paneer,adulterated paneer,1,1,0.75
+2026,Paneer,unhygienic and inferior quality,1,1,0.85
+2026,Paneer,prohibited synthetic ingredients,1,1,0.85
+2026,Paneer,analogue cheese products,1,1,0.95
+2026,Paneer,inexpensive ingredients,1,1,0.75
+2026,Paneer,low quality milk substitutes,1,1,0.8
+2026,Paneer,adulterated raw materials,1,1,0.85
+2026,Paneer,low quality milk,1,1,0.85
+2026,Paneer,synthetic agents,1,1,0.8
+2026,Paneer,non dairy substitutes,1,1,0.85
+2026,Paneer,contaminated substance,1,1,0.75
+2026,Soybean oil,mislabeling,1,1,0.85
+2026,Soybean oil,expired cooking oil,1,1,0.85
+2026,Tirupati laddu,adulterated ghee,5,5,0.9
+2026,Tirupati laddu,animal fat,6,5,0.8667
+2026,Tirupati laddu,palm oil family,8,4,0.9187
+2026,Tirupati laddu,ghee,3,3,0.85
+2026,Tirupati laddu,vegetable oil/fat,2,2,0.9
+2026,Tirupati laddu,laboratory esters,2,2,0.95
+2026,Tirupati laddu,chemicals,2,2,0.75
+2026,Tirupati laddu,adulterant,1,1,0.75
+2026,Tirupati laddu,substandard ghee,1,1,0.85
+2026,Tirupati laddu,labsa,1,1,0.85
+2026,Tirupati laddu,chemical additives,1,1,0.85
+2026,Tirupati laddu,synthetic compounds,1,1,0.85
+2026,adulterated chilli powder,artificial colours,1,1,0.9
+2026,adulterated food,contaminated ingredients,1,1,0.7
+2026,adulterated turmeric,starch,1,1,0.85
+2026,ar dairy food pvt ltd,milk fat purity and acid profiles out of specification,2,1,0.85
+2026,artificially coloured supari,artificial colour,1,1,0.85
+2026,atta,worms,1,1,0.95
+2026,bakery products,expired ingredients,1,1,0.8
+2026,besan flour,worms,1,1,0.95
+2026,biscuits,rotten eggs,1,1,0.9
+2026,biscuits,sodium benzoate,1,1,0.8
+2026,biscuits,sorbic acid,1,1,0.8
+2026,cakes,damaged eggs,1,1,0.7
+2026,cakes,spoiled eggs,1,1,0.85
+2026,cakes and buns,rotten eggs,2,2,0.9
+2026,cakes and buns,sodium benzoate,2,2,0.825
+2026,cakes and buns,sorbic acid,2,2,0.875
+2026,cakes and buns,pgpr liquid,1,1,0.9
+2026,cheeseburger,mouse droppings,1,1,0.95
+2026,chenna,starch,1,1,0.95
+2026,chicken,bacterial contamination,1,1,0.85
+2026,chips,poor quality oil,1,1,0.85
+2026,chips,artificial additives,1,1,0.8
+2026,cold drink,poison,1,1,0.95
+2026,confectionery items,synthetic dyes,2,2,0.85
+2026,cream,palm oil family,1,1,0.85
+2026,dairy fat,palm oil family,2,1,0.9
+2026,dairy fat,chemical esters,1,1,0.9
+2026,dairy products,low quality oils,1,1,0.75
+2026,dairy products,chemicals,1,1,0.75
+2026,dairy products,unspecified adulterant,1,1,0.85
+2026,dals,worms,1,1,0.95
+2026,dried kiwi slices,synthetic dyes,2,2,0.825
+2026,drinking water,raw sewage,1,1,0.95
+2026,drinking water,arsenic,1,1,0.9
+2026,drinking water,lead,1,1,0.9
+2026,drinking water,uranium,1,1,0.9
+2026,drinking water,cadmium,1,1,0.9
+2026,drinking water,manganese,1,1,0.9
+2026,drinking water,iron,1,1,0.9
+2026,drinking water,fluoride,1,1,0.9
+2026,drinking water,sewage,1,1,0.9
+2026,drinking water,bacteriological contamination,1,1,0.9
+2026,edible oils,machine oil,2,2,0.95
+2026,edible oils,inferior fats,1,1,0.85
+2026,edible oils,cheaper industrial substitutes,1,1,0.85
+2026,edible oils,liquid paraffin,1,1,0.95
+2026,edible oils,cottonseed oil,1,1,0.85
+2026,edible oils,tri ortho cresyl phosphate,1,1,0.9
+2026,eggs,antibiotic residue,2,2,0.925
+2026,eggs,nitrofurans,1,1,0.75
+2026,eggs,salmonella,1,1,0.95
+2026,eggs,e coli,1,1,0.95
+2026,eggs,housefly infestation,1,1,0.8
+2026,ethanol,methanol,1,1,0.75
+2026,european truffles,chinese truffles,1,1,0.85
+2026,expired tea powder,synthetic dyes,1,1,0.9
+2026,feed,toxins,1,1,0.85
+2026,fermented foods,toxins,1,1,0.85
+2026,fish,formalin/formaldehyde,1,1,0.95
+2026,fish,ammonia,1,1,0.95
+2026,fish,mercury,1,1,0.95
+2026,food grains,uranium,1,1,0.85
+2026,food grains,cadmium,1,1,0.85
+2026,food grains,lead,1,1,0.85
+2026,fresh vegetables,pesticide residue,2,2,0.95
+2026,fruit juices,synthetic flavours,2,2,0.95
+2026,fruit juices,artificial colours,2,2,0.95
+2026,fruits,pesticide residue,1,1,0.9
+2026,fruits and vegetables,pesticide residue,2,2,0.875
+2026,garam masala,synthetic colors,1,1,0.95
+2026,ginger garlic paste,acetic acid,3,3,0.9333
+2026,ginger garlic paste,spoiled ginger,2,2,0.925
+2026,ginger garlic paste,spoiled garlic,2,2,0.925
+2026,ginger garlic paste,synthetic food colour,2,2,0.925
+2026,ginger garlic paste,harmful preservatives,2,2,0.875
+2026,ginger garlic paste,chemicals,1,1,0.85
+2026,ginger garlic paste,adulterant,1,1,0.85
+2026,ginger garlic paste,additives,1,1,0.8
+2026,ginger garlic paste,adulterated ginger garlic paste,1,1,0.85
+2026,ginger garlic paste,concentrated citric acid,1,1,0.95
+2026,ginger garlic paste,xanthan gum,1,1,0.95
+2026,ginger garlic paste,low quality waste,1,1,0.9
+2026,ginger garlic paste,synthetic colours,1,1,0.95
+2026,ginger garlic paste,gum powder,1,1,0.9
+2026,glycol,milk,1,1,0.9
+2026,grains,aflatoxins,1,1,0.85
+2026,green peas,synthetic dyes,1,1,0.9
+2026,honey,sugar syrup,1,1,0.85
+2026,honey,sugar syrups,1,1,0.85
+2026,honey,artificial sweeteners,1,1,0.85
+2026,ice candies,chemicals,1,1,0.85
+2026,ice candies,unsafe ingredients,1,1,0.85
+2026,ice cream,adulterated materials,2,2,0.85
+2026,ice cream,expired flavouring agents,2,2,0.875
+2026,ice cream,substandard synthetic colours,2,2,0.875
+2026,ice cream,detergent,2,2,0.95
+2026,illicit liquor,methanol,2,2,0.925
+2026,kalakand,unhygienic and inferior quality,1,1,0.75
+2026,khoa,dust,1,1,0.75
+2026,laddu,adulterated ghee,2,2,0.95
+2026,laddu,palm oil family,2,1,0.8
+2026,laddu,chemical esters,1,1,0.8
+2026,laddu,animal fat,1,1,0.85
+2026,laddu,life threatening chemicals,1,1,0.75
+2026,laddu prasadam,synthetic ghee,2,2,0.9
+2026,laddu prasadam,fake ghee,2,1,0.85
+2026,laddu prasadam,adulterated ghee,1,1,0.95
+2026,laddus,palm oil family,1,1,0.85
+2026,laddus,animal fat,2,1,0.85
+2026,lard,carotenoids,1,1,0.9
+2026,lard,carrot extract,1,1,0.9
+2026,large fish species,mercury,1,1,0.9
+2026,lassi,chemicals,1,1,0.85
+2026,lassi,unsafe ingredients,1,1,0.85
+2026,maggi noodles,lead,2,1,0.9
+2026,mango,ethylene like spray,1,1,0.85
+2026,mango pulp,unauthorised food colours,1,1,0.95
+2026,mango pulp,substances not permitted under food safety regulations,1,1,0.9
+2026,mango pulp,liquid saffron coloured solution,1,1,0.95
+2026,mango pulp,unauthorised food colors,1,1,0.9
+2026,mango pulp,various adulterating substances,1,1,0.85
+2026,mango pulp,unauthorised colours,1,1,0.95
+2026,mango pulp,cow s milk,1,1,0.9
+2026,mango pulp,liquid saffron colour solution,1,1,0.85
+2026,mangoes,chemical substances,4,4,0.8375
+2026,mangoes,calcium carbide,2,2,0.9
+2026,mangoes,ethylene chemicals,1,1,0.9
+2026,mangoes,unauthorised chemical sprays,1,1,0.85
+2026,meat,chemical preservatives,1,1,0.9
+2026,motichoor laddu,artificial colours,1,1,0.9
+2026,motichoor laddu,sodium benzodiamine,1,1,0.9
+2026,municipal water supply,sewage,1,1,0.95
+2026,namkeen,sunset yellow,1,1,0.85
+2026,oil,tainted oil,1,1,0.9
+2026,onions,e coli,1,1,0.95
+2026,osmania biscuits,adulterated ingredients,3,2,0.85
+2026,osmania biscuits,harmful chemicals,1,1,0.85
+2026,osmania biscuits,unspecified adulterant,1,1,0.85
+2026,pan masala,prohibited food items,1,1,0.75
+2026,peda,unhygienic conditions,1,1,0.75
+2026,pickles,rotten spoiled vegetables,1,1,0.9
+2026,pickles,excess preservatives,1,1,0.85
+2026,pickles,rotten and spoilt vegetables,1,1,0.85
+2026,poultry,hormonal growth promoters,2,2,0.925
+2026,poultry,antibiotic residue,1,1,0.9
+2026,powdered infant formula,harmful pathogens,1,1,0.85
+2026,powdered infant formula,enterococcus faecium,1,1,0.85
+2026,powdered infant formula,enterobacteriaceae,1,1,0.8
+2026,processed food,adulterants,1,1,0.95
+2026,processed food,adulterant,1,1,0.85
+2026,protein powder,lead,1,1,0.95
+2026,protein powder,arsenic,2,1,0.925
+2026,protein powder,cadmium,1,1,0.9
+2026,protein powder,mercury,1,1,0.9
+2026,protein powder,bisphenol a,1,1,0.9
+2026,protein powder,pesticide residue,1,1,0.9
+2026,rasgullas,mosquitoes,1,1,0.9
+2026,refined oil,milk,1,1,0.9
+2026,reused oil,unfit oil,1,1,0.8
+2026,salty snacks,expired ingredients,1,1,0.8
+2026,spices,brick powder,2,2,0.95
+2026,spices,sawdust,2,2,0.95
+2026,spices,industrial dyes,1,1,0.85
+2026,spices,artificial colours,1,1,0.85
+2026,spices,artificial dyes,1,1,0.9
+2026,spurious liquor,methanol,2,2,0.9
+2026,srivari laddu,ghee,1,1,0.75
+2026,srivari laddu,palm oil family,2,1,0.95
+2026,srivari laddu prasadam,adulterated ghee,1,1,0.95
+2026,srivari laddu prasadam,ghee,1,1,0.85
+2026,sweets,synthetic colours,2,2,0.875
+2026,sweets,cheaper substitutes,1,1,0.75
+2026,sweets,synthetic khoya,1,1,0.85
+2026,tea powder,unknown adulterant,1,1,0.9
+2026,tea powder,added colour,1,1,0.9
+2026,tea powder,dust,1,1,0.9
+2026,tea powder,synthetic dyes,1,1,0.95
+2026,tirumala laddus,adulterated ghee,1,1,0.9
+2026,tirumala laddus,synthetic substance,1,1,0.9
+2026,tirumala srivari laddu,unspecified adulterant,1,1,0.85
+2026,tirumala srivari laddu,adulterated ghee,1,1,0.85
+2026,tirumala srivari laddu,palm oil family,1,1,0.85
+2026,tirumala srivari laddu,ghee,1,1,0.9
+2026,tirumala srivari laddu prasadam,adulterated ghee,1,1,0.75
+2026,tirumala srivari laddu prasadam,animal fat,1,1,0.95
+2026,tirupati laddus,animal fat,2,2,0.85
+2026,tirupati laddus,adulterated ghee,1,1,0.85
+2026,tirupati laddus,bathroom chemicals,1,1,0.85
+2026,tirupati laddus,chemicals,1,1,0.85
+2026,toddy,intoxicants,2,2,0.8
+2026,truffle,truffle oil,1,1,0.85
+2026,truffle oil,synthetic truffle aroma,2,1,0.85
+2026,turmeric,metanil yellow,1,1,0.95
+2026,turmeric,chemicals,1,1,0.85
+2026,unsafe pickle,chemicals,1,1,0.85
+2026,vegetables,oxytocin,5,3,0.94
+2026,vegetables,pesticide residue,2,2,0.925
+2026,vegetables,lead,1,1,0.9
+2026,watermelon,salmonella,1,1,0.85
+2026,watermelon,e coli,1,1,0.85
+2026,wheat flour,expired wheat flour,1,1,0.85

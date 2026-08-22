@@ -1,0 +1,17 @@
+﻿predicate,object,distinct_sources,relation
+detectedby,iodine solution test,5,detectedby -> iodine solution test
+isperformedat,Central Food Technological Research Institute,5,isperformedat -> Central Food Technological Research Institute
+detectedby,Iodine test,6,detectedby -> Iodine test
+isperformedat,NDDB CALF Lab,6,isperformedat -> NDDB CALF Lab
+isperformedat,State Food Testing Laboratory in Bhopal,6,isperformedat -> State Food Testing Laboratory in Bhopal
+isperformedon,blood samples,6,isperformedon -> blood samples
+isperformedon,ghee sample,6,isperformedon -> ghee sample
+isperformedon,paneer sample,6,isperformedon -> paneer sample
+isperformedon,milk sample,7,isperformedon -> milk sample
+producesindicator,burnt smell,8,producesindicator -> burnt smell
+producesindicator,color changes to light red,8,producesindicator -> color changes to light red
+isperformedon,milk samples,9,isperformedon -> milk samples
+isperformedon,samples,9,isperformedon -> samples
+identifies,animal fat,10,identifies -> animal fat
+detectedby,LaboratoryTest,12,detectedby -> LaboratoryTest
+detectedby,iodine test,13,detectedby -> iodine test

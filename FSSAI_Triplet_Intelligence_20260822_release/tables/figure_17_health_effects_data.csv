@@ -1,0 +1,19 @@
+﻿effect,distinct_articles
+obesity,9
+multi-organ failure,12
+liver damage,13
+kidney damage,13
+nausea,14
+acuteeffect,16
+fflo chroniceffect,19
+allergic reaction,20
+anuria,21
+cardiovascular disease,22
+diarrhoea,26
+vomiting,27
+gastrointestinal illness,30
+food poisoning,35
+death,38
+renal failure,46
+fflo acuteeffect,60
+cancer/carcinogenicity,70

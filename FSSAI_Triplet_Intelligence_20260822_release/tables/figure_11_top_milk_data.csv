@@ -1,0 +1,16 @@
+﻿food,candidate,food_candidate,distinct_articles,mean_confidence
+Ghee,vegetable oil/fat,Ghee -> vegetable oil/fat,4,0.85
+Paneer,detergent,Paneer -> detergent,5,0.9083333333333333
+Ghee,lard/pig fat,Ghee -> lard/pig fat,5,0.85
+Ghee,beef tallow,Ghee -> beef tallow,5,0.83
+Milk,edible oil,Milk -> edible oil,5,0.89375
+Milk,salt,Milk -> salt,6,0.9285714285714285
+Ghee,animal fat,Ghee -> animal fat,6,0.875
+Milk,hydrogen peroxide,Milk -> hydrogen peroxide,7,0.95
+Ghee,palm oil family,Ghee -> palm oil family,8,0.9035714285714286
+Paneer,starch,Paneer -> starch,12,0.9
+Milk,water,Milk -> water,17,0.9142857142857143
+Milk,starch,Milk -> starch,20,0.9333333333333333
+Milk,detergent,Milk -> detergent,26,0.9259259259259259
+Milk,urea,Milk -> urea,28,0.9378787878787879
+Milk,ethylene glycol,Milk -> ethylene glycol,32,0.9306818181818182

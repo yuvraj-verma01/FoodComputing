@@ -1,0 +1,15 @@
+﻿predicate,FSSAI baseline,News
+appliesto,589,54
+hassubcategory,692,5
+belongstocategory,260,528
+issuedby,16,849
+hasobligation,1020,0
+wasassociatedwith,16,1059
+causeseffect,5,1093
+forproperty,1220,10
+hasdefinition,1106,142
+infood,1361,15
+hasvalue,1455,31
+hasfunction,1829,58
+hasingredient,1635,1080
+hasadulterant,72,2806

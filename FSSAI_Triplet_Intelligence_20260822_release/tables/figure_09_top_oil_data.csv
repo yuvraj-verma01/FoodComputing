@@ -1,0 +1,16 @@
+﻿food,candidate,food_candidate,distinct_articles,mean_confidence
+Milk,detergent,Milk -> detergent,3,0.875
+Khoya/mawa,milk powder,Khoya/mawa -> milk powder,3,0.8833333333333333
+Milk,palm oil family,Milk -> palm oil family,3,0.9
+Edible/cooking oil,used cooking oil,Edible/cooking oil -> used cooking oil,3,0.8833333333333333
+Edible/cooking oil,total polar compounds,Edible/cooking oil -> total polar compounds,3,0.875
+Paneer,detergent,Paneer -> detergent,3,0.9
+Khoya/mawa,starch,Khoya/mawa -> starch,4,0.9
+Milk,water,Milk -> water,4,0.9299999999999999
+Mustard oil,argemone oil,Mustard oil -> argemone oil,4,0.94
+Paneer,refined oil,Paneer -> refined oil,4,0.9249999999999999
+Coconut oil,palm oil family,Coconut oil -> palm oil family,4,0.8666666666666667
+Milk,refined oil,Milk -> refined oil,5,0.875
+Milk,urea,Milk -> urea,6,0.8785714285714286
+Sunflower oil,palm oil family,Sunflower oil -> palm oil family,6,0.8714285714285714
+Paneer,palm oil family,Paneer -> palm oil family,9,0.91

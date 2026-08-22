@@ -1,0 +1,19 @@
+﻿food,candidate,food_candidate,distinct_articles,mean_confidence
+Paneer,palm oil family,Paneer -> palm oil family,14,0.9
+Tirupati laddu,animal fat,Tirupati laddu -> animal fat,15,0.8394736842105263
+Ghee,beta carotene,Ghee -> beta carotene,15,0.89375
+Khoya/mawa,starch,Khoya/mawa -> starch,15,0.9029411764705882
+Ghee,fish oil,Ghee -> fish oil,19,0.8875
+Ghee,acetic acid ester,Ghee -> acetic acid ester,19,0.9045454545454545
+Paneer,starch,Paneer -> starch,20,0.905
+Ghee,beef tallow,Ghee -> beef tallow,24,0.861111111111111
+Milk,water,Milk -> water,26,0.9176470588235294
+Ghee,lard/pig fat,Ghee -> lard/pig fat,27,0.8838709677419355
+Milk,starch,Milk -> starch,28,0.9316666666666666
+Ghee,vanaspati,Ghee -> vanaspati,32,0.9060975609756098
+Milk,ethylene glycol,Milk -> ethylene glycol,34,0.9315217391304348
+Milk,detergent,Milk -> detergent,35,0.923076923076923
+Milk,urea,Milk -> urea,42,0.9285714285714285
+Ghee,vegetable oil/fat,Ghee -> vegetable oil/fat,73,0.9041935483870968
+Ghee,palm oil family,Ghee -> palm oil family,100,0.9116847826086957
+Ghee,animal fat,Ghee -> animal fat,102,0.8823741007194245

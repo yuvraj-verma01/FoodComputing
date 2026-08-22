@@ -1,0 +1,16 @@
+﻿effect,Ghee,Milk,Oil
+acuteeffect,2,12,2
+allergic reaction,9,6,5
+anuria,1,20,0
+cancer/carcinogenicity,19,34,17
+cardiovascular disease,10,3,9
+death,1,35,2
+diarrhoea,3,20,3
+fflo acuteeffect,6,45,9
+fflo chroniceffect,7,5,7
+food poisoning,1,27,7
+gastrointestinal illness,8,19,3
+kidney damage,3,9,1
+nausea,2,11,1
+renal failure,2,43,1
+vomiting,3,20,4

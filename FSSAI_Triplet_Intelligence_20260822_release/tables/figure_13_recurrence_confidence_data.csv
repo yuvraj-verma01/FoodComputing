@@ -1,0 +1,300 @@
+﻿food,candidate,food_candidate,distinct_articles,mean_confidence
+Ghee,animal fat,Ghee -> animal fat,102,0.8823741007194245
+ginger garlic paste,spoiled ginger,ginger garlic paste -> spoiled ginger,3,0.8833333333333333
+ginger garlic paste,spoiled garlic,ginger garlic paste -> spoiled garlic,3,0.8833333333333333
+Ghee,vanaspati,Ghee -> vanaspati,32,0.9060975609756098
+Ghee,starch,Ghee -> starch,11,0.8708333333333333
+Ghee,cheap refined oil,Ghee -> cheap refined oil,2,0.925
+Ghee,palm oil family,Ghee -> palm oil family,100,0.9116847826086957
+Ghee,beta carotene,Ghee -> beta carotene,15,0.89375
+Ghee,acetic acid ester,Ghee -> acetic acid ester,19,0.9045454545454545
+Ghee,ghee flavour,Ghee -> ghee flavour,4,0.9
+Tirupati laddu,ghee,Tirupati laddu -> ghee,5,0.8099999999999999
+dried kiwi slices,synthetic dyes,dried kiwi slices -> synthetic dyes,2,0.825
+confectionery items,synthetic dyes,confectionery items -> synthetic dyes,2,0.85
+Milk,starch,Milk -> starch,28,0.9316666666666666
+Ghee,foreign fat,Ghee -> foreign fat,3,0.8333333333333334
+Milk,foreign fat,Milk -> foreign fat,2,0.9
+Ghee,trans fatty acids,Ghee -> trans fatty acids,2,0.9
+Ghee,beef tallow,Ghee -> beef tallow,24,0.861111111111111
+Ghee,lard/pig fat,Ghee -> lard/pig fat,27,0.8838709677419355
+Ghee,palm kernel fat,Ghee -> palm kernel fat,2,0.875
+Ghee,fish oil,Ghee -> fish oil,19,0.8875
+Paneer,unidentified liquid substances,Paneer -> unidentified liquid substances,2,0.85
+Paneer,starch,Paneer -> starch,20,0.905
+Paneer,detergent,Paneer -> detergent,9,0.905
+Paneer,urea,Paneer -> urea,6,0.9142857142857143
+Milk,vegetable oil/fat,Milk -> vegetable oil/fat,10,0.8923076923076922
+Milk,palm oil family,Milk -> palm oil family,12,0.88125
+Tirupati laddu,vegetable oil/fat,Tirupati laddu -> vegetable oil/fat,2,0.8999999999999999
+Tirupati laddu,laboratory esters,Tirupati laddu -> laboratory esters,2,0.95
+Ghee,acetic acid esters,Ghee -> acetic acid esters,3,0.9249999999999999
+Ghee,vegetable oil/fat,Ghee -> vegetable oil/fat,73,0.9041935483870968
+Ghee,hydrogenated fats,Ghee -> hydrogenated fats,5,0.91
+Ghee,animal body fats,Ghee -> animal body fats,2,0.95
+Ghee,starchy substances,Ghee -> starchy substances,2,0.95
+Ghee,tallow,Ghee -> tallow,3,0.9
+Ghee,β sitosterol,Ghee -> β sitosterol,5,0.9
+Tirupati laddu,animal fat,Tirupati laddu -> animal fat,15,0.8394736842105263
+Ghee,acetic acid,Ghee -> acetic acid,5,0.89
+Ghee,mono glycerides,Ghee -> mono glycerides,3,0.8833333333333333
+Ghee,artificial ghee essence,Ghee -> artificial ghee essence,2,0.925
+Ghee,adulterant in ghee,Ghee -> adulterant in ghee,3,0.8666666666666667
+Ghee,soybean,Ghee -> soybean,3,0.88
+Ghee,sunflower oil,Ghee -> sunflower oil,4,0.875
+Ghee,refined oil,Ghee -> refined oil,9,0.9199999999999999
+Ghee,refined soybean oil,Ghee -> refined soybean oil,3,0.9333333333333333
+Ghee,fake ghee,Ghee -> fake ghee,9,0.8818181818181818
+Milk,urea,Milk -> urea,42,0.9285714285714285
+Ghee,non dairy constituents,Ghee -> non dairy constituents,3,0.9
+Ghee,unknown adulterant in ghee,Ghee -> unknown adulterant in ghee,3,0.8166666666666667
+Ghee,artificial ghee flavour,Ghee -> artificial ghee flavour,2,0.9
+Ghee,adulterated substance,Ghee -> adulterated substance,5,0.8099999999999999
+tirupati laddus,animal fat,tirupati laddus -> animal fat,8,0.85
+illicit liquor,methanol,illicit liquor -> methanol,2,0.925
+Khoya/mawa,fungus,Khoya/mawa -> fungus,3,0.8833333333333333
+Milk,saccharine,Milk -> saccharine,2,0.9
+Milk,detergent,Milk -> detergent,35,0.923076923076923
+Paneer,vegetable oil/fat,Paneer -> vegetable oil/fat,9,0.8928571428571428
+Paneer,vegetable proteins,Paneer -> vegetable proteins,2,0.85
+Paneer,analogue paneer,Paneer -> analogue paneer,4,0.925
+Tirupati laddu,palm oil family,Tirupati laddu -> palm oil family,5,0.9222222222222222
+sweets,synthetic colours,sweets -> synthetic colours,4,0.9
+Ghee,monoglycerides,Ghee -> monoglycerides,7,0.9
+Ghee,esters,Ghee -> esters,2,0.875
+Ghee,chemical additives,Ghee -> chemical additives,2,0.9
+Ghee,synthetic essence,Ghee -> synthetic essence,4,0.9283333333333333
+Ghee,coconut oil,Ghee -> coconut oil,10,0.8923076923076922
+Ghee,dalda,Ghee -> dalda,7,0.8923076923076922
+Ghee,groundnut oil,Ghee -> groundnut oil,2,0.9
+Ghee,spurious substance,Ghee -> spurious substance,2,0.75
+Ghee,additives,Ghee -> additives,2,0.85
+Ghee,other oils,Ghee -> other oils,2,0.9
+Milk,ethylene glycol,Milk -> ethylene glycol,34,0.9315217391304348
+Paneer,industrial grade acetic acid,Paneer -> industrial grade acetic acid,2,0.85
+ice cream,adulterated materials,ice cream -> adulterated materials,2,0.85
+Ghee,synthetic colors,Ghee -> synthetic colors,2,0.9
+Ghee,soapstone,Ghee -> soapstone,3,0.9
+Milk,water,Milk -> water,26,0.9176470588235294
+Milk,formalin/formaldehyde,Milk -> formalin/formaldehyde,6,0.9416666666666667
+Milk,caustic soda,Milk -> caustic soda,8,0.9312499999999999
+Milk,glucose,Milk -> glucose,6,0.90625
+Milk,soybean oil,Milk -> soybean oil,2,0.95
+Milk,whey powder,Milk -> whey powder,3,0.8833333333333333
+Khoya/mawa,starch,Khoya/mawa -> starch,15,0.9029411764705882
+Milk,maltodextrin,Milk -> maltodextrin,5,0.9099999999999999
+Ghee,low quality edible oil,Ghee -> low quality edible oil,3,0.9166666666666666
+honey,mannose,honey -> mannose,2,0.95
+honey,maltose,honey -> maltose,2,0.95
+honey,maltotriose,honey -> maltotriose,2,0.95
+honey,high fructose corn syrup,honey -> high fructose corn syrup,3,0.8666666666666667
+honey,rice syrup,honey -> rice syrup,3,0.9
+honey,corn syrup,honey -> corn syrup,2,0.9
+honey,sugarcane syrup,honey -> sugarcane syrup,2,0.9
+honey,beetroot syrup,honey -> beetroot syrup,2,0.9
+Ghee,cheap oils,Ghee -> cheap oils,2,0.85
+Curd/yoghurt,milk powder,Curd/yoghurt -> milk powder,2,0.95
+khowa,starch,khowa -> starch,2,0.95
+Milk,cheap oils,Milk -> cheap oils,2,0.9
+Milk,vanaspati,Milk -> vanaspati,2,0.9
+Ghee,artificial fragrances,Ghee -> artificial fragrances,3,0.95
+Ghee,non edible oils,Ghee -> non edible oils,2,0.95
+Mustard oil,artificial colours,Mustard oil -> artificial colours,2,0.95
+turmeric,lead chromate,turmeric -> lead chromate,5,0.95
+turmeric,rice flour,turmeric -> rice flour,2,0.95
+red chilli powder,coloured stems,red chilli powder -> coloured stems,2,0.9
+red chilli powder,dust,red chilli powder -> dust,2,0.85
+Ghee,cottonseed oil,Ghee -> cottonseed oil,3,0.8666666666666667
+Ghee,other oil,Ghee -> other oil,2,0.725
+laddu,palm oil family,laddu -> palm oil family,2,0.85
+Ghee,animal body fat,Ghee -> animal body fat,2,0.925
+Ghee,unidentified oil,Ghee -> unidentified oil,2,0.85
+Ghee,spurious ghee,Ghee -> spurious ghee,5,0.8666666666666667
+Ghee,artificial flavouring agents,Ghee -> artificial flavouring agents,2,0.875
+Khoya/mawa,milk powder,Khoya/mawa -> milk powder,7,0.8928571428571428
+Ghee,unspecified adulterant in ghee,Ghee -> unspecified adulterant in ghee,4,0.9
+Ghee,fats rendered from dead animals,Ghee -> fats rendered from dead animals,2,0.9
+Ghee,kokum butter,Ghee -> kokum butter,2,0.9166666666666666
+laddu,animal fat,laddu -> animal fat,2,0.8
+Ghee,urea,Ghee -> urea,3,0.9
+laddu prasadam,animal fat,laddu prasadam -> animal fat,2,0.85
+Ghee,artificial colour,Ghee -> artificial colour,3,0.9
+Ghee,unsafe substances,Ghee -> unsafe substances,2,0.8
+Ghee,essence,Ghee -> essence,5,0.875
+Tirupati laddu,substandard ingredients,Tirupati laddu -> substandard ingredients,3,0.7333333333333333
+Ghee,houseflies,Ghee -> houseflies,3,0.9166666666666666
+Curd/yoghurt,fungal infestation,Curd/yoghurt -> fungal infestation,2,0.875
+Ghee,monodiglycerides,Ghee -> monodiglycerides,6,0.8916666666666667
+Ghee,synthetic ghee,Ghee -> synthetic ghee,7,0.9199999999999999
+Ghee,soybean oil,Ghee -> soybean oil,8,0.8944444444444445
+Ghee,potato,Ghee -> potato,3,0.9
+Ghee,cheaper oils,Ghee -> cheaper oils,2,0.85
+Ghee,mashed potatoes,Ghee -> mashed potatoes,2,0.875
+Butter,starch,Butter -> starch,2,0.875
+chilli powder,artificial colour,chilli powder -> artificial colour,2,0.875
+Milk,maize flour,Milk -> maize flour,2,0.95
+Milk,starchy substances,Milk -> starchy substances,2,0.9
+Ghee,sweet potato,Ghee -> sweet potato,3,0.8875
+Paneer,cheese analogue,Paneer -> cheese analogue,9,0.9299999999999999
+Paneer,water,Paneer -> water,6,0.8833333333333333
+Paneer,synthetic milk,Paneer -> synthetic milk,3,0.9
+Paneer,non food grade substances,Paneer -> non food grade substances,2,0.85
+Milk,edible oil,Milk -> edible oil,12,0.8916666666666666
+ginger garlic paste,acetic acid,ginger garlic paste -> acetic acid,3,0.9333333333333333
+ginger garlic paste,synthetic food colour,ginger garlic paste -> synthetic food colour,2,0.925
+osmania biscuits,adulterated ingredients,osmania biscuits -> adulterated ingredients,2,0.85
+ice cream,expired flavouring agents,ice cream -> expired flavouring agents,2,0.875
+ice cream,substandard synthetic colours,ice cream -> substandard synthetic colours,2,0.875
+cakes and buns,rotten eggs,cakes and buns -> rotten eggs,2,0.9
+cakes and buns,sodium benzoate,cakes and buns -> sodium benzoate,2,0.825
+cakes and buns,sorbic acid,cakes and buns -> sorbic acid,2,0.875
+Ghee,fatty acid mono and diglycerides,Ghee -> fatty acid mono and diglycerides,3,0.8875
+Ghee,paraffin wax,Ghee -> paraffin wax,2,0.875
+Mustard oil,palm oil family,Mustard oil -> palm oil family,4,0.9
+Paneer,palm oil family,Paneer -> palm oil family,14,0.9
+Ghee,ghee essence,Ghee -> ghee essence,5,0.8916666666666666
+Milk,milk powder,Milk -> milk powder,3,0.825
+Tirupati laddu,beef tallow,Tirupati laddu -> beef tallow,3,0.95
+Tirupati laddu,fish oil,Tirupati laddu -> fish oil,2,0.925
+mithai,starch,mithai -> starch,2,0.9
+mithai,artificial dyes,mithai -> artificial dyes,2,0.9
+mithai,metallic powders,mithai -> metallic powders,2,0.9
+Khoya/mawa,detergent,Khoya/mawa -> detergent,4,0.89
+silver vark,aluminium foil,silver vark -> aluminium foil,2,0.95
+dry fruits,mineral oil,dry fruits -> mineral oil,2,0.875
+Paneer,dust,Paneer -> dust,3,0.825
+Milk,unknown contaminant,Milk -> unknown contaminant,4,0.825
+Milk,pesticide residue,Milk -> pesticide residue,4,0.8875
+Milk,hydrogen peroxide,Milk -> hydrogen peroxide,9,0.945
+Ghee,beta sitosterol,Ghee -> beta sitosterol,6,0.8777777777777778
+Sunflower oil,palm oil family,Sunflower oil -> palm oil family,10,0.9
+Ghee,synthetic oils,Ghee -> synthetic oils,2,0.875
+Ghee,preservatives,Ghee -> preservatives,3,0.7833333333333333
+Ghee,water,Ghee -> water,3,0.7666666666666666
+Ghee,vegetable cooking oil,Ghee -> vegetable cooking oil,2,0.875
+Ghee,lactic acid,Ghee -> lactic acid,4,0.9
+Khoya/mawa,refined oil,Khoya/mawa -> refined oil,3,0.8333333333333334
+Ghee,foreign fats,Ghee -> foreign fats,6,0.9214285714285714
+Paneer,suspected adulterant,Paneer -> suspected adulterant,3,0.7833333333333333
+fish,mercury,fish -> mercury,3,0.9
+Milk,animal fat,Milk -> animal fat,2,0.825
+vanaspati,beef tallow,vanaspati -> beef tallow,2,0.9333333333333333
+Paneer,milk powder,Paneer -> milk powder,3,0.8666666666666667
+sweets,substandard ingredients,sweets -> substandard ingredients,3,0.7833333333333333
+almonds,fungus,almonds -> fungus,2,0.9
+Khoya/mawa,flour,Khoya/mawa -> flour,2,0.875
+Milk,refined oil,Milk -> refined oil,9,0.89
+srivari laddu prasadam,ghee,srivari laddu prasadam -> ghee,2,0.8999999999999999
+Ghee,artificial essence,Ghee -> artificial essence,4,0.895
+Khoya/mawa,skimmed milk powder,Khoya/mawa -> skimmed milk powder,2,0.875
+Ghee,mosquitoes,Ghee -> mosquitoes,3,0.9166666666666666
+Curd/yoghurt,fungus,Curd/yoghurt -> fungus,3,0.8833333333333333
+Ghee,vegetable ghee,Ghee -> vegetable ghee,2,0.95
+Ghee,colour,Ghee -> colour,3,0.8625
+laddus,animal fat,laddus -> animal fat,3,0.825
+Cheese,vegetable oil/fat,Cheese -> vegetable oil/fat,5,0.8944444444444445
+Ghee,lactic acid ester,Ghee -> lactic acid ester,3,0.9
+Mustard oil,argemone oil,Mustard oil -> argemone oil,8,0.9333333333333333
+Ghee,hydrogenated oils,Ghee -> hydrogenated oils,2,0.875
+Ghee,synthetic essences,Ghee -> synthetic essences,2,0.95
+Ghee,synthetic essence of ghee,Ghee -> synthetic essence of ghee,2,0.925
+Paneer,unknown adulterant in paneer,Paneer -> unknown adulterant in paneer,2,0.85
+Ghee,animal carcass residues,Ghee -> animal carcass residues,3,0.9166666666666666
+laddu prasadam,synthetic ghee,laddu prasadam -> synthetic ghee,2,0.9
+toddy,intoxicants,toddy -> intoxicants,2,0.8
+honey,sugar,honey -> sugar,3,0.9
+mangoes,chemical substances,mangoes -> chemical substances,4,0.8375
+Ghee,mono and diglycerides,Ghee -> mono and diglycerides,2,0.9
+vegetables,oxytocin,vegetables -> oxytocin,3,0.94
+vegetables,pesticide residue,vegetables -> pesticide residue,6,0.9111111111111111
+Soybean oil,palm oil family,Soybean oil -> palm oil family,4,0.94
+Mustard oil,rice bran oil,Mustard oil -> rice bran oil,6,0.9136363636363636
+Paneer,adulterated paneer,Paneer -> adulterated paneer,2,0.75
+Ghee,rapeseed oil,Ghee -> rapeseed oil,2,0.85
+Paneer,cheese analog,Paneer -> cheese analog,4,0.9
+Cheese,cheese analog,Cheese -> cheese analog,2,0.85
+Khoya/mawa,palm oil family,Khoya/mawa -> palm oil family,4,0.9249999999999999
+jalebi,synthetic food colours,jalebi -> synthetic food colours,2,0.95
+laddus,synthetic food colours,laddus -> synthetic food colours,2,0.95
+koya,synthetic food colours,koya -> synthetic food colours,2,0.95
+sweets,non food grade silver foils,sweets -> non food grade silver foils,2,0.9
+Paneer,oil,Paneer -> oil,2,0.85
+Milk,bacteria,Milk -> bacteria,2,0.875
+spurious liquor,methanol,spurious liquor -> methanol,2,0.9
+Milk,sorbitol,Milk -> sorbitol,3,0.95
+Paneer,caustic soda,Paneer -> caustic soda,2,0.95
+ice cream,detergent,ice cream -> detergent,4,0.95
+fruit juices,synthetic flavours,fruit juices -> synthetic flavours,2,0.95
+fruit juices,artificial colours,fruit juices -> artificial colours,2,0.95
+edible oils,machine oil,edible oils -> machine oil,2,0.95
+spices,brick powder,spices -> brick powder,2,0.95
+spices,sawdust,spices -> sawdust,2,0.95
+Milk,sodium bicarbonate,Milk -> sodium bicarbonate,2,0.925
+protein powder,pesticide residue,protein powder -> pesticide residue,2,0.9
+protein powder,lead,protein powder -> lead,2,0.8999999999999999
+protein powder,arsenic,protein powder -> arsenic,2,0.9166666666666666
+Paneer,refined oil,Paneer -> refined oil,5,0.9299999999999999
+Paneer,carbonate neutraliser,Paneer -> carbonate neutraliser,4,0.95
+Milk,carbonate neutraliser,Milk -> carbonate neutraliser,4,0.9
+Paneer,washing soda,Paneer -> washing soda,2,0.9
+Paneer,non milk fats,Paneer -> non milk fats,3,0.8833333333333333
+Milk,salmonella,Milk -> salmonella,2,0.825
+Khoya/mawa,vegetable oil/fat,Khoya/mawa -> vegetable oil/fat,2,0.8999999999999999
+fish,formalin/formaldehyde,fish -> formalin/formaldehyde,5,0.9299999999999999
+fish,ammonia,fish -> ammonia,2,0.925
+mangoes,calcium carbide,mangoes -> calcium carbide,4,0.9
+Cheese,skimmed milk powder,Cheese -> skimmed milk powder,2,0.775
+fresh vegetables,pesticide residue,fresh vegetables -> pesticide residue,2,0.95
+Milk,salt,Milk -> salt,6,0.9285714285714285
+Milk,sugar,Milk -> sugar,2,0.95
+Milk,e coli,Milk -> e coli,2,0.85
+fruits and vegetables,pesticide residue,fruits and vegetables -> pesticide residue,2,0.875
+Milk,soap,Milk -> soap,3,0.95
+Milk,sodium hydrogen carbonate,Milk -> sodium hydrogen carbonate,4,0.95
+Cheese,cheese analogues,Cheese -> cheese analogues,2,0.9333333333333333
+Milk,contaminant,Milk -> contaminant,3,0.8166666666666667
+cough syrup,ethylene glycol,cough syrup -> ethylene glycol,2,0.8500000000000001
+cough syrup,diethylene glycol,cough syrup -> diethylene glycol,2,0.8500000000000001
+Milk,hazardous waste,Milk -> hazardous waste,2,0.85
+Milk,oxytocin,Milk -> oxytocin,2,0.8999999999999999
+fruits,pesticide residue,fruits -> pesticide residue,6,0.9
+eggs,antibiotic residue,eggs -> antibiotic residue,2,0.925
+poultry,hormonal growth promoters,poultry -> hormonal growth promoters,2,0.925
+turmeric,metanil yellow,turmeric -> metanil yellow,3,0.95
+spices,artificial colours,spices -> artificial colours,2,0.875
+eggs,salmonella,eggs -> salmonella,2,0.8999999999999999
+Palm oil,animal fat,Palm oil -> animal fat,2,0.875
+Paneer,skimmed milk powder,Paneer -> skimmed milk powder,4,0.88
+water,arsenic,water -> arsenic,2,0.925
+everest fish curry masala,ethylene oxide,everest fish curry masala -> ethylene oxide,3,0.95
+spice mixes,ethylene oxide,spice mixes -> ethylene oxide,2,0.91
+madras curry powder,ethylene oxide,madras curry powder -> ethylene oxide,2,0.95
+sambhar masala,ethylene oxide,sambhar masala -> ethylene oxide,2,0.95
+curry powder masala,ethylene oxide,curry powder masala -> ethylene oxide,2,0.95
+everest spice mix,ethylene oxide,everest spice mix -> ethylene oxide,2,0.95
+guar gum,ethylene oxide,guar gum -> ethylene oxide,2,0.9
+curry powder,ethylene oxide,curry powder -> ethylene oxide,2,0.9
+mdh sambhar masala,salmonella,mdh sambhar masala -> salmonella,2,0.95
+everest garam masala,salmonella,everest garam masala -> salmonella,2,0.9
+sambhar masala,salmonella,sambhar masala -> salmonella,2,0.9
+maggi masala ae magic,salmonella,maggi masala ae magic -> salmonella,2,0.9
+Milk,glycol,Milk -> glycol,2,0.95
+Milk,neutralisers,Milk -> neutralisers,2,0.875
+Mustard oil,soybean oil,Mustard oil -> soybean oil,2,0.875
+chilli powder,brick powder,chilli powder -> brick powder,2,0.9333333333333333
+tea,pesticide residue,tea -> pesticide residue,3,0.9
+edible oils,pesticide residue,edible oils -> pesticide residue,2,0.9
+edible oils,heavy metals,edible oils -> heavy metals,2,0.9
+Groundnut oil,palm oil family,Groundnut oil -> palm oil family,2,0.9333333333333333
+Edible/cooking oil,dust,Edible/cooking oil -> dust,2,0.925
+Edible/cooking oil,sand,Edible/cooking oil -> sand,2,0.925
+Edible/cooking oil,used cooking oil,Edible/cooking oil -> used cooking oil,3,0.8833333333333333
+Edible/cooking oil,total polar compounds,Edible/cooking oil -> total polar compounds,3,0.875
+Paneer,acetic acid,Paneer -> acetic acid,2,0.925
+Coconut oil,palm oil family,Coconut oil -> palm oil family,4,0.8666666666666667
+olive oil,palm oil family,olive oil -> palm oil family,2,0.85
+Paneer,glycerol monostearate,Paneer -> glycerol monostearate,2,0.95
+olive oil,chlorophyll,olive oil -> chlorophyll,2,0.95
+olive oil,denatured rapeseed oil,olive oil -> denatured rapeseed oil,2,0.95
+Paneer,edible oil,Paneer -> edible oil,2,0.8999999999999999
+ginger garlic paste,harmful preservatives,ginger garlic paste -> harmful preservatives,2,0.875

@@ -1,0 +1,13 @@
+﻿food,adulterant_or_substitute,effect,same_article_direct_chain_articles
+Milk,ethylene glycol,renal failure,23
+Milk,ethylene glycol,multi-organ failure,10
+Milk,ethylene glycol,anuria,10
+Milk,unknown adulterant,renal failure,9
+Milk,unknown adulterant,anuria,7
+Milk,ethylene glycol,vomiting,6
+Milk,ethylene glycol,death,5
+Milk,ethylene glycol,urinary obstruction,4
+Milk,ethylene glycol,gastrointestinal illness,3
+Milk,unknown adulterant,gastrointestinal illness,3
+Milk,poison,death,3
+fruits,pesticide residue,cancer/carcinogenicity,3

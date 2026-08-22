@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "baseline compatible CSV schema",
+      "passed": true,
+      "detail": "expected ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']; found ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "baseline compatible CSV row count",
+      "passed": true,
+      "detail": "expected 13355; found 13355"
+    },
+    {
+      "check": "baseline compatible CSV excludes historical status",
+      "passed": true,
+      "detail": "header=['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "news compatible CSV schema",
+      "passed": true,
+      "detail": "expected ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']; found ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "news compatible CSV row count",
+      "passed": true,
+      "detail": "expected 14954; found 14954"
+    },
+    {
+      "check": "news compatible CSV excludes historical status",
+      "passed": true,
+      "detail": "header=['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "combined compatible CSV schema",
+      "passed": true,
+      "detail": "expected ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']; found ['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "combined compatible CSV row count",
+      "passed": true,
+      "detail": "expected 28309; found 28309"
+    },
+    {
+      "check": "combined compatible CSV excludes historical status",
+      "passed": true,
+      "detail": "header=['snippet_id', 'source_id', 'source_file', 'source_type', 'chunk_index', 'subject', 'subject_type', 'subject_id', 'predicate', 'object', 'object_type', 'object_id', 'confidence', 'evidence_span']"
+    },
+    {
+      "check": "FSSAI baseline export is byte-identical",
+      "passed": true,
+      "detail": "source=7294752d149314e888975f0e8a8d4a47fdcf2a768fc823a306735f54e9c79a93 export=7294752d149314e888975f0e8a8d4a47fdcf2a768fc823a306735f54e9c79a93"
+    },
+    {
+      "check": "normalized provenance row count",
+      "passed": true,
+      "detail": "expected 28309"
+    },
+    {
+      "check": "stable normalized triplet IDs are unique",
+      "passed": true,
+      "detail": "rows=28309 unique=28309"
+    },
+    {
+      "check": "all news model confidences are finite",
+      "passed": true,
+      "detail": "finite=14954 rows=14954"
+    },
+    {
+      "check": "all news source links are populated",
+      "passed": true,
+      "detail": "news source_file must retain an article link or source locator"
+    },
+    {
+      "check": "figure inventory",
+      "passed": true,
+      "detail": "expected 29; found 29"
+    },
+    {
+      "check": "all figure and figure-data files exist",
+      "passed": true,
+      "detail": "all files present"
+    },
+    {
+      "check": "Milk-ethylene glycol-renal failure direct chain",
+      "passed": true,
+      "detail": "found={'food': 'Milk', 'adulterant_or_substitute': 'ethylene glycol', 'effect': 'renal failure', 'chain_class': 'directly joined in the same article', 'food_adulterant_news_articles': 34, 'adulterant_effect_news_articles': 24, 'same_article_direct_chain_articles': 23, 'same_snippet_direct_chain_articles': 20, 'same_article_context_articles': 1, 'fssai_food_adulterant_rows': 0, 'fssai_adulterant_effect_rows': 0, 'mean_food_adulterant_confidence': 0.9315, 'mean_adulterant_effect_confidence': 0.9177, 'conservative_chain_confidence': 0.9177, 'chain_support_score': 4.2711, 'example_article_id': '276e27ef-82bd-4911-a4df-9d2448b232fb', 'example_article_url': 'https://timesofindia.indiatimes.com/city/delhi/whats-cooking-in-pantry-bite-into-adulterated-truth/articleshow/130488415.cms', 'example_food_adulterant_evidence': 'milk contaminated with ethylene glycol', 'example_adulterant_effect_evidence': 'acute renal failure after consuming milk contaminated with ethylene glycol', 'interpretation': 'reported or repository-inferred association; not epidemiological proof of causation'}"
+    },
+    {
+      "check": "Milk renal-failure reverse hypothesis denominator",
+      "passed": true,
+      "detail": "found={'food': 'Milk', 'observed_effect': 'renal failure', 'candidate_adulterant': 'ethylene glycol', 'articles_with_food_effect_context': 41, 'articles_also_naming_candidate': 23, 'observed_article_share_pct': 56.1, 'laplace_smoothed_presence_pct': 55.81, 'mean_candidate_confidence': 0.9413, 'interpretation': 'hypothesis-ranking association, not a calibrated causal probability'}"
+    },
+    {
+      "check": "report uses requested FSSAI baseline terminology",
+      "passed": true,
+      "detail": "report must call the reference corpus the FSSAI baseline"
+    },
+    {
+      "check": "report states local-data-only boundary",
+      "passed": true,
+      "detail": "missing explicit source boundary"
+    },
+    {
+      "check": "workbook is readable",
+      "passed": true,
+      "detail": "path=C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\FSSAI_Triplet_Intelligence_20260822_release\\FSSAI_Triplet_Intelligence_Workbook_20260822.xlsx"
+    },
+    {
+      "check": "DOCX report exists",
+      "passed": true,
+      "detail": "path=C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\FSSAI_Triplet_Intelligence_20260822_release\\FSSAI_Triplet_Intelligence_Report_20260822.docx bytes=2570966"
+    }
+  ],
+  "errors": [],
+  "metrics": {
+    "fssai_baseline_rows": 13355,
+    "news_rows": 14954,
+    "combined_rows": 28309,
+    "news_articles_represented": 1970,
+    "direct_news_food_adulterant_rows": 3168,
+    "news_health_effect_rows": 1229,
+    "figures": 29
+  }
+}
