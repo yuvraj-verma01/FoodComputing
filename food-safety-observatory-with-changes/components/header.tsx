@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-const links = [["Overview", "/"], ["Incidents", "/incidents"], ["Timeline", "/timeline"], ["Geography", "/geography"], ["Food & Issue Taxonomy", "/taxonomy"], ["FSSAI Baseline", "/fssai-baseline"], ["Data Export", "/data"], ["Methodology", "/methodology"], ["About", "/about"]] as const;
+const links = [["Overview", "/"], ["Incidents", "/incidents"], ["Timeline", "/timeline"], ["Geography", "/geography"], ["Food & Issue Taxonomy", "/taxonomy"], ["Data Export", "/data"], ["Methodology", "/methodology"], ["About", "/about"], ["Baseline FSSAI Pipeline", "/fssai-baseline"]] as const;
 
 export function Header() {
   const pathname = usePathname();
