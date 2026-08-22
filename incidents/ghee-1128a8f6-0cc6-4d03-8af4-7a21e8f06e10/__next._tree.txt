@@ -1,2 +1,2 @@
-:HL["/FoodComputing/_next/static/chunks/14sgrcgp30v4y.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"incidents","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ghee-1128a8f6-0cc6-4d03-8af4-7a21e8f06e10","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LAoi4vY-MJ2rPNVlOKWMB"}
+:HL["/FoodComputing/_next/static/chunks/201c500vyb4ti.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"incidents","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ghee-1128a8f6-0cc6-4d03-8af4-7a21e8f06e10","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"YcXyl15BHQXG5KR8svTLZ"}

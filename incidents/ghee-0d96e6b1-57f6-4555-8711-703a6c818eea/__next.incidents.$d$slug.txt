@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/FoodComputing/_next/static/chunks/198tnpllq5ys0.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"default"]
-3:I[37457,["/FoodComputing/_next/static/chunks/198tnpllq5ys0.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"default"]
+2:I[39756,["/FoodComputing/_next/static/chunks/30j51qvflkojq.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"default"]
+3:I[37457,["/FoodComputing/_next/static/chunks/30j51qvflkojq.js","/FoodComputing/_next/static/chunks/1-8s9_t85wwr4.js","/FoodComputing/_next/static/chunks/2g4ykz288r3dk.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"LAoi4vY-MJ2rPNVlOKWMB"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"YcXyl15BHQXG5KR8svTLZ"}
