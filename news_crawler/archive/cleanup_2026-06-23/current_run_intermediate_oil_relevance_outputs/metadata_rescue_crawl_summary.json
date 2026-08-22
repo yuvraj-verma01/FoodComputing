@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-06-23T04:02:05.241249+00:00",
+  "queued": 4,
+  "success_with_text": 4,
+  "success_no_text": 0,
+  "failed": 0,
+  "skipped_existing_with_text": 0,
+  "final_status_counts_for_queue": {
+    "https://www.siasat.com/adulterated-cooking-oil-wheat-flour-worth-rs-21-lakh-seized-in-hyderabad-3432488/": "downloaded_metadata_rescue",
+    "https://www.thehindu.com/news/cities/Hyderabad/over-5000-litres-of-adulterated-cooking-oil-seized-in-gachibowli-expired-wheat-flour-repackaged-for-sale/article70724996.ece": "downloaded_metadata_rescue",
+    "https://www.newindianexpress.com/states/tamil-nadu/2024/Aug/03/collection-of-reused-cooking-oil-from-eateries-goes-up-three-fold-in-madurai": "downloaded_metadata_rescue",
+    "https://timesofindia.indiatimes.com/life-style/food-news/what-actually-happens-when-cooking-oil-is-reused-and-why-it-matters/articleshow/124779839.cms": "downloaded_metadata_rescue"
+  }
+}

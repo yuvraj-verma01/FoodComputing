@@ -51,7 +51,7 @@ PRODUCT_TERMS = [
     "edible oil", "cooking oil", "mustard oil", "palm oil", "soybean oil",
     "sunflower oil", "groundnut oil", "coconut oil", "rice bran oil",
     "cottonseed oil", "sesame oil", "vegetable oil", "refined oil",
-    "loose oil", "loose edible oil", "vanaspati", "ghee",
+    "loose oil", "loose edible oil",
 ]
 
 ADULTERATION_TERMS = [
@@ -669,7 +669,7 @@ def has_oil_signal(phrase: str) -> bool:
         for term in (
             "oil", "edible", "cooking", "mustard", "palm", "soybean",
             "sunflower", "groundnut", "coconut", "rice bran", "cottonseed",
-            "sesame", "vegetable oil", "refined", "vanaspati",
+            "sesame", "vegetable oil", "refined",
         )
     )
 
@@ -739,7 +739,7 @@ def is_domainish(phrase: str) -> bool:
             "oil", "adulter", "fake", "spurious", "substandard", "misbrand",
             "fssai", "fda", "raid", "seiz", "food safety", "sample",
             "coconut", "mustard", "edible", "cooking", "vegetable",
-            "ghee", "mawa", "paneer", "fraud", "ban", "crackdown",
+            "fraud", "ban", "crackdown",
         )
     )
 

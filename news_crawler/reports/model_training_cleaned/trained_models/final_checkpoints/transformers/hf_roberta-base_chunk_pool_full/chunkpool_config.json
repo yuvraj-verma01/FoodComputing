@@ -1,0 +1,7 @@
+{
+  "backbone": "roberta-base",
+  "hidden_size": 768,
+  "pooling": "mean+max",
+  "max_chunks": 4,
+  "chunk_len": 512
+}

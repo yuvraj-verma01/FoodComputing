@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-06-30T04:43:19.840869+00:00",
+  "run_dir": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_from_sample_2026-06-30",
+  "report_dir": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\ghee_keyword_review",
+  "source_docx": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\Ghee sample articles.docx",
+  "urls_from_docx": 11,
+  "download_success_or_reader_fallback": 11,
+  "extraction_success_or_partial": 11,
+  "keyword_source_articles": 11,
+  "raw_keyword_candidates": 224,
+  "literal_keyword_candidates_for_review": 160,
+  "review_label_counts": {
+    "keep_core": 7,
+    "manual_review": 50,
+    "drop": 103
+  },
+  "category_counts": {
+    "ghee/product": 18,
+    "adulteration/fraud": 11,
+    "incident/action phrase": 27,
+    "enforcement/evidence": 29,
+    "adulterant/mixing": 2,
+    "location": 3,
+    "other_candidate": 70
+  },
+  "note": "Review CSV excludes TF-IDF/YAKE candidates with zero exact phrase frequency. Rows still include the extractor's keep_core/manual_review/drop suggestion; the human keep column in the Excel workbook is the authority.",
+  "outputs": {
+    "review_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\ghee_keyword_review\\ghee_sample_keyword_candidates_for_review.csv",
+    "review_workbook": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\ghee_keyword_review\\ghee_sample_keyword_review.xlsx",
+    "article_status_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\ghee_keyword_review\\ghee_sample_article_status.csv",
+    "raw_candidate_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\ghee_from_sample_2026-06-30\\sample_keyword_candidates_clean.csv"
+  }
+}

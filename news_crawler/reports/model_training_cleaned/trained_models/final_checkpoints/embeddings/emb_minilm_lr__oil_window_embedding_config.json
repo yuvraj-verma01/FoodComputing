@@ -1,0 +1,9 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_prefix": "",
+  "classifier": "lr",
+  "representation": "oil_window_embedding",
+  "chunk_tokens": 512,
+  "max_chunks": 8,
+  "pool": "single"
+}

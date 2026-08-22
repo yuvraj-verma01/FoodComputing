@@ -11,12 +11,18 @@ import csv
 import json
 import re
 import sqlite3
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from crawler.review_dedupe import load_reviewed_url_keys, split_new_review_rows
+
 DEFAULT_RUN_DIR = ROOT / "data" / "runs" / "edible_oils_from_sample_2026-06-21"
 
 PRODUCT_FALLBACKS = {
@@ -31,8 +37,6 @@ PRODUCT_FALLBACKS = {
     "groundnut oil",
     "palm oil",
     "olive oil",
-    "ghee",
-    "vanaspati",
 }
 
 SIGNAL_FALLBACKS = {
@@ -144,6 +148,11 @@ def write_csv(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-dir", type=Path, default=DEFAULT_RUN_DIR)
+    parser.add_argument(
+        "--include-reviewed-urls",
+        action="store_true",
+        help="Keep URLs already human-marked in previous rounds in review outputs.",
+    )
     args = parser.parse_args()
 
     run_dir = args.run_dir
@@ -154,7 +163,10 @@ def main() -> int:
 
     rows = read_discovered_rows(db_path)
     article_count = count_articles(db_path)
-    query_plan = read_query_plan(run_dir / "proposed_mediacloud_seed_queries.csv")
+    query_plan_path = run_dir / "proposed_mediacloud_seed_queries.csv"
+    if not query_plan_path.exists():
+        query_plan_path = run_dir / "proposed_mediacloud_boolean_seed_queries.csv"
+    query_plan = read_query_plan(query_plan_path)
     product_terms, signal_terms = load_terms(run_dir / "final_keyword_bank.csv")
 
     reviewed_rows = []
@@ -197,6 +209,13 @@ def main() -> int:
             }
         )
 
+    previously_reviewed_rows: list[dict[str, str]] = []
+    reviewed_url_key_count = 0
+    if not args.include_reviewed_urls:
+        reviewed_url_keys = load_reviewed_url_keys()
+        reviewed_url_key_count = len(reviewed_url_keys)
+        reviewed_rows, previously_reviewed_rows = split_new_review_rows(reviewed_rows, reviewed_url_keys)
+
     query_count_rows = []
     planned_queries = [row.get("query") or "" for row in query_plan]
     planned_query_set = set(planned_queries)
@@ -208,8 +227,8 @@ def main() -> int:
                 "query": query,
                 "saved_new_urls": query_counts.get(query, 0),
                 "template_type": plan_row.get("template_type") or "",
-                "product_term": plan_row.get("product_term") or "",
-                "fraud_term": plan_row.get("fraud_term") or "",
+                "product_term": plan_row.get("product_term") or plan_row.get("product_groups") or "",
+                "fraud_term": plan_row.get("fraud_term") or plan_row.get("signal_mode") or "",
                 "enforcement_term": plan_row.get("enforcement_term") or "",
                 "date_start": plan_row.get("date_start") or "",
                 "date_end": plan_row.get("date_end") or "",
@@ -239,6 +258,10 @@ def main() -> int:
         "run_dir": str(run_dir),
         "db_path": str(db_path),
         "total_discovered_urls": len(rows),
+        "review_rows_written": len(reviewed_rows),
+        "previously_reviewed_urls_excluded": len(previously_reviewed_rows),
+        "reviewed_url_key_count": reviewed_url_key_count,
+        "include_reviewed_urls": args.include_reviewed_urls,
         "articles_table_rows": article_count,
         "status_counts": dict(sorted(status_counts.items())),
         "planned_query_count": len(planned_queries),
@@ -278,6 +301,23 @@ def main() -> int:
     write_csv(
         output_dir / "discovery_url_review.csv",
         reviewed_rows,
+        [
+            "review_keep",
+            "title_screen_label",
+            "title_url_product_terms",
+            "title_url_signal_terms",
+            "published_date",
+            "domain",
+            "source",
+            "title_snippet",
+            "query_used",
+            "status",
+            "url",
+        ],
+    )
+    write_csv(
+        output_dir / "discovery_previously_reviewed_urls.csv",
+        previously_reviewed_rows,
         [
             "review_keep",
             "title_screen_label",

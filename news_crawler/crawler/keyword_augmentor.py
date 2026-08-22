@@ -58,7 +58,7 @@ _DOMAIN_STOPWORDS = {
 # Terms that anchor a keyword to the food-safety domain
 _OIL_TERMS = {
     "oil", "edible", "mustard", "palm", "groundnut", "soybean", "sunflower",
-    "sesame", "coconut", "cottonseed", "vanaspati", "ghee", "vegetable",
+    "sesame", "coconut", "cottonseed", "vegetable",
     "cooking", "refined", "blended", "rice bran", "rapeseed", "linseed",
     "sarson", "tel",
 }
@@ -157,7 +157,6 @@ class KeywordAugmentor:
     # and Media Cloud returns restaurant/hygiene articles unrelated to edible oil.
     _ANCHOR_QUERIES = [
         "edible oil adulteration India",
-        "adulterated ghee India",
         "mustard oil adulteration India",
         "FSSAI edible oil raid",
         "adulterated oil seized India",

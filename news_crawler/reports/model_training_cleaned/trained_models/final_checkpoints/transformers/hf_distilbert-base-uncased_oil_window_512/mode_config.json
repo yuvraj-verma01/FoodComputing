@@ -1,0 +1,5 @@
+{
+  "backbone": "distilbert-base-uncased",
+  "max_length": 512,
+  "global_cls": false
+}

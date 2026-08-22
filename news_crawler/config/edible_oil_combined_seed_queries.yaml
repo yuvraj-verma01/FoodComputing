@@ -1,0 +1,920 @@
+generated_at: '2026-06-23T06:29:39.869534+00:00'
+seed_keywords:
+- (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose oil"
+  OR "loose edible oil") AND (adulterat* OR contaminat* OR misbrand* OR substandard
+  OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled oil" OR
+  "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with") AND
+  language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+  OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+  OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+  association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+  cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+  in cooking oil cargo")
+- (("mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower oil" OR "groundnut
+  oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil" OR "sesame oil" OR
+  "olive oil" OR "rapeseed-mustard oil") AND (adulterat* OR contaminat* OR misbrand*
+  OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled
+  oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with")
+  AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+  OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+  OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+  association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+  cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+  in cooking oil cargo")
+- (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose oil"
+  OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower
+  oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil"
+  OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((adulterat* OR contaminat*
+  OR misbrand* OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused
+  oil" OR "recycled oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible
+  oil" OR "mixed with") AND ((FSSAI OR FDA OR FSDA OR "food safety" OR "food safety
+  department" OR "food safety officer") OR (raid* OR seiz* OR "sample collected" OR
+  "samples collected" OR "samples sent" OR "lab test" OR "quality test" OR prosecut*
+  OR penal* OR fine OR ban* OR "license suspended" OR "licence suspended" OR "shop
+  sealed" OR warehouse OR godown OR arrest* OR crackdown OR inspection))) AND language:en)
+  AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per
+  litre" OR "oil exports" OR "export ban" OR futures OR derivative OR derivatives
+  OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors association"
+  OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused cooking oil"
+  OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden in cooking oil
+  cargo")
+- (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose oil"
+  OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower
+  oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil"
+  OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((FSSAI OR FDA OR
+  FSDA OR "food safety" OR "food safety department" OR "food safety officer") OR (raid*
+  OR seiz* OR "sample collected" OR "samples collected" OR "samples sent" OR "lab
+  test" OR "quality test" OR prosecut* OR penal* OR fine OR ban* OR "license suspended"
+  OR "licence suspended" OR "shop sealed" OR warehouse OR godown OR arrest* OR crackdown
+  OR inspection)) AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko
+  Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures
+  OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent
+  extractors association" OR "million tonnes" OR "million tonne" OR "sports drinks"
+  OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin
+  OR "hidden in cooking oil cargo")
+- ((article_title:"edible oil" OR article_title:"cooking oil" OR article_title:"vegetable
+  oil" OR article_title:"refined oil" OR article_title:"loose oil" OR article_title:"loose
+  edible oil") AND (article_title:adulterat* OR article_title:contaminat* OR article_title:misbrand*
+  OR article_title:substandard OR article_title:spurious OR article_title:fake OR
+  article_title:counterfeit OR article_title:rancid OR article_title:"reused oil"
+  OR article_title:"recycled oil" OR article_title:"unsafe oil" OR article_title:"unsafe
+  cooking oil" OR article_title:"unsafe edible oil" OR article_title:"mixed with")
+  AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+  OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+  OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+  association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+  cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+  in cooking oil cargo")
+- ((article_title:"mustard oil" OR article_title:"palm oil" OR article_title:"soybean
+  oil" OR article_title:"sunflower oil" OR article_title:"groundnut oil" OR article_title:"coconut
+  oil" OR article_title:"rice bran oil" OR article_title:"cottonseed oil" OR article_title:"sesame
+  oil" OR article_title:"olive oil" OR article_title:"rapeseed-mustard oil") AND (article_title:adulterat*
+  OR article_title:contaminat* OR article_title:misbrand* OR article_title:substandard
+  OR article_title:spurious OR article_title:fake OR article_title:counterfeit OR
+  article_title:rancid OR article_title:"reused oil" OR article_title:"recycled oil"
+  OR article_title:"unsafe oil" OR article_title:"unsafe cooking oil" OR article_title:"unsafe
+  edible oil" OR article_title:"mixed with") AND language:en) AND NOT (ghee OR vanaspati
+  OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR
+  "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR
+  "domestic market" OR "solvent extractors association" OR "million tonnes" OR "million
+  tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR
+  soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+- ((article_title:"edible oil" OR article_title:"cooking oil" OR article_title:"vegetable
+  oil" OR article_title:"refined oil" OR article_title:"loose oil" OR article_title:"loose
+  edible oil" OR article_title:"mustard oil" OR article_title:"palm oil" OR article_title:"soybean
+  oil" OR article_title:"sunflower oil" OR article_title:"groundnut oil" OR article_title:"coconut
+  oil" OR article_title:"rice bran oil" OR article_title:"cottonseed oil" OR article_title:"sesame
+  oil" OR article_title:"olive oil" OR article_title:"rapeseed-mustard oil") AND (article_title:FSSAI
+  OR article_title:FDA OR article_title:FSDA OR article_title:"food safety" OR article_title:"food
+  safety department" OR article_title:"food safety officer" OR article_title:raid*
+  OR article_title:seiz* OR article_title:"sample collected" OR article_title:"samples
+  collected" OR article_title:"samples sent" OR article_title:"lab test" OR article_title:"quality
+  test" OR article_title:prosecut* OR article_title:penal* OR article_title:fine OR
+  article_title:ban* OR article_title:"license suspended" OR article_title:"licence
+  suspended" OR article_title:"shop sealed" OR article_title:warehouse OR article_title:godown
+  OR article_title:arrest* OR article_title:crackdown OR article_title:inspection)
+  AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+  OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+  OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+  association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+  cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+  in cooking oil cargo")
+- ("edible oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("edible oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("edible oil seized"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("edible oil food safety"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("cooking oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("cooking oil fake"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR
+  "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR
+  futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("mustard oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("mustard oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("mustard oil fake"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR
+  "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR
+  futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("mustard oil seized"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("palm oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("coconut oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("groundnut oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR
+  Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export
+  ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+  market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+  OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+  OR diesel OR heroin OR "hidden in cooking oil cargo")
+- ("oil adulteration"~6 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR
+  "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR
+  futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("oil spurious"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko
+  Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures
+  OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent
+  extractors association" OR "million tonnes" OR "million tonne" OR "sports drinks"
+  OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin
+  OR "hidden in cooking oil cargo")
+- ("oil seized"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko
+  Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures
+  OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent
+  extractors association" OR "million tonnes" OR "million tonne" OR "sports drinks"
+  OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin
+  OR "hidden in cooking oil cargo")
+- ("oil sample failed"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+  OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+  OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+- ("oil food safety"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR
+  "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR
+  futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market"
+  OR "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+  drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR
+  heroin OR "hidden in cooking oil cargo")
+query_rows:
+- query_id: boolean_core_oils_fraud
+  query_family: boolean
+  query: (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose
+    oil" OR "loose edible oil") AND (adulterat* OR contaminat* OR misbrand* OR substandard
+    OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled oil"
+    OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with")
+    AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+    OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+    OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+    association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+    cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+    in cooking oil cargo")
+  product_groups: core_oils
+  signal_mode: fraud_only
+  reason: Core edible/cooking oil phrases co-occur with direct adulteration/fraud
+    terms.
+  query_number: '1'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: boolean_named_oils_fraud
+  query_family: boolean
+  query: (("mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower oil" OR "groundnut
+    oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil" OR "sesame oil" OR
+    "olive oil" OR "rapeseed-mustard oil") AND (adulterat* OR contaminat* OR misbrand*
+    OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR
+    "recycled oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil"
+    OR "mixed with") AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko
+    Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures
+    OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market" OR
+    "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+    drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel
+    OR heroin OR "hidden in cooking oil cargo")
+  product_groups: named_oils
+  signal_mode: fraud_only
+  reason: Specific oil types co-occur with direct adulteration/fraud terms.
+  query_number: '2'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: boolean_oils_enforcement_evidence
+  query_family: boolean
+  query: (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose
+    oil" OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR
+    "sunflower oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed
+    oil" OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((adulterat*
+    OR contaminat* OR misbrand* OR substandard OR spurious OR fake OR counterfeit
+    OR rancid OR "reused oil" OR "recycled oil" OR "unsafe oil" OR "unsafe cooking
+    oil" OR "unsafe edible oil" OR "mixed with") AND ((FSSAI OR FDA OR FSDA OR "food
+    safety" OR "food safety department" OR "food safety officer") OR (raid* OR seiz*
+    OR "sample collected" OR "samples collected" OR "samples sent" OR "lab test" OR
+    "quality test" OR prosecut* OR penal* OR fine OR ban* OR "license suspended" OR
+    "licence suspended" OR "shop sealed" OR warehouse OR godown OR arrest* OR crackdown
+    OR inspection))) AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko
+    Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures
+    OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic market" OR
+    "solvent extractors association" OR "million tonnes" OR "million tonne" OR "sports
+    drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel
+    OR heroin OR "hidden in cooking oil cargo")
+  product_groups: core_oils; named_oils
+  signal_mode: fraud_and_enforcement
+  reason: Oil terms plus both adulteration/fraud and enforcement/evidence language.
+  query_number: '3'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: boolean_oils_enforcement_only
+  query_family: boolean
+  query: (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose
+    oil" OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR
+    "sunflower oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed
+    oil" OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((FSSAI OR
+    FDA OR FSDA OR "food safety" OR "food safety department" OR "food safety officer")
+    OR (raid* OR seiz* OR "sample collected" OR "samples collected" OR "samples sent"
+    OR "lab test" OR "quality test" OR prosecut* OR penal* OR fine OR ban* OR "license
+    suspended" OR "licence suspended" OR "shop sealed" OR warehouse OR godown OR arrest*
+    OR crackdown OR inspection)) AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: core_oils; named_oils
+  signal_mode: enforcement_only
+  reason: Oil terms plus enforcement/evidence language, for raid/seizure/lab-test
+    articles that do not explicitly say adulteration.
+  query_number: '4'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: title_core_oils_fraud
+  query_family: title_only
+  query: ((article_title:"edible oil" OR article_title:"cooking oil" OR article_title:"vegetable
+    oil" OR article_title:"refined oil" OR article_title:"loose oil" OR article_title:"loose
+    edible oil") AND (article_title:adulterat* OR article_title:contaminat* OR article_title:misbrand*
+    OR article_title:substandard OR article_title:spurious OR article_title:fake OR
+    article_title:counterfeit OR article_title:rancid OR article_title:"reused oil"
+    OR article_title:"recycled oil" OR article_title:"unsafe oil" OR article_title:"unsafe
+    cooking oil" OR article_title:"unsafe edible oil" OR article_title:"mixed with")
+    AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+    OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+    OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+    association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+    cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+    in cooking oil cargo")
+  product_groups: core_oils
+  signal_mode: fraud_terms
+  reason: Core oil term and fraud term both appear in the article title.
+  query_number: '5'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: title_named_oils_fraud
+  query_family: title_only
+  query: ((article_title:"mustard oil" OR article_title:"palm oil" OR article_title:"soybean
+    oil" OR article_title:"sunflower oil" OR article_title:"groundnut oil" OR article_title:"coconut
+    oil" OR article_title:"rice bran oil" OR article_title:"cottonseed oil" OR article_title:"sesame
+    oil" OR article_title:"olive oil" OR article_title:"rapeseed-mustard oil") AND
+    (article_title:adulterat* OR article_title:contaminat* OR article_title:misbrand*
+    OR article_title:substandard OR article_title:spurious OR article_title:fake OR
+    article_title:counterfeit OR article_title:rancid OR article_title:"reused oil"
+    OR article_title:"recycled oil" OR article_title:"unsafe oil" OR article_title:"unsafe
+    cooking oil" OR article_title:"unsafe edible oil" OR article_title:"mixed with")
+    AND language:en) AND NOT (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah
+    OR "rupiah per litre" OR "oil exports" OR "export ban" OR futures OR derivative
+    OR derivatives OR SEBI OR "stock market" OR "domestic market" OR "solvent extractors
+    association" OR "million tonnes" OR "million tonne" OR "sports drinks" OR "reused
+    cooking oil" OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden
+    in cooking oil cargo")
+  product_groups: named_oils
+  signal_mode: fraud_terms
+  reason: Named oil term and fraud term both appear in the article title.
+  query_number: '6'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: title_oils_enforcement
+  query_family: title_only
+  query: ((article_title:"edible oil" OR article_title:"cooking oil" OR article_title:"vegetable
+    oil" OR article_title:"refined oil" OR article_title:"loose oil" OR article_title:"loose
+    edible oil" OR article_title:"mustard oil" OR article_title:"palm oil" OR article_title:"soybean
+    oil" OR article_title:"sunflower oil" OR article_title:"groundnut oil" OR article_title:"coconut
+    oil" OR article_title:"rice bran oil" OR article_title:"cottonseed oil" OR article_title:"sesame
+    oil" OR article_title:"olive oil" OR article_title:"rapeseed-mustard oil") AND
+    (article_title:FSSAI OR article_title:FDA OR article_title:FSDA OR article_title:"food
+    safety" OR article_title:"food safety department" OR article_title:"food safety
+    officer" OR article_title:raid* OR article_title:seiz* OR article_title:"sample
+    collected" OR article_title:"samples collected" OR article_title:"samples sent"
+    OR article_title:"lab test" OR article_title:"quality test" OR article_title:prosecut*
+    OR article_title:penal* OR article_title:fine OR article_title:ban* OR article_title:"license
+    suspended" OR article_title:"licence suspended" OR article_title:"shop sealed"
+    OR article_title:warehouse OR article_title:godown OR article_title:arrest* OR
+    article_title:crackdown OR article_title:inspection) AND language:en) AND NOT
+    (ghee OR vanaspati OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre"
+    OR "oil exports" OR "export ban" OR futures OR derivative OR derivatives OR SEBI
+    OR "stock market" OR "domestic market" OR "solvent extractors association" OR
+    "million tonnes" OR "million tonne" OR "sports drinks" OR "reused cooking oil"
+    OR biodiesel OR "bio-diesel" OR soda OR diesel OR heroin OR "hidden in cooking
+    oil cargo")
+  product_groups: core_oils; named_oils
+  signal_mode: enforcement_org_terms; enforcement_action_terms
+  reason: Oil term and enforcement/evidence term both appear in the article title.
+  query_number: '7'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_edible_oil_adulteration
+  query_family: proximity
+  query: ("edible oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "edible oil adulteration" terms appear within 10 words.
+  query_number: '8'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_edible_oil_adulterated
+  query_family: proximity
+  query: ("edible oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "edible oil adulterated" terms appear within 10 words.
+  query_number: '9'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_edible_oil_seized
+  query_family: proximity
+  query: ("edible oil seized"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "edible oil seized" terms appear within 10 words.
+  query_number: '10'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_edible_oil_food_safety
+  query_family: proximity
+  query: ("edible oil food safety"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "edible oil food safety" terms appear within 10 words.
+  query_number: '11'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_cooking_oil_adulterated
+  query_family: proximity
+  query: ("cooking oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "cooking oil adulterated" terms appear within 10 words.
+  query_number: '12'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_cooking_oil_fake
+  query_family: proximity
+  query: ("cooking oil fake"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "cooking oil fake" terms appear within 8 words.
+  query_number: '13'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_mustard_oil_adulteration
+  query_family: proximity
+  query: ("mustard oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "mustard oil adulteration" terms appear within 10 words.
+  query_number: '14'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_mustard_oil_adulterated
+  query_family: proximity
+  query: ("mustard oil adulterated"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "mustard oil adulterated" terms appear within 10 words.
+  query_number: '15'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_mustard_oil_fake
+  query_family: proximity
+  query: ("mustard oil fake"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "mustard oil fake" terms appear within 8 words.
+  query_number: '16'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_mustard_oil_seized
+  query_family: proximity
+  query: ("mustard oil seized"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "mustard oil seized" terms appear within 10 words.
+  query_number: '17'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_palm_oil_adulteration
+  query_family: proximity
+  query: ("palm oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati OR
+    Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR
+    "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "palm oil adulteration" terms appear within 10 words.
+  query_number: '18'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_coconut_oil_adulteration
+  query_family: proximity
+  query: ("coconut oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "coconut oil adulteration" terms appear within 10 words.
+  query_number: '19'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_groundnut_oil_adulteration
+  query_family: proximity
+  query: ("groundnut oil adulteration"~10 AND language:en) AND NOT (ghee OR vanaspati
+    OR Indonesia OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports"
+    OR "export ban" OR futures OR derivative OR derivatives OR SEBI OR "stock market"
+    OR "domestic market" OR "solvent extractors association" OR "million tonnes" OR
+    "million tonne" OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel"
+    OR soda OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "groundnut oil adulteration" terms appear within 10 words.
+  query_number: '20'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_oil_adulteration
+  query_family: proximity
+  query: ("oil adulteration"~6 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_6_words
+  reason: Find stories where "oil adulteration" terms appear within 6 words.
+  query_number: '21'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_oil_spurious
+  query_family: proximity
+  query: ("oil spurious"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "oil spurious" terms appear within 8 words.
+  query_number: '22'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_oil_seized
+  query_family: proximity
+  query: ("oil seized"~8 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "oil seized" terms appear within 8 words.
+  query_number: '23'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_oil_sample_failed
+  query_family: proximity
+  query: ("oil sample failed"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "oil sample failed" terms appear within 10 words.
+  query_number: '24'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+- query_id: proximity_oil_food_safety
+  query_family: proximity
+  query: ("oil food safety"~10 AND language:en) AND NOT (ghee OR vanaspati OR Indonesia
+    OR "Joko Widodo" OR rupiah OR "rupiah per litre" OR "oil exports" OR "export ban"
+    OR futures OR derivative OR derivatives OR SEBI OR "stock market" OR "domestic
+    market" OR "solvent extractors association" OR "million tonnes" OR "million tonne"
+    OR "sports drinks" OR "reused cooking oil" OR biodiesel OR "bio-diesel" OR soda
+    OR diesel OR heroin OR "hidden in cooking oil cargo")
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "oil food safety" terms appear within 10 words.
+  query_number: '25'
+  date_start: '2021-01-01'
+  date_end: '2026-06-23'
+  collection_count: '28'
+  hard_exclusion: ghee; vanaspati; Indonesia; Joko Widodo; rupiah; rupiah per litre;
+    oil exports; export ban; futures; derivative; derivatives; SEBI; stock market;
+    domestic market; solvent extractors association; million tonnes; million tonne;
+    sports drinks; reused cooking oil; biodiesel; bio-diesel; soda; diesel; heroin;
+    hidden in cooking oil cargo
+  breadth: combined_boolean_title_proximity
+query_groups:
+  core_oils:
+  - edible oil
+  - cooking oil
+  - vegetable oil
+  - refined oil
+  - loose oil
+  - loose edible oil
+  named_oils:
+  - mustard oil
+  - palm oil
+  - soybean oil
+  - sunflower oil
+  - groundnut oil
+  - coconut oil
+  - rice bran oil
+  - cottonseed oil
+  - sesame oil
+  - olive oil
+  - rapeseed-mustard oil
+  fraud_terms:
+  - adulterat*
+  - contaminat*
+  - misbrand*
+  - substandard
+  - spurious
+  - fake
+  - counterfeit
+  - rancid
+  - reused oil
+  - recycled oil
+  - unsafe oil
+  - unsafe cooking oil
+  - unsafe edible oil
+  - mixed with
+  enforcement_org_terms:
+  - FSSAI
+  - FDA
+  - FSDA
+  - food safety
+  - food safety department
+  - food safety officer
+  enforcement_action_terms:
+  - raid*
+  - seiz*
+  - sample collected
+  - samples collected
+  - samples sent
+  - lab test
+  - quality test
+  - prosecut*
+  - penal*
+  - fine
+  - ban*
+  - license suspended
+  - licence suspended
+  - shop sealed
+  - warehouse
+  - godown
+  - arrest*
+  - crackdown
+  - inspection
+  hard_exclusions:
+  - ghee
+  - vanaspati
+  - Indonesia
+  - Joko Widodo
+  - rupiah
+  - rupiah per litre
+  - oil exports
+  - export ban
+  - futures
+  - derivative
+  - derivatives
+  - SEBI
+  - stock market
+  - domestic market
+  - solvent extractors association
+  - million tonnes
+  - million tonne
+  - sports drinks
+  - reused cooking oil
+  - biodiesel
+  - bio-diesel
+  - soda
+  - diesel
+  - heroin
+  - hidden in cooking oil cargo
+india_collections:
+  India - National: 34412118
+  India - State & Local: 38379954
+  Andhra Pradesh, India - State & Local: 38379967
+  Arunachal Pradesh, India - State & Local: 38379977
+  Assam, India - State & Local: 38379980
+  Bihar, India - State & Local: 38379982
+  Chandigarh, India - State & Local: 38379984
+  Chhattisgarh, India - State & Local: 38379986
+  Delhi, India - State & Local: 38379959
+  Goa, India - State & Local: 38379989
+  Gujarat, India - State & Local: 38379955
+  Haryana, India - State & Local: 38379971
+  Karnataka, India - State & Local: 38379991
+  Kerala, India - State & Local: 38379957
+  Madhya Pradesh, India - State & Local: 38379963
+  Maharashtra, India - State & Local: 38379973
+  Manipur, India - State & Local: 38379995
+  Meghalaya, India - State & Local: 38379998
+  Mizoram, India - State & Local: 38380002
+  Nagaland, India - State & Local: 38380004
+  Punjab, India - State & Local: 38379975
+  Rajasthan, India - State & Local: 38380009
+  Sikkim, India - State & Local: 38380012
+  Tamil Nadu, India - State & Local: 38379969
+  Tripura, India - State & Local: 38380014
+  Uttar Pradesh, India - State & Local: 38379965
+  Uttarakhand, India - State & Local: 38380016
+  West Bengal, India - State & Local: 38379961
+notes:
+- This is one combined run with boolean, title-only, and proximity query families.
+- One Boolean family uses oil terms plus enforcement/evidence terms without requiring
+  an explicit adulteration word.
+- The NOT block uses human-approved Round 1 junk terms from irrelevant articles.
+- Ghee and vanaspati remain hard out-of-scope exclusions.
+- Media Cloud Boolean operators are capitalized and exact phrases are double quoted.

@@ -20,14 +20,15 @@ env/
 secrets.json
 
 # Data outputs (large files — not tracked in git)
-news_crawler/data/outputs/articles.db
-news_crawler/data/outputs/articles.csv
-news_crawler/data/outputs/articles.jsonl
-news_crawler/data/outputs/discovered_urls.jsonl
-news_crawler/data/outputs/articles_report.xlsx
-news_crawler/data/outputs/report.json
+news_crawler/data/outputs/
 news_crawler/data/raw_html/
 news_crawler/data/cleaned_text/
+news_crawler/data/logs/
+news_crawler/data/runs/
+
+# Generated transformer weights (kept locally; individual files exceed GitHub's limit)
+news_crawler/reports/**/trained_models/final_checkpoints/transformers/**/model.safetensors
+news_crawler/reports/**/trained_models/final_checkpoints/transformers/**/chunkpool_state.pt
 
 # Logs
 *.log

@@ -1,0 +1,9 @@
+{
+  "encoder": "intfloat/e5-large-v2",
+  "encoder_prefix": "passage: ",
+  "classifier": "rbfsvm",
+  "representation": "oil_window_embedding",
+  "chunk_tokens": 512,
+  "max_chunks": 8,
+  "pool": "single"
+}

@@ -1,0 +1,17 @@
+model_name,representation,accuracy,precision,recall,f1,roc_auc,pr_auc,tp,fp,fn,tn
+tfidf_phrase_lr,title_plus_keyword_windows,0.8497,0.7,0.901,0.7879,0.9262,0.827,91,39,10,186
+tfidf_word_lr,title_plus_body,0.8466,0.6977,0.8911,0.7826,0.9211,0.82,90,39,11,186
+tfidf_phrase_lr,title_plus_body,0.8497,0.7097,0.8713,0.7822,0.9226,0.8246,88,36,13,189
+tfidf_phrase_lr,body_only,0.8497,0.7131,0.8614,0.7803,0.9174,0.8182,87,35,14,190
+tfidf_phrase_svm,title_plus_keyword_windows,0.862,0.7745,0.7822,0.7783,0.9257,0.8121,79,23,22,202
+tfidf_word_lr,body_only,0.8405,0.696,0.8614,0.7699,0.9165,0.8097,87,38,14,187
+tfidf_phrase_svm,title_plus_body,0.8528,0.7573,0.7723,0.7647,0.9207,0.8161,78,25,23,200
+tfidf_word_lr,title_plus_keyword_windows,0.8313,0.6769,0.8713,0.7619,0.9228,0.8187,88,42,13,183
+tfidf_phrase_svm,body_only,0.8497,0.76,0.7525,0.7562,0.9144,0.8062,76,24,25,201
+sbert_lr,title_plus_body,0.8344,0.7043,0.802,0.75,0.9073,0.7937,81,34,20,191
+sbert_lr,title_plus_keyword_windows,0.8374,0.7182,0.7822,0.7488,0.8905,0.7381,79,31,22,194
+tfidf_word_lr,title_only,0.7975,0.6277,0.8515,0.7227,0.9136,0.8053,86,51,15,174
+tfidf_phrase_lr,title_only,0.7975,0.6296,0.8416,0.7203,0.9061,0.7767,85,50,16,175
+sbert_lr,body_only,0.8098,0.6639,0.7822,0.7182,0.8778,0.7614,79,40,22,185
+tfidf_phrase_svm,title_only,0.8037,0.6796,0.6931,0.6863,0.9105,0.7791,70,33,31,192
+sbert_lr,title_only,0.7822,0.6442,0.6634,0.6537,0.8365,0.6398,67,37,34,188

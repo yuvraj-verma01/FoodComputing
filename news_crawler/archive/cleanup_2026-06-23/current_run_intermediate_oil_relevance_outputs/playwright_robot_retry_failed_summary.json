@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-22T16:17:15.293094+00:00",
+  "status_filter": "failed",
+  "queued": 22,
+  "success_with_text": 0,
+  "success_no_text": 0,
+  "failed": 22,
+  "skipped_existing_with_text": 0
+}

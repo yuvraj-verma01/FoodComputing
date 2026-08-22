@@ -1,0 +1,9 @@
+{
+  "encoder": "sentence-transformers/all-mpnet-base-v2",
+  "encoder_prefix": "",
+  "classifier": "lr",
+  "representation": "full_chunk_max",
+  "chunk_tokens": 512,
+  "max_chunks": 8,
+  "pool": "max"
+}

@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-23T05:35:51.623096+00:00",
+  "round_number": "1",
+  "round_name": "round_01_mediacloud_boolean_title_proximity",
+  "round_description": "MediaCloud Indian collections, Jan 1 2021 to Jun 22 2026, boolean + title-only + proximity queries; ghee/vanaspati excluded; human-reviewed relevance labels.",
+  "date_start": "2021-01-01",
+  "date_end": "2026-06-22",
+  "source_run": "edible_oils_boolean_title_proximity_2026-06-22",
+  "total_articles": 285,
+  "relevant_articles": 75,
+  "irrelevant_articles": 210,
+  "unresolved_articles": 0,
+  "label_counts": {
+    "relevant": 75,
+    "irrelevant": 210
+  },
+  "outputs": {
+    "all_csv": "round_01_all_articles.csv",
+    "relevant_csv": "round_01_relevant_articles.csv",
+    "irrelevant_csv": "round_01_irrelevant_articles.csv",
+    "relevant_jsonl": "round_01_relevant_articles.jsonl",
+    "workbook": "round_01_review_workbook.xlsx"
+  },
+  "reference_files": {
+    "final_review_summary": "copied",
+    "human_edited_workbook": "copied",
+    "frozen_workbook": "copied"
+  }
+}

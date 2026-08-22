@@ -42,6 +42,7 @@ class Downloader:
         self.backoff_factor = float(cfg.get("crawl", "backoff_factor") or 2.0)
         self.respect_robots = bool(cfg.get("crawl", "respect_robots_txt") is not False)
         self.use_playwright = cfg.get("crawl", "use_playwright") is not False
+        self.playwright_first = bool(cfg.get("crawl", "playwright_first") is True)
         self._session = self._build_session()
         self._pw = None        # lazy playwright instance
         self._browser = None
@@ -74,6 +75,12 @@ class Downloader:
             result["error_message"] = "Blocked by robots.txt"
             logger.info("robots.txt blocks %s", url)
             return result
+
+        if self.use_playwright and self.playwright_first:
+            pw_result = self._download_via_playwright(url, result)
+            if pw_result["status"] == "success":
+                return pw_result
+            result = pw_result
 
         # Try requests first
         for attempt in range(1, self.max_retries + 2):
@@ -145,18 +152,28 @@ class Downloader:
                 user_agent=(
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/124.0.0.0 Safari/537.36"
+                    "Chrome/126.0.0.0 Safari/537.36"
                 ),
                 viewport={"width": 1280, "height": 800},
+                ignore_https_errors=True,
+                locale="en-US",
+                timezone_id="Asia/Kolkata",
+            )
+            context.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
             )
             page = context.new_page()
-            page.set_extra_http_headers({"Accept-Language": "en-US,en;q=0.9"})
+            page.set_extra_http_headers({
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://www.google.com/",
+                "Upgrade-Insecure-Requests": "1",
+            })
 
             response = page.goto(url, wait_until="domcontentloaded", timeout=self.timeout * 1000)
             # Let dynamic content settle briefly
             page.wait_for_timeout(1500)
 
-            html = page.content()
+            html = self._read_playwright_html(page, response)
             final_url = page.url
             http_status = response.status if response else 200
 
@@ -183,6 +200,31 @@ class Downloader:
             result["error_message"] = f"Playwright: {exc}"
 
         return result
+
+    def _read_playwright_html(self, page, response) -> str:
+        """Read rendered HTML even when the page keeps navigating after load."""
+        for _ in range(3):
+            try:
+                return page.content()
+            except Exception:
+                try:
+                    page.wait_for_timeout(1000)
+                except Exception:
+                    break
+
+        try:
+            html = page.evaluate("document.documentElement.outerHTML")
+            if html:
+                return html
+        except Exception:
+            pass
+
+        if response is not None:
+            try:
+                return response.text()
+            except Exception:
+                pass
+        return ""
 
     def _get_browser(self):
         """Lazily start the Playwright Chromium browser (one shared instance)."""

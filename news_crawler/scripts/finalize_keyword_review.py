@@ -80,8 +80,6 @@ TERM_CATEGORY = {
         "groundnut oil",
         "palm oil",
         "olive oil",
-        "ghee and oil",
-        "adulterated ghee and oil",
     },
     "fraud": {
         "adulterated",
@@ -300,8 +298,6 @@ def term_use(term: str, category: str) -> str:
         return "do_not_query_alone"
     if term in {"food safety", "food adulteration", "adulterated food", "oil", "samples"}:
         return "combine_only"
-    if "ghee" in term:
-        return "mixed_oil_ghee_only"
     return "query_component"
 
 
@@ -554,22 +550,6 @@ def build_seed_queries(date_start: str, date_end: str) -> list[dict]:
         manual_reason="Support term oil anchored by enforcement and India.",
         breadth="broad",
     )
-    add(
-        '"ghee and oil" adulteration India',
-        "mixed_oil_ghee_plus_fraud",
-        product_term="ghee and oil",
-        fraud_term="adulteration",
-        manual_reason="Mixed oil+ghee sample pattern without pure ghee-only drift.",
-    )
-    add(
-        '"adulterated ghee and oil" seized India',
-        "mixed_oil_ghee_plus_enforcement",
-        product_term="adulterated ghee and oil",
-        enforcement_term="seized",
-        manual_reason="Specific mixed incident phrase from sample.",
-        breadth="narrow",
-    )
-
     return rows
 
 

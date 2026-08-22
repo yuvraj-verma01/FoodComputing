@@ -1,0 +1,11 @@
+{
+  "model_type": "tfidf_pipeline",
+  "model_name": "tfidf_phrase_lr",
+  "representation": "title_plus_keyword_windows",
+  "selection_criterion": "recall",
+  "thresholds": {
+    "high_recall": 0.05,
+    "balanced": 0.47,
+    "high_precision": 0.64
+  }
+}

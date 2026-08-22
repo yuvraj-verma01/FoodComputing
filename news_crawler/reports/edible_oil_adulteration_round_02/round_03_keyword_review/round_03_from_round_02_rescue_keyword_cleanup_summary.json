@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-06-23T10:31:50.598066+00:00",
+  "source_keyword_candidates": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_candidates.csv",
+  "source_articles": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\data\\runs\\edible_oil_adulteration_round_02_2026-06-23\\mediacloud\\outputs\\oil_relevance\\metadata_rescue_fulltext_added.csv",
+  "source_scope": "new unique Round 2 metadata-rescue relevant articles only",
+  "raw_candidate_count_after_exact_prior_filter": 95,
+  "clean_review_candidate_count": 9,
+  "suppressed_candidate_count": 95,
+  "clean_review_label_counts": {
+    "manual_review": 6,
+    "keep_core": 3
+  },
+  "clean_category_counts": {
+    "oil/product": 1,
+    "adulteration/fraud": 7,
+    "health/adulterant signal": 1
+  },
+  "suppression_reason_counts": {
+    "near_duplicate: covered by existing terms: refined oil + soybean oil": 1,
+    "near_duplicate: covered by existing term: palmolein": 1,
+    "near_duplicate: covered by existing terms: refined oil + palmolein": 1,
+    "location_only_not_needed_for_round3_queries": 2,
+    "not_selected_after_manual_cleanup": 15,
+    "broad_or_noisy: broad food-adulteration term; not oil-specific enough for Round 3": 1,
+    "broad_or_noisy: broad food-adulteration term already represented by adulteration + oil terms": 1,
+    "near_duplicate: covered by existing terms: food safety + FDA/FSDA": 1,
+    "near_duplicate: fragment covered by FDA": 2,
+    "near_duplicate: local fragment covered by food safety": 2,
+    "near_duplicate: named-person fragment covered by food safety officer": 1,
+    "broad_or_noisy: broad mixed-food phrase; use existing seized/adulterated terms with oil terms": 2,
+    "extractor_label_drop": 65
+  },
+  "note": "The clean workbook intentionally removes exact prior keywords, near-duplicate variants, location-only terms, and broad mixed-food fragments. Raw candidates are retained in the suppressed CSV for audit.",
+  "outputs": {
+    "clean_candidates_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_candidates_clean.csv",
+    "suppressed_candidates_csv": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_candidates_suppressed.csv",
+    "review_workbook": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_03_keyword_review\\round_03_from_round_02_rescue_keyword_review_clean.xlsx"
+  }
+}

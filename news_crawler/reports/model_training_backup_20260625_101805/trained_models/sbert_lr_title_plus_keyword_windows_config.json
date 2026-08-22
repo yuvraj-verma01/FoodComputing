@@ -1,0 +1,7 @@
+{
+  "model_type": "sbert_lr",
+  "sbert_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "representation": "title_plus_keyword_windows",
+  "classifier_path": "reports\\model_training\\trained_models\\sbert_lr_title_plus_keyword_windows_classifier.joblib",
+  "scaler_path": "reports\\model_training\\trained_models\\sbert_lr_title_plus_keyword_windows_scaler.joblib"
+}

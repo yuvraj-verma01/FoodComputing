@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-23T05:31:45.855077+00:00",
+  "source_workbook": "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_reviewed_corpus.xlsx",
+  "total_rows": 285,
+  "final_label_counts": {
+    "relevant": 75,
+    "irrelevant": 210
+  },
+  "model_label_counts": {
+    "relevant": 135,
+    "irrelevant": 150
+  },
+  "final_relevant_with_article_text": 75,
+  "unresolved_rows": 0
+}

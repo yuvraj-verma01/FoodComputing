@@ -1,0 +1,721 @@
+feature,coefficient,direction,model_name,representation
+adulterated,2.37115,positive,tfidf_word_lr,title_only
+adulteration,1.49915,positive,tfidf_word_lr,title_only
+coconut,1.47835,positive,tfidf_word_lr,title_only
+found,1.36197,positive,tfidf_word_lr,title_only
+fake,1.31291,positive,tfidf_word_lr,title_only
+seizes,1.17716,positive,tfidf_word_lr,title_only
+of,1.1309,positive,tfidf_word_lr,title_only
+the,1.1194,positive,tfidf_word_lr,title_only
+spurious,1.04336,positive,tfidf_word_lr,title_only
+times,0.96986,positive,tfidf_word_lr,title_only
+news,0.87742,positive,tfidf_word_lr,title_only
+hyderabad,0.86821,positive,tfidf_word_lr,title_only
+litres,0.84765,positive,tfidf_word_lr,title_only
+food,0.83421,positive,tfidf_word_lr,title_only
+loose,0.80806,positive,tfidf_word_lr,title_only
+substandard,0.78329,positive,tfidf_word_lr,title_only
+seized,0.73005,positive,tfidf_word_lr,title_only
+sale,0.7016,positive,tfidf_word_lr,title_only
+cases,0.6807,positive,tfidf_word_lr,title_only
+items,0.67703,positive,tfidf_word_lr,title_only
+be,0.66657,positive,tfidf_word_lr,title_only
+thiruvananthapuram,0.63733,positive,tfidf_word_lr,title_only
+inspection,0.61722,positive,tfidf_word_lr,title_only
+lakh,0.61622,positive,tfidf_word_lr,title_only
+ahead,0.61613,positive,tfidf_word_lr,title_only
+india,0.61072,positive,tfidf_word_lr,title_only
+fraud,0.60372,positive,tfidf_word_lr,title_only
+busts,0.60015,positive,tfidf_word_lr,title_only
+kanpur,0.55676,positive,tfidf_word_lr,title_only
+in,0.54531,positive,tfidf_word_lr,title_only
+palm,-1.87588,negative,tfidf_word_lr,title_only
+ban,-1.74551,negative,tfidf_word_lr,title_only
+indonesia,-1.39975,negative,tfidf_word_lr,title_only
+export,-1.2409,negative,tfidf_word_lr,title_only
+as,-1.0569,negative,tfidf_word_lr,title_only
+to,-0.86717,negative,tfidf_word_lr,title_only
+is,-0.82594,negative,tfidf_word_lr,title_only
+bans,-0.77326,negative,tfidf_word_lr,title_only
+vegetable,-0.65069,negative,tfidf_word_lr,title_only
+prices,-0.61981,negative,tfidf_word_lr,title_only
+cooking,-0.60698,negative,tfidf_word_lr,title_only
+exports,-0.5947,negative,tfidf_word_lr,title_only
+with,-0.54752,negative,tfidf_word_lr,title_only
+fire,-0.53375,negative,tfidf_word_lr,title_only
+more,-0.52263,negative,tfidf_word_lr,title_only
+centre,-0.50819,negative,tfidf_word_lr,title_only
+ludhiana,-0.50342,negative,tfidf_word_lr,title_only
+import,-0.48159,negative,tfidf_word_lr,title_only
+reuse,-0.47653,negative,tfidf_word_lr,title_only
+urges,-0.47233,negative,tfidf_word_lr,title_only
+crude,-0.46373,negative,tfidf_word_lr,title_only
+pradesh,-0.45396,negative,tfidf_word_lr,title_only
+cheese,-0.45243,negative,tfidf_word_lr,title_only
+imports,-0.44899,negative,tfidf_word_lr,title_only
+issues,-0.43204,negative,tfidf_word_lr,title_only
+us,-0.4301,negative,tfidf_word_lr,title_only
+may,-0.42953,negative,tfidf_word_lr,title_only
+arrested,-0.4295,negative,tfidf_word_lr,title_only
+why,-0.41796,negative,tfidf_word_lr,title_only
+industry,-0.41785,negative,tfidf_word_lr,title_only
+adulterated,1.602,positive,tfidf_word_lr,body_only
+adulteration,1.332,positive,tfidf_word_lr,body_only
+samples,1.09304,positive,tfidf_word_lr,body_only
+seized,0.99015,positive,tfidf_word_lr,body_only
+collected,0.91214,positive,tfidf_word_lr,body_only
+coconut,0.90941,positive,tfidf_word_lr,body_only
+fake,0.86303,positive,tfidf_word_lr,body_only
+safety,0.84613,positive,tfidf_word_lr,body_only
+quality,0.84343,positive,tfidf_word_lr,body_only
+substandard,0.8033,positive,tfidf_word_lr,body_only
+being,0.79883,positive,tfidf_word_lr,body_only
+items,0.77428,positive,tfidf_word_lr,body_only
+were,0.76774,positive,tfidf_word_lr,body_only
+testing,0.76228,positive,tfidf_word_lr,body_only
+found,0.75558,positive,tfidf_word_lr,body_only
+food,0.72786,positive,tfidf_word_lr,body_only
+sold,0.71622,positive,tfidf_word_lr,body_only
+sale,0.63476,positive,tfidf_word_lr,body_only
+brand,0.61006,positive,tfidf_word_lr,body_only
+litres,0.58069,positive,tfidf_word_lr,body_only
+department,0.54584,positive,tfidf_word_lr,body_only
+laboratory,0.53699,positive,tfidf_word_lr,body_only
+fsda,0.53361,positive,tfidf_word_lr,body_only
+hyderabad,0.5103,positive,tfidf_word_lr,body_only
+raids,0.49762,positive,tfidf_word_lr,body_only
+sent,0.49696,positive,tfidf_word_lr,body_only
+brands,0.49555,positive,tfidf_word_lr,body_only
+conducted,0.48739,positive,tfidf_word_lr,body_only
+loose,0.47935,positive,tfidf_word_lr,body_only
+non,0.47126,positive,tfidf_word_lr,body_only
+ban,-0.77895,negative,tfidf_word_lr,body_only
+indonesia,-0.77742,negative,tfidf_word_lr,body_only
+palm,-0.77596,negative,tfidf_word_lr,body_only
+prices,-0.70508,negative,tfidf_word_lr,body_only
+tonnes,-0.59471,negative,tfidf_word_lr,body_only
+domestic,-0.5747,negative,tfidf_word_lr,body_only
+export,-0.55261,negative,tfidf_word_lr,body_only
+exports,-0.55206,negative,tfidf_word_lr,body_only
+imports,-0.54793,negative,tfidf_word_lr,body_only
+per,-0.5331,negative,tfidf_word_lr,body_only
+cooking,-0.49645,negative,tfidf_word_lr,body_only
+industry,-0.48828,negative,tfidf_word_lr,body_only
+ukraine,-0.47249,negative,tfidf_word_lr,body_only
+cent,-0.46949,negative,tfidf_word_lr,body_only
+fire,-0.46118,negative,tfidf_word_lr,body_only
+world,-0.45582,negative,tfidf_word_lr,body_only
+import,-0.44957,negative,tfidf_word_lr,body_only
+vegetable,-0.43428,negative,tfidf_word_lr,body_only
+government,-0.42902,negative,tfidf_word_lr,body_only
+has,-0.41713,negative,tfidf_word_lr,body_only
+million,-0.40813,negative,tfidf_word_lr,body_only
+india,-0.40741,negative,tfidf_word_lr,body_only
+there,-0.39284,negative,tfidf_word_lr,body_only
+commodities,-0.39196,negative,tfidf_word_lr,body_only
+its,-0.38333,negative,tfidf_word_lr,body_only
+april,-0.37904,negative,tfidf_word_lr,body_only
+move,-0.37118,negative,tfidf_word_lr,body_only
+crude,-0.36815,negative,tfidf_word_lr,body_only
+farmers,-0.36323,negative,tfidf_word_lr,body_only
+price,-0.36269,negative,tfidf_word_lr,body_only
+adulterated,1.70512,positive,tfidf_word_lr,title_plus_body
+adulteration,1.3939,positive,tfidf_word_lr,title_plus_body
+samples,1.06896,positive,tfidf_word_lr,title_plus_body
+fake,0.95351,positive,tfidf_word_lr,title_plus_body
+coconut,0.94924,positive,tfidf_word_lr,title_plus_body
+seized,0.90202,positive,tfidf_word_lr,title_plus_body
+collected,0.89083,positive,tfidf_word_lr,title_plus_body
+found,0.84387,positive,tfidf_word_lr,title_plus_body
+safety,0.81979,positive,tfidf_word_lr,title_plus_body
+substandard,0.815,positive,tfidf_word_lr,title_plus_body
+quality,0.79871,positive,tfidf_word_lr,title_plus_body
+items,0.79216,positive,tfidf_word_lr,title_plus_body
+being,0.77056,positive,tfidf_word_lr,title_plus_body
+were,0.7531,positive,tfidf_word_lr,title_plus_body
+testing,0.75118,positive,tfidf_word_lr,title_plus_body
+food,0.70666,positive,tfidf_word_lr,title_plus_body
+sold,0.69946,positive,tfidf_word_lr,title_plus_body
+litres,0.67797,positive,tfidf_word_lr,title_plus_body
+sale,0.66021,positive,tfidf_word_lr,title_plus_body
+brand,0.60207,positive,tfidf_word_lr,title_plus_body
+fsda,0.55529,positive,tfidf_word_lr,title_plus_body
+hyderabad,0.53941,positive,tfidf_word_lr,title_plus_body
+department,0.5354,positive,tfidf_word_lr,title_plus_body
+laboratory,0.52637,positive,tfidf_word_lr,title_plus_body
+loose,0.52529,positive,tfidf_word_lr,title_plus_body
+spurious,0.50777,positive,tfidf_word_lr,title_plus_body
+brands,0.49388,positive,tfidf_word_lr,title_plus_body
+sent,0.48821,positive,tfidf_word_lr,title_plus_body
+conducted,0.48595,positive,tfidf_word_lr,title_plus_body
+non,0.4676,positive,tfidf_word_lr,title_plus_body
+ban,-0.8916,negative,tfidf_word_lr,title_plus_body
+indonesia,-0.82554,negative,tfidf_word_lr,title_plus_body
+palm,-0.80516,negative,tfidf_word_lr,title_plus_body
+prices,-0.69856,negative,tfidf_word_lr,title_plus_body
+export,-0.62422,negative,tfidf_word_lr,title_plus_body
+tonnes,-0.60681,negative,tfidf_word_lr,title_plus_body
+exports,-0.56385,negative,tfidf_word_lr,title_plus_body
+domestic,-0.56325,negative,tfidf_word_lr,title_plus_body
+imports,-0.55188,negative,tfidf_word_lr,title_plus_body
+per,-0.52148,negative,tfidf_word_lr,title_plus_body
+cooking,-0.50841,negative,tfidf_word_lr,title_plus_body
+industry,-0.48124,negative,tfidf_word_lr,title_plus_body
+import,-0.47384,negative,tfidf_word_lr,title_plus_body
+ukraine,-0.45937,negative,tfidf_word_lr,title_plus_body
+cent,-0.45849,negative,tfidf_word_lr,title_plus_body
+fire,-0.44719,negative,tfidf_word_lr,title_plus_body
+world,-0.444,negative,tfidf_word_lr,title_plus_body
+vegetable,-0.43434,negative,tfidf_word_lr,title_plus_body
+government,-0.42415,negative,tfidf_word_lr,title_plus_body
+has,-0.4093,negative,tfidf_word_lr,title_plus_body
+million,-0.39876,negative,tfidf_word_lr,title_plus_body
+its,-0.37905,negative,tfidf_word_lr,title_plus_body
+there,-0.37726,negative,tfidf_word_lr,title_plus_body
+commodities,-0.37616,negative,tfidf_word_lr,title_plus_body
+crude,-0.37157,negative,tfidf_word_lr,title_plus_body
+move,-0.36746,negative,tfidf_word_lr,title_plus_body
+used,-0.36696,negative,tfidf_word_lr,title_plus_body
+april,-0.36052,negative,tfidf_word_lr,title_plus_body
+imported,-0.3602,negative,tfidf_word_lr,title_plus_body
+farmers,-0.35968,negative,tfidf_word_lr,title_plus_body
+adulterated,1.76874,positive,tfidf_word_lr,title_plus_keyword_windows
+adulteration,1.4347,positive,tfidf_word_lr,title_plus_keyword_windows
+samples,1.105,positive,tfidf_word_lr,title_plus_keyword_windows
+fake,0.99943,positive,tfidf_word_lr,title_plus_keyword_windows
+coconut,0.96907,positive,tfidf_word_lr,title_plus_keyword_windows
+seized,0.90381,positive,tfidf_word_lr,title_plus_keyword_windows
+collected,0.85605,positive,tfidf_word_lr,title_plus_keyword_windows
+safety,0.85024,positive,tfidf_word_lr,title_plus_keyword_windows
+found,0.84808,positive,tfidf_word_lr,title_plus_keyword_windows
+quality,0.83767,positive,tfidf_word_lr,title_plus_keyword_windows
+substandard,0.83519,positive,tfidf_word_lr,title_plus_keyword_windows
+were,0.82726,positive,tfidf_word_lr,title_plus_keyword_windows
+being,0.79639,positive,tfidf_word_lr,title_plus_keyword_windows
+items,0.75233,positive,tfidf_word_lr,title_plus_keyword_windows
+food,0.73875,positive,tfidf_word_lr,title_plus_keyword_windows
+testing,0.70257,positive,tfidf_word_lr,title_plus_keyword_windows
+sale,0.66548,positive,tfidf_word_lr,title_plus_keyword_windows
+department,0.63149,positive,tfidf_word_lr,title_plus_keyword_windows
+litres,0.62372,positive,tfidf_word_lr,title_plus_keyword_windows
+sold,0.61254,positive,tfidf_word_lr,title_plus_keyword_windows
+hyderabad,0.58873,positive,tfidf_word_lr,title_plus_keyword_windows
+brand,0.56133,positive,tfidf_word_lr,title_plus_keyword_windows
+conducted,0.55132,positive,tfidf_word_lr,title_plus_keyword_windows
+spurious,0.5462,positive,tfidf_word_lr,title_plus_keyword_windows
+packaging,0.54507,positive,tfidf_word_lr,title_plus_keyword_windows
+fsda,0.54364,positive,tfidf_word_lr,title_plus_keyword_windows
+sent,0.52195,positive,tfidf_word_lr,title_plus_keyword_windows
+teams,0.50023,positive,tfidf_word_lr,title_plus_keyword_windows
+laboratory,0.49589,positive,tfidf_word_lr,title_plus_keyword_windows
+loose,0.48485,positive,tfidf_word_lr,title_plus_keyword_windows
+ban,-0.9512,negative,tfidf_word_lr,title_plus_keyword_windows
+indonesia,-0.84563,negative,tfidf_word_lr,title_plus_keyword_windows
+palm,-0.843,negative,tfidf_word_lr,title_plus_keyword_windows
+export,-0.64851,negative,tfidf_word_lr,title_plus_keyword_windows
+prices,-0.63595,negative,tfidf_word_lr,title_plus_keyword_windows
+exports,-0.57832,negative,tfidf_word_lr,title_plus_keyword_windows
+domestic,-0.56884,negative,tfidf_word_lr,title_plus_keyword_windows
+imports,-0.56534,negative,tfidf_word_lr,title_plus_keyword_windows
+tonnes,-0.5445,negative,tfidf_word_lr,title_plus_keyword_windows
+per,-0.54078,negative,tfidf_word_lr,title_plus_keyword_windows
+world,-0.49999,negative,tfidf_word_lr,title_plus_keyword_windows
+cooking,-0.49956,negative,tfidf_word_lr,title_plus_keyword_windows
+vegetable,-0.49454,negative,tfidf_word_lr,title_plus_keyword_windows
+fire,-0.48818,negative,tfidf_word_lr,title_plus_keyword_windows
+import,-0.47053,negative,tfidf_word_lr,title_plus_keyword_windows
+industry,-0.46841,negative,tfidf_word_lr,title_plus_keyword_windows
+its,-0.4515,negative,tfidf_word_lr,title_plus_keyword_windows
+used,-0.44504,negative,tfidf_word_lr,title_plus_keyword_windows
+cent,-0.43495,negative,tfidf_word_lr,title_plus_keyword_windows
+crude,-0.42893,negative,tfidf_word_lr,title_plus_keyword_windows
+ukraine,-0.42173,negative,tfidf_word_lr,title_plus_keyword_windows
+april,-0.41712,negative,tfidf_word_lr,title_plus_keyword_windows
+government,-0.39639,negative,tfidf_word_lr,title_plus_keyword_windows
+imported,-0.37536,negative,tfidf_word_lr,title_plus_keyword_windows
+malaysia,-0.37043,negative,tfidf_word_lr,title_plus_keyword_windows
+country,-0.36159,negative,tfidf_word_lr,title_plus_keyword_windows
+has,-0.35951,negative,tfidf_word_lr,title_plus_keyword_windows
+million,-0.35801,negative,tfidf_word_lr,title_plus_keyword_windows
+decision,-0.35626,negative,tfidf_word_lr,title_plus_keyword_windows
+commodities,-0.34408,negative,tfidf_word_lr,title_plus_keyword_windows
+adulterated,1.8076,positive,tfidf_phrase_lr,title_only
+adulteration,1.10734,positive,tfidf_phrase_lr,title_only
+coconut,1.02493,positive,tfidf_phrase_lr,title_only
+found,1.01491,positive,tfidf_phrase_lr,title_only
+coconut oil,0.99233,positive,tfidf_phrase_lr,title_only
+fake,0.94682,positive,tfidf_phrase_lr,title_only
+seizes,0.91334,positive,tfidf_phrase_lr,title_only
+the,0.85018,positive,tfidf_phrase_lr,title_only
+of,0.84142,positive,tfidf_phrase_lr,title_only
+food,0.75007,positive,tfidf_phrase_lr,title_only
+spurious,0.7272,positive,tfidf_phrase_lr,title_only
+hyderabad,0.69464,positive,tfidf_phrase_lr,title_only
+times of india,0.64758,positive,tfidf_phrase_lr,title_only
+times of,0.64758,positive,tfidf_phrase_lr,title_only
+litres,0.63097,positive,tfidf_phrase_lr,title_only
+of india,0.62538,positive,tfidf_phrase_lr,title_only
+times,0.62324,positive,tfidf_phrase_lr,title_only
+news,0.61789,positive,tfidf_phrase_lr,title_only
+seized,0.61033,positive,tfidf_phrase_lr,title_only
+food adulteration,0.61012,positive,tfidf_phrase_lr,title_only
+found in,0.61,positive,tfidf_phrase_lr,title_only
+loose,0.59788,positive,tfidf_phrase_lr,title_only
+substandard,0.5881,positive,tfidf_phrase_lr,title_only
+adulterated cooking,0.58803,positive,tfidf_phrase_lr,title_only
+adulterated cooking oil,0.58803,positive,tfidf_phrase_lr,title_only
+news the times,0.55432,positive,tfidf_phrase_lr,title_only
+news the,0.55432,positive,tfidf_phrase_lr,title_only
+ahead of,0.53995,positive,tfidf_phrase_lr,title_only
+cases,0.53612,positive,tfidf_phrase_lr,title_only
+lakh,0.52133,positive,tfidf_phrase_lr,title_only
+palm oil,-1.40897,negative,tfidf_phrase_lr,title_only
+palm,-1.36232,negative,tfidf_phrase_lr,title_only
+ban,-1.31264,negative,tfidf_phrase_lr,title_only
+indonesia,-1.05284,negative,tfidf_phrase_lr,title_only
+export,-0.91318,negative,tfidf_phrase_lr,title_only
+as,-0.80383,negative,tfidf_phrase_lr,title_only
+to,-0.70804,negative,tfidf_phrase_lr,title_only
+export ban,-0.70793,negative,tfidf_phrase_lr,title_only
+oil export,-0.599,negative,tfidf_phrase_lr,title_only
+is,-0.56744,negative,tfidf_phrase_lr,title_only
+palm oil export,-0.55815,negative,tfidf_phrase_lr,title_only
+ban on,-0.54776,negative,tfidf_phrase_lr,title_only
+bans,-0.49698,negative,tfidf_phrase_lr,title_only
+oil export ban,-0.48627,negative,tfidf_phrase_lr,title_only
+prices,-0.48358,negative,tfidf_phrase_lr,title_only
+cooking,-0.44269,negative,tfidf_phrase_lr,title_only
+exports,-0.42994,negative,tfidf_phrase_lr,title_only
+cooking oil,-0.42833,negative,tfidf_phrase_lr,title_only
+ludhiana,-0.42085,negative,tfidf_phrase_lr,title_only
+vegetable,-0.42084,negative,tfidf_phrase_lr,title_only
+vegetable oil,-0.42084,negative,tfidf_phrase_lr,title_only
+fire,-0.39436,negative,tfidf_phrase_lr,title_only
+palm oil exports,-0.39305,negative,tfidf_phrase_lr,title_only
+oil exports,-0.39305,negative,tfidf_phrase_lr,title_only
+oil prices,-0.39258,negative,tfidf_phrase_lr,title_only
+more,-0.39243,negative,tfidf_phrase_lr,title_only
+as indonesia,-0.39078,negative,tfidf_phrase_lr,title_only
+of edible oil,-0.38107,negative,tfidf_phrase_lr,title_only
+centre,-0.37126,negative,tfidf_phrase_lr,title_only
+oil worth rs,-0.35859,negative,tfidf_phrase_lr,title_only
+adulterated,1.04748,positive,tfidf_phrase_lr,body_only
+adulteration,0.85405,positive,tfidf_phrase_lr,body_only
+samples,0.7446,positive,tfidf_phrase_lr,body_only
+seized,0.69908,positive,tfidf_phrase_lr,body_only
+food safety,0.62919,positive,tfidf_phrase_lr,body_only
+collected,0.61767,positive,tfidf_phrase_lr,body_only
+safety,0.58681,positive,tfidf_phrase_lr,body_only
+fake,0.57556,positive,tfidf_phrase_lr,body_only
+quality,0.55924,positive,tfidf_phrase_lr,body_only
+coconut oil,0.55792,positive,tfidf_phrase_lr,body_only
+substandard,0.55774,positive,tfidf_phrase_lr,body_only
+found,0.54991,positive,tfidf_phrase_lr,body_only
+were,0.54681,positive,tfidf_phrase_lr,body_only
+coconut,0.53927,positive,tfidf_phrase_lr,body_only
+being,0.53716,positive,tfidf_phrase_lr,body_only
+items,0.53432,positive,tfidf_phrase_lr,body_only
+food,0.53158,positive,tfidf_phrase_lr,body_only
+testing,0.52815,positive,tfidf_phrase_lr,body_only
+of adulterated,0.48196,positive,tfidf_phrase_lr,body_only
+samples of,0.45984,positive,tfidf_phrase_lr,body_only
+sold,0.45306,positive,tfidf_phrase_lr,body_only
+the food,0.43967,positive,tfidf_phrase_lr,body_only
+litres of,0.43666,positive,tfidf_phrase_lr,body_only
+sale,0.43331,positive,tfidf_phrase_lr,body_only
+department,0.42059,positive,tfidf_phrase_lr,body_only
+brand,0.41751,positive,tfidf_phrase_lr,body_only
+the oil,0.39368,positive,tfidf_phrase_lr,body_only
+litres,0.39068,positive,tfidf_phrase_lr,body_only
+laboratory,0.39009,positive,tfidf_phrase_lr,body_only
+fsda,0.38196,positive,tfidf_phrase_lr,body_only
+palm oil,-0.54618,negative,tfidf_phrase_lr,body_only
+indonesia,-0.52023,negative,tfidf_phrase_lr,body_only
+palm,-0.51444,negative,tfidf_phrase_lr,body_only
+ban,-0.51098,negative,tfidf_phrase_lr,body_only
+prices,-0.47069,negative,tfidf_phrase_lr,body_only
+of palm,-0.44304,negative,tfidf_phrase_lr,body_only
+of palm oil,-0.42409,negative,tfidf_phrase_lr,body_only
+tonnes,-0.37972,negative,tfidf_phrase_lr,body_only
+domestic,-0.37782,negative,tfidf_phrase_lr,body_only
+exports,-0.36989,negative,tfidf_phrase_lr,body_only
+export,-0.36736,negative,tfidf_phrase_lr,body_only
+imports,-0.35181,negative,tfidf_phrase_lr,body_only
+per,-0.33668,negative,tfidf_phrase_lr,body_only
+the ban,-0.32195,negative,tfidf_phrase_lr,body_only
+industry,-0.30759,negative,tfidf_phrase_lr,body_only
+cent,-0.30191,negative,tfidf_phrase_lr,body_only
+import,-0.29865,negative,tfidf_phrase_lr,body_only
+cooking,-0.2985,negative,tfidf_phrase_lr,body_only
+world,-0.29778,negative,tfidf_phrase_lr,body_only
+ukraine,-0.29682,negative,tfidf_phrase_lr,body_only
+per cent,-0.29528,negative,tfidf_phrase_lr,body_only
+the world,-0.28727,negative,tfidf_phrase_lr,body_only
+oil prices,-0.28663,negative,tfidf_phrase_lr,body_only
+million,-0.27776,negative,tfidf_phrase_lr,body_only
+fire,-0.27373,negative,tfidf_phrase_lr,body_only
+cooking oil,-0.27298,negative,tfidf_phrase_lr,body_only
+prices of,-0.27186,negative,tfidf_phrase_lr,body_only
+government,-0.26986,negative,tfidf_phrase_lr,body_only
+the government,-0.26625,negative,tfidf_phrase_lr,body_only
+india,-0.26522,negative,tfidf_phrase_lr,body_only
+adulterated,1.11386,positive,tfidf_phrase_lr,title_plus_body
+adulteration,0.89593,positive,tfidf_phrase_lr,title_plus_body
+samples,0.7236,positive,tfidf_phrase_lr,title_plus_body
+seized,0.64036,positive,tfidf_phrase_lr,title_plus_body
+fake,0.63671,positive,tfidf_phrase_lr,title_plus_body
+food safety,0.59876,positive,tfidf_phrase_lr,title_plus_body
+found,0.59809,positive,tfidf_phrase_lr,title_plus_body
+collected,0.59743,positive,tfidf_phrase_lr,title_plus_body
+coconut oil,0.58615,positive,tfidf_phrase_lr,title_plus_body
+coconut,0.5703,positive,tfidf_phrase_lr,title_plus_body
+safety,0.56601,positive,tfidf_phrase_lr,title_plus_body
+substandard,0.56207,positive,tfidf_phrase_lr,title_plus_body
+items,0.54125,positive,tfidf_phrase_lr,title_plus_body
+were,0.52966,positive,tfidf_phrase_lr,title_plus_body
+quality,0.5273,positive,tfidf_phrase_lr,title_plus_body
+of adulterated,0.51625,positive,tfidf_phrase_lr,title_plus_body
+being,0.51603,positive,tfidf_phrase_lr,title_plus_body
+testing,0.51379,positive,tfidf_phrase_lr,title_plus_body
+food,0.51221,positive,tfidf_phrase_lr,title_plus_body
+litres of,0.48585,positive,tfidf_phrase_lr,title_plus_body
+litres,0.4597,positive,tfidf_phrase_lr,title_plus_body
+samples of,0.44741,positive,tfidf_phrase_lr,title_plus_body
+sale,0.44619,positive,tfidf_phrase_lr,title_plus_body
+sold,0.44507,positive,tfidf_phrase_lr,title_plus_body
+the food,0.42247,positive,tfidf_phrase_lr,title_plus_body
+brand,0.4094,positive,tfidf_phrase_lr,title_plus_body
+department,0.40935,positive,tfidf_phrase_lr,title_plus_body
+fsda,0.39709,positive,tfidf_phrase_lr,title_plus_body
+sale of,0.38191,positive,tfidf_phrase_lr,title_plus_body
+the oil,0.37873,positive,tfidf_phrase_lr,title_plus_body
+palm oil,-0.57363,negative,tfidf_phrase_lr,title_plus_body
+ban,-0.57273,negative,tfidf_phrase_lr,title_plus_body
+indonesia,-0.54951,negative,tfidf_phrase_lr,title_plus_body
+palm,-0.53169,negative,tfidf_phrase_lr,title_plus_body
+prices,-0.46655,negative,tfidf_phrase_lr,title_plus_body
+of palm,-0.43501,negative,tfidf_phrase_lr,title_plus_body
+of palm oil,-0.41715,negative,tfidf_phrase_lr,title_plus_body
+export,-0.41325,negative,tfidf_phrase_lr,title_plus_body
+tonnes,-0.38353,negative,tfidf_phrase_lr,title_plus_body
+exports,-0.37737,negative,tfidf_phrase_lr,title_plus_body
+domestic,-0.37104,negative,tfidf_phrase_lr,title_plus_body
+imports,-0.35533,negative,tfidf_phrase_lr,title_plus_body
+per,-0.32887,negative,tfidf_phrase_lr,title_plus_body
+import,-0.31155,negative,tfidf_phrase_lr,title_plus_body
+the ban,-0.31013,negative,tfidf_phrase_lr,title_plus_body
+industry,-0.30273,negative,tfidf_phrase_lr,title_plus_body
+cooking,-0.30115,negative,tfidf_phrase_lr,title_plus_body
+oil prices,-0.29923,negative,tfidf_phrase_lr,title_plus_body
+cent,-0.29427,negative,tfidf_phrase_lr,title_plus_body
+ban on,-0.29191,negative,tfidf_phrase_lr,title_plus_body
+world,-0.29029,negative,tfidf_phrase_lr,title_plus_body
+ukraine,-0.28857,negative,tfidf_phrase_lr,title_plus_body
+per cent,-0.28782,negative,tfidf_phrase_lr,title_plus_body
+export ban,-0.28774,negative,tfidf_phrase_lr,title_plus_body
+the world,-0.27891,negative,tfidf_phrase_lr,title_plus_body
+cooking oil,-0.27426,negative,tfidf_phrase_lr,title_plus_body
+million,-0.27034,negative,tfidf_phrase_lr,title_plus_body
+government,-0.26985,negative,tfidf_phrase_lr,title_plus_body
+fire,-0.26786,negative,tfidf_phrase_lr,title_plus_body
+prices of,-0.26515,negative,tfidf_phrase_lr,title_plus_body
+adulterated,1.1595,positive,tfidf_phrase_lr,title_plus_keyword_windows
+adulteration,0.93252,positive,tfidf_phrase_lr,title_plus_keyword_windows
+samples,0.7525,positive,tfidf_phrase_lr,title_plus_keyword_windows
+fake,0.67293,positive,tfidf_phrase_lr,title_plus_keyword_windows
+seized,0.64669,positive,tfidf_phrase_lr,title_plus_keyword_windows
+found,0.60368,positive,tfidf_phrase_lr,title_plus_keyword_windows
+food safety,0.60041,positive,tfidf_phrase_lr,title_plus_keyword_windows
+coconut oil,0.59659,positive,tfidf_phrase_lr,title_plus_keyword_windows
+collected,0.57633,positive,tfidf_phrase_lr,title_plus_keyword_windows
+substandard,0.57202,positive,tfidf_phrase_lr,title_plus_keyword_windows
+safety,0.56903,positive,tfidf_phrase_lr,title_plus_keyword_windows
+coconut,0.56711,positive,tfidf_phrase_lr,title_plus_keyword_windows
+were,0.55688,positive,tfidf_phrase_lr,title_plus_keyword_windows
+of adulterated,0.54707,positive,tfidf_phrase_lr,title_plus_keyword_windows
+quality,0.54103,positive,tfidf_phrase_lr,title_plus_keyword_windows
+being,0.5299,positive,tfidf_phrase_lr,title_plus_keyword_windows
+food,0.51895,positive,tfidf_phrase_lr,title_plus_keyword_windows
+items,0.51237,positive,tfidf_phrase_lr,title_plus_keyword_windows
+testing,0.48558,positive,tfidf_phrase_lr,title_plus_keyword_windows
+samples of,0.4706,positive,tfidf_phrase_lr,title_plus_keyword_windows
+department,0.46981,positive,tfidf_phrase_lr,title_plus_keyword_windows
+litres of,0.44521,positive,tfidf_phrase_lr,title_plus_keyword_windows
+sale,0.44078,positive,tfidf_phrase_lr,title_plus_keyword_windows
+the food,0.43194,positive,tfidf_phrase_lr,title_plus_keyword_windows
+litres,0.43028,positive,tfidf_phrase_lr,title_plus_keyword_windows
+fsda,0.39004,positive,tfidf_phrase_lr,title_plus_keyword_windows
+sold,0.38944,positive,tfidf_phrase_lr,title_plus_keyword_windows
+conducted,0.38107,positive,tfidf_phrase_lr,title_plus_keyword_windows
+brand,0.38038,positive,tfidf_phrase_lr,title_plus_keyword_windows
+sale of,0.37989,positive,tfidf_phrase_lr,title_plus_keyword_windows
+ban,-0.61032,negative,tfidf_phrase_lr,title_plus_keyword_windows
+palm oil,-0.59983,negative,tfidf_phrase_lr,title_plus_keyword_windows
+indonesia,-0.56075,negative,tfidf_phrase_lr,title_plus_keyword_windows
+palm,-0.55624,negative,tfidf_phrase_lr,title_plus_keyword_windows
+of palm,-0.45087,negative,tfidf_phrase_lr,title_plus_keyword_windows
+prices,-0.43782,negative,tfidf_phrase_lr,title_plus_keyword_windows
+of palm oil,-0.43517,negative,tfidf_phrase_lr,title_plus_keyword_windows
+export,-0.42542,negative,tfidf_phrase_lr,title_plus_keyword_windows
+exports,-0.38687,negative,tfidf_phrase_lr,title_plus_keyword_windows
+domestic,-0.37304,negative,tfidf_phrase_lr,title_plus_keyword_windows
+ban on,-0.36849,negative,tfidf_phrase_lr,title_plus_keyword_windows
+imports,-0.36175,negative,tfidf_phrase_lr,title_plus_keyword_windows
+per,-0.34592,negative,tfidf_phrase_lr,title_plus_keyword_windows
+tonnes,-0.34532,negative,tfidf_phrase_lr,title_plus_keyword_windows
+world,-0.32096,negative,tfidf_phrase_lr,title_plus_keyword_windows
+the ban,-0.32044,negative,tfidf_phrase_lr,title_plus_keyword_windows
+oil prices,-0.32032,negative,tfidf_phrase_lr,title_plus_keyword_windows
+fire,-0.31451,negative,tfidf_phrase_lr,title_plus_keyword_windows
+import,-0.30743,negative,tfidf_phrase_lr,title_plus_keyword_windows
+cooking,-0.29727,negative,tfidf_phrase_lr,title_plus_keyword_windows
+crude,-0.29701,negative,tfidf_phrase_lr,title_plus_keyword_windows
+the world,-0.29546,negative,tfidf_phrase_lr,title_plus_keyword_windows
+vegetable oil,-0.28925,negative,tfidf_phrase_lr,title_plus_keyword_windows
+export ban,-0.28911,negative,tfidf_phrase_lr,title_plus_keyword_windows
+cent,-0.28884,negative,tfidf_phrase_lr,title_plus_keyword_windows
+cooking oil,-0.28518,negative,tfidf_phrase_lr,title_plus_keyword_windows
+industry,-0.28444,negative,tfidf_phrase_lr,title_plus_keyword_windows
+crude palm,-0.28391,negative,tfidf_phrase_lr,title_plus_keyword_windows
+per cent,-0.28324,negative,tfidf_phrase_lr,title_plus_keyword_windows
+crude palm oil,-0.27819,negative,tfidf_phrase_lr,title_plus_keyword_windows
+adulterated,1.36717,positive,tfidf_phrase_svm,title_only
+found,0.9095,positive,tfidf_phrase_svm,title_only
+adulteration,0.90257,positive,tfidf_phrase_svm,title_only
+seizes,0.75299,positive,tfidf_phrase_svm,title_only
+loose,0.72441,positive,tfidf_phrase_svm,title_only
+coconut,0.67187,positive,tfidf_phrase_svm,title_only
+spurious,0.67158,positive,tfidf_phrase_svm,title_only
+fake,0.6432,positive,tfidf_phrase_svm,title_only
+coconut oil,0.62663,positive,tfidf_phrase_svm,title_only
+substandard,0.61671,positive,tfidf_phrase_svm,title_only
+hyderabad,0.56285,positive,tfidf_phrase_svm,title_only
+the,0.5566,positive,tfidf_phrase_svm,title_only
+adulterated cooking oil,0.53703,positive,tfidf_phrase_svm,title_only
+adulterated cooking,0.53703,positive,tfidf_phrase_svm,title_only
+found in,0.5182,positive,tfidf_phrase_svm,title_only
+food,0.51754,positive,tfidf_phrase_svm,title_only
+cases,0.49965,positive,tfidf_phrase_svm,title_only
+food adulteration,0.49517,positive,tfidf_phrase_svm,title_only
+fraud,0.49089,positive,tfidf_phrase_svm,title_only
+items,0.47508,positive,tfidf_phrase_svm,title_only
+busts,0.46435,positive,tfidf_phrase_svm,title_only
+edible oil samples,0.46171,positive,tfidf_phrase_svm,title_only
+oil samples,0.46171,positive,tfidf_phrase_svm,title_only
+tins,0.46021,positive,tfidf_phrase_svm,title_only
+nandurbar,0.45734,positive,tfidf_phrase_svm,title_only
+ahead of,0.43905,positive,tfidf_phrase_svm,title_only
+be,0.43417,positive,tfidf_phrase_svm,title_only
+on oil,0.4301,positive,tfidf_phrase_svm,title_only
+50,0.42611,positive,tfidf_phrase_svm,title_only
+of,0.41393,positive,tfidf_phrase_svm,title_only
+palm oil,-0.75608,negative,tfidf_phrase_svm,title_only
+palm,-0.70925,negative,tfidf_phrase_svm,title_only
+ban,-0.65063,negative,tfidf_phrase_svm,title_only
+as,-0.58027,negative,tfidf_phrase_svm,title_only
+worth rs,-0.54784,negative,tfidf_phrase_svm,title_only
+ludhiana,-0.53093,negative,tfidf_phrase_svm,title_only
+oil worth rs,-0.52863,negative,tfidf_phrase_svm,title_only
+is,-0.52689,negative,tfidf_phrase_svm,title_only
+more,-0.50226,negative,tfidf_phrase_svm,title_only
+indonesia,-0.46313,negative,tfidf_phrase_svm,title_only
+export,-0.44255,negative,tfidf_phrase_svm,title_only
+vijayawada news times,-0.43657,negative,tfidf_phrase_svm,title_only
+of edible oil,-0.4298,negative,tfidf_phrase_svm,title_only
+to,-0.42311,negative,tfidf_phrase_svm,title_only
+fire,-0.41257,negative,tfidf_phrase_svm,title_only
+issues,-0.41086,negative,tfidf_phrase_svm,title_only
+arrested,-0.40412,negative,tfidf_phrase_svm,title_only
+cooking,-0.39666,negative,tfidf_phrase_svm,title_only
+cooking oil,-0.39282,negative,tfidf_phrase_svm,title_only
+with,-0.38978,negative,tfidf_phrase_svm,title_only
+vegetable,-0.38661,negative,tfidf_phrase_svm,title_only
+vegetable oil,-0.38661,negative,tfidf_phrase_svm,title_only
+diesel,-0.38298,negative,tfidf_phrase_svm,title_only
+pradesh,-0.38134,negative,tfidf_phrase_svm,title_only
+cheese,-0.38104,negative,tfidf_phrase_svm,title_only
+imported,-0.37384,negative,tfidf_phrase_svm,title_only
+ahmedabad,-0.37314,negative,tfidf_phrase_svm,title_only
+adulterated oil seized,-0.3662,negative,tfidf_phrase_svm,title_only
+use of,-0.35669,negative,tfidf_phrase_svm,title_only
+for,-0.35386,negative,tfidf_phrase_svm,title_only
+adulterated,0.81673,positive,tfidf_phrase_svm,body_only
+adulteration,0.71584,positive,tfidf_phrase_svm,body_only
+fake,0.48357,positive,tfidf_phrase_svm,body_only
+samples,0.48125,positive,tfidf_phrase_svm,body_only
+substandard,0.45605,positive,tfidf_phrase_svm,body_only
+quality,0.45556,positive,tfidf_phrase_svm,body_only
+coconut oil,0.44645,positive,tfidf_phrase_svm,body_only
+collected,0.44085,positive,tfidf_phrase_svm,body_only
+seized,0.43837,positive,tfidf_phrase_svm,body_only
+coconut,0.43586,positive,tfidf_phrase_svm,body_only
+items,0.43255,positive,tfidf_phrase_svm,body_only
+being,0.43246,positive,tfidf_phrase_svm,body_only
+testing,0.39904,positive,tfidf_phrase_svm,body_only
+food safety,0.38263,positive,tfidf_phrase_svm,body_only
+were,0.38172,positive,tfidf_phrase_svm,body_only
+sold,0.38159,positive,tfidf_phrase_svm,body_only
+found,0.36003,positive,tfidf_phrase_svm,body_only
+of adulterated,0.358,positive,tfidf_phrase_svm,body_only
+safety,0.33163,positive,tfidf_phrase_svm,body_only
+food,0.32003,positive,tfidf_phrase_svm,body_only
+brand,0.32002,positive,tfidf_phrase_svm,body_only
+the oil,0.3175,positive,tfidf_phrase_svm,body_only
+sale,0.31035,positive,tfidf_phrase_svm,body_only
+samples of,0.30992,positive,tfidf_phrase_svm,body_only
+litres of,0.30279,positive,tfidf_phrase_svm,body_only
+sale of,0.29474,positive,tfidf_phrase_svm,body_only
+were seized,0.29181,positive,tfidf_phrase_svm,body_only
+fsda,0.28948,positive,tfidf_phrase_svm,body_only
+adulterated edible,0.27158,positive,tfidf_phrase_svm,body_only
+loose,0.26605,positive,tfidf_phrase_svm,body_only
+palm oil,-0.29253,negative,tfidf_phrase_svm,body_only
+ban,-0.28457,negative,tfidf_phrase_svm,body_only
+of palm,-0.27542,negative,tfidf_phrase_svm,body_only
+prices,-0.26798,negative,tfidf_phrase_svm,body_only
+palm,-0.26738,negative,tfidf_phrase_svm,body_only
+of palm oil,-0.26517,negative,tfidf_phrase_svm,body_only
+indonesia,-0.25889,negative,tfidf_phrase_svm,body_only
+fire,-0.25229,negative,tfidf_phrase_svm,body_only
+cooking,-0.24887,negative,tfidf_phrase_svm,body_only
+imports,-0.22611,negative,tfidf_phrase_svm,body_only
+import,-0.21758,negative,tfidf_phrase_svm,body_only
+tonnes,-0.21696,negative,tfidf_phrase_svm,body_only
+used cooking oil,-0.215,negative,tfidf_phrase_svm,body_only
+domestic,-0.21155,negative,tfidf_phrase_svm,body_only
+there,-0.21122,negative,tfidf_phrase_svm,body_only
+cooking oil,-0.21002,negative,tfidf_phrase_svm,body_only
+arrested,-0.20986,negative,tfidf_phrase_svm,body_only
+per,-0.20741,negative,tfidf_phrase_svm,body_only
+without,-0.2023,negative,tfidf_phrase_svm,body_only
+tax,-0.20151,negative,tfidf_phrase_svm,body_only
+has,-0.19968,negative,tfidf_phrase_svm,body_only
+used cooking,-0.19781,negative,tfidf_phrase_svm,body_only
+industry,-0.19736,negative,tfidf_phrase_svm,body_only
+exports,-0.19586,negative,tfidf_phrase_svm,body_only
+however,-0.19123,negative,tfidf_phrase_svm,body_only
+imported,-0.1813,negative,tfidf_phrase_svm,body_only
+export,-0.17767,negative,tfidf_phrase_svm,body_only
+heart,-0.17555,negative,tfidf_phrase_svm,body_only
+in the,-0.17501,negative,tfidf_phrase_svm,body_only
+ukraine,-0.17449,negative,tfidf_phrase_svm,body_only
+adulterated,0.86952,positive,tfidf_phrase_svm,title_plus_body
+adulteration,0.74893,positive,tfidf_phrase_svm,title_plus_body
+fake,0.52649,positive,tfidf_phrase_svm,title_plus_body
+samples,0.4688,positive,tfidf_phrase_svm,title_plus_body
+coconut oil,0.46801,positive,tfidf_phrase_svm,title_plus_body
+coconut,0.46031,positive,tfidf_phrase_svm,title_plus_body
+substandard,0.46015,positive,tfidf_phrase_svm,title_plus_body
+items,0.43872,positive,tfidf_phrase_svm,title_plus_body
+collected,0.42627,positive,tfidf_phrase_svm,title_plus_body
+quality,0.42199,positive,tfidf_phrase_svm,title_plus_body
+being,0.4107,positive,tfidf_phrase_svm,title_plus_body
+found,0.41005,positive,tfidf_phrase_svm,title_plus_body
+testing,0.38687,positive,tfidf_phrase_svm,title_plus_body
+of adulterated,0.38679,positive,tfidf_phrase_svm,title_plus_body
+sold,0.37405,positive,tfidf_phrase_svm,title_plus_body
+were,0.37034,positive,tfidf_phrase_svm,title_plus_body
+seized,0.35294,positive,tfidf_phrase_svm,title_plus_body
+food safety,0.35034,positive,tfidf_phrase_svm,title_plus_body
+litres of,0.33194,positive,tfidf_phrase_svm,title_plus_body
+sale,0.32466,positive,tfidf_phrase_svm,title_plus_body
+brand,0.31652,positive,tfidf_phrase_svm,title_plus_body
+safety,0.30892,positive,tfidf_phrase_svm,title_plus_body
+litres,0.30564,positive,tfidf_phrase_svm,title_plus_body
+sale of,0.30518,positive,tfidf_phrase_svm,title_plus_body
+samples of,0.30373,positive,tfidf_phrase_svm,title_plus_body
+food,0.30357,positive,tfidf_phrase_svm,title_plus_body
+the oil,0.3034,positive,tfidf_phrase_svm,title_plus_body
+fsda,0.30021,positive,tfidf_phrase_svm,title_plus_body
+loose,0.29432,positive,tfidf_phrase_svm,title_plus_body
+were seized,0.28816,positive,tfidf_phrase_svm,title_plus_body
+ban,-0.32329,negative,tfidf_phrase_svm,title_plus_body
+palm oil,-0.31,negative,tfidf_phrase_svm,title_plus_body
+palm,-0.27802,negative,tfidf_phrase_svm,title_plus_body
+indonesia,-0.26968,negative,tfidf_phrase_svm,title_plus_body
+of palm,-0.26613,negative,tfidf_phrase_svm,title_plus_body
+prices,-0.2621,negative,tfidf_phrase_svm,title_plus_body
+cooking,-0.25769,negative,tfidf_phrase_svm,title_plus_body
+arrested,-0.25712,negative,tfidf_phrase_svm,title_plus_body
+of palm oil,-0.25697,negative,tfidf_phrase_svm,title_plus_body
+fire,-0.24902,negative,tfidf_phrase_svm,title_plus_body
+used cooking oil,-0.22954,negative,tfidf_phrase_svm,title_plus_body
+tonnes,-0.22954,negative,tfidf_phrase_svm,title_plus_body
+imports,-0.22842,negative,tfidf_phrase_svm,title_plus_body
+import,-0.22667,negative,tfidf_phrase_svm,title_plus_body
+cooking oil,-0.22294,negative,tfidf_phrase_svm,title_plus_body
+used cooking,-0.21169,negative,tfidf_phrase_svm,title_plus_body
+domestic,-0.2049,negative,tfidf_phrase_svm,title_plus_body
+per,-0.20097,negative,tfidf_phrase_svm,title_plus_body
+there,-0.20058,negative,tfidf_phrase_svm,title_plus_body
+export,-0.20021,negative,tfidf_phrase_svm,title_plus_body
+tax,-0.19984,negative,tfidf_phrase_svm,title_plus_body
+exports,-0.19692,negative,tfidf_phrase_svm,title_plus_body
+imported,-0.19688,negative,tfidf_phrase_svm,title_plus_body
+of cooking,-0.19669,negative,tfidf_phrase_svm,title_plus_body
+without,-0.19638,negative,tfidf_phrase_svm,title_plus_body
+has,-0.19351,negative,tfidf_phrase_svm,title_plus_body
+industry,-0.19174,negative,tfidf_phrase_svm,title_plus_body
+used,-0.18408,negative,tfidf_phrase_svm,title_plus_body
+however,-0.18379,negative,tfidf_phrase_svm,title_plus_body
+diesel,-0.17898,negative,tfidf_phrase_svm,title_plus_body
+adulterated,0.91126,positive,tfidf_phrase_svm,title_plus_keyword_windows
+adulteration,0.76026,positive,tfidf_phrase_svm,title_plus_keyword_windows
+fake,0.54734,positive,tfidf_phrase_svm,title_plus_keyword_windows
+samples,0.52025,positive,tfidf_phrase_svm,title_plus_keyword_windows
+coconut oil,0.48578,positive,tfidf_phrase_svm,title_plus_keyword_windows
+substandard,0.47182,positive,tfidf_phrase_svm,title_plus_keyword_windows
+coconut,0.46642,positive,tfidf_phrase_svm,title_plus_keyword_windows
+found,0.4391,positive,tfidf_phrase_svm,title_plus_keyword_windows
+quality,0.42565,positive,tfidf_phrase_svm,title_plus_keyword_windows
+being,0.42222,positive,tfidf_phrase_svm,title_plus_keyword_windows
+collected,0.42042,positive,tfidf_phrase_svm,title_plus_keyword_windows
+of adulterated,0.41721,positive,tfidf_phrase_svm,title_plus_keyword_windows
+were,0.413,positive,tfidf_phrase_svm,title_plus_keyword_windows
+items,0.40528,positive,tfidf_phrase_svm,title_plus_keyword_windows
+seized,0.37111,positive,tfidf_phrase_svm,title_plus_keyword_windows
+testing,0.35751,positive,tfidf_phrase_svm,title_plus_keyword_windows
+food safety,0.35233,positive,tfidf_phrase_svm,title_plus_keyword_windows
+adulterated edible,0.34791,positive,tfidf_phrase_svm,title_plus_keyword_windows
+sold,0.33242,positive,tfidf_phrase_svm,title_plus_keyword_windows
+adulteration of,0.32967,positive,tfidf_phrase_svm,title_plus_keyword_windows
+samples of,0.32823,positive,tfidf_phrase_svm,title_plus_keyword_windows
+sale,0.32199,positive,tfidf_phrase_svm,title_plus_keyword_windows
+food,0.31613,positive,tfidf_phrase_svm,title_plus_keyword_windows
+safety,0.31359,positive,tfidf_phrase_svm,title_plus_keyword_windows
+of oil,0.31113,positive,tfidf_phrase_svm,title_plus_keyword_windows
+packaging,0.30426,positive,tfidf_phrase_svm,title_plus_keyword_windows
+sale of,0.30156,positive,tfidf_phrase_svm,title_plus_keyword_windows
+were seized,0.29663,positive,tfidf_phrase_svm,title_plus_keyword_windows
+fsda,0.29661,positive,tfidf_phrase_svm,title_plus_keyword_windows
+brand,0.29393,positive,tfidf_phrase_svm,title_plus_keyword_windows
+ban,-0.34698,negative,tfidf_phrase_svm,title_plus_keyword_windows
+palm oil,-0.32388,negative,tfidf_phrase_svm,title_plus_keyword_windows
+fire,-0.2974,negative,tfidf_phrase_svm,title_plus_keyword_windows
+palm,-0.28738,negative,tfidf_phrase_svm,title_plus_keyword_windows
+indonesia,-0.27441,negative,tfidf_phrase_svm,title_plus_keyword_windows
+of palm,-0.27334,negative,tfidf_phrase_svm,title_plus_keyword_windows
+of palm oil,-0.26371,negative,tfidf_phrase_svm,title_plus_keyword_windows
+used cooking oil,-0.25057,negative,tfidf_phrase_svm,title_plus_keyword_windows
+cooking,-0.24487,negative,tfidf_phrase_svm,title_plus_keyword_windows
+used,-0.23445,negative,tfidf_phrase_svm,title_plus_keyword_windows
+prices,-0.234,negative,tfidf_phrase_svm,title_plus_keyword_windows
+used cooking,-0.23259,negative,tfidf_phrase_svm,title_plus_keyword_windows
+import,-0.23054,negative,tfidf_phrase_svm,title_plus_keyword_windows
+cooking oil,-0.22771,negative,tfidf_phrase_svm,title_plus_keyword_windows
+imports,-0.22554,negative,tfidf_phrase_svm,title_plus_keyword_windows
+arrested,-0.22162,negative,tfidf_phrase_svm,title_plus_keyword_windows
+per,-0.2185,negative,tfidf_phrase_svm,title_plus_keyword_windows
+of cooking,-0.21683,negative,tfidf_phrase_svm,title_plus_keyword_windows
+ban on,-0.21299,negative,tfidf_phrase_svm,title_plus_keyword_windows
+tonnes,-0.20771,negative,tfidf_phrase_svm,title_plus_keyword_windows
+export,-0.20723,negative,tfidf_phrase_svm,title_plus_keyword_windows
+of cooking oil,-0.20607,negative,tfidf_phrase_svm,title_plus_keyword_windows
+stolen,-0.20424,negative,tfidf_phrase_svm,title_plus_keyword_windows
+imported,-0.20137,negative,tfidf_phrase_svm,title_plus_keyword_windows
+domestic,-0.19958,negative,tfidf_phrase_svm,title_plus_keyword_windows
+vegetable oil,-0.19862,negative,tfidf_phrase_svm,title_plus_keyword_windows
+exports,-0.19643,negative,tfidf_phrase_svm,title_plus_keyword_windows
+vegetable,-0.19519,negative,tfidf_phrase_svm,title_plus_keyword_windows
+tax,-0.19115,negative,tfidf_phrase_svm,title_plus_keyword_windows
+world,-0.18226,negative,tfidf_phrase_svm,title_plus_keyword_windows

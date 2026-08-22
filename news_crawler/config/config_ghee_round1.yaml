@@ -1,0 +1,151 @@
+date_range:
+  start: '2021-01-01'
+  end: '2026-06-30'
+food_terms:
+- ghee
+- cow ghee
+- desi ghee
+- pure ghee
+- loose ghee
+- fake ghee
+- fake cow ghee
+- adulterated ghee
+- suspected adulterated ghee
+- vegetable ghee
+- ghee racket
+- ghee racket busted
+adulteration_terms:
+- adulterated
+- fake
+adulterant_terms:
+- vanaspati
+- vegetable ghee
+action_terms:
+- fssai
+- fda
+- food safety
+- raid
+- seized
+location_terms:
+- India
+- Indian
+- Andhra Pradesh
+- Arunachal Pradesh
+- Assam
+- Bihar
+- Chandigarh
+- Chhattisgarh
+- Delhi
+- Goa
+- Gujarat
+- Haryana
+- Karnataka
+- Kerala
+- Madhya Pradesh
+- Maharashtra
+- Manipur
+- Meghalaya
+- Mizoram
+- Nagaland
+- Punjab
+- Rajasthan
+- Sikkim
+- Tamil Nadu
+- Tripura
+- Uttar Pradesh
+- Uttarakhand
+- West Bengal
+discovery:
+  enabled_sources:
+  - mediacloud
+  mediacloud:
+    collection_ids:
+    - 34412118
+    - 38379954
+    - 38379967
+    - 38379977
+    - 38379980
+    - 38379982
+    - 38379984
+    - 38379986
+    - 38379959
+    - 38379989
+    - 38379955
+    - 38379971
+    - 38379991
+    - 38379957
+    - 38379963
+    - 38379973
+    - 38379995
+    - 38379998
+    - 38380002
+    - 38380004
+    - 38379975
+    - 38380009
+    - 38380012
+    - 38379969
+    - 38380014
+    - 38379965
+    - 38380016
+    - 38379961
+    max_results: 1000
+    delay_seconds: 1.5
+augmentation:
+  seed_keywords_file: config/ghee_round1_seed_queries.yaml
+  seed_keywords: []
+  convergence_threshold: 0.85
+  max_rounds: 5
+  min_df: 2
+  max_new_keywords: 30
+  top_n_per_round: 20
+crawl:
+  delay_seconds: 3.0
+  max_retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 45
+  user_agent: 'FoodSafetyResearchBot/1.0 (Academic research on Indian ghee food safety;
+    contact: research@example.com)'
+  respect_robots_txt: true
+  use_playwright: false
+relevance:
+  min_score_relevant: 0.55
+  min_score_maybe: 0.25
+  require_india_term: true
+  require_oil_term: true
+  require_adulteration_or_action_term: true
+  weights:
+    oil_term_hit: 0.25
+    oil_term_cap: 0.3
+    adulteration_term_hit: 0.2
+    adulteration_term_cap: 0.25
+    action_term_hit: 0.15
+    action_term_cap: 0.2
+    location_india_hit: 0.1
+    location_state_hit: 0.05
+    location_cap: 0.15
+    date_in_range: 0.1
+dedupe:
+  url_exact: true
+  url_canonical: true
+  title_normalize: true
+  text_hash: true
+  near_duplicate:
+    enabled: true
+    similarity_threshold: 0.75
+paths:
+  seed_urls: data/runs/ghee_adulteration_round_01_2026-06-30/source_urls_from_docx.csv
+  raw_html: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/raw_html
+  cleaned_text: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/cleaned_text
+  outputs: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs
+  logs: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/logs
+  db: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs/articles.db
+  discovered_urls: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs/discovered_urls.jsonl
+  articles_jsonl: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs/articles.jsonl
+  articles_csv: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs/articles.csv
+  report: data/runs/ghee_adulteration_round_01_2026-06-30/mediacloud/outputs/report.json
+api_keys:
+  mediacloud_key: ''
+  google_cse_key: ''
+  google_cse_cx: ''
+  bing_api_key: ''
+  serpapi_key: ''

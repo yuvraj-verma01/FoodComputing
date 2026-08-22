@@ -1,0 +1,7 @@
+not_term,risk_flag,category
+paneer,possible_not_candidate,other_junk
+dairy products,possible_not_candidate,other_junk
+paneer bought,possible_not_candidate,other_junk
+paneer manufactured,possible_not_candidate,other_junk
+paneer store,possible_not_candidate,other_junk
+soybean corn,possible_not_candidate,other_junk

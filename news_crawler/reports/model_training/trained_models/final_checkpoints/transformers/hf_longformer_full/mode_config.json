@@ -1,0 +1,5 @@
+{
+  "backbone": "allenai/longformer-base-4096",
+  "max_length": 4096,
+  "global_cls": true
+}

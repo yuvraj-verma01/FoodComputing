@@ -1,0 +1,402 @@
+﻿{
+    "created_at":  "2026-06-23T05:36:41.6736732Z",
+    "workspace_root":  "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler",
+    "archive_dir":  "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\archive\\cleanup_2026-06-23",
+    "policy":  "Moved intermediate and legacy artifacts to archive; no files intentionally deleted.",
+    "moved_count":  55,
+    "missing_count":  1,
+    "entries":  [
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\all_articles_review.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\all_articles_review.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\crawl_queue.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\crawl_queue.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\crawl_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\crawl_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\filtering_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\filtering_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_irrelevant_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_irrelevant_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_needs_review_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_needs_review_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_relevant_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_relevant_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_reviewed_all_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_reviewed_all_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_reviewed_corpus.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_reviewed_corpus.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_review_conflicts.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_review_conflicts.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\human_review_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\human_review_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\irrelevant_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\irrelevant_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\llm_results.jsonl",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\llm_results.jsonl",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\manual_review_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\manual_review_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\manual_validation_sample.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\manual_validation_sample.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_all_articles_review.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_all_articles_review.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_filtering_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_filtering_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_irrelevant_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_irrelevant_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_manual_review_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_manual_review_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_relevant_oil_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_relevant_oil_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_rescue_crawl_log.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_rescue_crawl_log.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_rescue_crawl_queue.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_rescue_crawl_queue.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_rescue_crawl_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_rescue_crawl_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_screened_out_audit.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_screened_out_audit.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_screened_out_audit.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_screened_out_audit.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\metadata_screened_out_audit_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\metadata_screened_out_audit_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\oil_relevance_review.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\oil_relevance_review.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\oil_relevance_review_updated_2026-06-23.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\oil_relevance_review_updated_2026-06-23.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_failed_log.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_failed_log.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_failed_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_failed_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_log.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_log.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_playwright_retry_failed_log.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_playwright_retry_failed_log.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_playwright_retry_failed_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_playwright_retry_failed_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_playwright_retry_failed_variants_log.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_playwright_retry_failed_variants_log.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_playwright_retry_failed_variants_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_playwright_retry_failed_variants_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\playwright_robot_retry_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\playwright_robot_retry_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rejected_fulltext_audit.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rejected_fulltext_audit.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rejected_fulltext_audit.jsonl",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rejected_fulltext_audit.jsonl",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rejected_fulltext_audit.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rejected_fulltext_audit.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rejected_safety_review.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rejected_safety_review.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rejected_safety_review.xlsx",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rejected_safety_review.xlsx",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\relevant_oil_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\relevant_oil_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rule_text_all_articles_review.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rule_text_all_articles_review.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rule_text_filtering_summary.json",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rule_text_filtering_summary.json",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rule_text_irrelevant_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rule_text_irrelevant_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rule_text_manual_review_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rule_text_manual_review_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "intermediate_output",
+                        "source":  "data\\runs\\edible_oils_boolean_title_proximity_2026-06-22\\mediacloud\\outputs\\oil_relevance\\rule_text_relevant_oil_articles.csv",
+                        "destination":  "current_run_intermediate_oil_relevance_outputs\\rule_text_relevant_oil_articles.csv",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "old_run",
+                        "source":  "data\\runs\\edible_oils_boolean_2026-06-21",
+                        "destination":  "runs\\edible_oils_boolean_2026-06-21",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_output",
+                        "source":  "data\\outputs",
+                        "destination":  "legacy_data_outputs",
+                        "status":  "missing",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "check_progress.py",
+                        "destination":  "legacy_root_scripts\\check_progress.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "cleanup_gnews_articles.py",
+                        "destination":  "legacy_root_scripts\\cleanup_gnews_articles.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "clear_google_news.py",
+                        "destination":  "legacy_root_scripts\\clear_google_news.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "debug_gnews.py",
+                        "destination":  "legacy_root_scripts\\debug_gnews.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "inspect_results.py",
+                        "destination":  "legacy_root_scripts\\inspect_results.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "reset_gnews_pending.py",
+                        "destination":  "legacy_root_scripts\\reset_gnews_pending.py",
+                        "status":  "moved",
+                        "note":  ""
+                    },
+                    {
+                        "kind":  "legacy_root_script",
+                        "source":  "reset_pending.py",
+                        "destination":  "legacy_root_scripts\\reset_pending.py",
+                        "status":  "moved",
+                        "note":  ""
+                    }
+                ]
+}

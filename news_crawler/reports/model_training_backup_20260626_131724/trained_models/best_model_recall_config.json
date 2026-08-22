@@ -1,0 +1,11 @@
+{
+  "model_type": "tfidf_pipeline",
+  "model_name": "tfidf_phrase_lr",
+  "representation": "title_plus_body",
+  "selection_criterion": "recall",
+  "thresholds": {
+    "high_recall": 0.05,
+    "balanced": 0.52,
+    "high_precision": 0.6
+  }
+}

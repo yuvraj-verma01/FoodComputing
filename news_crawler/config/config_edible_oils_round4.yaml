@@ -1,0 +1,57 @@
+date_range:
+  start: '2021-01-01'
+  end: '2026-06-25'
+discovery:
+  enabled_sources:
+  - mediacloud
+  mediacloud:
+    collection_ids:
+    - 34412118
+    - 38379954
+    - 38379967
+    - 38379977
+    - 38379980
+    - 38379982
+    - 38379984
+    - 38379986
+    - 38379959
+    - 38379989
+    - 38379955
+    - 38379971
+    - 38379991
+    - 38379957
+    - 38379963
+    - 38379973
+    - 38379995
+    - 38379998
+    - 38380002
+    - 38380004
+    - 38379975
+    - 38380009
+    - 38380012
+    - 38379969
+    - 38380014
+    - 38379965
+    - 38380016
+    - 38379961
+    max_results: 1000
+    delay_seconds: 1.5
+    previously_reviewed_urls_csv: C:\Users\yuvra\OneDrive\Desktop\RAship\FoodComputing\news_crawler\data\runs\edible_oil_adulteration_round_04_2026-06-25\mediacloud\outputs\discovery_previously_reviewed_urls.csv
+crawl:
+  delay_seconds: 3.0
+  max_retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 30
+  user_agent: FoodSafetyResearchBot/1.0 (Academic research on Indian edible oil food
+    safety)
+  respect_robots_txt: true
+  use_playwright: false
+paths:
+  raw_html: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/raw_html
+  cleaned_text: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/cleaned_text
+  outputs: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs
+  db: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs/articles.db
+  discovered_urls: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs/discovered_urls.jsonl
+  articles_jsonl: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs/articles.jsonl
+  articles_csv: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs/articles.csv
+  report: data/runs/edible_oil_adulteration_round_04_2026-06-25/mediacloud/outputs/report.json

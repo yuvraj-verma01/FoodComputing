@@ -1,0 +1,6 @@
+{
+  "model_type": "hf_transformer",
+  "hf_model_name": "microsoft/deberta-v3-small",
+  "representation": "title_plus_keyword_windows",
+  "max_length": 256
+}

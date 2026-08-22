@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-23T13:59:22.791900+00:00",
+  "total_rows": 342,
+  "total_relevant": 106,
+  "total_irrelevant": 236,
+  "by_round": {
+    "0": 10,
+    "1": 285,
+    "2": 23,
+    "3": 24
+  },
+  "by_keep": {
+    "1": 106,
+    "0": 236
+  },
+  "new_rows_added": 34,
+  "seeds_added": 10,
+  "r3_added": 24
+}

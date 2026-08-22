@@ -1,0 +1,26 @@
+term,source,status,notes
+ghee,prior_scope_rule,hard_exclusion,Out of scope for edible oil corpus.
+vanaspati,prior_scope_rule,hard_exclusion,Out of scope for edible oil corpus.
+Indonesia,user_approved_round_01_not_review,hard_exclusion,International commodity/trade junk theme.
+Joko Widodo,user_approved_round_01_not_review,hard_exclusion,International politics/trade junk theme.
+rupiah,user_approved_round_01_not_review,hard_exclusion,Indonesia price/subsidy junk theme.
+rupiah per litre,user_approved_round_01_not_review,hard_exclusion,Indonesia price/subsidy junk phrase.
+oil exports,user_approved_round_01_not_review,hard_exclusion,Commodity trade junk theme.
+export ban,user_approved_round_01_not_review,hard_exclusion,Commodity trade junk theme.
+futures,user_approved_round_01_not_review,hard_exclusion,Commodity/market article theme.
+derivative,user_approved_round_01_not_review,hard_exclusion,Commodity/market article theme.
+derivatives,user_approved_round_01_not_review,hard_exclusion,Commodity/market article theme.
+SEBI,user_approved_round_01_not_review,hard_exclusion,Market/regulatory junk theme.
+stock market,user_approved_round_01_not_review,hard_exclusion,Market article theme.
+domestic market,user_approved_round_01_not_review,hard_exclusion,Commodity supply/price article theme.
+solvent extractors association,user_approved_round_01_not_review,hard_exclusion,Industry/trade body article theme.
+million tonnes,user_approved_round_01_not_review,hard_exclusion,Commodity volume/trade article phrase.
+million tonne,user_approved_round_01_not_review,hard_exclusion,Commodity volume/trade article phrase.
+sports drinks,user_approved_round_01_not_review,hard_exclusion,Unrelated brominated vegetable oil/sports drink theme.
+reused cooking oil,user_approved_round_01_not_review,hard_exclusion,Used/reused cooking oil theme outside adulterated edible oil focus.
+biodiesel,user_approved_round_01_not_review,hard_exclusion,Used cooking oil biofuel theme.
+bio-diesel,user_approved_round_01_not_review,hard_exclusion,Used cooking oil biofuel theme.
+soda,user_approved_round_01_not_review,hard_exclusion,Unrelated beverage theme.
+diesel,user_approved_round_01_not_review,hard_exclusion,Fuel/non-food oil theme.
+heroin,user_approved_round_01_not_review,hard_exclusion,Contraband article theme.
+hidden in cooking oil cargo,user_approved_round_01_not_review,hard_exclusion,Contraband/cargo article phrase.

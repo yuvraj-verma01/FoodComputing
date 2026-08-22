@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-06-25T04:48:57.556390+00:00",
+  "dataset": {
+    "input_file": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\master_corpus\\master_all_articles.csv",
+    "total_rows": 486,
+    "relevant_count": 151,
+    "irrelevant_count": 335,
+    "cv_folds": 5
+  },
+  "best_model_by_f1": {
+    "model_name": "tfidf_phrase_svm",
+    "representation": "title_plus_body",
+    "accuracy": 0.8045,
+    "precision": 0.6687,
+    "recall": 0.7351,
+    "f1": 0.7003,
+    "roc_auc": 0.8779,
+    "pr_auc": 0.7845,
+    "thresholds": {
+      "high_recall": 0.05,
+      "balanced": 0.46,
+      "high_precision": 0.71,
+      "details": {
+        "high_recall": {
+          "threshold": 0.05,
+          "f1": 0.578544061302682,
+          "precision": 0.40700808625336926,
+          "recall": 1.0
+        },
+        "balanced": {
+          "threshold": 0.4600000000000001,
+          "f1": 0.7125748502994012,
+          "precision": 0.6502732240437158,
+          "recall": 0.7880794701986755
+        },
+        "high_precision": {
+          "threshold": 0.7100000000000002,
+          "f1": 0.5589519650655022,
+          "precision": 0.8205128205128205,
+          "recall": 0.423841059602649
+        }
+      }
+    },
+    "artifact": "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\model_training\\trained_models\\best_model.joblib"
+  },
+  "best_model_by_recall": {
+    "model_name": "tfidf_phrase_lr",
+    "representation": "title_plus_body",
+    "recall": 0.8477,
+    "f1": 0.6809
+  },
+  "decision_rule_example": {
+    "description": "Use best_model.joblib to predict_proba on new article text. Then apply thresholds: prob >= high_precision -> candidate_relevant; prob in [high_recall, high_precision) -> manual_review; prob < high_recall -> candidate_irrelevant."
+  }
+}

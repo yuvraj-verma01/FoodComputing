@@ -1,0 +1,221 @@
+generated_at: '2026-06-21T17:26:21.169634+00:00'
+seed_keywords:
+- (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose oil"
+  OR "loose edible oil") AND (adulterat* OR contaminat* OR misbrand* OR substandard
+  OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled oil" OR
+  "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with") AND
+  language:en) NOT (recruitment OR vacancy OR job* OR exam OR "admit card" OR "answer
+  key" OR syllabus OR "eat right" OR fortification OR fortified OR "trans fat" OR
+  "health claims" OR "zero maida" OR "organic label" OR "misleading claims" OR "consumer
+  complaints" OR "stock market" OR "crude oil" OR petrol OR diesel OR "engine oil"
+  OR "essential oil" OR "hair oil" OR "massage oil")
+- (("mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower oil" OR "groundnut
+  oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil" OR "sesame oil" OR
+  "olive oil" OR "rapeseed-mustard oil") AND (adulterat* OR contaminat* OR misbrand*
+  OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled
+  oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with")
+  AND language:en) NOT (recruitment OR vacancy OR job* OR exam OR "admit card" OR
+  "answer key" OR syllabus OR "eat right" OR fortification OR fortified OR "trans
+  fat" OR "health claims" OR "zero maida" OR "organic label" OR "misleading claims"
+  OR "consumer complaints" OR "stock market" OR "crude oil" OR petrol OR diesel OR
+  "engine oil" OR "essential oil" OR "hair oil" OR "massage oil")
+- (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose oil"
+  OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower
+  oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil"
+  OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((adulterat* OR contaminat*
+  OR misbrand* OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused
+  oil" OR "recycled oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible
+  oil" OR "mixed with") AND ((FSSAI OR FDA OR FSDA OR "food safety" OR "food safety
+  department" OR "food safety officer") OR (raid* OR seiz* OR "sample collected" OR
+  "samples collected" OR "samples sent" OR "lab test" OR "quality test" OR prosecut*
+  OR penal* OR fine OR ban* OR "license suspended" OR "licence suspended" OR "shop
+  sealed" OR warehouse OR godown OR arrest* OR crackdown OR inspection))) AND language:en)
+  NOT (recruitment OR vacancy OR job* OR exam OR "admit card" OR "answer key" OR syllabus
+  OR "eat right" OR fortification OR fortified OR "trans fat" OR "health claims" OR
+  "zero maida" OR "organic label" OR "misleading claims" OR "consumer complaints"
+  OR "stock market" OR "crude oil" OR petrol OR diesel OR "engine oil" OR "essential
+  oil" OR "hair oil" OR "massage oil")
+query_rows:
+- query_id: core_oils_fraud_strict
+  query: (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose
+    oil" OR "loose edible oil") AND (adulterat* OR contaminat* OR misbrand* OR substandard
+    OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR "recycled oil"
+    OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil" OR "mixed with")
+    AND language:en) NOT (recruitment OR vacancy OR job* OR exam OR "admit card" OR
+    "answer key" OR syllabus OR "eat right" OR fortification OR fortified OR "trans
+    fat" OR "health claims" OR "zero maida" OR "organic label" OR "misleading claims"
+    OR "consumer complaints" OR "stock market" OR "crude oil" OR petrol OR diesel
+    OR "engine oil" OR "essential oil" OR "hair oil" OR "massage oil")
+  product_groups: core_oils
+  signal_mode: fraud_only
+  reason: Core edible/cooking oil phrases must co-occur with direct adulteration/fraud
+    terms.
+  date_start: '2021-01-01'
+  date_end: '2026-06-21'
+  collection_count: '28'
+  permutation_scope: boolean_group_query_not_all_permutations
+- query_id: named_oils_fraud_strict
+  query: (("mustard oil" OR "palm oil" OR "soybean oil" OR "sunflower oil" OR "groundnut
+    oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed oil" OR "sesame oil" OR
+    "olive oil" OR "rapeseed-mustard oil") AND (adulterat* OR contaminat* OR misbrand*
+    OR substandard OR spurious OR fake OR counterfeit OR rancid OR "reused oil" OR
+    "recycled oil" OR "unsafe oil" OR "unsafe cooking oil" OR "unsafe edible oil"
+    OR "mixed with") AND language:en) NOT (recruitment OR vacancy OR job* OR exam
+    OR "admit card" OR "answer key" OR syllabus OR "eat right" OR fortification OR
+    fortified OR "trans fat" OR "health claims" OR "zero maida" OR "organic label"
+    OR "misleading claims" OR "consumer complaints" OR "stock market" OR "crude oil"
+    OR petrol OR diesel OR "engine oil" OR "essential oil" OR "hair oil" OR "massage
+    oil")
+  product_groups: named_oils
+  signal_mode: fraud_only
+  reason: Specific oil types must co-occur with direct adulteration/fraud terms.
+  date_start: '2021-01-01'
+  date_end: '2026-06-21'
+  collection_count: '28'
+  permutation_scope: boolean_group_query_not_all_permutations
+- query_id: oils_enforcement_evidence_strict
+  query: (("edible oil" OR "cooking oil" OR "vegetable oil" OR "refined oil" OR "loose
+    oil" OR "loose edible oil" OR "mustard oil" OR "palm oil" OR "soybean oil" OR
+    "sunflower oil" OR "groundnut oil" OR "coconut oil" OR "rice bran oil" OR "cottonseed
+    oil" OR "sesame oil" OR "olive oil" OR "rapeseed-mustard oil") AND ((adulterat*
+    OR contaminat* OR misbrand* OR substandard OR spurious OR fake OR counterfeit
+    OR rancid OR "reused oil" OR "recycled oil" OR "unsafe oil" OR "unsafe cooking
+    oil" OR "unsafe edible oil" OR "mixed with") AND ((FSSAI OR FDA OR FSDA OR "food
+    safety" OR "food safety department" OR "food safety officer") OR (raid* OR seiz*
+    OR "sample collected" OR "samples collected" OR "samples sent" OR "lab test" OR
+    "quality test" OR prosecut* OR penal* OR fine OR ban* OR "license suspended" OR
+    "licence suspended" OR "shop sealed" OR warehouse OR godown OR arrest* OR crackdown
+    OR inspection))) AND language:en) NOT (recruitment OR vacancy OR job* OR exam
+    OR "admit card" OR "answer key" OR syllabus OR "eat right" OR fortification OR
+    fortified OR "trans fat" OR "health claims" OR "zero maida" OR "organic label"
+    OR "misleading claims" OR "consumer complaints" OR "stock market" OR "crude oil"
+    OR petrol OR diesel OR "engine oil" OR "essential oil" OR "hair oil" OR "massage
+    oil")
+  product_groups: core_oils; named_oils
+  signal_mode: fraud_and_enforcement_action
+  reason: Oil terms plus both enforcement/action language and adulteration/fraud language.
+  date_start: '2021-01-01'
+  date_end: '2026-06-21'
+  collection_count: '28'
+  permutation_scope: boolean_group_query_not_all_permutations
+query_groups:
+  core_oils:
+  - edible oil
+  - cooking oil
+  - vegetable oil
+  - refined oil
+  - loose oil
+  - loose edible oil
+  named_oils:
+  - mustard oil
+  - palm oil
+  - soybean oil
+  - sunflower oil
+  - groundnut oil
+  - coconut oil
+  - rice bran oil
+  - cottonseed oil
+  - sesame oil
+  - olive oil
+  - rapeseed-mustard oil
+  fraud_terms:
+  - adulterat*
+  - contaminat*
+  - misbrand*
+  - substandard
+  - spurious
+  - fake
+  - counterfeit
+  - rancid
+  - reused oil
+  - recycled oil
+  - unsafe oil
+  - unsafe cooking oil
+  - unsafe edible oil
+  - mixed with
+  enforcement_org_terms:
+  - FSSAI
+  - FDA
+  - FSDA
+  - food safety
+  - food safety department
+  - food safety officer
+  enforcement_action_terms:
+  - raid*
+  - seiz*
+  - sample collected
+  - samples collected
+  - samples sent
+  - lab test
+  - quality test
+  - prosecut*
+  - penal*
+  - fine
+  - ban*
+  - license suspended
+  - licence suspended
+  - shop sealed
+  - warehouse
+  - godown
+  - arrest*
+  - crackdown
+  - inspection
+  junk_terms:
+  - recruitment
+  - vacancy
+  - job*
+  - exam
+  - admit card
+  - answer key
+  - syllabus
+  - eat right
+  - fortification
+  - fortified
+  - trans fat
+  - health claims
+  - zero maida
+  - organic label
+  - misleading claims
+  - consumer complaints
+  - stock market
+  - crude oil
+  - petrol
+  - diesel
+  - engine oil
+  - essential oil
+  - hair oil
+  - massage oil
+india_collections:
+  India - National: 34412118
+  India - State & Local: 38379954
+  Andhra Pradesh, India - State & Local: 38379967
+  Arunachal Pradesh, India - State & Local: 38379977
+  Assam, India - State & Local: 38379980
+  Bihar, India - State & Local: 38379982
+  Chandigarh, India - State & Local: 38379984
+  Chhattisgarh, India - State & Local: 38379986
+  Delhi, India - State & Local: 38379959
+  Goa, India - State & Local: 38379989
+  Gujarat, India - State & Local: 38379955
+  Haryana, India - State & Local: 38379971
+  Karnataka, India - State & Local: 38379991
+  Kerala, India - State & Local: 38379957
+  Madhya Pradesh, India - State & Local: 38379963
+  Maharashtra, India - State & Local: 38379973
+  Manipur, India - State & Local: 38379995
+  Meghalaya, India - State & Local: 38379998
+  Mizoram, India - State & Local: 38380002
+  Nagaland, India - State & Local: 38380004
+  Punjab, India - State & Local: 38379975
+  Rajasthan, India - State & Local: 38380009
+  Sikkim, India - State & Local: 38380012
+  Tamil Nadu, India - State & Local: 38379969
+  Tripura, India - State & Local: 38380014
+  Uttar Pradesh, India - State & Local: 38379965
+  Uttarakhand, India - State & Local: 38380016
+  West Bengal, India - State & Local: 38379961
+notes:
+- Media Cloud Boolean operators must be capitalized.
+- Exact phrases are double quoted.
+- Wildcard stems are used only where useful.
+- The NOT group removes recurring garbage classes from the previous noisy run.

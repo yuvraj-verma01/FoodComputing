@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-06-23T04:07:10.525165+00:00",
+  "stage": "rule_text",
+  "total_articles_loaded": 285,
+  "rule_candidates": 183,
+  "relevant_articles": 127,
+  "irrelevant_articles": 102,
+  "manual_review_articles": 56,
+  "non_food_oil_articles": 0,
+  "oil_only_adulterant_articles": 0,
+  "oil_role_counts": {
+    "adulterated_product": 172,
+    "adjacent_or_unclear": 113
+  },
+  "final_label_counts": {
+    "relevant": 127,
+    "manual_review": 56,
+    "irrelevant": 102
+  }
+}

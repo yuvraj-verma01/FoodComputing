@@ -348,3 +348,64 @@ scorer.classify_zero_shot(article_text)
 # 'commodity_price'
 # 'unrelated'
 ```
+
+---
+
+## Strict Edible-Oil Relevance Workflow
+
+Use this after MediaCloud discovery when the URL database has broad hits. It
+separates articles where edible oil is itself the adulterated food product from
+articles where oil is incidental, non-food oil, or only an adulterant in another
+food.
+
+Default run:
+
+```bash
+python scripts/run_oil_relevance_pipeline.py --stage metadata
+```
+
+Outputs are written to:
+
+```text
+data/runs/edible_oils_boolean_title_proximity_2026-06-22/mediacloud/outputs/oil_relevance/
+```
+
+Main stages:
+
+```bash
+# 1. Filter all discovered URL metadata and build a crawl queue
+python scripts/run_oil_relevance_pipeline.py --stage metadata
+
+# 2. Crawl/extract queued candidate URLs only
+python scripts/run_oil_relevance_pipeline.py --stage crawl
+
+# 3. Apply strict product-role rules on extracted text
+python scripts/run_oil_relevance_pipeline.py --stage rules
+
+# 4. Ask local Ollama to read every extracted rule candidate
+python scripts/run_oil_relevance_pipeline.py --stage llm --llm-model llama3.1:8b-instruct-q4_K_M
+
+# 5. Merge rule and LLM decisions into final review files
+python scripts/run_oil_relevance_pipeline.py --stage outputs
+```
+
+For a small test crawl:
+
+```bash
+python scripts/run_oil_relevance_pipeline.py --stage crawl --crawl-limit 25
+```
+
+Final files include:
+
+- `all_articles_review.csv`
+- `relevant_oil_articles.csv`
+- `manual_review_articles.csv`
+- `irrelevant_articles.csv`
+- `filtering_summary.json`
+- `manual_validation_sample.csv`
+
+After filling `manual_label` in `manual_validation_sample.csv`, evaluate:
+
+```bash
+python scripts/evaluate_oil_relevance_labels.py
+```

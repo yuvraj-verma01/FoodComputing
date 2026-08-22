@@ -1,0 +1,5 @@
+{
+  "backbone": "roberta-base",
+  "max_length": 512,
+  "global_cls": false
+}

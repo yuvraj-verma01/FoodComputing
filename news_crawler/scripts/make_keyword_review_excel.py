@@ -71,6 +71,12 @@ def main() -> int:
         default=str(DEFAULT_RUN_DIR / "keyword_review.xlsx"),
         help="Output XLSX workbook.",
     )
+    parser.add_argument(
+        "--purpose",
+        choices=["positive_keywords", "not_terms"],
+        default="positive_keywords",
+        help="Review framing for workbook instructions.",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -80,8 +86,8 @@ def main() -> int:
     review_ws = wb.active
     review_ws.title = "Keyword Review"
     write_review_sheet(review_ws, rows)
-    write_summary_sheet(wb.create_sheet("Summary"), rows, input_path, output_path)
-    write_instructions_sheet(wb.create_sheet("Instructions"))
+    write_summary_sheet(wb.create_sheet("Summary"), rows, input_path, output_path, args.purpose)
+    write_instructions_sheet(wb.create_sheet("Instructions"), args.purpose)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
@@ -158,7 +164,7 @@ def write_review_sheet(ws, rows: list[dict]) -> None:
     ws.sheet_properties.tabColor = HEADER_FILL
 
 
-def write_summary_sheet(ws, rows: list[dict], input_path: Path, output_path: Path) -> None:
+def write_summary_sheet(ws, rows: list[dict], input_path: Path, output_path: Path, purpose: str) -> None:
     thin = thin_border()
     title_font = Font(name="Calibri", bold=True, size=13)
     header_font = Font(name="Calibri", bold=True, color=HEADER_FG, size=11)
@@ -171,7 +177,10 @@ def write_summary_sheet(ws, rows: list[dict], input_path: Path, output_path: Pat
     ws["A4"] = "Output XLSX"
     ws["B4"] = str(output_path)
     ws["A5"] = "Manual keep coding"
-    ws["B5"] = "1 = keep, 0 = drop, blank = not reviewed"
+    if purpose == "not_terms":
+        ws["B5"] = "1 = candidate NOT/exclusion term, 0 = do not use as NOT term, blank = not reviewed"
+    else:
+        ws["B5"] = "1 = keep, 0 = drop, blank = not reviewed"
 
     blocks = [
         ("Current Label Counts", Counter(r.get("review_label", "") for r in rows)),
@@ -204,15 +213,25 @@ def write_summary_sheet(ws, rows: list[dict], input_path: Path, output_path: Pat
     ws.sheet_properties.tabColor = "70AD47"
 
 
-def write_instructions_sheet(ws) -> None:
-    lines = [
-        ("Task", "Review every keyword row on the Keyword Review sheet."),
-        ("keep = 1", "Use 1 when the keyword should be kept for seed-query construction."),
-        ("keep = 0", "Use 0 when the keyword should be dropped."),
-        ("Blank", "Leave blank if you have not reviewed it yet."),
-        ("Current label", "current_label is the script's suggested label: keep_core, manual_review, or drop."),
-        ("Important", "The manual keep column is the authority for the next step."),
-    ]
+def write_instructions_sheet(ws, purpose: str) -> None:
+    if purpose == "not_terms":
+        lines = [
+            ("Task", "Review every row as a possible NOT/exclusion term for Round 2 searches."),
+            ("keep = 1", "Use 1 only when this term clearly indicates junk or out-of-scope articles."),
+            ("keep = 0", "Use 0 when the term could also appear in relevant edible-oil adulteration articles."),
+            ("Blank", "Leave blank if you have not reviewed it yet."),
+            ("Important", "Be conservative: a broad NOT term can remove real relevant articles."),
+            ("Current label", "current_label is only the script's heuristic triage label."),
+        ]
+    else:
+        lines = [
+            ("Task", "Review every keyword row on the Keyword Review sheet."),
+            ("keep = 1", "Use 1 when the keyword should be kept for seed-query construction."),
+            ("keep = 0", "Use 0 when the keyword should be dropped."),
+            ("Blank", "Leave blank if you have not reviewed it yet."),
+            ("Current label", "current_label is the script's suggested label: keep_core, manual_review, or drop."),
+            ("Important", "The manual keep column is the authority for the next step."),
+        ]
     ws["A1"] = "Instructions"
     ws["A1"].font = Font(name="Calibri", bold=True, size=14)
     for idx, (label, text) in enumerate(lines, start=3):

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-06-23T11:05:27.459808+00:00",
+  "round_files_loaded": [
+    "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_01\\round_01_all_articles.csv",
+    "C:\\Users\\yuvra\\OneDrive\\Desktop\\RAship\\FoodComputing\\news_crawler\\reports\\edible_oil_adulteration_round_02\\round_02_all_articles.csv"
+  ],
+  "total_reviewed_rows_including_duplicate_urls": 385,
+  "total_unique_articles": 308,
+  "duplicate_urls_skipped": 77,
+  "duplicate_label_conflicts": 13,
+  "conflict_resolutions_loaded": 13,
+  "conflict_resolutions_applied": 13,
+  "label_counts": {
+    "irrelevant": 220,
+    "relevant": 88
+  },
+  "round_counts": {
+    "1": 285,
+    "2": 23
+  },
+  "all_round_row_counts": {
+    "1": 285,
+    "2": 100
+  },
+  "note": "Master corpus is URL-deduped; duplicate URLs from later rounds are listed separately."
+}

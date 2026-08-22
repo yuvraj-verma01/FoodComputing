@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-06-23T17:50:21.119738+00:00",
+  "dataset": {
+    "input_file": "reports/master_corpus/master_all_articles.csv",
+    "total_rows": 326,
+    "relevant_count": 101,
+    "irrelevant_count": 225,
+    "cv_folds": 5
+  },
+  "best_model_by_f1": {
+    "model_name": "tfidf_phrase_lr",
+    "representation": "title_plus_keyword_windows",
+    "accuracy": 0.8497,
+    "precision": 0.7,
+    "recall": 0.901,
+    "f1": 0.7879,
+    "roc_auc": 0.9262,
+    "pr_auc": 0.827,
+    "thresholds": {
+      "high_recall": 0.05,
+      "balanced": 0.47,
+      "high_precision": 0.64,
+      "details": {
+        "high_recall": {
+          "threshold": 0.05,
+          "f1": 0.47306791569086654,
+          "precision": 0.3098159509202454,
+          "recall": 1.0
+        },
+        "balanced": {
+          "threshold": 0.4700000000000001,
+          "f1": 0.7916666666666666,
+          "precision": 0.6834532374100719,
+          "recall": 0.9405940594059405
+        },
+        "high_precision": {
+          "threshold": 0.6400000000000001,
+          "f1": 0.5637583892617449,
+          "precision": 0.875,
+          "recall": 0.4158415841584158
+        }
+      }
+    },
+    "artifact": "reports\\model_training\\trained_models\\best_model.joblib"
+  },
+  "best_model_by_recall": {
+    "model_name": "tfidf_phrase_lr",
+    "representation": "title_plus_keyword_windows",
+    "recall": 0.901,
+    "f1": 0.7879
+  },
+  "decision_rule_example": {
+    "description": "Use best_model.joblib to predict_proba on new article text. Then apply thresholds: prob >= high_precision -> candidate_relevant; prob in [high_recall, high_precision) -> manual_review; prob < high_recall -> candidate_irrelevant."
+  }
+}

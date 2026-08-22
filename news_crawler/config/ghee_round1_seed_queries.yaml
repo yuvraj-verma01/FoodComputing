@@ -1,0 +1,510 @@
+generated_at: '2026-06-30T05:07:31.222148+00:00'
+seed_keywords:
+- ("adulterated ghee" AND language:en)
+- ("fake ghee" AND language:en)
+- ("fake cow ghee" AND language:en)
+- ("suspected adulterated ghee" AND language:en)
+- ("ghee racket" AND language:en)
+- ("ghee racket busted" AND language:en)
+- ("vegetable ghee" AND language:en)
+- ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (adulterated
+  OR fake) AND language:en)
+- (("fake ghee" OR "fake cow ghee" OR "adulterated ghee" OR "suspected adulterated
+  ghee" OR "ghee racket" OR "ghee racket busted") AND language:en)
+- ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND ((fssai
+  OR fda OR "food safety") OR (raid OR seized)) AND language:en)
+- ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (adulterated
+  OR fake) AND ((fssai OR fda OR "food safety") OR (raid OR seized)) AND language:en)
+- ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (vanaspati
+  OR "vegetable ghee") AND ((adulterated OR fake) OR (fssai OR fda OR "food safety")
+  OR (raid OR seized)) AND language:en)
+- ((article_title:ghee OR article_title:"cow ghee" OR article_title:"desi ghee" OR
+  article_title:"pure ghee" OR article_title:"loose ghee") AND (article_title:adulterated
+  OR article_title:fake) AND language:en)
+- ((article_title:"fake ghee" OR article_title:"fake cow ghee" OR article_title:"adulterated
+  ghee" OR article_title:"suspected adulterated ghee" OR article_title:"ghee racket"
+  OR article_title:"ghee racket busted") AND language:en)
+- ((article_title:ghee OR article_title:"cow ghee" OR article_title:"desi ghee" OR
+  article_title:"pure ghee" OR article_title:"loose ghee") AND (article_title:fssai
+  OR article_title:fda OR article_title:"food safety" OR article_title:raid OR article_title:seized)
+  AND language:en)
+- ("ghee adulterated"~10 AND language:en)
+- ("ghee fake"~8 AND language:en)
+- ("ghee seized"~10 AND language:en)
+- ("ghee raid"~10 AND language:en)
+- ("ghee food safety"~10 AND language:en)
+- ("ghee fssai"~10 AND language:en)
+- ("ghee fda"~10 AND language:en)
+- ("cow ghee fake"~8 AND language:en)
+- ("cow ghee adulterated"~10 AND language:en)
+- ("desi ghee adulterated"~10 AND language:en)
+- ("loose ghee seized"~10 AND language:en)
+- ("ghee vanaspati"~10 AND language:en)
+- ("ghee vegetable ghee"~10 AND language:en)
+- ("suspected adulterated ghee"~10 AND language:en)
+- ("ghee racket"~10 AND language:en)
+- ("ghee racket busted"~10 AND language:en)
+query_rows:
+- query_id: phrase_adulterated_ghee
+  query_family: phrase
+  query: ("adulterated ghee" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query from human-approved ghee keywords.
+  query_number: '1'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_fake_ghee
+  query_family: phrase
+  query: ("fake ghee" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query from human-approved ghee keywords.
+  query_number: '2'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_fake_cow_ghee
+  query_family: phrase
+  query: ("fake cow ghee" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query from human-approved ghee keywords.
+  query_number: '3'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_suspected_adulterated_ghee
+  query_family: phrase
+  query: ("suspected adulterated ghee" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query retained after human review.
+  query_number: '4'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_ghee_racket
+  query_family: phrase
+  query: ("ghee racket" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query retained after human review.
+  query_number: '5'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_ghee_racket_busted
+  query_family: phrase
+  query: ("ghee racket busted" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Direct phrase query retained after human review.
+  query_number: '6'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: phrase_vegetable_ghee
+  query_family: phrase
+  query: ("vegetable ghee" AND language:en)
+  product_groups: human_approved_phrase
+  signal_mode: exact_phrase
+  reason: Adulterant/context phrase retained after human review.
+  query_number: '7'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: boolean_ghee_products_adulterated_fake
+  query_family: boolean
+  query: ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (adulterated
+    OR fake) AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: adulterated_fake_only
+  reason: Ghee product terms co-occur with approved adulterated/fake terms.
+  query_number: '8'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: boolean_ghee_incident_phrases
+  query_family: boolean
+  query: (("fake ghee" OR "fake cow ghee" OR "adulterated ghee" OR "suspected adulterated
+    ghee" OR "ghee racket" OR "ghee racket busted") AND language:en)
+  product_groups: ghee_incident_phrases
+  signal_mode: phrase_only
+  reason: Human-approved ghee incident phrases are already precise enough for discovery.
+  query_number: '9'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: boolean_ghee_products_enforcement
+  query_family: boolean
+  query: ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND ((fssai
+    OR fda OR "food safety") OR (raid OR seized)) AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: enforcement_only
+  reason: Ghee terms plus enforcement/evidence language for raid/seizure/lab-test
+    stories.
+  query_number: '10'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: boolean_ghee_products_adulterated_fake_enforcement
+  query_family: boolean
+  query: ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (adulterated
+    OR fake) AND ((fssai OR fda OR "food safety") OR (raid OR seized)) AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: adulterated_fake_and_enforcement
+  reason: Ghee terms plus approved adulterated/fake and enforcement terms.
+  query_number: '11'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: boolean_ghee_adulterants_context
+  query_family: boolean
+  query: ((ghee OR "cow ghee" OR "desi ghee" OR "pure ghee" OR "loose ghee") AND (vanaspati
+    OR "vegetable ghee") AND ((adulterated OR fake) OR (fssai OR fda OR "food safety")
+    OR (raid OR seized)) AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: adulterant_context
+  reason: Human-approved adulterant/context terms only when ghee is also present.
+  query_number: '12'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: title_ghee_products_adulterated_fake
+  query_family: title_only
+  query: ((article_title:ghee OR article_title:"cow ghee" OR article_title:"desi ghee"
+    OR article_title:"pure ghee" OR article_title:"loose ghee") AND (article_title:adulterated
+    OR article_title:fake) AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: adulterated_fake_terms
+  reason: Ghee product term and approved adulterated/fake term both appear in the
+    title.
+  query_number: '13'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: title_ghee_incident_phrases
+  query_family: title_only
+  query: ((article_title:"fake ghee" OR article_title:"fake cow ghee" OR article_title:"adulterated
+    ghee" OR article_title:"suspected adulterated ghee" OR article_title:"ghee racket"
+    OR article_title:"ghee racket busted") AND language:en)
+  product_groups: ghee_incident_phrases
+  signal_mode: exact_title_phrase
+  reason: Human-approved ghee incident phrase appears in the title.
+  query_number: '14'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: title_ghee_enforcement
+  query_family: title_only
+  query: ((article_title:ghee OR article_title:"cow ghee" OR article_title:"desi ghee"
+    OR article_title:"pure ghee" OR article_title:"loose ghee") AND (article_title:fssai
+    OR article_title:fda OR article_title:"food safety" OR article_title:raid OR article_title:seized)
+    AND language:en)
+  product_groups: ghee_core_products
+  signal_mode: enforcement_org_terms; enforcement_action_terms
+  reason: Ghee product term and enforcement/evidence term both appear in the title.
+  query_number: '15'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_adulterated
+  query_family: proximity
+  query: ("ghee adulterated"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee adulterated" terms appear within 10 words.
+  query_number: '16'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_fake
+  query_family: proximity
+  query: ("ghee fake"~8 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "ghee fake" terms appear within 8 words.
+  query_number: '17'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_seized
+  query_family: proximity
+  query: ("ghee seized"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee seized" terms appear within 10 words.
+  query_number: '18'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_raid
+  query_family: proximity
+  query: ("ghee raid"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee raid" terms appear within 10 words.
+  query_number: '19'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_food_safety
+  query_family: proximity
+  query: ("ghee food safety"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee food safety" terms appear within 10 words.
+  query_number: '20'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_fssai
+  query_family: proximity
+  query: ("ghee fssai"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee fssai" terms appear within 10 words.
+  query_number: '21'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_fda
+  query_family: proximity
+  query: ("ghee fda"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee fda" terms appear within 10 words.
+  query_number: '22'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_cow_ghee_fake
+  query_family: proximity
+  query: ("cow ghee fake"~8 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_8_words
+  reason: Find stories where "cow ghee fake" terms appear within 8 words.
+  query_number: '23'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_cow_ghee_adulterated
+  query_family: proximity
+  query: ("cow ghee adulterated"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "cow ghee adulterated" terms appear within 10 words.
+  query_number: '24'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_desi_ghee_adulterated
+  query_family: proximity
+  query: ("desi ghee adulterated"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "desi ghee adulterated" terms appear within 10 words.
+  query_number: '25'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_loose_ghee_seized
+  query_family: proximity
+  query: ("loose ghee seized"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "loose ghee seized" terms appear within 10 words.
+  query_number: '26'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_vanaspati
+  query_family: proximity
+  query: ("ghee vanaspati"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee vanaspati" terms appear within 10 words.
+  query_number: '27'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_vegetable_ghee
+  query_family: proximity
+  query: ("ghee vegetable ghee"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee vegetable ghee" terms appear within 10 words.
+  query_number: '28'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_suspected_adulterated_ghee
+  query_family: proximity
+  query: ("suspected adulterated ghee"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "suspected adulterated ghee" terms appear within 10 words.
+  query_number: '29'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_racket
+  query_family: proximity
+  query: ("ghee racket"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee racket" terms appear within 10 words.
+  query_number: '30'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+- query_id: proximity_ghee_racket_busted
+  query_family: proximity
+  query: ("ghee racket busted"~10 AND language:en)
+  product_groups: phrase_proximity
+  signal_mode: within_10_words
+  reason: Find stories where "ghee racket busted" terms appear within 10 words.
+  query_number: '31'
+  date_start: '2021-01-01'
+  date_end: '2026-06-30'
+  collection_count: '28'
+  hard_exclusion: ''
+  breadth: combined_phrase_boolean_title_proximity
+query_groups:
+  ghee_products:
+  - ghee
+  - cow ghee
+  - desi ghee
+  - pure ghee
+  - loose ghee
+  - fake ghee
+  - fake cow ghee
+  - adulterated ghee
+  - suspected adulterated ghee
+  - vegetable ghee
+  - ghee racket
+  - ghee racket busted
+  ghee_core_products:
+  - ghee
+  - cow ghee
+  - desi ghee
+  - pure ghee
+  - loose ghee
+  ghee_incident_phrases:
+  - fake ghee
+  - fake cow ghee
+  - adulterated ghee
+  - suspected adulterated ghee
+  - ghee racket
+  - ghee racket busted
+  adulterated_fake_terms:
+  - adulterated
+  - fake
+  ghee_adulterant_terms:
+  - vanaspati
+  - vegetable ghee
+  enforcement_org_terms:
+  - fssai
+  - fda
+  - food safety
+  enforcement_action_terms:
+  - raid
+  - seized
+india_collections:
+  India - National: 34412118
+  India - State & Local: 38379954
+  Andhra Pradesh, India - State & Local: 38379967
+  Arunachal Pradesh, India - State & Local: 38379977
+  Assam, India - State & Local: 38379980
+  Bihar, India - State & Local: 38379982
+  Chandigarh, India - State & Local: 38379984
+  Chhattisgarh, India - State & Local: 38379986
+  Delhi, India - State & Local: 38379959
+  Goa, India - State & Local: 38379989
+  Gujarat, India - State & Local: 38379955
+  Haryana, India - State & Local: 38379971
+  Karnataka, India - State & Local: 38379991
+  Kerala, India - State & Local: 38379957
+  Madhya Pradesh, India - State & Local: 38379963
+  Maharashtra, India - State & Local: 38379973
+  Manipur, India - State & Local: 38379995
+  Meghalaya, India - State & Local: 38379998
+  Mizoram, India - State & Local: 38380002
+  Nagaland, India - State & Local: 38380004
+  Punjab, India - State & Local: 38379975
+  Rajasthan, India - State & Local: 38380009
+  Sikkim, India - State & Local: 38380012
+  Tamil Nadu, India - State & Local: 38379969
+  Tripura, India - State & Local: 38380014
+  Uttar Pradesh, India - State & Local: 38379965
+  Uttarakhand, India - State & Local: 38380016
+  West Bengal, India - State & Local: 38379961
+notes:
+- Ghee Round 1 follows the edible-oil workflow with phrase, boolean, title-only, and
+  proximity families.
+- This query set uses only human-approved ghee keywords.
+- Broad enforcement terms such as seized/FDA/FSSAI are combine-only, never standalone.
+- Media Cloud Boolean operators are capitalized and exact phrases are double quoted.
+- Date range starts at 2021-01-01, matching the oil workflow.

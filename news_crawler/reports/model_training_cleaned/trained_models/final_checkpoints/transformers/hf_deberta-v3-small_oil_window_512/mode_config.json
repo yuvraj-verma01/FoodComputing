@@ -1,0 +1,5 @@
+{
+  "backbone": "microsoft/deberta-v3-small",
+  "max_length": 512,
+  "global_cls": false
+}

@@ -210,13 +210,13 @@ _TITLE_SIGNAL_PATS = [
                r"unsafe|unhygienic|misbranding|mislabel|regulatory warning|"
                r"food authority|food standard|quality test|lab test|sample fail|"
                r"busted|raid|raided|penalty|violation|food law|license cancel)\b", re.I),
-    re.compile(r"\b(oil|ghee|vanaspati|mustard|edible|cooking oil|vegetable oil)\b"
+    re.compile(r"\b(oil|mustard|edible|cooking oil|vegetable oil)\b"
                r".*?"
                r"\b(ban|quality|test|sample|standard|violation|penalty|fine|"
                r"notice|warning|seized|raid|adulterat|fake|spurious|unsafe)\b", re.I),
     re.compile(r"\b(ban|quality test|seized|raid|fine|warning|violation|penalty)\b"
                r".*?"
-               r"\b(oil|ghee|vanaspati|mustard|edible|cooking oil)\b", re.I),
+               r"\b(oil|mustard|edible|cooking oil)\b", re.I),
 ]
 
 _LIFESTYLE_URL_PATS = [
