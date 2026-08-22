@@ -61,7 +61,6 @@ npm run start
 - `/taxonomy` provisional food and issue taxonomy explorer
 - `/methodology` news pipeline documentation and food-specific classifier results
 - `Baseline FSSAI Pipeline` in the site navigation opens the companion [Vercel application](https://food-safety-observatory-with-change.vercel.app/)
-- `/about` project context and team placeholders
 
 ## Data Files
 

@@ -1,0 +1,33 @@
+{
+  "model": "milk_relevance_tfidf_calibrated_linsvc_fulltext_v1",
+  "prediction_date": "2026-08-22",
+  "training_workbook": "milk_classifier/results/milk_model_training/Milk_Adulteration_Model_Results.xlsx",
+  "training_articles": 1384,
+  "training_label_counts": {
+    "1": 338,
+    "0": 1046
+  },
+  "published_milk_articles_scored": 196,
+  "prediction_label_counts": {
+    "1": 126,
+    "0": 70
+  },
+  "score_min": 0.00935364,
+  "score_max": 0.97879341,
+  "score_mean": 0.61470976,
+  "evaluation": {
+    "method": "5-fold out-of-fold evaluation",
+    "f1": 0.8323,
+    "precision": 0.8424,
+    "recall": 0.8225,
+    "roc_auc": 0.9635,
+    "pr_auc": 0.9118,
+    "accuracy": 0.9191
+  },
+  "runtime": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3"
+  }
+}

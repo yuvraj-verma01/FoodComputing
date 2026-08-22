@@ -19,7 +19,6 @@ const links: ReadonlyArray<{
   { label: "Food & Issue Taxonomy", href: "/taxonomy" },
   { label: "Data Export", href: "/data" },
   { label: "Methodology", href: "/methodology" },
-  { label: "About", href: "/about" },
   {
     label: "Baseline FSSAI Pipeline",
     href: "https://food-safety-observatory-with-change.vercel.app/",

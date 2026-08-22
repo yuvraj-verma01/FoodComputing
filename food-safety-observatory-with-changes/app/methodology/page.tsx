@@ -64,8 +64,8 @@ export default function MethodologyPage() {
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">This development estimate uses the same corpus for model and weight selection; a future untouched test set is still needed.</p>
           </ClassifierPanel>
           <ClassifierPanel food="Milk" title="Milk relevance model" corpus="1,384-record evaluation corpus" description="Five-fold out-of-fold evaluation. The best F1 result is the calibrated TF-IDF Linear SVM using the title and full article body." results={[["F1", .8323], ["Precision", .8424], ["Recall", .8225], ["ROC-AUC", .9635], ["PR-AUC", .9118]]}>
-            <div className="grid gap-6 lg:grid-cols-2"><ModelComponent icon={Binary} title="TF-IDF Linear SVM" weight="Best F1">Calibrated word and character n-grams using the title and full article body.</ModelComponent><ModelComponent icon={BrainCircuit} title="Comparison branches" weight="Evaluated">Milk-window TF-IDF, MiniLM RBF-SVM and RoBERTa variants were evaluated in the same workbook.</ModelComponent></div>
-            <p className="mt-5 text-sm leading-6 text-[var(--muted)]">The evaluation workbook includes the model comparison, out-of-fold predictions, false positives and false negatives. Per-article Milk classifier scores are not yet attached to the 196 Milk records in the current website export.</p>
+            <div className="grid gap-6 lg:grid-cols-2"><ModelComponent icon={Binary} title="TF-IDF Linear SVM" weight="Best F1">Calibrated word unigrams and bigrams using the title and full article body.</ModelComponent><ModelComponent icon={BrainCircuit} title="Comparison branches" weight="Evaluated">Milk-window TF-IDF, MiniLM RBF-SVM and RoBERTa variants were evaluated in the same workbook.</ModelComponent></div>
+            <p className="mt-5 text-sm leading-6 text-[var(--muted)]">The evaluation workbook includes the model comparison, out-of-fold predictions, false positives and false negatives. A separate deployment model was then fit on all 1,384 labelled records and now supplies per-article scores for all 196 published Milk records.</p>
           </ClassifierPanel>
         </section>
 
