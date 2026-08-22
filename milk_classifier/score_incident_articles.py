@@ -141,7 +141,9 @@ def update_article_csv(data_dir: Path, predictions: dict[str, dict]) -> None:
         raise ValueError(f"Updated {updated} CSV rows for {len(predictions)} predictions")
 
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(
+            handle, fieldnames=fieldnames, lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
 
