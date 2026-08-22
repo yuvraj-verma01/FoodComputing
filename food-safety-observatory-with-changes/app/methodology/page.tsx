@@ -1,33 +1,95 @@
-import { Activity, Binary, BrainCircuit, CheckCircle2, FileSearch, Scale } from "lucide-react";
+import {
+  Activity,
+  Binary,
+  BrainCircuit,
+  CheckCircle2,
+  ChevronDown,
+  FileSearch,
+  Network,
+  Scale,
+} from "lucide-react";
 import type { Metadata } from "next";
-import { DataQualityPanel, LimitationsPanel, MethodologyStep, PageIntro, SectionHeading } from "@/components/research-ui";
-import { getArticles, getMetrics } from "@/lib/data-loader";
+import type { ReactNode } from "react";
+
+import { LimitationsPanel, PageIntro, SectionHeading } from "@/components/research-ui";
 import { formatPercent } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Methodology" };
 
-const methods = [
-  ["01", "Article discovery", "Complete", "MediaCloud Indian national and state/local collections are queried with approved phrase, Boolean, title and proximity query families."],
-  ["02", "Scraping and text cleaning", "Complete", "Candidate URLs are crawled and converted into cleaned article text. Retrieval status is retained so inaccessible records are not silently treated as irrelevant."],
-  ["03", "Manual relevance labelling", "In progress", "Reviewers mark whether each article is about adulteration of the target food. Irrelevant records remain in the repository as an audit trail."],
-  ["04", "Classifier training and cross-validation", "Complete", "Models are evaluated with five-fold cross-validation. Predictions shown for training data are out-of-fold, not fitted-label scores."],
-  ["05", "Large-model event validation", "Planned", "A larger language model will validate event presence after classifier scoring. This is separate from classifier training and is not yet represented in the data export."],
-  ["06", "Entity extraction and manual validation", "In progress", "Food item, issue, location, quantity, authority, action and event date will be extracted and then manually checked."],
-  ["07", "Ontology mapping", "Planned", "Validated entities will be linked to the Indian food ontology with stable identifiers and documented parent-child relationships."],
-  ["08", "FSSAI comparison", "Planned", "News issues will be assessed as aligned, divergent or outside survey scope only after extraction and parameter matching."],
+const publicStages = [
+  ["01", "Article collection", "Candidate news records are discovered through approved search queries and source collections. Retrieval failures and duplicate text remain in the audit trail."],
+  ["02", "Text preparation", "Publisher boilerplate and malformed text are conservatively cleaned. Retained articles are split into bounded chunks with traceable article and chunk identifiers."],
+  ["03", "Relevance classification", "A food-specific classifier ranks articles likely to contain useful safety evidence. This is a retrieval aid, not the final event decision."],
+  ["04", "Full triplet extraction", "Qwen extracts candidates from every article chunk, followed by schema routing, semantic review, atomic correction and exact-evidence checks."],
+  ["05", "Mistral adjudication", "Mistral reviews the completed Qwen triplet record and resolves which claims are supported, rejected, schema gaps or still unresolved."],
+  ["06", "Qwen event assembly", "Qwen combines the full article with the adjudicated triplets, assigns the article-level event label and builds grounded or ungrounded event objects."],
+  ["07", "Interactive repository", "The website exposes source text, classifier metadata, model decisions, structured event fields, exact evidence and triplet audit trails."],
+] as const;
+
+const tripletStages = [
+  ["A", "Qwen candidate extraction", "Every cleaned chunk is sent through the full FFLO-style extraction prompt. Each candidate retains its subject, predicate, object, entity types, confidence, evidence span and source identifiers."],
+  ["B", "Deterministic schema routing", "Code checks entity types, predicates and permitted subject-object combinations, then routes schema-valid, invalid, mismatched and zero-triplet outputs."],
+  ["C", "Qwen semantic review", "A separate Qwen pass tests entailment, relation direction, relation choice, entity types and whether a zero-triplet chunk missed a relation."],
+  ["D", "Atomic correction and recheck", "Repairable claims are rewritten one at a time. Corrected triplets must pass structure, exact contiguous evidence and a second semantic review."],
+  ["E", "Mistral adjudication", "After every Qwen triplet stage finishes, Mistral adjudicates the accepted, corrected, schema-gap and unresolved candidates. Unsupported claims are rejected; uncertain claims remain explicitly unresolved."],
+] as const;
+
+const eventStages = [
+  ["A", "Lock the evidence inputs", "Qwen receives the complete cleaned article and the Mistral-adjudicated triplet record. Article and triplet identifiers are preserved."],
+  ["B", "Assign the event decision", "Qwen assigns relevant_event, irrelevant or unclear. Claim status remains separate, so an alleged or suspected event is not presented as confirmed."],
+  ["C", "Assemble the event object", "For event-bearing articles, Qwen structures the food, adulterants or issues, place, date, quantities, authorities, actions, laboratory context and exact evidence quotations."],
+  ["D", "Separate grounded events", "An event is grounded when its material fields are supported by adjudicated triplets and traceable article evidence. Supporting identifiers and quotations stay attached."],
+  ["E", "Retain ungrounded events distinctly", "If an article supports an event but material fields cannot be linked to adjudicated triplets, the event remains visibly ungrounded and separate from grounded evidence."],
 ] as const;
 
 export default function MethodologyPage() {
-  const metrics = getMetrics(getArticles());
-  return <><PageIntro eyebrow="Methodology" title="From broad discovery to validated incident evidence" description="The project separates retrieval, human relevance judgements, trained-classifier predictions, future large-model validation and structured extraction. Each stage has a different evidentiary role." aside={<p>Reproducibility requires preserving rejected records, model versions, query families and human-review provenance alongside the final corpus.</p>} /><div className="section-shell py-14"><SectionHeading eyebrow="Research pipeline" title="Current implementation stages" /> <div className="mt-8">{methods.map(([number, title, status, description]) => <MethodologyStep key={number} number={number} title={title} status={status}>{description}</MethodologyStep>)}</div>
+  return (
+    <>
+      <PageIntro
+        eyebrow="Methodology"
+        title="From article discovery to evidence-grounded events"
+        description="The news pipeline separates retrieval, food-specific relevance scoring, full Qwen triplet extraction, Mistral adjudication and Qwen event assembly. Each result remains traceable to its source article and evidence."
+      />
+      <div className="section-shell py-14">
+        <SectionHeading eyebrow="Public workflow" title="Seven stages in the news pipeline" description="The implemented evidence flow from article collection to the public repository." />
+        <div className="mt-8">{publicStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
 
-    <section className="mt-20"><SectionHeading eyebrow="Classifier results" title="Edible-oil winning ensemble" description="Results are from the final full-article experiment on 486 labelled edible-oil records using five-fold cross-validation." /><div className="mt-8 grid gap-px bg-[var(--line)] sm:grid-cols-2 lg:grid-cols-4"><ResultMetric label="Accuracy" value={.9095} /><ResultMetric label="Precision" value={.8682} /><ResultMetric label="Recall" value={.8058} /><ResultMetric label="F1 score" value={.8358} /></div><div className="mt-7 grid gap-6 lg:grid-cols-3"><ModelComponent icon={Binary} title="TF-IDF Linear SVM">A sparse lexical model using full article text.</ModelComponent><ModelComponent icon={Activity} title="BGE-large RBF-SVM">A sentence-embedding model using oil-relevant text windows; this component carries the largest ensemble weight.</ModelComponent><ModelComponent icon={BrainCircuit} title="RoBERTa classifier">A transformer classifier using the article lead and full-text representation.</ModelComponent></div><p className="mt-5 text-sm leading-6 text-[var(--muted)]">Weighted ensemble: 0.17 TF-IDF Linear SVM, 0.67 BGE-large embedding RBF-SVM, and 0.17 RoBERTa. ROC-AUC: 0.9424; PR-AUC: 0.8991.</p></section>
+        <section className="mt-20">
+          <SectionHeading eyebrow="Classifier foundation" title="Food-specific relevance models" description="These are evaluation results. Classifier scores rank articles for review; they do not replace the later event decision." />
+          <ClassifierPanel open food="Oil" title="Edible-oil relevance model" corpus="486-record evaluation corpus" description="Five-fold stratified cross-validation on the cleaned edible-oil corpus." results={[["F1", .836], ["Precision", .868], ["Recall", .806], ["ROC-AUC", .942], ["PR-AUC", .899]]}>
+            <div className="grid gap-6 lg:grid-cols-3"><ModelComponent icon={Binary} title="TF-IDF Linear SVM" weight="0.17">Full-article lexical evidence.</ModelComponent><ModelComponent icon={Activity} title="BGE-large RBF-SVM" weight="0.67">Oil-window embeddings centred on edible-oil mentions.</ModelComponent><ModelComponent icon={BrainCircuit} title="RoBERTa-base" weight="0.17">Transformer classification using the article lead.</ModelComponent></div>
+          </ClassifierPanel>
+          <ClassifierPanel food="Ghee" title="Ghee relevance model" corpus="187 unique article texts" description="Five-fold out-of-fold development evaluation after exact-text deduplication: 129 relevant and 58 irrelevant articles." results={[["F1", .894], ["Precision", .905], ["Recall", .884], ["ROC-AUC", .895], ["PR-AUC", .952]]}>
+            <div className="grid gap-6 lg:grid-cols-2"><ModelComponent icon={Binary} title="TF-IDF Linear SVM" weight="0.375">Calibrated lexical model using the full article.</ModelComponent><ModelComponent icon={Activity} title="MiniLM RBF-SVM" weight="0.625">Ghee-window embeddings anchored on “ghee” and “clarified butter”.</ModelComponent></div>
+            <p className="mt-5 text-sm leading-6 text-[var(--muted)]">This development estimate uses the same corpus for model and weight selection; a future untouched test set is still needed.</p>
+          </ClassifierPanel>
+          <ClassifierPanel food="Milk" title="Milk relevance model" corpus="1,384-record evaluation corpus" description="Five-fold out-of-fold evaluation. The best F1 result is the calibrated TF-IDF Linear SVM using the title and full article body." results={[["F1", .8323], ["Precision", .8424], ["Recall", .8225], ["ROC-AUC", .9635], ["PR-AUC", .9118]]}>
+            <div className="grid gap-6 lg:grid-cols-2"><ModelComponent icon={Binary} title="TF-IDF Linear SVM" weight="Best F1">Calibrated word and character n-grams using the title and full article body.</ModelComponent><ModelComponent icon={BrainCircuit} title="Comparison branches" weight="Evaluated">Milk-window TF-IDF, MiniLM RBF-SVM and RoBERTa variants were evaluated in the same workbook.</ModelComponent></div>
+            <p className="mt-5 text-sm leading-6 text-[var(--muted)]">The evaluation workbook includes the model comparison, out-of-fold predictions, false positives and false negatives. Per-article Milk classifier scores are not yet attached to the 196 Milk records in the current website export.</p>
+          </ClassifierPanel>
+        </section>
 
-    <section className="mt-20 grid gap-8 lg:grid-cols-[1.2fr_.8fr]"><div><SectionHeading eyebrow="Evaluation concepts" title="Precision, recall, soundness and completeness" /><div className="mt-7 grid gap-5 sm:grid-cols-2"><Concept title="Precision" icon={CheckCircle2}>Among records predicted relevant, the proportion that are relevant under the human-review criteria.</Concept><Concept title="Recall" icon={FileSearch}>Among human-labelled relevant records, the proportion recovered by the classifier.</Concept><Concept title="Soundness" icon={Scale}>Whether extracted claims are supported by article evidence and valid mappings, assessed through manual validation and evidence spans.</Concept><Concept title="Completeness" icon={FileSearch}>Whether the pipeline retrieves and extracts the relevant evidence in scope. Neither MediaCloud coverage nor web crawling guarantees completeness.</Concept></div></div><DataQualityPanel total={metrics.total} reviewed={metrics.reviewed} scored={metrics.classifierScored} extraction={metrics.extractionComplete} /></section>
+        <section className="mt-20">
+          <SectionHeading eyebrow="Large-model event validation" title="Full Qwen triplet pipeline, then Mistral adjudication" description="Mistral adjudicates the evidence only after all Qwen extraction, review and correction stages have finished." />
+          <div className="mt-8 grid gap-x-10 lg:grid-cols-2">{tripletStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
+        </section>
 
-    <div className="mt-14"><LimitationsPanel>The reported classifier metrics apply to the labelled edible-oil corpus and its cross-validation design. The unchanged transfer test on ghee showed substantial domain shift and should not be read as a final ghee classifier. Large-model event validation and entity extraction remain future stages.</LimitationsPanel></div></div></>;
+        <section className="mt-20">
+          <SectionHeading eyebrow="Event assembly" title="How Qwen builds grounded and ungrounded events" description="Qwen performs event extraction after Mistral adjudication. Grounding records whether structured fields trace through retained triplets to exact article evidence." />
+          <div className="mt-8 grid gap-x-10 lg:grid-cols-2">{eventStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
+        </section>
+
+        <section className="mt-20"><SectionHeading eyebrow="Evaluation concepts" title="Precision, recall, soundness and completeness" /><div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"><Concept title="Precision" icon={CheckCircle2}>Among predicted-relevant articles, the proportion meeting the reference criteria.</Concept><Concept title="Recall" icon={FileSearch}>Among reference-relevant articles, the proportion recovered.</Concept><Concept title="Soundness" icon={Scale}>Whether a structured claim is supported by the article and adjudicated evidence.</Concept><Concept title="Completeness" icon={Network}>Whether all in-scope evidence is retrieved and represented; web discovery and model extraction cannot guarantee this.</Concept></div></section>
+
+        <div className="mt-14"><LimitationsPanel>News reports are source claims, not independent laboratory verification. The event label records whether an in-scope event is present; claim status separately records whether it is suspected, alleged, pending, authority-reported or laboratory-confirmed. Ungrounded events remain distinct from grounded evidence.</LimitationsPanel></div>
+      </div>
+    </>
+  );
 }
 
+function PipelineStep({ number, title, children }: { number: string; title: string; children: ReactNode }) { return <article className="grid gap-4 border-t border-[var(--line)] py-7 sm:grid-cols-[3rem_1fr]"><span className="font-editorial text-2xl text-[var(--saffron)]">{number}</span><div><h3 className="font-editorial text-2xl text-[var(--maroon-dark)]">{title}</h3><div className="mt-2 text-sm leading-6 text-[var(--muted)]">{children}</div></div></article>; }
+
+function ClassifierPanel({ open = false, food, title, corpus, description, results, children }: { open?: boolean; food: string; title: string; corpus: string; description: string; results: ReadonlyArray<readonly [string, number]>; children: ReactNode }) { return <details open={open} className="group mt-8 border-y border-[var(--line)] bg-[var(--white)]"><summary className="focus-ring flex cursor-pointer list-none items-center justify-between gap-6 px-5 py-5 md:px-7"><div><p className="eyebrow">{food}</p><h3 className="font-editorial mt-2 text-2xl text-[var(--maroon-dark)]">{title}</h3></div><div className="flex shrink-0 items-center gap-3"><span className="hidden text-xs font-semibold text-[var(--muted)] sm:inline">{corpus}</span><ChevronDown className="h-5 w-5 text-[var(--maroon)] transition-transform group-open:rotate-180" /></div></summary><div className="border-t border-[var(--line)] px-5 py-7 md:px-7"><p className="max-w-4xl text-sm leading-6 text-[var(--muted)]">{description}</p><div className="mt-7 grid gap-px bg-[var(--line)] sm:grid-cols-2 lg:grid-cols-5">{results.map(([label, value]) => <ResultMetric key={label} label={label} value={value} />)}</div><div className="mt-7">{children}</div></div></details>; }
 function ResultMetric({ label, value }: { label: string; value: number }) { return <div className="bg-[var(--white)] p-6"><p className="text-sm text-[var(--muted)]">{label}</p><p className="font-editorial mt-4 text-4xl text-[var(--maroon-dark)]">{formatPercent(value, 1)}</p></div>; }
-function ModelComponent({ icon: Icon, title, children }: { icon: typeof Activity; title: string; children: React.ReactNode }) { return <article className="border border-[var(--line)] bg-[var(--white)] p-6"><Icon className="h-5 w-5 text-[var(--saffron)]" /><h3 className="font-editorial mt-5 text-2xl text-[var(--maroon-dark)]">{title}</h3><p className="mt-3 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }
-function Concept({ icon: Icon, title, children }: { icon: typeof Activity; title: string; children: React.ReactNode }) { return <article className="border-t-2 border-[var(--saffron)] pt-5"><Icon className="h-5 w-5 text-[var(--maroon)]" /><h3 className="font-editorial mt-4 text-2xl">{title}</h3><p className="mt-2 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }
+function ModelComponent({ icon: Icon, title, weight, children }: { icon: typeof Activity; title: string; weight: string; children: ReactNode }) { return <article className="border-t-2 border-[var(--saffron)] py-6"><div className="flex items-start justify-between gap-4"><Icon className="h-5 w-5 text-[var(--maroon)]" /><span className="text-xs font-semibold text-[var(--muted)]">{weight}</span></div><h3 className="font-editorial mt-5 text-2xl text-[var(--maroon-dark)]">{title}</h3><p className="mt-3 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }
+function Concept({ icon: Icon, title, children }: { icon: typeof Activity; title: string; children: ReactNode }) { return <article className="border-t-2 border-[var(--saffron)] pt-5"><Icon className="h-5 w-5 text-[var(--maroon)]" /><h3 className="font-editorial mt-4 text-2xl">{title}</h3><p className="mt-2 text-sm leading-6 text-[var(--muted)]">{children}</p></article>; }
