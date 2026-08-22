@@ -1,4 +1,5 @@
 import { Download, FileJson, FileSpreadsheet } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 
 const datasets = [
@@ -21,14 +22,8 @@ const datasets = [
     size: "JSON",
   },
   {
-    name: "fssai-baselines.json",
-    description: "FSSAI survey scope and tested dimensions used in the baseline comparison framework.",
-    icon: FileJson,
-    size: "JSON",
-  },
-  {
     name: "taxonomy.json",
-    description: "The provisional food and issue ontology used for hierarchical filtering.",
+    description: "The provisional food and issue taxonomy used for hierarchical filtering.",
     icon: FileJson,
     size: "JSON",
   },
@@ -42,7 +37,7 @@ export default function DataDownloadPage() {
           Data Export
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-[var(--muted)]">
-          Download the raw data files powering the Indian Food Safety Incident Observatory. 
+          Download the raw data files powering the Indian Food Safety Incident Observatory.
           The master corpus, interface samples, and configuration JSONs are available here.
         </p>
       </div>
@@ -62,7 +57,6 @@ export default function DataDownloadPage() {
                 <p className="text-sm text-[var(--muted)]">{file.description}</p>
               </div>
             </div>
-            
             <div className="mt-6 flex items-center justify-between border-t border-[var(--line)] pt-4">
               <span className="text-xs font-semibold uppercase tracking-[.06em] text-[var(--muted)]">
                 Format: {file.size}

@@ -59,8 +59,8 @@ npm run start
 - `/timeline` data-generated publication and label charts
 - `/geography` Leaflet map with a validated-location availability state
 - `/taxonomy` provisional food and issue taxonomy explorer
-- `/fssai-baseline` milk and edible-oil survey scope plus comparison framework
-- `/methodology` pipeline documentation and edible-oil ensemble results
+- `/methodology` news pipeline documentation and food-specific classifier results
+- `Baseline FSSAI Pipeline` in the site navigation opens the companion [Vercel application](https://food-safety-observatory-with-change.vercel.app/)
 - `/about` project context and team placeholders
 
 ## Data Files
