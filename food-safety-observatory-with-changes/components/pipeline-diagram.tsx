@@ -5,8 +5,7 @@ const steps = [
   "Text Preparation",
   "Relevance Classification",
   "Full Triplet Extraction",
-  "Mistral Adjudication",
-  "Qwen Event Assembly",
+  "LLM Event Assembly",
   "Interactive Repository",
 ] as const;
 

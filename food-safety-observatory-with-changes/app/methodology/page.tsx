@@ -21,9 +21,8 @@ const publicStages = [
   ["02", "Text preparation", "Publisher boilerplate and malformed text are conservatively cleaned. Retained articles are split into bounded chunks with traceable article and chunk identifiers."],
   ["03", "Relevance classification", "A food-specific classifier ranks articles likely to contain useful safety evidence. This is a retrieval aid, not the final event decision."],
   ["04", "Full triplet extraction", "Qwen extracts candidates from every article chunk, followed by schema routing, semantic review, atomic correction and exact-evidence checks."],
-  ["05", "Mistral adjudication", "Mistral reviews the completed Qwen triplet record and resolves which claims are supported, rejected, schema gaps or still unresolved."],
-  ["06", "Qwen event assembly", "Qwen combines the full article with the adjudicated triplets, assigns the article-level event label and builds grounded or ungrounded event objects."],
-  ["07", "Interactive repository", "The website exposes source text, classifier metadata, model decisions, structured event fields, exact evidence and triplet audit trails."],
+  ["05", "LLM event assembly", "The event model combines the full article with the retained Qwen triplets, assigns the article-level event label and builds grounded or ungrounded event objects."],
+  ["06", "Interactive repository", "The website exposes source text, classifier metadata, model decisions, structured event fields, exact evidence and triplet audit trails."],
 ] as const;
 
 const tripletStages = [
@@ -31,15 +30,14 @@ const tripletStages = [
   ["B", "Deterministic schema routing", "Code checks entity types, predicates and permitted subject-object combinations, then routes schema-valid, invalid, mismatched and zero-triplet outputs."],
   ["C", "Qwen semantic review", "A separate Qwen pass tests entailment, relation direction, relation choice, entity types and whether a zero-triplet chunk missed a relation."],
   ["D", "Atomic correction and recheck", "Repairable claims are rewritten one at a time. Corrected triplets must pass structure, exact contiguous evidence and a second semantic review."],
-  ["E", "Mistral adjudication", "After every Qwen triplet stage finishes, Mistral adjudicates the accepted, corrected, schema-gap and unresolved candidates. Unsupported claims are rejected; uncertain claims remain explicitly unresolved."],
 ] as const;
 
 const eventStages = [
-  ["A", "Lock the evidence inputs", "Qwen receives the complete cleaned article and the Mistral-adjudicated triplet record. Article and triplet identifiers are preserved."],
-  ["B", "Assign the event decision", "Qwen assigns relevant_event, irrelevant or unclear. Claim status remains separate, so an alleged or suspected event is not presented as confirmed."],
-  ["C", "Assemble the event object", "For event-bearing articles, Qwen structures the food, adulterants or issues, place, date, quantities, authorities, actions, laboratory context and exact evidence quotations."],
-  ["D", "Separate grounded events", "An event is grounded when its material fields are supported by adjudicated triplets and traceable article evidence. Supporting identifiers and quotations stay attached."],
-  ["E", "Retain ungrounded events distinctly", "If an article supports an event but material fields cannot be linked to adjudicated triplets, the event remains visibly ungrounded and separate from grounded evidence."],
+  ["A", "Lock the evidence inputs", "The event model receives the complete cleaned article and the retained Qwen triplet record. Article and triplet identifiers are preserved."],
+  ["B", "Assign the event decision", "The model assigns relevant_event, irrelevant or unclear. Claim status remains separate, so an alleged or suspected event is not presented as confirmed."],
+  ["C", "Assemble the event object", "For event-bearing articles, the model structures the food, adulterants or issues, place, date, quantities, authorities, actions, laboratory context and exact evidence quotations."],
+  ["D", "Separate grounded events", "An event is grounded when its material fields are supported by retained triplets and traceable article evidence. Supporting identifiers and quotations stay attached."],
+  ["E", "Retain ungrounded events distinctly", "If an article supports an event but material fields cannot be linked to retained triplets, the event remains visibly ungrounded and separate from grounded evidence."],
 ] as const;
 
 export default function MethodologyPage() {
@@ -48,10 +46,10 @@ export default function MethodologyPage() {
       <PageIntro
         eyebrow="Methodology"
         title="From article discovery to evidence-grounded events"
-        description="The news pipeline separates retrieval, food-specific relevance scoring, full Qwen triplet extraction, Mistral adjudication and Qwen event assembly. Each result remains traceable to its source article and evidence."
+        description="The news pipeline separates retrieval, food-specific relevance scoring, full Qwen triplet extraction and LLM event assembly. Each result remains traceable to its source article and evidence."
       />
       <div className="section-shell py-14">
-        <SectionHeading eyebrow="Public workflow" title="Seven stages in the news pipeline" description="The implemented evidence flow from article collection to the public repository." />
+        <SectionHeading eyebrow="Public workflow" title="Six stages in the news pipeline" description="The implemented evidence flow from article collection to the public repository." />
         <div className="mt-8">{publicStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
 
         <section className="mt-20">
@@ -70,16 +68,16 @@ export default function MethodologyPage() {
         </section>
 
         <section className="mt-20">
-          <SectionHeading eyebrow="Large-model event validation" title="Full Qwen triplet pipeline, then Mistral adjudication" description="Mistral adjudicates the evidence only after all Qwen extraction, review and correction stages have finished." />
+          <SectionHeading eyebrow="Triplet extraction and validation" title="The full Qwen triplet pipeline" description="Qwen extraction, schema routing, semantic review and atomic correction finish before the retained triplets move directly to event assembly." />
           <div className="mt-8 grid gap-x-10 lg:grid-cols-2">{tripletStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
         </section>
 
         <section className="mt-20">
-          <SectionHeading eyebrow="Event assembly" title="How Qwen builds grounded and ungrounded events" description="Qwen performs event extraction after Mistral adjudication. Grounding records whether structured fields trace through retained triplets to exact article evidence." />
+          <SectionHeading eyebrow="Event assembly" title="How the LLM builds grounded and ungrounded events" description="The event model runs directly after Qwen triplet extraction. Grounding records whether structured fields trace through retained triplets to exact article evidence." />
           <div className="mt-8 grid gap-x-10 lg:grid-cols-2">{eventStages.map(([number, title, description]) => <PipelineStep key={number} number={number} title={title}>{description}</PipelineStep>)}</div>
         </section>
 
-        <section className="mt-20"><SectionHeading eyebrow="Evaluation concepts" title="Precision, recall, soundness and completeness" /><div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"><Concept title="Precision" icon={CheckCircle2}>Among predicted-relevant articles, the proportion meeting the reference criteria.</Concept><Concept title="Recall" icon={FileSearch}>Among reference-relevant articles, the proportion recovered.</Concept><Concept title="Soundness" icon={Scale}>Whether a structured claim is supported by the article and adjudicated evidence.</Concept><Concept title="Completeness" icon={Network}>Whether all in-scope evidence is retrieved and represented; web discovery and model extraction cannot guarantee this.</Concept></div></section>
+        <section className="mt-20"><SectionHeading eyebrow="Evaluation concepts" title="Precision, recall, soundness and completeness" /><div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"><Concept title="Precision" icon={CheckCircle2}>Among predicted-relevant articles, the proportion meeting the reference criteria.</Concept><Concept title="Recall" icon={FileSearch}>Among reference-relevant articles, the proportion recovered.</Concept><Concept title="Soundness" icon={Scale}>Whether a structured claim is supported by the article and retained triplet evidence.</Concept><Concept title="Completeness" icon={Network}>Whether all in-scope evidence is retrieved and represented; web discovery and model extraction cannot guarantee this.</Concept></div></section>
 
         <div className="mt-14"><LimitationsPanel>News reports are source claims, not independent laboratory verification. The event label records whether an in-scope event is present; claim status separately records whether it is suspected, alleged, pending, authority-reported or laboratory-confirmed. Ungrounded events remain distinct from grounded evidence.</LimitationsPanel></div>
       </div>
